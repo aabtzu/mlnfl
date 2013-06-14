@@ -70,8 +70,7 @@ def supportVecMachine(x,y,x2,y2,C=1,kernel="linear",degree=2):
     return(model)
 
 
-def svmLoop(x,y,x2,y2):
-    kernel = "poly"
+def svmLoop(x,y,x2,y2,kernel="linear"):
     polyMax = 5
 
     if kernel == "poly":
@@ -83,6 +82,6 @@ def svmLoop(x,y,x2,y2):
         for i in range(1,11):
             C = float(i)
             model = svm.SVC(C=C)
-            # print C,accuracy
+            supportVecMachine(x,y,x2,y2,C,"linear")
 
 
