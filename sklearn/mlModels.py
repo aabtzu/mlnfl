@@ -5,6 +5,8 @@ from sklearn import linear_model
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.decomposition import PCA
 from sklearn import svm 
+from sklearn import grid_search
+from sklearn.ensemble import RandomForestClassifier
 
 def modelAccuracy(model,x,y,x2=[],y2=[]):
 # fit and predict model accuracy for general model
@@ -43,6 +45,16 @@ def logisticReg(x,y,x2,y2,C=1):
     print C,accuracy
     return(model)
     
+def stochasticGradientDescent(x,y,x2,y2,alpha=0.0001):
+# logistic regression classifier
+# http://scikit-learn.org/0.13/modules/linear_model.html#logistic-regression
+
+    model = linear_model.SGDClassifier(loss="log",penalty="l2")
+    model,accuracy = modelAccuracy(model,x,y,x2,y2)
+    print C,accuracy
+    return(model)
+    
+
 def lrLoop(x,y,x2,y2):
     for i in range(7):
         C = float(10**i)
@@ -85,3 +97,21 @@ def svmLoop(x,y,x2,y2,kernel="linear"):
             supportVecMachine(x,y,x2,y2,C,"linear")
 
 
+
+def gridSearch(m,params,x,y,x2,y2):
+
+    params = {'kernel':('linear', 'rbf'), 'C':[1, 100]}
+    m = svm.SVC()
+    clf = grid_search.GridSearchCV(m,params)
+    clf.fit(x,y)
+    print("The best classifier is: ",clf.best_estimator_)
+    print type(clf.best_estimator_)
+    (mm,accuracy) = modelAccuracy(clf.best_estimator_,x,y,x2,y2)
+    print accuracy
+
+
+def forest(x,y,x2,y2,n=10):
+    model = RandomForestClassifier(n_estimators=n)
+    model,accuracy = modelAccuracy(model,x,y,x2,y2)
+    print n, accuracy
+    return model

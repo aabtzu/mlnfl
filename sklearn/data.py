@@ -24,11 +24,12 @@ def splitTrainingData(x,y,trainPct=0.75):
     ytest = y[n:]
     return (xtrain,ytrain,xtest,ytest)
 
-def scaleData(data):
-# standardize data w/ sklearn 
-    ss = skpp.StandardScaler().fit(data)
+def scaleData(data,ss=None):
+# standardize data w/ sklearn
+    if ss is None:
+        ss = skpp.StandardScaler().fit(data)
     data2 = ss.transform(data)
-    return(data2)
+    return(ss,data2)
 
 
 
