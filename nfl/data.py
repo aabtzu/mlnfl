@@ -28,7 +28,7 @@ def sameDivision(team1,team2,olookups):
     else:
         return False
     
-def readGames(dataRoot,season):
+def readGamesSingleSeason(dataRoot,season):
 	# read a csv file of game scores and spreads into a pandas data frame
 	#
 
@@ -36,65 +36,85 @@ def readGames(dataRoot,season):
 	dfAllGames = pandas.read_csv(dataFile)
 	return dfAllGames
 
+def readGamesAll(dataRoot,seasons):
+
+	dataFile = dataRoot + "lines/nflAllLines.csv"
+	dfAllGames = pandas.read_csv(dataFile)
+	# need one extra season for prev year records
+	seasons2 = np.insert(seasons,0,seasons.min()- 1)
+
+	dfAllGames = dfAllGames[dfAllGames.season.isin(seasons2)]
+	return dfAllGames
+
+
 def seasonRecord(dfAllGames,olookups):
 	# compile season stats by team
 	# games played, games won, lost, record to date, home/away, division game, 
 	#
 
-	# list of teams to loop over
+	# list of seasons/teams to loop over
+	seasons = dfAllGames.season.unique() 
 	teams = dfAllGames.Visitor.unique()
+	dfAllSeasons = None
 
-	dfAllTeams = None
-	for ii,tt in enumerate(teams):
-	    # print ii,tt
-	    dfTeam = dfAllGames[(dfAllGames.Visitor == tt) | (dfAllGames['Home Team'] == tt)]
-	    dfTeam['gamesPlayed'] = range(1,len(dfTeam.index)+1) 
-	    dfTeam['team'] = tt
-	    dfTeam['homeGame'] = dfAllGames['Home Team'] == tt
-	    dfTeam['wonGame'] = ((dfTeam['Visitor Score'] < dfTeam['Home Score']) & dfTeam['homeGame']) | ((dfTeam['Visitor Score'] > dfTeam['Home Score']) & (dfTeam['homeGame'] == False))
-	    dfTeam['gamesWon'] = dfTeam['wonGame'].cumsum() 
-	    dfTeam['homeGamesWon'] = (dfTeam['wonGame'] & dfTeam['homeGame']).cumsum()
-	    dfTeam['gamesLost'] = dfTeam['gamesPlayed'] - dfTeam['gamesWon']
-	    dfTeam['winPct'] = dfTeam['gamesWon'] / dfTeam['gamesPlayed']
-	    dfTeam['homeGamesPlayed'] = dfTeam['homeGame'].cumsum()
-	    dfTeam['homeWinPct'] = dfTeam['homeGamesWon'] / dfTeam['homeGamesPlayed']
+	# loop over seasons
+	for ss in seasons:
+		dfSeason = dfAllGames[dfAllGames.season == ss]
+		dfAllTeams = None
+		# loop over 
+		for ii,tt in enumerate(teams):
+		    # print ii,tt
 
-	    # determine if division game
-	    opponent = list()
-	    divGame = list()
-	    for gg in dfTeam.iterrows():
-	        row = gg[1]
-	        if row['Home Team'] == row['team']:
-	            team2 = row['Visitor']
-	        else:
-	            team2 = row['Home Team']
-	        
-	        opponent.append(team2)
-	        divGame.append(sameDivision(row['team'].lower(),team2.lower(),olookups))
-	    
-	    dfTeam['opponent'] = opponent
-	    dfTeam['divGame'] = divGame    
-	    
-	    dfAllTeams = pandas.concat([dfAllTeams,dfTeam])
-	return dfAllTeams
+			dfTeam = dfSeason[(dfSeason.Visitor == tt) | (dfSeason['Home Team'] == tt)]
+			dfTeam['gamesPlayed'] = range(1,len(dfTeam.index)+1) 
+			dfTeam['team'] = tt
+			dfTeam['homeGame'] = dfSeason['Home Team'] == tt
+			dfTeam['wonGame'] = ((dfTeam['Visitor Score'] < dfTeam['Home Score']) & dfTeam['homeGame']) | ((dfTeam['Visitor Score'] > dfTeam['Home Score']) & (dfTeam['homeGame'] == False))
+			dfTeam['gamesWon'] = dfTeam['wonGame'].cumsum() 
+			dfTeam['homeGamesWon'] = (dfTeam['wonGame'] & dfTeam['homeGame']).cumsum()
+			dfTeam['gamesLost'] = dfTeam['gamesPlayed'] - dfTeam['gamesWon']
+			dfTeam['winPct'] = dfTeam['gamesWon'] / dfTeam['gamesPlayed']
+			dfTeam['homeGamesPlayed'] = dfTeam['homeGame'].cumsum()
+			dfTeam['homeWinPct'] = dfTeam['homeGamesWon'] / dfTeam['homeGamesPlayed']
+
+		    # determine if division game
+			opponent = list()
+			divGame = list()
+			#print len(dfTeam)
+			for ii,row in dfTeam.iterrows():
+				#row = gg[1]
+				if row['Home Team'] == row['team']:
+					team2 = row['Visitor']
+				else:
+					team2 = row['Home Team']
+
+				#print ii,tt, team2
+				opponent.append(team2)
+				divGame.append(sameDivision(row['team'].lower(),team2.lower(),olookups))
+		    
+			dfTeam['opponent'] = opponent
+			dfTeam['divGame'] = divGame    
+		    
+			dfAllTeams = pandas.concat([dfAllTeams,dfTeam])
+		dfAllSeasons = pandas.concat([dfAllSeasons,dfAllTeams])
+	return dfAllSeasons
 
 def getSeasonStart(olookups,season):
 	# lookup start of season for a given year
-	seasonStr = olookups.lookupCSV('seasons',season,'start')
+	seasonStr = olookups.lookupCSV('seasons',str(season),'start')
 	seasonStart = dp.parse(seasonStr).date()
 	return seasonStart
 
-def getRecord(dfSeason,team,week):
+def getRecord(dfTeams,season,team,week):
 	# get record of team by week in season
 	# n.b. the week in season is NOT the same as the number of games played because of bye weeks
+	dfSeason = dfTeams[dfTeams.season == season]
 	record = float(dfSeason[(dfSeason['team'] == team) & (dfSeason['gamesPlayed'] == week-1)]['winPct'])
 	return record
 
-def processGames(dfAllGames, dfAllTeams, olookups, season, dfPrevSeason=None):
+def processGames(dfAllGames, dfAllTeams, olookups):
 	# apply season record and other stats to all games played
 	#
-
-	seasonStart = getSeasonStart(olookups,season)
 
 	# init 
 	favoredHome = list()
@@ -109,60 +129,71 @@ def processGames(dfAllGames, dfAllTeams, olookups, season, dfPrevSeason=None):
 	prevFavRecord = list()
 	prevDogRecord = list()
 
+	seasons = dfAllGames.season.unique()
+	#seasons = np.delete(Aseasons,0)
+
 	# loop over each game and apply season record to date
 	for gg in dfAllGames.iterrows():
-	    game = gg[1] # need this because of how the generator works ??
-	    gameDateStr = game['Date']
-	    gameWeek = getWeek(seasonStart,gameDateStr)
+		game = gg[1] # need this because of how the generator works ??
+
+		# get season info for this game
+		season = game['season']
+		seasonStart = getSeasonStart(olookups,season)
+		prevSeason = season - 1
+
+		gameDateStr = game['Date']
+		gameWeek = getWeek(seasonStart,gameDateStr)
 	    
 	    # get record from previous week 
-	    if gameWeek > 1:
-	        homeRecord = getRecord(dfAllTeams,game['Home Team'],gameWeek)
-	        visitorRecord = getRecord(dfAllTeams,game['Visitor'],gameWeek)
+		if gameWeek > 1:
+			homeRecord = getRecord(dfAllTeams,season,game['Home Team'],gameWeek)
+			visitorRecord = getRecord(dfAllTeams,season,game['Visitor'],gameWeek)
 	        
-	        if game['Line'] > 0:
-	            favoredRecord = homeRecord
-	            underdogRecord = visitorRecord
-	        else:
-	            favoredRecord = visitorRecord
-	            underdogRecord = homeRecord
-	    else:
-	        homeRecord = 0.0
-	        visitorRecord = 0.0
-	        favoredRecord = 0.0
-	        underdogRecord = 0.0
+			if game['Line'] > 0:
+				favoredRecord = homeRecord
+				underdogRecord = visitorRecord
+			else:
+				favoredRecord = visitorRecord
+				underdogRecord = homeRecord
+		else:
+			homeRecord = 0.0
+			visitorRecord = 0.0
+			favoredRecord = 0.0
+			underdogRecord = 0.0
 	    
-	    # score, win and line info for each game
-	    homeWin = int(int(game['Home Score']) > int(game['Visitor Score']))
-	    scoreDiff = int(game['Home Score'] - game['Visitor Score'])
-	    favoredWin = int((game['Line'] * scoreDiff) > 0 )
-	    divGame = int(sameDivision(game['Home Team'].lower(),game['Visitor'].lower(),olookups))
-	    favoredHomeGame = int(game['Line'] > 0)
+		# score, win and line info for each game
+		homeWin = int(int(game['Home Score']) > int(game['Visitor Score']))
+		scoreDiff = int(game['Home Score'] - game['Visitor Score'])
+		favoredWin = int((game['Line'] * scoreDiff) > 0 )
+		divGame = int(sameDivision(game['Home Team'].lower(),game['Visitor'].lower(),olookups))
+		favoredHomeGame = int(game['Line'] > 0)
+
+		favoredHome.append(favoredHomeGame)
+		homePct.append(homeRecord)
+		visitorPct.append(visitorRecord)
+		gameNum.append(gameWeek)    
+		winner.append(homeWin)
+		favored.append(favoredWin)
+		division.append(divGame)
+		favRecord.append(favoredRecord)
+		dogRecord.append(underdogRecord)
 	    
-	    favoredHome.append(favoredHomeGame)
-	    homePct.append(homeRecord)
-	    visitorPct.append(visitorRecord)
-	    gameNum.append(gameWeek)    
-	    winner.append(homeWin)
-	    favored.append(favoredWin)
-	    division.append(divGame)
-	    favRecord.append(favoredRecord)
-	    dogRecord.append(underdogRecord)
-	    
-	    # get record from previous season
-	    if dfPrevSeason is not None:
-	    	prevHomeRecord = getRecord(dfPrevSeason,game['Home Team'],MAX_WEEK)
-	       	prevVisitorRecord = getRecord(dfPrevSeason,game['Visitor'],MAX_WEEK)
-	       	if game['Line'] > 0:
-	       		prevFavoredRecord = prevHomeRecord
-	       		prevUnderdogRecord = prevVisitorRecord
-	       	else:
-	       		prevFavoredRecord = prevVisitorRecord
-	       		prevUnderdogRecord = prevHomeRecord
-	    	
-	    	prevFavRecord.append(prevFavoredRecord)
-	    	prevDogRecord.append(prevUnderdogRecord)
-	       	
+		# get record from previous season
+		if prevSeason in seasons:
+			prevHomeRecord = getRecord(dfAllTeams,prevSeason,game['Home Team'],MAX_WEEK)
+		   	prevVisitorRecord = getRecord(dfAllTeams,prevSeason,game['Visitor'],MAX_WEEK)
+		   	if game['Line'] > 0:
+		   		prevFavoredRecord = prevHomeRecord
+		   		prevUnderdogRecord = prevVisitorRecord
+		   	else:
+		   		prevFavoredRecord = prevVisitorRecord
+		   		prevUnderdogRecord = prevHomeRecord
+		else:
+			prevFavoredRecord = None
+	   		prevUnderdogRecord = None
+		prevFavRecord.append(prevFavoredRecord)
+		prevDogRecord.append(prevUnderdogRecord)
+		
 	    
 	    # print gameDateStr, gameWeek, game['Home Team'], game['Visitor'], homeRecord, visitorRecord
 	
@@ -241,7 +272,9 @@ def rankGames(dfPredict,olookups,season):
 	# deterime weekly rankings for games based on predict from logistic regression
 	#
 
-	winningScore = int(olookups.lookupCSV('seasons',season,'winner'))
+	# the actual winner of the league historically
+	winningScore = int(olookups.lookupCSV('seasons',str(season),'winner'))
+
 	weeks = dfPredict.gameWeek.unique()
 	dfAll = None
 
@@ -249,7 +282,8 @@ def rankGames(dfPredict,olookups,season):
 		iw = dfPredict[dfPredict.gameWeek == ww].index
 		dfWeek = dfPredict.loc[iw]
 		nw = len(iw)
-		dfLine = dfWeek.sort(['absLine','favoredHomeGame','predict_proba'])
+		# arbitrary tie breaker but at least it is reproducible
+		dfLine = dfWeek.sort(['absLine','Home Team'])
 		# print ww,nw
 	    
 	    # determine guess 
@@ -273,20 +307,15 @@ def rankGames(dfPredict,olookups,season):
 		else:
 			dfAll = dfAll.append(dfLine)	
 
-
-	dispCols = ['gameWeek','Visitor','Home Team','Line','predict_proba','Visitor Score','Home Score','favoredWin','predictWin','lineGuess','probaGuess', 'lineScore','probaScore']
-	#print dfAll[dfAll.gameWeek==1][dispCols]
-
+	# aggregate reuslts by week
 	g = dfAll.groupby('gameWeek')['lineScore','probaScore1','probaScore2','probaScore3'].sum()
-	print g
+
+	# print out summary table with final scores and how they compare to previous winners
 	dd = [g.sum(), g.sum() - winningScore]
 	ss = pandas.DataFrame(dd).transpose()
 	ss[2]  = ss[1] > 0 
 	ss.columns = ['score','win by','win']
 	print ss
 
-
-
 	return dfAll
-
 
