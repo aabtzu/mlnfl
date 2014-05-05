@@ -26,13 +26,14 @@ class Lookup:
     """
     :Synopsis: Class to do lookups
 
-    Responsibility -- To do a lookup (?)
+    Responsibility -- To do a "vlookup" on a csv file
     """
-    ldict = dict()
 
     def __init__(self, dataDir, lookupDict):
         # init the lookup files
+        self.ldict = dict()
 
+        # loop over all the lookup files
         for k in lookupDict.keys():
             try:
                 lookupCol = lookupDict[k]['lookupCol']
@@ -42,6 +43,7 @@ class Lookup:
 
 
     def lookupCSV(self, lsource, lval, lcol):
+        # find a value by source, key, lookup column
         try:
             val = self.ldict[lsource][lval][lcol]
         except:
@@ -49,21 +51,23 @@ class Lookup:
         return val
 
     def getLookupTable(self, source):
+        # return the entire lookup dict for a specific source
         return self.ldict[source]
 
     def getKeys(self, source, conditionList=None):
+        # return all the keys of the lookup dict for a specific source
         return self.ldict[source].keys()
 
     def getKeysSorted(self, source, lookupKey, sortField, sortNum=False):
+        # return a sorted list of all the keys of the lookup dict for a specific source
 
         keyList = self.getList(source, sortField, sortNum)
         keyOrder = [k[lookupKey] for k in keyList]
 
         return keyOrder
 
-
     def getList(self, source, sortField=None, sortNum=False):
-
+        # return a sorted list of all the values of the lookup dict for a specific source
         llist = list()
         for k, v in self.ldict[source].iteritems():
             llist.append(v)
