@@ -1,6 +1,5 @@
 import pandas
 import dateutil.parser as dp
-import datetime
 import numpy as np
 from sklearn import linear_model
 
