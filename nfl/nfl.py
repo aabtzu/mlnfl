@@ -15,42 +15,42 @@ dataRoot
 # <codecell>
 
 # lookup files
-import lookup
+import referencedata
 
 lookupFiles = {'teams': {'file': 'nflTeams.csv'},
                'seasons': {'file': 'seasons.csv'},
 }
 
 lookupDir = dataRoot + 'lookup/'
-olookups = lookup.Lookup(lookupDir, lookupFiles)
+olookups = referencedata.ReferenceData(lookupDir, lookupFiles)
 
-#olookups.ldict['seasons'].keys()
+#olookups.seasons_teams['seasons'].keys()
 
 # <codecell>
 
-import data
+import madden
 
-reload(data)
+reload(madden)
 
 season = '2013'
 # read data file
-dfAllGames = data.readGames(dataRoot, season)
+dfAllGames = madden.readGames(dataRoot, season)
 # compile season record for all teams
-dfAllTeams = data.seasonRecord(dfAllGames, olookups)
+dfAllTeams = madden.seasonRecord(dfAllGames, olookups)
 # apply season records and compute other fields for all games
-dfAllGames = data.processGames(dfAllGames, dfAllTeams, olookups, season)
+dfAllGames = madden.processGames(dfAllGames, dfAllTeams, olookups, season)
 # run the logistic regression
-logreg = data.runML(dfAllGames)
+logreg = madden.runML(dfAllGames)
 
 # use different test set 
 season = '2013'
-dfGamesTest = data.readGames(dataRoot, season)
-dfTeamsTest = data.seasonRecord(dfGamesTest, olookups)
-dfGamesTest = data.processGames(dfGamesTest, dfTeamsTest, olookups, season)
+dfGamesTest = madden.readGames(dataRoot, season)
+dfTeamsTest = madden.seasonRecord(dfGamesTest, olookups)
+dfGamesTest = madden.processGames(dfGamesTest, dfTeamsTest, olookups, season)
 
 # apply results of logistic regression to the test set
-dfPredict = data.predictGames(dfGamesTest, logreg)
-dfAll = data.rankGames(dfPredict)
+dfPredict = madden.predictGames(dfGamesTest, logreg)
+dfAll = madden.rankGames(dfPredict)
 
 # display details for a single week
 dispWeek = 1
