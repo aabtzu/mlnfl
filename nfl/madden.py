@@ -1,43 +1,45 @@
+from __future__ import division
+from __future__ import print_function
 import pandas
 import dateutil.parser as dp
-import datetime
 import numpy as np
 from sklearn import linear_model
 
-import lookup
+from referencedata import ReferenceData
 
 MAX_WEEK = 17
+PATH_TO_NFL_LINES = '/Users/alainledon/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lines/'
+FILENAME_ALL_LINES = "nflAllLines.csv"
 
-
-def getWeek(seasonStart, gameDateStr):
+def getWeek(seasonStartDate, gameDateStr):
     """
     :Synopsis: determine week of season
 
-    :param seasonStart: datetime.date for start of season
+    :param seasonStartDate: datetime.date for start of season
     :param gameDateStr: date str for date game was played
     :returns: week of the season that game was played
     """
 
     gameDate = dp.parse(gameDateStr).date()
-    week = int(np.ceil((gameDate - seasonStart).days / 7.0)) + 1
+    week = int(np.ceil((gameDate - seasonStartDate).days / 7.0)) + 1
     return week
 
 
-def sameDivision(team1, team2, olookups):
+def sameDivision(team1, team2, ref_data):
     """
     :Synopsis: determine if two teams are in the same division
 
     :param team1: team1
     :param team2: team1
-    :param olookups: Lookup object with a "teams" dictionary
+    :param ref_data: Lookup object with a "teams" dictionary
     :returns: True if the teams are in the same division
     """
 
-    conf1 = olookups.lookupCSV('teams', team1, 'league')
-    conf2 = olookups.lookupCSV('teams', team2, 'league')
+    conf1 = ref_data.get_team_league(team1)
+    conf2 = ref_data.get_team_league(team2)
 
-    div1 = olookups.lookupCSV('teams', team1, 'division')
-    div2 = olookups.lookupCSV('teams', team2, 'division')
+    div1 = ref_data.get_team_division(team1)
+    div2 = ref_data.get_team_division(team2)
 
     if conf1 == conf2 and div1 == div2:
         return True
@@ -45,18 +47,19 @@ def sameDivision(team1, team2, olookups):
         return False
 
 
-def readGamesSingleSeason(dataRoot, season):
+def readGamesSingleSeason(dataRootDir, season):
     """
     :Synopsis: Read a csv file of game scores and spreads into a pandas data frame
 
-    :param dataRoot: Path to the root of the data directory
+    :param dataRootDir: Path to the root of the data directory
     :param season: Season as an integer
     :returns: A pandas.DataFrame with all the data
     """
 
-    dataFile = dataRoot + "lines/nfl%slines.csv" % str(season)
-    dfAllGames = pandas.read_csv(dataFile)
-    return dfAllGames
+    #TODO: Fix hardcoded path
+    dataFile = "".join([dataRootDir, "nfl{0}lines.csv".format(season)])
+    all_games_df = pandas.read_csv(dataFile)
+    return all_games_df
 
 
 def readGamesAll(dataRoot, seasons):
@@ -68,82 +71,69 @@ def readGamesAll(dataRoot, seasons):
     :returns: A pandas.DataFrame with all the data, adds one previous season in addition to
     """
 
-    dataFile = dataRoot + "lines/nflAllLines.csv"
-    dfAllGames = pandas.read_csv(dataFile)
+    dataFile = "".join([dataRoot, FILENAME_ALL_LINES])
+    all_games_df = pandas.read_csv(dataFile)
     # need one extra season for prev year records
     seasons2 = np.insert(seasons, 0, seasons.min() - 1)
 
-    dfAllGames = dfAllGames[dfAllGames.season.isin(seasons2)]
-    return dfAllGames
+    all_games_df = all_games_df[all_games_df.season.isin(seasons2)]
+    return all_games_df
 
 
-def seasonRecord(dfAllGames, olookups):
+def seasonRecord(all_games_df, refdata):
     """
     :Synopsis: compile season stats by team
 
-    :param dfAllGames: pandas.DataFrame with list of all games played
-    :param: olookups: Lookup object with a "teams" dictionary
+    :param all_games_df: pandas.DataFrame with list of all games played
+    :param: refdata: Lookup object with a "teams" dictionary
     :returns: pandas.DataFrame with games played, games won, lost, record to date, home/away, division game by team
     """
 
     # list of seasons/teams to loop over
-    seasons = dfAllGames.season.unique()
-    teams = dfAllGames.Visitor.unique()
-    dfAllSeasons = None
+    seasons = all_games_df.season.unique()
+    teams = all_games_df.Visitor.unique()
+    all_seasons_df = None
 
     # loop over seasons
-    for ss in seasons:
-        dfSeason = dfAllGames[dfAllGames.season == ss]
-        dfAllTeams = None
+    for season in seasons:
+        season_df = all_games_df[all_games_df.season == season]
+        all_teams_df = None
         # loop over teams
-        for ii, tt in enumerate(teams):
-            # print ii,tt
-
-            dfTeam = dfSeason[(dfSeason.Visitor == tt) | (dfSeason['Home Team'] == tt)]
-            dfTeam['gamesPlayed'] = range(1, len(dfTeam.index) + 1)  # index 1 thur 16
-            dfTeam['team'] = tt
-            dfTeam['homeGame'] = dfSeason['Home Team'] == tt  # true for home game
-            dfTeam['wonGame'] = ((dfTeam['Visitor Score'] < dfTeam['Home Score']) & dfTeam['homeGame']) | (
-                (dfTeam['Visitor Score'] > dfTeam['Home Score']) & (dfTeam['homeGame'] == False)) # did team win
-            dfTeam['gamesWon'] = dfTeam['wonGame'].cumsum()  # cumulative games won
-            dfTeam['homeGamesWon'] = (dfTeam['wonGame'] & dfTeam['homeGame']).cumsum()  # cumulative home games won
-            dfTeam['gamesLost'] = dfTeam['gamesPlayed'] - dfTeam['gamesWon']  # cumulative games lost
-            dfTeam['winPct'] = dfTeam['gamesWon'] / dfTeam['gamesPlayed'] # winning pct by week
-            dfTeam['homeGamesPlayed'] = dfTeam['homeGame'].cumsum()  # cumulative home games played
-            dfTeam['homeWinPct'] = dfTeam['homeGamesWon'] / dfTeam['homeGamesPlayed'] # home winning pct by week
+        for ii, team in enumerate(teams):
+            # print("%d - %s" % (ii, team))
+            team_df = season_df[(season_df.Visitor == team) | (season_df['Home Team'] == team)]
+            team_df['gamesPlayed'] = range(1, len(team_df.index) + 1)  # index 1 thur 16
+            team_df['team'] = team
+            team_df['homeGame'] = season_df['Home Team'] == team  # true for home game
+            team_df['wonGame'] = (
+                                (team_df['Visitor Score'] < team_df['Home Score']) & team_df['homeGame']) | (
+                                (team_df['Visitor Score'] > team_df['Home Score']) & (team_df['homeGame'] == False)
+                                ) # did team win
+            team_df['gamesWon'] = team_df['wonGame'].cumsum()  # cumulative games won
+            team_df['homeGamesWon'] = (team_df['wonGame'] & team_df['homeGame']).cumsum()  # cumulative home games won
+            team_df['gamesLost'] = team_df['gamesPlayed'] - team_df['gamesWon']  # cumulative games lost
+            team_df['winPct'] = team_df['gamesWon'] / team_df['gamesPlayed'] # winning pct by week
+            team_df['homeGamesPlayed'] = team_df['homeGame'].cumsum()  # cumulative home games played
+            team_df['homeWinPct'] = team_df['homeGamesWon'] / team_df['homeGamesPlayed'] # home winning pct by week
 
             # determine if division game
             opponent = list()
             divGame = list()
-            for ii, row in dfTeam.iterrows():
+            for ii, row in team_df.iterrows():
                 if row['Home Team'] == row['team']:
                     team2 = row['Visitor']
                 else:
                     team2 = row['Home Team']
 
                 opponent.append(team2)
-                divGame.append(sameDivision(row['team'].lower(), team2.lower(), olookups))
+                divGame.append(sameDivision(row['team'], team2, refdata))
 
-            dfTeam['opponent'] = opponent
-            dfTeam['divGame'] = divGame
+            team_df['opponent'] = opponent
+            team_df['divGame'] = divGame
 
-            dfAllTeams = pandas.concat([dfAllTeams, dfTeam])
-        dfAllSeasons = pandas.concat([dfAllSeasons, dfAllTeams])
-    return dfAllSeasons
-
-
-def getSeasonStart(olookups, season):
-    """
-    :Synopsis: determine starting date of a given season which is defined as first monday night game
-
-    :param olookups: Lookup object with a "seasons" dictionary
-    :param season: int of season to lookup
-    :returns: datetime.date of first monday night game of season
-    """
-
-    seasonStr = olookups.lookupCSV('seasons', str(season), 'start')
-    seasonStart = dp.parse(seasonStr).date()
-    return seasonStart
+            all_teams_df = pandas.concat([all_teams_df, team_df])
+        all_seasons_df = pandas.concat([all_seasons_df, all_teams_df])
+    return all_seasons_df
 
 
 def getRecord(dfTeams, season, team, week):
@@ -163,11 +153,11 @@ def getRecord(dfTeams, season, team, week):
     return record
 
 
-def processGames(dfAllGames, dfAllTeams, olookups):
+def processGames(all_games_df, dfAllTeams, olookups):
     """
     :Synopsis:  apply season record and other stats to all games played
 
-    :param dfAllGames: pandas.DataFrame of each game to be included in training set
+    :param all_games_df: pandas.DataFrame of each game to be included in training set
     :param dfAllTeams: pandas.DataFrame of teams and records for all the seasons
     :param olookups: Lookup object with a "seasons" and "teams" dictionary
 
@@ -187,15 +177,14 @@ def processGames(dfAllGames, dfAllTeams, olookups):
     prevFavRecord = list()
     prevDogRecord = list()
 
-    seasons = dfAllGames.season.unique()  # get list of seasons
+    seasons = all_games_df.season.unique()  # get list of seasons
 
     # loop over each game and apply season record to date
-    for gg in dfAllGames.iterrows():
-        game = gg[1]  # need this because of how the generator works ??
-
+    # pandas data frame iterrows returns (index, Series) tuple.
+    for i, game in all_games_df.iterrows():
         # get season info for this game
         season = game['season']
-        seasonStart = getSeasonStart(olookups, season)
+        seasonStart = olookups.getSeasonStartDate(season)
         prevSeason = season - 1
 
         # dates and week of game
@@ -225,7 +214,7 @@ def processGames(dfAllGames, dfAllTeams, olookups):
         homeWin = int(int(game['Home Score']) > int(game['Visitor Score'])) # 0/1 did home team win ?
         scoreDiff = int(game['Home Score'] - game['Visitor Score']) # difference in score
         favoredWin = int((game['Line'] * scoreDiff) > 0) # 0/1 did favored team win = sign of (line * score diff)
-        divGame = int(sameDivision(game['Home Team'].lower(), game['Visitor'].lower(), olookups))  # 0/1 division game
+        divGame = int(sameDivision(game['Home Team'], game['Visitor'], olookups))  # 0/1 division game
         favoredHomeGame = int(game['Line'] > 0) # 0/1 is the home team favored
 
         # get record from previous season
@@ -256,29 +245,29 @@ def processGames(dfAllGames, dfAllTeams, olookups):
         prevDogRecord.append(prevUnderdogRecord)
 
     # fill in data frame with all new columns -- need to think of vectorized way to do this
-    dfAllGames['favoredHomeGame'] = favoredHome
-    dfAllGames['divisionGame'] = division
-    dfAllGames['homeWin'] = winner
-    dfAllGames['favoredWin'] = favored
-    dfAllGames['gameWeek'] = gameNum
+    all_games_df['favoredHomeGame'] = favoredHome
+    all_games_df['divisionGame'] = division
+    all_games_df['homeWin'] = winner
+    all_games_df['favoredWin'] = favored
+    all_games_df['gameWeek'] = gameNum
 
-    dfAllGames['homeRecord'] = homePct
-    dfAllGames['visitorRecord'] = visitorPct
-    dfAllGames['favoredRecord'] = favRecord
-    dfAllGames['underdogRecord'] = dogRecord
-    dfAllGames['prevFavoredRecord'] = prevFavRecord
-    dfAllGames['prevUnderdogRecord'] = prevDogRecord
+    all_games_df['homeRecord'] = homePct
+    all_games_df['visitorRecord'] = visitorPct
+    all_games_df['favoredRecord'] = favRecord
+    all_games_df['underdogRecord'] = dogRecord
+    all_games_df['prevFavoredRecord'] = prevFavRecord
+    all_games_df['prevUnderdogRecord'] = prevDogRecord
 
-    dfAllGames['absLine'] = abs(dfAllGames['Line']) # need abs to rank easily
+    all_games_df['absLine'] = abs(all_games_df['Line']) # need abs to rank easily
 
-    return dfAllGames
+    return all_games_df
 
 
-def getTrainData(dfAllGames, featuresList, yClassify='favoredWin',maxTrainWeek=17):
+def getTrainData(all_games_df, featuresList, yClassify='favoredWin',maxTrainWeek=17):
     """
     :Synopsis: extract features and classifiers for sklearn routines
 
-    :param dfAllGames: pandas.DataFrame with training data and outcomes for all games
+    :param all_games_df: pandas.DataFrame with training data and outcomes for all games
     :param featuresList: list of columns to include in training
     :param yClassify: (optional) column of the classifier to predict, default = "favoredWin"
     :param maxTrainWeek: (optional) number of weeks of each season to use for training, default = 17
@@ -290,7 +279,7 @@ def getTrainData(dfAllGames, featuresList, yClassify='favoredWin',maxTrainWeek=1
     :returns: X,y and arrays for use in sklearn routines
     """
 
-    dfTrain = dfAllGames[dfAllGames.gameWeek <= maxTrainWeek]
+    dfTrain = all_games_df[all_games_df.gameWeek <= maxTrainWeek]
     y = dfTrain[yClassify].tolist()
     X = dfTrain[featuresList].as_matrix()
 
@@ -312,40 +301,40 @@ def runLogisticRegression(X, y):
 
     # compute training accuracy
     sc = logreg.score(X, y)
-    print "training data accuracy = ", sc
+    print ("training data accuracy = ", sc)
 
     return logreg
 
 
-def runML(dfAllGames, featuresList, yClassifier="favoredWin"):
+def runML(all_games_df, featuresList, yClassifier="favoredWin"):
     """
     :Synopsis: run machine learning on training data
 
-    :param dfAllGames: pandas.DataFrame with training data and outcomes for all games
+    :param all_games_df: pandas.DataFrame with training data and outcomes for all games
     :param featuresList: list of columns to include in training
     :param yClassifier: column of the classifier to predict
 
     :returns: fitted linear_model.LogisticRegression object
     """
 
-    train_X, train_y = getTrainData(dfAllGames, featuresList)
+    train_X, train_y = getTrainData(all_games_df, featuresList)
     logreg = runLogisticRegression(train_X, train_y)
     return logreg
 
 
-def predictGames(dfAllGames, logreg, featuresList):
+def predictGames(all_games_df, logreg, featuresList):
     """
     :Synopsis: apply results of logistic regression to test data
 
-    :param dfAllGames: pandas.DataFrame with training data and outcomes for all games
+    :param all_games_df: pandas.DataFrame with training data and outcomes for all games
     :param logreg: fitted linear_model.LogisticRegression object
     :param featuresList: list of columns used in training/test data
 
     :returns: augmented pandas.DataFrame with predictions of games based on logistic regression results
     """
 
-    dfPredict = dfAllGames
-    predict_X, predict_y = getTrainData(dfAllGames, featuresList)
+    dfPredict = all_games_df
+    predict_X, predict_y = getTrainData(all_games_df, featuresList)
 
     # proba_predict gives the probability that the favored team wins
     # 1 = 100% chance favored team wins
@@ -382,7 +371,7 @@ def rankGames(dfPredict, olookups, season):
     """
 
     # the actual winner of the league historically
-    winningScore = int(olookups.lookupCSV('seasons', str(season), 'winner'))
+    winningScore = olookups.getSeasonWinner(int(season))
 
     weeks = dfPredict.gameWeek.unique()
     dfAll = None
@@ -425,7 +414,7 @@ def rankGames(dfPredict, olookups, season):
     ss = pandas.DataFrame(dd).transpose()
     ss[2] = ss[1] > 0
     ss.columns = ['score', 'win by', 'win']
-    print ss
+    print(ss)
 
     return dfAll
 
