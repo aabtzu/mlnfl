@@ -4,11 +4,19 @@ import pandas
 import dateutil.parser as dp
 import numpy as np
 from sklearn import linear_model
+import os
 
 from referencedata import ReferenceData
 
 MAX_WEEK = 17
+
+homeDir = os.environ['HOME'] + '/'
+codeDir = homeDir + 'repos/mlnfl/nfl/'
+dataRoot = codeDir + "data/"
+
 PATH_TO_NFL_LINES = '/Users/alainledon/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lines/'
+PATH_TO_NFL_LINES = dataRoot + 'lines/'
+
 FILENAME_ALL_LINES = "nflAllLines.csv"
 
 def getWeek(seasonStartDate, gameDateStr):
@@ -401,7 +409,7 @@ def rankGames(dfPredict, olookups, season):
         dfLine['probaScore2'] = dfLine['probaGuess'] * dfLine['predictWin']
         dfLine['probaScore3'] = dfLine['probaAbsGuess'] * dfLine['predictWin']
 
-        if ww == 1:
+        if dfAll is None:
             dfAll = dfLine
         else:
             dfAll = dfAll.append(dfLine)
@@ -414,7 +422,7 @@ def rankGames(dfPredict, olookups, season):
     ss = pandas.DataFrame(dd).transpose()
     ss[2] = ss[1] > 0
     ss.columns = ['score', 'win by', 'win']
-    print(ss)
+    #print(ss)
 
     return dfAll
 
