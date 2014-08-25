@@ -184,63 +184,64 @@ def processGames(all_games_df, dfAllTeams, reference_data):
     for i, game in all_games_df.iterrows():
         # get season info for this game
         season = game['season']
-        seasonStart = reference_data.getSeasonStartDate(season)
-        prevSeason = season - 1
+        season_start_date = reference_data.getSeasonStartDate(season)
+        previous_season = season - 1
 
         # dates and week of game
         gameDateStr = game['Date']
-        gameWeek = getWeek(seasonStart, gameDateStr)
+        gameWeek = getWeek(season_start_date, gameDateStr)
 
         # get cumulative record up to previous week
         if gameWeek > 1:
-            homeRecord = getRecord(dfAllTeams, season, game['Home Team'], gameWeek)
-            visitorRecord = getRecord(dfAllTeams, season, game['Visitor'], gameWeek)
+            home_record = getRecord(dfAllTeams, season, game['Home Team'], gameWeek)
+            visitor_record = getRecord(dfAllTeams, season, game['Visitor'], gameWeek)
 
             # positive spread if home team is favored
             if game['Line'] > 0:
-                favoredRecord = homeRecord
-                underdogRecord = visitorRecord
+                favorite_record = home_record
+                underdog_record = visitor_record
             else:
-                favoredRecord = visitorRecord
-                underdogRecord = homeRecord
+                favorite_record = visitor_record
+                underdog_record = home_record
         else:
             # for first week of season
-            homeRecord = 0.0
-            visitorRecord = 0.0
-            favoredRecord = 0.0
-            underdogRecord = 0.0
+            home_record = 0.0
+            visitor_record = 0.0
+            favorite_record = 0.0
+            underdog_record = 0.0
 
         # score, win and line info for each game
-        homeWin = int(int(game['Home Score']) > int(game['Visitor Score'])) # 0/1 did home team win ?
-        scoreDiff = int(game['Home Score'] - game['Visitor Score']) # difference in score
-        favoredWin = int((game['Line'] * scoreDiff) > 0) # 0/1 did favored team win = sign of (line * score diff)
-        divGame = int(sameDivision(game['Home Team'], game['Visitor'], reference_data))  # 0/1 division game
-        favoredHomeGame = int(game['Line'] > 0) # 0/1 is the home team favored
+        home_team_win = int(int(game['Home Score']) > int(game['Visitor Score'])) # 0/1 did home team win ?
+        score_differential = int(game['Home Score'] - game['Visitor Score']) # difference in score
+        # 0/1 did favorite team win = sign of (line * score differential)
+        favorite_win = int((game['Line'] * score_differential) > 0)
+        division_game = int(sameDivision(game['Home Team'], game['Visitor'], reference_data))  # 0/1 division game
+        favorite_home_game = int(game['Line'] > 0) # 0/1 is the home team favored
 
         # get record from previous season
-        if prevSeason in seasons:
-            prevHomeRecord = getRecord(dfAllTeams, prevSeason, game['Home Team'], MAX_WEEK)
-            prevVisitorRecord = getRecord(dfAllTeams, prevSeason, game['Visitor'], MAX_WEEK)
+        if previous_season in seasons:
+            previous_home_record = getRecord(dfAllTeams, previous_season, game['Home Team'], MAX_WEEK)
+            previous_visitor_record = getRecord(dfAllTeams, previous_season, game['Visitor'], MAX_WEEK)
             if game['Line'] > 0:
-                prevFavoredRecord = prevHomeRecord
-                prevUnderdogRecord = prevVisitorRecord
+                prevFavoredRecord = previous_home_record
+                prevUnderdogRecord = previous_visitor_record
             else:
-                prevFavoredRecord = prevVisitorRecord
-                prevUnderdogRecord = prevHomeRecord
+                prevFavoredRecord = previous_visitor_record
+                prevUnderdogRecord = previous_home_record
         else:
             prevFavoredRecord = None
             prevUnderdogRecord = None
 
         # append list of each game -- need to think of vectorized way to do this
-        favoredHome.append(favoredHomeGame)
-        homePct.append(homeRecord)
-        visitorPct.append(visitorRecord)
+        favoredHome.append(favorite_home_game)
+        homePct.append(home_record)
+        visitorPct.append(visitor_record)
         gameNum.append(gameWeek)
-        winner.append(homeWin)
-        favored.append(favoredWin)
-        division.append(divGame)
-        favRecord.append(favoredRecord)
-        dogRecord.append(underdogRecord)
+        winner.append(home_team_win)
+        favored.append(favorite_win)
+        division.append(division_game)
+        favRecord.append(favorite_record)
+        dogRecord.append(underdog_record)
         prevFavRecord.append(prevFavoredRecord)
         prevDogRecord.append(prevUnderdogRecord)
 
@@ -263,7 +264,7 @@ def processGames(all_games_df, dfAllTeams, reference_data):
     return all_games_df
 
 
-def getTrainData(all_games_df, featuresList, yClassify='favoredWin',maxTrainWeek=17):
+def getTrainData(all_games_df, featuresList, yClassify='favoredWin', maxTrainWeek=17):
     """
     :Synopsis: extract features and classifiers for sklearn routines
 
@@ -273,17 +274,17 @@ def getTrainData(all_games_df, featuresList, yClassify='favoredWin',maxTrainWeek
     :param maxTrainWeek: (optional) number of weeks of each season to use for training, default = 17
 
     n.b. the default goal of the ML training is to answer "did the favored team win ?"
-    n.b. set maxTrainWeek<17 if you dont want to use all weeks of the season.
+    n.b. set maxTrainWeek<17 if you don't want to use all weeks of the season.
     last week of season is often meaningless since some teams rest players once playoff seeds are determined.
 
     :returns: X,y and arrays for use in sklearn routines
     """
 
-    dfTrain = all_games_df[all_games_df.gameWeek <= maxTrainWeek]
-    y = dfTrain[yClassify].tolist()
-    X = dfTrain[featuresList].as_matrix()
+    all_games_data_frame = all_games_df[all_games_df.gameWeek <= maxTrainWeek]
+    expected_output = all_games_data_frame[yClassify].tolist()
+    training_data_frame = all_games_data_frame[featuresList].as_matrix()
 
-    return X, y
+    return training_data_frame, expected_output
 
 
 def runLogisticRegression(X, y):
@@ -291,43 +292,43 @@ def runLogisticRegression(X, y):
     :Synopsis: get logistic regression object for features/classifiers
 
     :param X: matrix of features for logistic regression
-    :param y: list of classifiers for logistic regression
+    :param y: list of expected outputs for logistic regression (supervised learning)
 
     :returns: fitted linear_model.LogisticRegression object
     """
 
-    logreg = linear_model.LogisticRegression(C=1e5)
-    logreg.fit(X, y)
+    classifier = linear_model.LogisticRegression(C=1e5)
+    classifier.fit(X, y)
 
     # compute training accuracy
-    sc = logreg.score(X, y)
+    sc = classifier.score(X, y)
     print ("training data accuracy = ", sc)
 
-    return logreg
+    return classifier
 
 
-def runML(all_games_df, featuresList, yClassifier="favoredWin"):
+def runML(all_games_df, featuresList):
     """
     :Synopsis: run machine learning on training data
 
     :param all_games_df: pandas.DataFrame with training data and outcomes for all games
     :param featuresList: list of columns to include in training
-    :param yClassifier: column of the classifier to predict
 
     :returns: fitted linear_model.LogisticRegression object
     """
 
     train_X, train_y = getTrainData(all_games_df, featuresList)
-    logreg = runLogisticRegression(train_X, train_y)
-    return logreg
+    logistic_regression_model = runLogisticRegression(train_X, train_y)
+
+    return logistic_regression_model
 
 
-def predictGames(all_games_df, logreg, featuresList):
+def predictGames(all_games_df, classifier, featuresList):
     """
     :Synopsis: apply results of logistic regression to test data
 
     :param all_games_df: pandas.DataFrame with training data and outcomes for all games
-    :param logreg: fitted linear_model.LogisticRegression object
+    :param classifier: fitted linear_model.LogisticRegression object
     :param featuresList: list of columns used in training/test data
 
     :returns: augmented pandas.DataFrame with predictions of games based on logistic regression results
@@ -343,17 +344,17 @@ def predictGames(all_games_df, logreg, featuresList):
     # proba_predict_abs takes distance away the absolute value from 50%,
     # this allows us to rank teams based on "who will win" not "how likely is favored team to win"
 
-    # get results from pre-computed logreg object
-    p = logreg.predict(predict_X)  # 0/1 classifier
-    pp = logreg.predict_proba(predict_X)  # probability of favored team winning
-    dfxn = logreg.decision_function(predict_X)  # not sure how this is helpful yet
+    # get results from pre-computed classifier object
+    p = classifier.predict(predict_X)  # 0/1 classifier
+    pp = classifier.predict_proba(predict_X)  # probability of favored team winning
+    dfxn = classifier.decision_function(predict_X)  # not sure how this is helpful yet
 
     dfPredict['predict_proba'] = pp[:, 1]
     dfPredict['predict_proba_abs'] = abs(pp[:, 1] - 0.5)
     dfPredict['decision_fxn'] = dfxn
 
     scoreDiff = dfPredict['Home Score'] - dfPredict['Visitor Score']
-    # predicted win = if the team that is predicted to win by logreg actually wins
+    # predicted win = if the team that is predicted to win by classifier actually wins
     #                 not necessarily the favored team
     dfPredict['predictWin'] = 1 * ((scoreDiff * dfPredict['Line'] * (dfPredict['predict_proba'] - 0.5) ) > 0)
     return dfPredict
