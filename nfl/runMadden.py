@@ -41,15 +41,22 @@ def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
 
     nweeks = 17
     dfWeeks = None
+    trainWeeks = 1
     for i in range(nweeks):
         iw = i + 1 # actual week of season
+
         print "season %d, week %d" % (seasonTest[0],iw)
 
-        #dfGames = dfAllGames.append(dfGamesTest[dfGamesTest.gameWeek < iw])
-        #dfTest = dfGamesTest[dfGamesTest.gameWeek == iw]
 
-        dfGames = dfAllGames
-        dfTest = dfGamesTest[dfGamesTest.gameWeek == iw]
+        if trainFreq == 0:
+            dfGames = dfAllGames
+            dfTest = dfGamesTest[dfGamesTest.gameWeek == iw]
+        else:
+            if (iw % trainFreq) == 0:
+                trainWeeks = iw
+
+            dfGames = dfAllGames.append(dfGamesTest[dfGamesTest.gameWeek < trainWeeks])
+            dfTest = dfGamesTest[dfGamesTest.gameWeek == iw]
 
         # run the logistic regression
         logreg = madden.runML(dfGames,features)
@@ -72,6 +79,6 @@ def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
 
         g = dfWeeks.groupby('season',as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
         g.index = [seasonTest[0]]
-
-
+        g['train'] = seasons
+        g['trainFreq'] = trainFreq
     return (g)
