@@ -4,11 +4,19 @@ import pandas
 import dateutil.parser as dp
 import numpy as np
 from sklearn import linear_model
+import os
 
 from referencedata import ReferenceData
 
 MAX_WEEK = 17
+
+homeDir = os.environ['HOME'] + '/'
+codeDir = homeDir + 'repos/mlnfl/nfl/'
+dataRoot = codeDir + "data/"
+
 PATH_TO_NFL_LINES = '/Users/alainledon/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lines/'
+PATH_TO_NFL_LINES = dataRoot + 'lines/'
+
 FILENAME_ALL_LINES = "nflAllLines.csv"
 
 def getWeek(seasonStartDate, gameDateStr):
@@ -176,6 +184,8 @@ def processGames(all_games_df, dfAllTeams, olookups):
     dogRecord = list()
     prevFavRecord = list()
     prevDogRecord = list()
+    favorite = list()
+    underdog = list()
 
     seasons = all_games_df.season.unique()  # get list of seasons
 
@@ -211,11 +221,24 @@ def processGames(all_games_df, dfAllTeams, olookups):
             underdogRecord = 0.0
 
         # score, win and line info for each game
-        homeWin = int(int(game['Home Score']) > int(game['Visitor Score'])) # 0/1 did home team win ?
-        scoreDiff = int(game['Home Score'] - game['Visitor Score']) # difference in score
-        favoredWin = int((game['Line'] * scoreDiff) > 0) # 0/1 did favored team win = sign of (line * score diff)
+        # cant expect this to work if game has not been played yetx
+        try:
+            homeWin = int(int(game['Home Score']) > int(game['Visitor Score'])) # 0/1 did home team win ?
+            scoreDiff = int(game['Home Score'] - game['Visitor Score']) # difference in score
+            favoredWin = int((game['Line'] * scoreDiff) > 0) # 0/1 did favored team win = sign of (line * score diff)
+        except:
+            homeWin = np.NaN
+            favoredWin = np.NaN
+            scoreDiff = np.NaN
+
         divGame = int(sameDivision(game['Home Team'], game['Visitor'], olookups))  # 0/1 division game
         favoredHomeGame = int(game['Line'] > 0) # 0/1 is the home team favored
+        if favoredHomeGame:
+            favoredTeam = game['Home Team']
+            underdogTeam = game['Visitor']
+        else:
+            favoredTeam = game['Visitor']
+            underdogTeam = game['Home Team']
 
         # get record from previous season
         if prevSeason in seasons:
@@ -232,6 +255,8 @@ def processGames(all_games_df, dfAllTeams, olookups):
             prevUnderdogRecord = None
 
         # append list of each game -- need to think of vectorized way to do this
+        favorite.append(favoredTeam)
+        underdog.append(underdogTeam)
         favoredHome.append(favoredHomeGame)
         homePct.append(homeRecord)
         visitorPct.append(visitorRecord)
@@ -245,6 +270,9 @@ def processGames(all_games_df, dfAllTeams, olookups):
         prevDogRecord.append(prevUnderdogRecord)
 
     # fill in data frame with all new columns -- need to think of vectorized way to do this
+    all_games_df['favorite'] = favorite
+    all_games_df['underdog'] = underdog
+
     all_games_df['favoredHomeGame'] = favoredHome
     all_games_df['divisionGame'] = division
     all_games_df['homeWin'] = winner
@@ -371,7 +399,10 @@ def rankGames(dfPredict, olookups, season):
     """
 
     # the actual winner of the league historically
-    winningScore = olookups.getSeasonWinner(int(season))
+    try:
+        winningScore = olookups.getSeasonWinner(int(season))
+    except:
+        winningScore = 0
 
     weeks = dfPredict.gameWeek.unique()
     dfAll = None
@@ -401,7 +432,7 @@ def rankGames(dfPredict, olookups, season):
         dfLine['probaScore2'] = dfLine['probaGuess'] * dfLine['predictWin']
         dfLine['probaScore3'] = dfLine['probaAbsGuess'] * dfLine['predictWin']
 
-        if ww == 1:
+        if dfAll is None:
             dfAll = dfLine
         else:
             dfAll = dfAll.append(dfLine)
@@ -414,7 +445,7 @@ def rankGames(dfPredict, olookups, season):
     ss = pandas.DataFrame(dd).transpose()
     ss[2] = ss[1] > 0
     ss.columns = ['score', 'win by', 'win']
-    print(ss)
+    #print(ss)
 
     return dfAll
 
