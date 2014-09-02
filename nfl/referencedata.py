@@ -42,7 +42,7 @@ class ReferenceData(object):
     Responsibility -- To do a "vlookup" on a csv file
     """
 
-    def __init__(self, dataDir):
+    def __init__(self, dataDir, seasonsFile = SEASONS_FILE, teamsFile = TEAMS_FILE):
         """
         :Synopsis: Loads the seasons and teams files from
 
@@ -51,8 +51,8 @@ class ReferenceData(object):
         :returns: seasons and teams data frames loaded
         """
         # Read all seasons and teams from the data files
-        self.seasons_df = pd.read_csv("".join([dataDir, SEASONS_FILE]), index_col='season')
-        self.teams_df = pd.read_csv("".join([dataDir, TEAMS_FILE]), index_col='team')
+        self.seasons_df = pd.read_csv("".join([dataDir, seasonsFile]), index_col='season')
+        self.teams_df = pd.read_csv("".join([dataDir, teamsFile]), index_col='team')
 
     def get_team_league(self, team):
         """
