@@ -161,13 +161,13 @@ def getRecord(dfTeams, season, team, week):
     return record
 
 
-def processGames(all_games_df, dfAllTeams, olookups):
+def processGames(all_games_df, dfAllTeams, reference_data):
     """
     :Synopsis:  apply season record and other stats to all games played
 
     :param all_games_df: pandas.DataFrame of each game to be included in training set
     :param dfAllTeams: pandas.DataFrame of teams and records for all the seasons
-    :param olookups: Lookup object with a "seasons" and "teams" dictionary
+    :param reference_data: Lookup object with a "seasons" and "teams" dictionary
 
     :returns: augmented pandas.DataFrame and includes additional variables necessary for ML training.
     """
@@ -194,7 +194,7 @@ def processGames(all_games_df, dfAllTeams, olookups):
     for i, game in all_games_df.iterrows():
         # get season info for this game
         season = game['season']
-        seasonStart = olookups.getSeasonStartDate(season)
+        seasonStart = reference_data.getSeasonStartDate(season)
         prevSeason = season - 1
 
         # dates and week of game
@@ -231,7 +231,7 @@ def processGames(all_games_df, dfAllTeams, olookups):
             favoredWin = np.NaN
             scoreDiff = np.NaN
 
-        divGame = int(sameDivision(game['Home Team'], game['Visitor'], olookups))  # 0/1 division game
+        divGame = int(sameDivision(game['Home Team'], game['Visitor'], reference_data))  # 0/1 division game
         favoredHomeGame = int(game['Line'] > 0) # 0/1 is the home team favored
         if favoredHomeGame:
             favoredTeam = game['Home Team']
@@ -301,7 +301,7 @@ def getTrainData(all_games_df, featuresList, yClassify='favoredWin',maxTrainWeek
     :param maxTrainWeek: (optional) number of weeks of each season to use for training, default = 17
 
     n.b. the default goal of the ML training is to answer "did the favored team win ?"
-    n.b. set maxTrainWeek<17 if you dont want to use all weeks of the season.
+    n.b. set maxTrainWeek<17 if you don't want to use all weeks of the season.
     last week of season is often meaningless since some teams rest players once playoff seeds are determined.
 
     :returns: X,y and arrays for use in sklearn routines
@@ -387,12 +387,12 @@ def predictGames(all_games_df, logreg, featuresList):
     return dfPredict
 
 
-def rankGames(dfPredict, olookups, season):
+def rankGames(dfPredict, reference_data, season):
     """
     :Synopsis: determine weekly rankings for games based on predict from logistic regression
 
     :param dfPredict: pandas.DataFrame with predicted winners
-    :param olookups: Lookup object with a "seasons" dictionary
+    :param reference_data: Lookup object with a "seasons" dictionary
     :param season: int of season
 
     :returns: pandas.DataFrame with results of ranked games and computed scores from outcomes
@@ -400,7 +400,7 @@ def rankGames(dfPredict, olookups, season):
 
     # the actual winner of the league historically
     try:
-        winningScore = olookups.getSeasonWinner(int(season))
+        winningScore = reference_data.getSeasonWinner(season)
     except:
         winningScore = 0
 
