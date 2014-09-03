@@ -70,7 +70,7 @@ def readGamesSingleSeason(dataRootDir, season):
     return all_games_df
 
 
-def readGamesAll(dataRoot, seasons):
+def readGamesAll(dataRoot, seasons, filename_all_lines = FILENAME_ALL_LINES):
     """
     :Synopsis: Read a csv file of game scores and spreads into a pandas data frame
 
@@ -79,7 +79,7 @@ def readGamesAll(dataRoot, seasons):
     :returns: A pandas.DataFrame with all the data, adds one previous season in addition to
     """
 
-    dataFile = "".join([dataRoot, FILENAME_ALL_LINES])
+    dataFile = "".join([dataRoot, filename_all_lines])
     all_games_df = pandas.read_csv(dataFile)
     # need one extra season for prev year records
     seasons2 = np.insert(seasons, 0, seasons.min() - 1)
@@ -412,8 +412,9 @@ def rankGames(dfPredict, reference_data, season):
         dfWeek = dfPredict.loc[iw]
         nw = len(iw)
 
-        # name of Home Team is arbitrary tie breaker for same spread - but at least it is reproducible
-        dfLine = dfWeek.sort(['absLine', 'Home Team'])
+        # name of Home Team is arbitrary last tie breaker  - but at least it is reproducible
+        sortCols = sortCols = ['absLine','favoredHomeGame', 'divisionGame', 'favoredRecord', 'Home Team']
+        dfLine = dfWeek.sort(sortCols)
 
         # determine guess
         # several possibilities for predicting by probability
