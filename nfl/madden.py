@@ -10,12 +10,7 @@ from referencedata import ReferenceData
 
 MAX_WEEK = 17
 
-homeDir = os.environ['HOME'] + '/'
-codeDir = homeDir + 'repos/mlnfl/nfl/'
-dataRoot = codeDir + "data/"
-
 PATH_TO_NFL_LINES = '/Users/alainledon/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lines/'
-PATH_TO_NFL_LINES = dataRoot + 'lines/'
 
 FILENAME_ALL_LINES = "nflAllLines.csv"
 
