@@ -4,6 +4,7 @@ Main program to train and select the winners
 __author__ = 'alainledon'
 
 from referencedata import ReferenceData
+import argparse
 
 NFL_DATA_PATH = "~/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lookup/"
 
