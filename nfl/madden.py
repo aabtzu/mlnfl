@@ -10,7 +10,7 @@ from referencedata import ReferenceData
 
 MAX_WEEK = 17
 
-PATH_TO_NFL_LINES = '/Users/alainledon/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lines/'
+#PATH_TO_NFL_LINES = '/Users/alainledon/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lines/'
 
 FILENAME_ALL_LINES = "nflAllLines.csv"
 
@@ -428,7 +428,7 @@ def rankGames(dfPredict, reference_data, season):
         dfLine['probaScore2'] = dfLine['probaGuess'] * dfLine['predictWin']
         dfLine['probaScore3'] = dfLine['probaAbsGuess'] * dfLine['predictWin']
 
-        if ww == 1:
+        if dfAll is None:
             dfAll = dfLine
         else:
             dfAll = dfAll.append(dfLine)
