@@ -4,6 +4,7 @@ import pandas
 import dateutil.parser as dp
 import numpy as np
 from sklearn import linear_model
+import graphlab as gl
 import os
 
 from referencedata import ReferenceData
@@ -309,7 +310,7 @@ def getTrainData(all_games_df, featuresList, yClassify='favoredWin',maxTrainWeek
     return X, y
 
 
-def runLogisticRegression(X, y):
+def runScikitLogisticRegression(X, y):
     """
     :Synopsis: get logistic regression object for features/classifiers
 
@@ -328,21 +329,39 @@ def runLogisticRegression(X, y):
 
     return logreg
 
+def runGraphLabClassifier(all_games_sf, features, yClassifier, gl_classifier):
+    """
+    :Synopsis: run GraphLab classifier on training data
+    :param all_games_sf: graphlab.SFrame with training data and outcomes for all games
+    :return: fitted graphlab model olbject
+    """
 
-def runML(all_games_df, featuresList, yClassifier="favoredWin"):
+    gl_model = gl_classifier.create(all_games_sf, yClassifier, features=features)
+    return gl_model
+
+
+DEFAULT_SCIKIT_CLASSIFIER = classifier = linear_model.LogisticRegression(C=1e5)
+
+def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CLASSIFIER):
     """
     :Synopsis: run machine learning on training data
 
     :param all_games_df: pandas.DataFrame with training data and outcomes for all games
     :param featuresList: list of columns to include in training
-    :param yClassifier: column of the classifier to predict
+    :param classifier: which classifier to use, default = linear_model.LogisticRegression()
 
-    :returns: fitted linear_model.LogisticRegression object
+    :returns: fitted model object based on input classifier
     """
 
-    train_X, train_y = getTrainData(all_games_df, featuresList)
-    logreg = runLogisticRegression(train_X, train_y)
-    return logreg
+    yClassifier = 'favoredWin' # the variable to predict
+    X, y = getTrainData(all_games_df, featuresList, yClassifier)
+    classifier.fit(X, y)
+
+    # compute training accuracy
+    sc = classifier.score(X, y)
+    print ("training data accuracy = ", sc)
+
+    return classifier
 
 
 def predictGames(all_games_df, logreg, featuresList):
@@ -369,11 +388,11 @@ def predictGames(all_games_df, logreg, featuresList):
     # get results from pre-computed logreg object
     p = logreg.predict(predict_X)  # 0/1 classifier
     pp = logreg.predict_proba(predict_X)  # probability of favored team winning
-    dfxn = logreg.decision_function(predict_X)  # not sure how this is helpful yet
+    #dfxn = logreg.decision_function(predict_X)  # not sure how this is helpful yet
 
     dfPredict['predict_proba'] = pp[:, 1]
     dfPredict['predict_proba_abs'] = abs(pp[:, 1] - 0.5)
-    dfPredict['decision_fxn'] = dfxn
+    #dfPredict['decision_fxn'] = dfxn
 
     scoreDiff = dfPredict['Home Score'] - dfPredict['Visitor Score']
     # predicted win = if the team that is predicted to win by logreg actually wins
