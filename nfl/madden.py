@@ -4,7 +4,7 @@ import pandas
 import dateutil.parser as dp
 import numpy as np
 from sklearn import linear_model
-import graphlab as gl
+#import graphlab as gl
 import os
 
 from referencedata import ReferenceData
@@ -107,19 +107,20 @@ def seasonRecord(all_games_df, refdata):
         for ii, team in enumerate(teams):
             # print("%d - %s" % (ii, team))
             team_df = season_df[(season_df.Visitor == team) | (season_df['Home Team'] == team)]
-            team_df.loc[:, 'gamesPlayed'] = range(1, len(team_df.index) + 1)  # index 1 thur 16
-            team_df.loc[:, 'team'] = team
-            team_df.loc[:, 'homeGame'] = season_df['Home Team'] == team  # true for home game
-            team_df.loc[:, 'wonGame'] = (
+
+            team_df['gamesPlayed'] = range(1, len(team_df.index) + 1)  # index 1 thur 16
+            team_df['team'] = team
+            team_df['homeGame'] = season_df['Home Team'] == team  # true for home game
+            team_df['wonGame'] = (
                                 (team_df['Visitor Score'] < team_df['Home Score']) & team_df['homeGame']) | (
                                 (team_df['Visitor Score'] > team_df['Home Score']) & (team_df['homeGame'] == False)
                                 ) # did team win
-            team_df.loc[:, 'gamesWon'] = team_df['wonGame'].cumsum()  # cumulative games won
-            team_df.loc[:, 'homeGamesWon'] = (team_df['wonGame'] & team_df['homeGame']).cumsum()  # cumulative home games won
-            team_df.loc[:, 'gamesLost'] = team_df['gamesPlayed'] - team_df['gamesWon']  # cumulative games lost
-            team_df.loc[:, 'winPct'] = team_df['gamesWon'] / team_df['gamesPlayed'] # winning pct by week
-            team_df.loc[:, 'homeGamesPlayed'] = team_df['homeGame'].cumsum()  # cumulative home games played
-            team_df.loc[:, 'homeWinPct'] = team_df['homeGamesWon'] / team_df['homeGamesPlayed'] # home winning pct by week
+            team_df['gamesWon'] = team_df['wonGame'].cumsum()  # cumulative games won
+            team_df['homeGamesWon'] = (team_df['wonGame'] & team_df['homeGame']).cumsum()  # cumulative home games won
+            team_df['gamesLost'] = team_df['gamesPlayed'] - team_df['gamesWon']  # cumulative games lost
+            team_df['winPct'] = team_df['gamesWon'] / team_df['gamesPlayed'] # winning pct by week
+            team_df['homeGamesPlayed'] = team_df['homeGame'].cumsum()  # cumulative home games played
+            team_df['homeWinPct'] = team_df['homeGamesWon'] / team_df['homeGamesPlayed'] # home winning pct by week
 
             # determine if division game
             opponent = list()
