@@ -14,6 +14,7 @@ MAX_WEEK = 17
 #PATH_TO_NFL_LINES = '/Users/alainledon/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lines/'
 
 FILENAME_ALL_LINES = "nflAllLines.csv"
+DEFAULT_SCIKIT_CLASSIFIER = linear_model.LogisticRegression(C=1e5)
 
 def getWeek(seasonStartDate, gameDateStr):
     """
@@ -106,19 +107,19 @@ def seasonRecord(all_games_df, refdata):
         for ii, team in enumerate(teams):
             # print("%d - %s" % (ii, team))
             team_df = season_df[(season_df.Visitor == team) | (season_df['Home Team'] == team)]
-            team_df['gamesPlayed'] = range(1, len(team_df.index) + 1)  # index 1 thur 16
-            team_df['team'] = team
-            team_df['homeGame'] = season_df['Home Team'] == team  # true for home game
-            team_df['wonGame'] = (
+            team_df.loc[:, 'gamesPlayed'] = range(1, len(team_df.index) + 1)  # index 1 thur 16
+            team_df.loc[:, 'team'] = team
+            team_df.loc[:, 'homeGame'] = season_df['Home Team'] == team  # true for home game
+            team_df.loc[:, 'wonGame'] = (
                                 (team_df['Visitor Score'] < team_df['Home Score']) & team_df['homeGame']) | (
                                 (team_df['Visitor Score'] > team_df['Home Score']) & (team_df['homeGame'] == False)
                                 ) # did team win
-            team_df['gamesWon'] = team_df['wonGame'].cumsum()  # cumulative games won
-            team_df['homeGamesWon'] = (team_df['wonGame'] & team_df['homeGame']).cumsum()  # cumulative home games won
-            team_df['gamesLost'] = team_df['gamesPlayed'] - team_df['gamesWon']  # cumulative games lost
-            team_df['winPct'] = team_df['gamesWon'] / team_df['gamesPlayed'] # winning pct by week
-            team_df['homeGamesPlayed'] = team_df['homeGame'].cumsum()  # cumulative home games played
-            team_df['homeWinPct'] = team_df['homeGamesWon'] / team_df['homeGamesPlayed'] # home winning pct by week
+            team_df.loc[:, 'gamesWon'] = team_df['wonGame'].cumsum()  # cumulative games won
+            team_df.loc[:, 'homeGamesWon'] = (team_df['wonGame'] & team_df['homeGame']).cumsum()  # cumulative home games won
+            team_df.loc[:, 'gamesLost'] = team_df['gamesPlayed'] - team_df['gamesWon']  # cumulative games lost
+            team_df.loc[:, 'winPct'] = team_df['gamesWon'] / team_df['gamesPlayed'] # winning pct by week
+            team_df.loc[:, 'homeGamesPlayed'] = team_df['homeGame'].cumsum()  # cumulative home games played
+            team_df.loc[:, 'homeWinPct'] = team_df['homeGamesWon'] / team_df['homeGamesPlayed'] # home winning pct by week
 
             # determine if division game
             opponent = list()
@@ -132,8 +133,8 @@ def seasonRecord(all_games_df, refdata):
                 opponent.append(team2)
                 divGame.append(sameDivision(row['team'], team2, refdata))
 
-            team_df['opponent'] = opponent
-            team_df['divGame'] = divGame
+            team_df.loc[:, 'opponent'] = opponent
+            team_df.loc[:, 'divGame'] = divGame
 
             all_teams_df = pandas.concat([all_teams_df, team_df])
         all_seasons_df = pandas.concat([all_seasons_df, all_teams_df])
@@ -340,20 +341,18 @@ def runGraphLabClassifier(all_games_sf, features, yClassifier, gl_classifier):
     return gl_model
 
 
-DEFAULT_SCIKIT_CLASSIFIER = classifier = linear_model.LogisticRegression(C=1e5)
-
-def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CLASSIFIER):
+def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CLASSIFIER, yClassifier = 'favoredWin'):
     """
     :Synopsis: run machine learning on training data
 
     :param all_games_df: pandas.DataFrame with training data and outcomes for all games
     :param featuresList: list of columns to include in training
+    :param yClassifier: the variable to predict
     :param classifier: which classifier to use, default = linear_model.LogisticRegression()
 
     :returns: fitted model object based on input classifier
     """
 
-    yClassifier = 'favoredWin' # the variable to predict
     X, y = getTrainData(all_games_df, featuresList, yClassifier)
     classifier.fit(X, y)
 
@@ -364,12 +363,12 @@ def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CL
     return classifier
 
 
-def predictGames(all_games_df, logreg, featuresList):
+def predictGames(all_games_df, classifier, featuresList):
     """
     :Synopsis: apply results of logistic regression to test data
 
     :param all_games_df: pandas.DataFrame with training data and outcomes for all games
-    :param logreg: fitted linear_model.LogisticRegression object
+    :param classifier: fitted linear_model.LogisticRegression object
     :param featuresList: list of columns used in training/test data
 
     :returns: augmented pandas.DataFrame with predictions of games based on logistic regression results
@@ -385,19 +384,19 @@ def predictGames(all_games_df, logreg, featuresList):
     # proba_predict_abs takes distance away the absolute value from 50%,
     # this allows us to rank teams based on "who will win" not "how likely is favored team to win"
 
-    # get results from pre-computed logreg object
-    p = logreg.predict(predict_X)  # 0/1 classifier
-    pp = logreg.predict_proba(predict_X)  # probability of favored team winning
-    #dfxn = logreg.decision_function(predict_X)  # not sure how this is helpful yet
+    # get results from pre-computed classifier object
+    p = classifier.predict(predict_X)  # 0/1 classifier
+    pp = classifier.predict_proba(predict_X)  # probability of favored team winning
+    #dfxn = classifier.decision_function(predict_X)  # not sure how this is helpful yet
 
     dfPredict['predict_proba'] = pp[:, 1]
     dfPredict['predict_proba_abs'] = abs(pp[:, 1] - 0.5)
     #dfPredict['decision_fxn'] = dfxn
 
     scoreDiff = dfPredict['Home Score'] - dfPredict['Visitor Score']
-    # predicted win = if the team that is predicted to win by logreg actually wins
+    # predicted win = if the team that is predicted to win by classifier actually wins
     #                 not necessarily the favored team
-    dfPredict['predictWin'] = 1 * ((scoreDiff * dfPredict['Line'] * (dfPredict['predict_proba'] - 0.5) ) > 0)
+    dfPredict['predictWin'] = 1 * ((scoreDiff * dfPredict['Line'] * (dfPredict['predict_proba'] - 0.5)) > 0)
     return dfPredict
 
 
@@ -427,7 +426,7 @@ def rankGames(dfPredict, reference_data, season):
         nw = len(iw)
 
         # name of Home Team is arbitrary last tie breaker  - but at least it is reproducible
-        sortCols = sortCols = ['absLine','favoredHomeGame', 'divisionGame', 'favoredRecord', 'Home Team']
+        sortCols = sortCols = ['absLine', 'favoredHomeGame', 'divisionGame', 'favoredRecord', 'Home Team']
         dfLine = dfWeek.sort(sortCols)
 
         # determine guess
@@ -435,17 +434,17 @@ def rankGames(dfPredict, reference_data, season):
         # 1. always pick favored team, rank by probability of win
         # 2. pick winner based on abs(probability - .5), rank by probability
         # 3. pick winner based on abs(probability - .5), rank by abs(probability - .5)
-        dfLine['lineGuess'] = dfLine['absLine'].rank('first') + (16 - nw)
-        dfLine['probaGuess'] = dfLine['predict_proba'].rank('first') + (16 - nw)
-        dfLine['probaAbsGuess'] = dfLine['predict_proba_abs'].rank('first') + (16 - nw)
+        dfLine.loc[:, 'lineGuess'] = dfLine['absLine'].rank('first') + (16 - nw)
+        dfLine.loc[:, 'probaGuess'] = dfLine['predict_proba'].rank('first') + (16 - nw)
+        dfLine.loc[:, 'probaAbsGuess'] = dfLine['predict_proba_abs'].rank('first') + (16 - nw)
 
         # determine score of pick by spread
-        dfLine['lineScore'] = dfLine['lineGuess'] * dfLine['favoredWin']
+        dfLine.loc[:, 'lineScore'] = dfLine['lineGuess'] * dfLine['favoredWin']
 
         # determine score of pick by probability
-        dfLine['probaScore1'] = dfLine['probaGuess'] * dfLine['favoredWin']
-        dfLine['probaScore2'] = dfLine['probaGuess'] * dfLine['predictWin']
-        dfLine['probaScore3'] = dfLine['probaAbsGuess'] * dfLine['predictWin']
+        dfLine.loc[:, 'probaScore1'] = dfLine['probaGuess'] * dfLine['favoredWin']
+        dfLine.loc[:, 'probaScore2'] = dfLine['probaGuess'] * dfLine['predictWin']
+        dfLine.loc[:, 'probaScore3'] = dfLine['probaAbsGuess'] * dfLine['predictWin']
 
         if dfAll is None:
             dfAll = dfLine
