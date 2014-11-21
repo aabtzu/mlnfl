@@ -6,8 +6,7 @@ import numpy as np
 
 def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
 
-
-    # training data set - includes one extra year for prev yr record
+     # training data set - includes one extra year for prev yr record
     seasons = np.array(trainYears)
 
     # use different test set
@@ -82,3 +81,82 @@ def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
         g['train'] = seasons
         g['trainFreq'] = trainFreq
     return (g)
+
+ def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_data):
+
+    dfLoop = None
+    testYear = 0
+
+    while testYear < 2014:
+        # determine test and train years
+        testYear = trainStart + trainLen
+        trainYears = range(testYear-trainLen,testYear)
+
+
+        print testYear, trainYears
+
+        # define test and train years
+        seasons = np.array(trainYears)
+        seasonTest = np.array([testYear]) # should be only one year
+
+        # read the games
+        dfAllGames = madden.readGamesAll(path_to_lines, seasons)
+        dfGamesTest = madden.readGamesAll(path_to_lines, seasonTest)
+
+        # compile season record for all teams
+        dfAllTeams = madden.seasonRecord(dfAllGames, reference_data)
+        dfTestTeams = madden.seasonRecord(dfGamesTest, reference_data)
+
+        # apply season records and compute other fields for all games
+        dfAllGames = madden.processGames(dfAllGames, dfAllTeams, reference_data)
+        dfGamesTest = madden.processGames(dfGamesTest, dfTestTeams, reference_data)
+
+        # remove extra year of data
+        dfAllGames = dfAllGames[dfAllGames.season.isin(seasons)]
+        dfGamesTest = dfGamesTest[dfGamesTest.season.isin(seasonTest)]
+
+        # define independent variables for logistic regression
+        features = ['favoredRecord','underdogRecord',  # current year records of both teams
+                'prevFavoredRecord','prevUnderdogRecord', # prev year records, helps early in season when only few games played
+                'gameWeek',  # week in season, should make a good/bad record later in season more important
+                'absLine',  # absolute value of spread since favored team already determined
+                'divisionGame', # T/F, usually more competitive rivalry games, i.e. bad teams still win home division games.
+                'favoredHomeGame', # T/F, important since output of classifier is "did the favored team win?"
+                ]
+
+        # run classifier
+        classifier = madden.runScikitClassifier(dfAllGames,features,classifier)
+        # apply results of logistic regression to the test set
+        dfPredict = madden.predictGames(dfGamesTest,classifier,features)
+        # apply ranking logic and determine scoring outcomes for league
+        dfAll = madden.rankGames(dfPredict,reference_data,seasonTest[0])
+
+        # get winning score for season
+        try:
+            winningScore = reference_data.getSeasonWinner(testYear)
+        except:
+            winningScore = dfAll.groupby('season')['lineScore'].sum().values[0]
+
+        print winningScore, type(winningScore)
+
+        # get full season scores in pandas.Series
+        scoreCols = ['lineScore', 'probaScore1','probaScore2','probaScore3',]
+        sSeason = dfAll.groupby('season')[scoreCols].sum() - winningScore
+
+        # extra info
+        sSeason['trainYears'] = str(seasons)
+        sSeason['classifierType'] = type(classifier)
+        sSeason['classifier'] = classifier
+
+
+
+        if dfLoop is None:
+            dfLoop = sSeason
+        else:
+            dfLoop = dfLoop.append(sSeason)
+
+
+        trainStart += 1
+
+
+    return dfLoop
