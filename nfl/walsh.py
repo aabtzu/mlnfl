@@ -21,6 +21,7 @@ class SeasonClassifier(object):
         self.datafile = datafile
         self.reference_data = reference_data
         self.classifier = classifier
+        self.features = None
 
     def readData(self, seasons, dataType):
         '''
@@ -46,8 +47,6 @@ class SeasonClassifier(object):
             self.testSeasons = seasons
             self.testGames = dfAllGames
 
-    def setFeatures(self, features):
-        self.features = features
 
     def runClassifier(self, yClassifier='favoredWin'):
         """
@@ -58,7 +57,7 @@ class SeasonClassifier(object):
         :return:
         """
         self.yClassifier = yClassifier
-        self.classifier = madden.runScikitClassifier(self.trainGames,self.features,self.classifier, yClassifier)
+        self.classifier = madden.runScikitClassifier(self.trainGames, self.features, self.classifier, yClassifier)
 
     def predict(self, weeks='all'):
         """
