@@ -289,13 +289,13 @@ def processGames(all_games_df, dfAllTeams, reference_data):
     return all_games_df
 
 
-def getTrainData(all_games_df, featuresList, yClassify='favoredWin',maxTrainWeek=17):
+def getTrainData(all_games_df, featuresList, yClassifier='favoredWin', maxTrainWeek=17):
     """
     :Synopsis: extract features and classifiers for sklearn routines
 
     :param all_games_df: pandas.DataFrame with training data and outcomes for all games
     :param featuresList: list of columns to include in training
-    :param yClassify: (optional) column of the classifier to predict, default = "favoredWin"
+    :param yClassifier: column of the classifier to predict, default = 'favoredWin'
     :param maxTrainWeek: (optional) number of weeks of each season to use for training, default = 17
 
     n.b. the default goal of the ML training is to answer "did the favored team win ?"
@@ -305,8 +305,8 @@ def getTrainData(all_games_df, featuresList, yClassify='favoredWin',maxTrainWeek
     :returns: X,y and arrays for use in sklearn routines
     """
 
-    dfTrain = all_games_df[all_games_df.gameWeek <= maxTrainWeek]
-    y = dfTrain[yClassify].tolist()
+    dfTrain = all_games_df[(all_games_df.gameWeek <= maxTrainWeek)]
+    y = dfTrain[yClassifier].tolist()
     X = dfTrain[featuresList].as_matrix()
 
     return X, y
@@ -360,11 +360,10 @@ def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CL
     # compute training accuracy
     sc = classifier.score(X, y)
     print ("training data accuracy = ", sc)
-
     return classifier
 
 
-def predictGames(all_games_df, classifier, featuresList):
+def predictGames(all_games_df, classifier, featuresList, yClassifier = 'favoredWin'):
     """
     :Synopsis: apply results of logistic regression to test data
 
@@ -375,8 +374,8 @@ def predictGames(all_games_df, classifier, featuresList):
     :returns: augmented pandas.DataFrame with predictions of games based on logistic regression results
     """
 
-    dfPredict = all_games_df
-    predict_X, predict_y = getTrainData(all_games_df, featuresList)
+    dfPredict = all_games_df # [all_games_df[yClassifier].notnull()]
+    predict_X, predict_y = getTrainData(dfPredict, featuresList, yClassifier)
 
     # proba_predict gives the probability that the favored team wins
     # 1 = 100% chance favored team wins
@@ -400,6 +399,27 @@ def predictGames(all_games_df, classifier, featuresList):
     dfPredict['predictWin'] = 1 * ((scoreDiff * dfPredict['Line'] * (dfPredict['predict_proba'] - 0.5)) > 0)
     return dfPredict
 
+
+def predictAccuracy(all_games_df, classifier, featuresList, yClassifier):
+    '''
+    Synopsis: compute predict accuracy using classifier results
+    :param all_games_df: pandas.DataFrame with training/test data and outcomes
+    :param classifier: fitter classifier object
+    :param featuresList: list of columns used in training data
+    :param yClassifier: name of the column that is classified
+    :return:
+    '''
+
+    dfPredict = all_games_df[all_games_df[yClassifier].notnull()]
+    predict_X, predict_y = getTrainData(dfPredict, featuresList, yClassifier)
+
+    # example of conditional statement within list comprehension
+    # [x+1 if x >= 45 else x+5 for x in l]
+
+    predict_y_int = [ int(yy) if pandas.notnull(yy) else yy for yy in predict_y]
+    sc = classifier.score(predict_X, predict_y_int)
+    #print ("predict accuracy = ", sc)
+    return sc
 
 def rankGames(dfPredict, reference_data, season):
     """
@@ -427,7 +447,8 @@ def rankGames(dfPredict, reference_data, season):
         nw = len(iw)
 
         # name of Home Team is arbitrary last tie breaker  - but at least it is reproducible
-        sortCols = sortCols = ['absLine', 'favoredHomeGame', 'divisionGame', 'favoredRecord', 'Home Team']
+        sortCols = ['absLine', 'favoredHomeGame', 'divisionGame', 'favoredRecord', 'Home Team']
+        #sortCols = ['absLine', 'Home Team']
         dfLine = dfWeek.sort(sortCols)
 
         # determine guess
@@ -463,4 +484,155 @@ def rankGames(dfPredict, reference_data, season):
     print(ss)
 
     return dfAll
+
+class SeasonClassifier(object):
+    '''
+    class: SeasonClassifier
+
+    wrapper object for running ML classifier for a particular season and training data set
+
+    '''
+
+    def __init__(self, datafile,reference_data):
+        '''
+        :param datafile: location of nflLines data file
+        :param reference_data: ReferenceData object with lookups
+        :return:
+        '''
+        self.datafile = datafile
+        self.reference_data = reference_data
+
+    def readData(self, seasons, dataType):
+        '''
+        Synopsis: reads data file, computes season records and other fields necessary for classifier
+
+        :param seasons: array of int, which seasons to read
+        :param dataType: 'test' or 'train' to specify use
+        :return:
+'''
+        # read datafile
+        dfAllGames = readGamesAll(self.datafile, seasons)
+        # compute season records from scores
+        dfAllTeams = seasonRecord(dfAllGames, self.reference_data)
+        # apply season records and compute other fields for all games
+        dfAllGames = processGames(dfAllGames, dfAllTeams, self.reference_data)
+        # remove extra year of data
+        dfAllGames = dfAllGames[dfAllGames.season.isin(seasons)]
+
+        if dataType == 'train':
+            self.trainSeasons = seasons
+            self.trainGames = dfAllGames
+        elif dataType == 'test':
+            self.testSeasons = seasons
+            self.testGames = dfAllGames
+
+    def setFeatures(self, features):
+        self.features = features
+
+    def setClassifier(self, classifier=DEFAULT_SCIKIT_CLASSIFIER):
+        self.classifier = classifier
+
+    def runClassifier(self, yClassifier='favoredWin'):
+        self.yClassifier = yClassifier
+        self.classifier = runScikitClassifier(self.trainGames,self.features,self.classifier, yClassifier)
+
+    def predict(self,weeks='all'):
+
+        # apply results of classifier to the test set
+        dfPredict = predictGames(self.testGames,self.classifier,self.features,self.yClassifier)
+        self.predictGames = dfPredict
+
+    def predictAccuracy(self, dataType='test'):
+
+        if dataType == 'train':
+            dfAllGames = self.trainGames
+        elif dataType == 'test':
+            dfAllGames = self.testGames
+
+
+        sc = predictAccuracy(dfAllGames,self.classifier,self.features,self.yClassifier)
+        print ("%s predict accuracy = " % dataType, sc)
+
+    def rank(self):
+        # apply ranking logic and determine scoring outcomes for league
+        dfAll = rankGames(self.predictGames,self.reference_data,self.testSeasons[0])
+        self.rankGames = dfAll
+
+    def getWinningScore(self):
+
+        # get winning score for season
+        try:
+            winningScore = self.reference_data.getSeasonWinner(self.testSeasons[0])
+        except:
+            # pick lineScore as benchmark if not available - for season in progress
+            winningScore = self.rankGames.groupby('season')['lineScore'].sum().values[0]
+
+        #print (winningScore, type(winningScore))
+        self.winningScore = winningScore
+        return winningScore
+
+    def seasonSummary(self):
+
+        # get full season scores in pandas.Series
+        scoreCols = ['lineScore', 'probaScore1','probaScore2','probaScore3',]
+
+        winningScore = self.getWinningScore()
+        sSeason = self.rankGames.groupby('season')[scoreCols].sum() - winningScore
+
+        # extra info
+        sSeason['trainYears'] = str(self.trainSeasons)
+        sSeason['classifierType'] = type(self.classifier)
+
+        return sSeason
+
+    def predictSummary(self, week, guessCol = 'probaGuess'):
+        dispCols = ['season','gameWeek','Visitor','visitorRecord','Home Team','homeRecord',
+            'Line','prevFavoredRecord','prevUnderdogRecord','predict_proba',
+            'lineGuess','probaGuess', 'probaAbsGuess', 'predictTeam']
+
+        dfAll = self.rankGames
+        dfAll = dfAll[ dfAll.gameWeek == week]
+
+        # rank method 2
+        dfAll['predictTeam'] = np.where((dfAll['predict_proba'] - .5) > 0 , dfAll['favorite'], dfAll['underdog'])
+        predictCols = ['predictTeam', 'predict_proba', guessCol, 'favorite', 'Line']
+
+        return dfAll[predictCols].sort(guessCol, ascending=False)
+
+
+
+class SeasonClassifierCollection(object):
+
+    def __init__(self):
+        self.collection = dict()
+
+    def addSeasonClassifier(self,oSeason,desc):
+
+        self.collection[desc] = oSeason
+
+    def getSeasonClassifier(self,desc):
+
+        return self.collection[desc]
+
+    def listCollection(self):
+        listItems = list()
+        for k,v in self.collection.items():
+            listItems.append(k)
+
+        return listItems
+
+
+    def summary(self):
+        dfSummary = pandas.DataFrame()
+
+        for k,v in self.collection.items():
+            seasonSummary = v.seasonSummary()
+            if dfSummary is None:
+                dfSummary = seasonSummary
+            else:
+                dfSummary = dfSummary.append(seasonSummary)
+
+
+        return (dfSummary)
+
 
