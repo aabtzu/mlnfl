@@ -418,7 +418,7 @@ def predictAccuracy(all_games_df, classifier, featuresList, yClassifier):
 
     predict_y_int = [ int(yy) if pandas.notnull(yy) else yy for yy in predict_y]
     sc = classifier.score(predict_X, predict_y_int)
-    print ("predict accuracy = ", sc)
+    #print ("predict accuracy = ", sc)
     return sc
 
 def rankGames(dfPredict, reference_data, season):
@@ -494,11 +494,17 @@ class SeasonClassifier(object):
     '''
 
     def __init__(self, datafile,reference_data):
+        '''
+        :param datafile: location of nflLines data file
+        :param reference_data: ReferenceData object with lookups
+        :return:
+        '''
         self.datafile = datafile
         self.reference_data = reference_data
 
     def readData(self, seasons, dataType):
         '''
+        Synopsis: reads data file, computes season records and other fields necessary for classifier
 
         :param seasons: array of int, which seasons to read
         :param dataType: 'test' or 'train' to specify use
@@ -543,7 +549,9 @@ class SeasonClassifier(object):
         elif dataType == 'test':
             dfAllGames = self.testGames
 
+
         sc = predictAccuracy(dfAllGames,self.classifier,self.features,self.yClassifier)
+        print ("%s predict accuracy = " % dataType, sc)
 
     def rank(self):
         # apply ranking logic and determine scoring outcomes for league
@@ -554,12 +562,12 @@ class SeasonClassifier(object):
 
         # get winning score for season
         try:
-            winningScore = self.reference_data.getSeasonWinner(testYear)
+            winningScore = self.reference_data.getSeasonWinner(self.testSeasons[0])
         except:
             # pick lineScore as benchmark if not available - for season in progress
             winningScore = self.rankGames.groupby('season')['lineScore'].sum().values[0]
 
-        print (winningScore, type(winningScore))
+        #print (winningScore, type(winningScore))
         self.winningScore = winningScore
         return winningScore
 
@@ -591,81 +599,40 @@ class SeasonClassifier(object):
 
         return dfAll[predictCols].sort(guessCol, ascending=False)
 
-def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_data):
-
-    dfLoop = None
-    testYear = 0
-
-    while testYear < 2014:
-        # determine test and train years
-        testYear = trainStart + trainLen
-        trainYears = range(testYear-trainLen,testYear)
 
 
-        print (testYear, trainYears)
+class SeasonClassifierCollection(object):
 
-        # define test and train years
-        seasons = np.array(trainYears)
-        seasonTest = np.array([testYear]) # should be only one year
+    def __init__(self):
+        self.collection = dict()
 
-        # read the games
-        dfAllGames = madden.readGamesAll(path_to_lines, seasons)
-        dfGamesTest = madden.readGamesAll(path_to_lines, seasonTest)
+    def addSeasonClassifier(self,oSeason,desc):
 
-        # compile season record for all teams
-        dfAllTeams = madden.seasonRecord(dfAllGames, reference_data)
-        dfTestTeams = madden.seasonRecord(dfGamesTest, reference_data)
+        self.collection[desc] = oSeason
 
-        # apply season records and compute other fields for all games
-        dfAllGames = madden.processGames(dfAllGames, dfAllTeams, reference_data)
-        dfGamesTest = madden.processGames(dfGamesTest, dfTestTeams, reference_data)
+    def getSeasonClassifier(self,desc):
 
-        # remove extra year of data
-        dfAllGames = dfAllGames[dfAllGames.season.isin(seasons)]
-        dfGamesTest = dfGamesTest[dfGamesTest.season.isin(seasonTest)]
+        return self.collection[desc]
 
-        # define independent variables for logistic regression
-        features = ['favoredRecord','underdogRecord',  # current year records of both teams
-                'prevFavoredRecord','prevUnderdogRecord', # prev year records, helps early in season when only few games played
-                'gameWeek',  # week in season, should make a good/bad record later in season more important
-                'absLine',  # absolute value of spread since favored team already determined
-                'divisionGame', # T/F, usually more competitive rivalry games, i.e. bad teams still win home division games.
-                'favoredHomeGame', # T/F, important since output of classifier is "did the favored team win?"
-                ]
+    def listCollection(self):
+        listItems = list()
+        for k,v in self.collection.items():
+            listItems.append(k)
 
-        # run classifier
-        classifier = madden.runScikitClassifier(dfAllGames,features,classifier)
-        # apply results of logistic regression to the test set
-        dfPredict = madden.predictGames(dfGamesTest,classifier,features)
-        # apply ranking logic and determine scoring outcomes for league
-        dfAll = madden.rankGames(dfPredict,reference_data,seasonTest[0])
-
-        # get winning score for season
-        try:
-            winningScore = reference_data.getSeasonWinner(testYear)
-        except:
-            winningScore = dfAll.groupby('season')['lineScore'].sum().values[0]
-
-        print (winningScore, type(winningScore))
-
-        # get full season scores in pandas.Series
-        scoreCols = ['lineScore', 'probaScore1','probaScore2','probaScore3',]
-        sSeason = dfAll.groupby('season')[scoreCols].sum() - winningScore
-
-        # extra info
-        sSeason['trainYears'] = str(seasons)
-        sSeason['classifierType'] = type(classifier)
-        sSeason['classifier'] = classifier
+        return listItems
 
 
+    def summary(self):
+        dfSummary = pandas.DataFrame()
 
-        if dfLoop is None:
-            dfLoop = sSeason
-        else:
-            dfLoop = dfLoop.append(sSeason)
+        for k,v in self.collection.items():
+            seasonSummary = v.seasonSummary()
+            if dfSummary is None:
+                dfSummary = seasonSummary
+            else:
+                dfSummary = dfSummary.append(seasonSummary)
 
 
-        trainStart += 1
+        return (dfSummary)
 
 
-    return dfLoop
