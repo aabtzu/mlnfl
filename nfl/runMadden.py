@@ -82,7 +82,7 @@ def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
         g['trainFreq'] = trainFreq
     return (g)
 
- def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_data):
+def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_data):
 
     dfLoop = None
     testYear = 0
