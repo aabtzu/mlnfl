@@ -1,5 +1,7 @@
 __author__ = 'alain'
 
+# TODO: CONVERT ALL STRINGS TO CONSTANTS
+
 import pandas as pd
 import numpy as np
 import madden
@@ -107,9 +109,10 @@ class SeasonClassifier(object):
         return winningScore
 
     def seasonSummary(self):
-
+        """
+        """
         # get full season scores in pandas.Series
-        scoreCols = ['lineScore', 'probaScore1','probaScore2','probaScore3',]
+        scoreCols = ['lineScore', 'probaScore1','probaScore2','probaScore3']
 
         winningScore = self.getWinningScore()
         sSeason = self.rankGames.groupby('season')[scoreCols].sum() - winningScore
