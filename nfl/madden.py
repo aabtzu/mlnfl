@@ -1,17 +1,15 @@
 from __future__ import division
 from __future__ import print_function
-import pandas
+
+# TODO: CONVERT ALL STRINGS TO CONSTANTS
+
+import pandas as pd
 import dateutil.parser as dp
 import numpy as np
 from sklearn import linear_model
-#import graphlab as gl
-import os
-
 from referencedata import ReferenceData
 
 MAX_WEEK = 17
-
-#PATH_TO_NFL_LINES = '/Users/alainledon/gitdev/bitbucket.org/littlea1/mlkaggle/nfl/data/lines/'
 
 FILENAME_ALL_LINES = "nflAllLines.csv"
 DEFAULT_SCIKIT_CLASSIFIER = linear_model.LogisticRegression(C=1e5)
@@ -63,7 +61,7 @@ def readGamesSingleSeason(dataRootDir, season):
 
     #TODO: Fix hardcoded path
     dataFile = "".join([dataRootDir, "nfl{0}lines.csv".format(season)])
-    all_games_df = pandas.read_csv(dataFile)
+    all_games_df = pd.read_csv(dataFile)
     return all_games_df
 
 
@@ -77,7 +75,7 @@ def readGamesAll(dataRoot, seasons, filename_all_lines = FILENAME_ALL_LINES):
     """
 
     dataFile = "".join([dataRoot, filename_all_lines])
-    all_games_df = pandas.read_csv(dataFile)
+    all_games_df = pd.read_csv(dataFile)
     # need one extra season for prev year records
     seasons2 = np.insert(seasons, 0, seasons.min() - 1)
 
@@ -137,8 +135,8 @@ def seasonRecord(all_games_df, refdata):
             team_df.loc[:, 'opponent'] = opponent
             team_df.loc[:, 'divGame'] = divGame
 
-            all_teams_df = pandas.concat([all_teams_df, team_df])
-        all_seasons_df = pandas.concat([all_seasons_df, all_teams_df])
+            all_teams_df = pd.concat([all_teams_df, team_df])
+        all_seasons_df = pd.concat([all_seasons_df, all_teams_df])
     return all_seasons_df
 
 
@@ -416,9 +414,9 @@ def predictAccuracy(all_games_df, classifier, featuresList, yClassifier):
     # example of conditional statement within list comprehension
     # [x+1 if x >= 45 else x+5 for x in l]
 
-    predict_y_int = [ int(yy) if pandas.notnull(yy) else yy for yy in predict_y]
+    predict_y_int = [ int(yy) if pd.notnull(yy) else yy for yy in predict_y]
     sc = classifier.score(predict_X, predict_y_int)
-    #print ("predict accuracy = ", sc)
+
     return sc
 
 def rankGames(dfPredict, reference_data, season):
@@ -442,6 +440,7 @@ def rankGames(dfPredict, reference_data, season):
     dfAll = None
 
     for ww in weeks:
+        # get an index to all the games on the given week
         iw = dfPredict[dfPredict.gameWeek == ww].index
         dfWeek = dfPredict.loc[iw]
         nw = len(iw)
@@ -456,17 +455,17 @@ def rankGames(dfPredict, reference_data, season):
         # 1. always pick favored team, rank by probability of win
         # 2. pick winner based on abs(probability - .5), rank by probability
         # 3. pick winner based on abs(probability - .5), rank by abs(probability - .5)
-        dfLine.loc[:, 'lineGuess'] = dfLine['absLine'].rank('first') + (16 - nw)
-        dfLine.loc[:, 'probaGuess'] = dfLine['predict_proba'].rank('first') + (16 - nw)
-        dfLine.loc[:, 'probaAbsGuess'] = dfLine['predict_proba_abs'].rank('first') + (16 - nw)
+        dfLine['lineGuess'] = dfLine['absLine'].rank('first') + (16 - nw)
+        dfLine['probaGuess'] = dfLine['predict_proba'].rank('first') + (16 - nw)
+        dfLine['probaAbsGuess'] = dfLine['predict_proba_abs'].rank('first') + (16 - nw)
 
         # determine score of pick by spread
-        dfLine.loc[:, 'lineScore'] = dfLine['lineGuess'] * dfLine['favoredWin']
+        dfLine['lineScore'] = dfLine['lineGuess'] * dfLine['favoredWin']
 
         # determine score of pick by probability
-        dfLine.loc[:, 'probaScore1'] = dfLine['probaGuess'] * dfLine['favoredWin']
-        dfLine.loc[:, 'probaScore2'] = dfLine['probaGuess'] * dfLine['predictWin']
-        dfLine.loc[:, 'probaScore3'] = dfLine['probaAbsGuess'] * dfLine['predictWin']
+        dfLine['probaScore1'] = dfLine['probaGuess'] * dfLine['favoredWin']
+        dfLine['probaScore2'] = dfLine['probaGuess'] * dfLine['predictWin']
+        dfLine['probaScore3'] = dfLine['probaAbsGuess'] * dfLine['predictWin']
 
         if dfAll is None:
             dfAll = dfLine
@@ -478,7 +477,7 @@ def rankGames(dfPredict, reference_data, season):
 
     # print out summary table with final scores and how they compare to previous winners
     dd = [g.sum(), g.sum() - winningScore]
-    ss = pandas.DataFrame(dd).transpose()
+    ss = pd.DataFrame(dd).transpose()
     ss[2] = ss[1] > 0
     ss.columns = ['score', 'win by', 'win']
     print(ss)
