@@ -473,14 +473,14 @@ def rankGames(dfPredict, reference_data, season):
             dfAll = dfAll.append(dfLine)
 
     # aggregate results by week
-    g = dfAll.groupby('gameWeek')['lineScore', 'probaScore1', 'probaScore2', 'probaScore3'].sum()
+    #g = dfAll.groupby('gameWeek')['lineScore', 'probaScore1', 'probaScore2', 'probaScore3'].sum()
 
     # print out summary table with final scores and how they compare to previous winners
-    dd = [g.sum(), g.sum() - winningScore]
-    ss = pd.DataFrame(dd).transpose()
-    ss[2] = ss[1] > 0
-    ss.columns = ['score', 'win by', 'win']
-    print(ss)
+    #dd = [g.sum(), g.sum() - winningScore]
+    #ss = pd.DataFrame(dd).transpose()
+    #ss[2] = ss[1] > 0
+    #ss.columns = ['score', 'win by', 'win']
+    #print(ss)
 
     return dfAll
 

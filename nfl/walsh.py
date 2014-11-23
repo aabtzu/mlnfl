@@ -184,5 +184,5 @@ class SeasonClassifierCollection(object):
                 dfSummary = dfSummary.append(seasonSummary)
 
 
-        return (dfSummary)
+        return (dfSummary.sort_index())
 
