@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-# <nbformat>3.0</nbformat>
-
-# <codecell>
+#
+# IGNORE THIS SCRIPT - TODO: REMOVE
+#
 
 import os
 
