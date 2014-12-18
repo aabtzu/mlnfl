@@ -4,6 +4,7 @@ import madden
 import numpy as np
 
 
+
 def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
 
      # training data set - includes one extra year for prev yr record
