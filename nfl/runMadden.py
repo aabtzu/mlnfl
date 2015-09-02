@@ -3,9 +3,12 @@ __author__ = 'amit.bhattacharyya'
 import madden
 import numpy as np
 
+from sklearn import linear_model
+from sklearn import svm
+from sklearn import ensemble
 
 
-def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
+def runSeasonRolling(trainYears, testYear, reference_data, path_to_lines, trainFreq = 1):
 
      # training data set - includes one extra year for prev yr record
     seasons = np.array(trainYears)
@@ -14,16 +17,16 @@ def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
     seasonTest = np.array(testYear) # should be only one year
 
     # read the games
-    dfAllGames = madden.readGamesAll(madden.PATH_TO_NFL_LINES, seasons)
-    dfGamesTest = madden.readGamesAll(madden.PATH_TO_NFL_LINES, seasonTest)
+    dfAllGames = madden.readGamesAll(path_to_lines, seasons)
+    dfGamesTest = madden.readGamesAll(path_to_lines, seasonTest)
 
     # compile season record for all teams
-    dfAllTeams = madden.seasonRecord(dfAllGames, olookups)
-    dfTestTeams = madden.seasonRecord(dfGamesTest, olookups)
+    dfAllTeams = madden.seasonRecord(dfAllGames, reference_data)
+    dfTestTeams = madden.seasonRecord(dfGamesTest, reference_data)
 
     # apply season records and compute other fields for all games
-    dfAllGames = madden.processGames(dfAllGames, dfAllTeams, olookups)
-    dfGamesTest = madden.processGames(dfGamesTest, dfTestTeams, olookups)
+    dfAllGames = madden.processGames(dfAllGames, dfAllTeams, reference_data)
+    dfGamesTest = madden.processGames(dfGamesTest, dfTestTeams, reference_data)
 
     # remove extra year of data
     dfAllGames = dfAllGames[dfAllGames.season.isin(seasons)]
@@ -45,7 +48,7 @@ def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
     for i in range(nweeks):
         iw = i + 1 # actual week of season
 
-        print "season %d, week %d" % (seasonTest[0],iw)
+        print "season %d, week %d" % (seasonTest[0], iw)
 
 
         if trainFreq == 0:
@@ -59,15 +62,19 @@ def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
             dfTest = dfGamesTest[dfGamesTest.gameWeek == iw]
 
         # run the logistic regression
-        logreg = madden.runML(dfGames,features)
+        # run the classifer
+        #classifier = linear_model.LogisticRegression(C=1e5)
+        #classifier = ensemble.RandomForestClassifier(n_estimators=10)
+        classifier = svm.SVC(kernel='poly',probability=True)
+        mlClassifier = madden.runScikitClassifier(dfAllGames,features,classifier)
 
         # apply results of logistic regression to the test set
-        dfPredict = madden.predictGames(dfTest,logreg,features)
+        dfPredict = madden.predictGames(dfTest, mlClassifier, features)
 
         # apply ranking logic and determine scoring outcomes for league
-        dfAll = madden.rankGames(dfPredict,olookups,seasonTest[0])
+        dfAll = madden.rankGames(dfPredict,reference_data,seasonTest[0])
 
-        g = dfAll.groupby('gameWeek',as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
+        g = dfAll.groupby('gameWeek', as_index=False)['lineScore', 'probaScore1', 'probaScore2', 'probaScore3'].sum()
         g.index = [iw]
         g['season'] = seasonTest[0]
         #print(g)
@@ -77,7 +84,7 @@ def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
         else:
             dfWeeks = dfWeeks.append(g)
 
-        g = dfWeeks.groupby('season',as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
+        g = dfWeeks.groupby('season', as_index=False)['lineScore', 'probaScore1', 'probaScore2', 'probaScore3'].sum()
         g.index = [seasonTest[0]]
         g['train'] = seasons
         g['trainFreq'] = trainFreq
