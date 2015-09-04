@@ -15,51 +15,53 @@ class SeasonClassifier(object):
     """
 
     def __init__(self, datafile, reference_data, classifier=madden.DEFAULT_SCIKIT_CLASSIFIER):
-        '''
+        """
         :param datafile: location of nflLines data file
         :param reference_data: ReferenceData object with lookups
         :return:
-        '''
+        """
         self.datafile = datafile
         self.reference_data = reference_data
         self.classifier = classifier
         self.features = None
+        self.predict_games = None
 
-    def readData(self, seasons, dataType):
-        '''
+    def readData(self, seasons, train_or_test):
+        """
         Synopsis: reads data file, computes season records and other fields necessary for classifier
 
         :param seasons: array of int, which seasons to read
-        :param dataType: 'test' or 'train' to specify use
+        :param train_or_test: 'test' or 'train' to specify use
         :return:
-        '''
+        """
         # read datafile
-        dfAllGames = madden.readGamesAll(self.datafile, seasons)
+        df_all_games = madden.readGamesAll(self.datafile, seasons)
         # compute season records from scores
-        dfAllTeams = madden.seasonRecord(dfAllGames, self.reference_data)
+        df_all_teams = madden.seasonRecord(df_all_games, self.reference_data)
         # apply season records and compute other fields for all games
-        dfAllGames = madden.processGames(dfAllGames, dfAllTeams, self.reference_data)
+        df_all_games = madden.processGames(df_all_games, df_all_teams, self.reference_data)
         # remove extra year of data
-        dfAllGames = dfAllGames[dfAllGames.season.isin(seasons)]
+        df_all_games = df_all_games[df_all_games.season.isin(seasons)]
 
-        if dataType == 'train':
+        # TODO: Refactor this. trainSeasons / testSeasons - stick to one name if not the variable won't exist
+        if train_or_test == 'train':
             self.trainSeasons = seasons
-            self.trainGames = dfAllGames
-        elif dataType == 'test':
+            self.trainGames = df_all_games
+        elif train_or_test == 'test':
             self.testSeasons = seasons
-            self.testGames = dfAllGames
+            self.testGames = df_all_games
 
 
-    def runClassifier(self, yClassifier='favoredWin'):
+    def runClassifier(self, response_col='favoredWin'):
         """
         Synopsis: Runs the current classifier
 
-        :param yClassifier: column name with the output
+        :param response_col: column name with the output
 
         :return:
         """
-        self.yClassifier = yClassifier
-        self.classifier = madden.runScikitClassifier(self.trainGames, self.features, self.classifier, yClassifier)
+        self.yClassifier = response_col
+        self.classifier = madden.runScikitClassifier(self.trainGames, self.features, self.classifier, response_col)
 
     def predict(self, weeks='all'):
         """
@@ -71,8 +73,8 @@ class SeasonClassifier(object):
 
         """
         # apply results of classifier to the test set
-        dfPredict = madden.predictGames(self.testGames, self.classifier, self.features, self.yClassifier)
-        self.predictGames = dfPredict
+        df_predict = madden.predictGames(self.testGames, self.classifier, self.features, self.yClassifier)
+        self.predict_games = df_predict
 
     def predictAccuracy(self, dataType='test'):
         """
@@ -90,8 +92,8 @@ class SeasonClassifier(object):
         """
         Apply ranking logic and determine scoring outcomes for league
         """
-        dfAll = madden.rankGames(self.predictGames,self.reference_data,self.testSeasons[0])
-        self.rankGames = dfAll
+        df_all = madden.rankGames(self.predict_games, self.reference_data, self.testSeasons[0])
+        self.rankGames = df_all
 
     def getWinningScore(self):
         """
@@ -99,14 +101,14 @@ class SeasonClassifier(object):
         """
         # get winning score for season
         try:
-            winningScore = self.reference_data.getSeasonWinner(self.testSeasons[0])
+            winning_score = self.reference_data.getSeasonWinner(self.testSeasons[0])
         except:
             # pick lineScore as benchmark if not available - for season in progress
-            winningScore = self.rankGames.groupby('season')['lineScore'].sum().values[0]
+            winning_score = self.rankGames.groupby('season')['lineScore'].sum().values[0]
 
         #print (winningScore, type(winningScore))
-        self.winningScore = winningScore
-        return winningScore
+        self.winningScore = winning_score
+        return winning_score
 
     def seasonSummary(self):
         """

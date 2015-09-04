@@ -14,6 +14,16 @@ MAX_WEEK = 17
 FILENAME_ALL_LINES = "nflAllLines.csv"
 DEFAULT_SCIKIT_CLASSIFIER = linear_model.LogisticRegression(C=1e5)
 
+FEATURE_COLUMNS = ['favoredRecord',
+                   'underdogRecord',  # Current year records of both teams
+                   'prevFavoredRecord',
+                   'prevUnderdogRecord',  # Prev year records, helps early in season when only few games played
+                   'gameWeek',  # Week in season, should make a good/bad record later in season more important
+                   'absLine',  # absolute value of spread since favored team already determined
+                   'divisionGame',  # T/F, More competitive rivalry games, i.e. bad teams still win home division games
+                   'favoredHomeGame'  # T/F, important since output of classifier is "did the favored team win?"
+                   ]
+
 def getWeek(seasonStartDate, gameDateStr):
     """
     :Synopsis: determine week of season

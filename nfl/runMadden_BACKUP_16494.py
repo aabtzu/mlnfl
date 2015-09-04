@@ -6,8 +6,13 @@ import numpy as np
 #TODO: REFACTOR TO MAKE THINGS CLEAR - SORT OF A MESS RIGHT NOW
 #TODO: What is the purpose of this module?
 
+<<<<<<< HEAD
 def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
     """
+=======
+
+def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
+>>>>>>> eb48959c81df76784a0d45c0a852795cb4b2fe07
 
     """
      # training data set - includes one extra year for prev yr record

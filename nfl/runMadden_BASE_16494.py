@@ -3,13 +3,9 @@ __author__ = 'amit.bhattacharyya'
 import madden
 import numpy as np
 
-#TODO: REFACTOR TO MAKE THINGS CLEAR - SORT OF A MESS RIGHT NOW
-#TODO: What is the purpose of this module?
 
-def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
-    """
+def runSeasonRolling(trainYears, testYear, olookups, trainFreq = 1):
 
-    """
      # training data set - includes one extra year for prev yr record
     seasons = np.array(trainYears)
 
@@ -17,23 +13,30 @@ def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
     seasonTest = np.array(testYear) # should be only one year
 
     # read the games
-    df_all_games = madden.readGamesAll(madden.PATH_TO_NFL_LINES, seasons)
-    df_games_test = madden.readGamesAll(madden.PATH_TO_NFL_LINES, seasonTest)
+    dfAllGames = madden.readGamesAll(madden.PATH_TO_NFL_LINES, seasons)
+    dfGamesTest = madden.readGamesAll(madden.PATH_TO_NFL_LINES, seasonTest)
 
     # compile season record for all teams
-    df_all_teams = madden.seasonRecord(df_all_games, ref_data)
-    df_test_teams = madden.seasonRecord(df_games_test, ref_data)
+    dfAllTeams = madden.seasonRecord(dfAllGames, olookups)
+    dfTestTeams = madden.seasonRecord(dfGamesTest, olookups)
 
     # apply season records and compute other fields for all games
-    df_all_games = madden.processGames(df_all_games, df_all_teams, ref_data)
-    df_games_test = madden.processGames(df_games_test, df_test_teams, ref_data)
+    dfAllGames = madden.processGames(dfAllGames, dfAllTeams, olookups)
+    dfGamesTest = madden.processGames(dfGamesTest, dfTestTeams, olookups)
 
     # remove extra year of data
-    df_all_games = df_all_games[df_all_games.season.isin(seasons)]
-    df_games_test = df_games_test[df_games_test.season.isin(seasonTest)]
+    dfAllGames = dfAllGames[dfAllGames.season.isin(seasons)]
+    dfGamesTest = dfGamesTest[dfGamesTest.season.isin(seasonTest)]
 
     # define independent variables for logistic regression
-    features = madden.FEATURE_COLUMNS
+    features = ['favoredRecord','underdogRecord',  # current year records of both teams
+                'prevFavoredRecord','prevUnderdogRecord', # prev year records, helps early in season when only few games played
+                'gameWeek',  # week in season, should make a good/bad record later in season more important
+                'absLine',  # absolute value of spread since favored team already determined
+                'divisionGame', # T/F, usually more competitive rivalry games, i.e. bad teams still win home division games.
+                'favoredHomeGame', # T/F, important since output of classifier is "did the favored team win?"
+                ]
+
 
     nweeks = 17
     dfWeeks = None
@@ -43,15 +46,16 @@ def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
 
         print "season %d, week %d" % (seasonTest[0],iw)
 
+
         if trainFreq == 0:
-            dfGames = df_all_games
-            dfTest = df_games_test[df_games_test.gameWeek == iw]
+            dfGames = dfAllGames
+            dfTest = dfGamesTest[dfGamesTest.gameWeek == iw]
         else:
             if (iw % trainFreq) == 0:
                 trainWeeks = iw
 
-            dfGames = df_all_games.append(df_games_test[df_games_test.gameWeek < trainWeeks])
-            dfTest = df_games_test[df_games_test.gameWeek == iw]
+            dfGames = dfAllGames.append(dfGamesTest[dfGamesTest.gameWeek < trainWeeks])
+            dfTest = dfGamesTest[dfGamesTest.gameWeek == iw]
 
         # run the logistic regression
         logreg = madden.runML(dfGames,features)
@@ -60,7 +64,7 @@ def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
         dfPredict = madden.predictGames(dfTest,logreg,features)
 
         # apply ranking logic and determine scoring outcomes for league
-        dfAll = madden.rankGames(dfPredict,ref_data,seasonTest[0])
+        dfAll = madden.rankGames(dfPredict,olookups,seasonTest[0])
 
         g = dfAll.groupby('gameWeek',as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
         g.index = [iw]
@@ -76,9 +80,7 @@ def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
         g.index = [seasonTest[0]]
         g['train'] = seasons
         g['trainFreq'] = trainFreq
-
     return (g)
-
 
 def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_data):
 
