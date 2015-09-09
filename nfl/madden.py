@@ -1,3 +1,5 @@
+#!/bin/python
+
 from __future__ import division
 from __future__ import print_function
 
@@ -7,12 +9,21 @@ import pandas as pd
 import dateutil.parser as dp
 import numpy as np
 from sklearn import linear_model
+from sklearn import svm
 from referencedata import ReferenceData
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
+
 
 MAX_WEEK = 17
 
 FILENAME_ALL_LINES = "nflAllLines.csv"
-DEFAULT_SCIKIT_CLASSIFIER = linear_model.LogisticRegression(C=1e5)
+LOG_REG_CLASSIFIER = linear_model.LogisticRegression(C=1e5)
+RANDOM_STATE = 11
+SVM_CLASSIFIER = svm.SVC(kernel='poly', probability=True, random_state=RANDOM_STATE)
+
+DEFAULT_SCIKIT_CLASSIFIER = LOG_REG_CLASSIFIER
 
 FEATURE_COLUMNS = ['favoredRecord',
                    'underdogRecord',  # Current year records of both teams
@@ -335,7 +346,7 @@ def runScikitLogisticRegression(X, y):
 
     # compute training accuracy
     sc = logreg.score(X, y)
-    print ("training data accuracy = ", sc)
+    logging.info("training data accuracy = {0}".format(sc))
 
     return logreg
 
@@ -367,7 +378,7 @@ def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CL
 
     # compute training accuracy
     sc = classifier.score(X, y)
-    print ("training data accuracy = ", sc)
+    logging.info("training data accuracy = {0}".format(sc))
     return classifier
 
 
@@ -399,7 +410,7 @@ def predictGames(all_games_df, classifier, featuresList, yClassifier = 'favoredW
 
     dfPredict['predict_proba'] = pp[:, 1]
     dfPredict['predict_proba_abs'] = abs(pp[:, 1] - 0.5)
-    #dfPredict['decision_fxn'] = dfxn
+    #df_svm_predict['decision_fxn'] = dfxn
 
     scoreDiff = dfPredict['Home Score'] - dfPredict['Visitor Score']
     # predicted win = if the team that is predicted to win by classifier actually wins
