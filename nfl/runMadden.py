@@ -90,7 +90,6 @@ def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_dat
         testYear = trainStart + trainLen
         trainYears = range(testYear-trainLen,testYear)
 
-
         print testYear, trainYears
 
         # define test and train years
@@ -146,15 +145,11 @@ def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_dat
         sSeason['classifierType'] = type(classifier)
         sSeason['classifier'] = classifier
 
-
-
         if dfLoop is None:
             dfLoop = sSeason
         else:
             dfLoop = dfLoop.append(sSeason)
 
-
         trainStart += 1
-
 
     return dfLoop
