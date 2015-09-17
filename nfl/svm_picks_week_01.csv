@@ -1,17 +1,17 @@
 gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
-1,New England Patriots,0.7177330369494848,16.0,New England Patriots,16.0,7.0
-1,Dallas Cowboys,0.7033479683429825,15.0,Dallas Cowboys,14.0,6.0
-1,Denver Broncos,0.6974698016440095,14.0,Denver Broncos,13.0,4.5
-1,San Diego Chargers,0.6836450947459688,13.0,San Diego Chargers,8.0,3.0
-1,Arizona Cardinals,0.6836013790576706,12.0,Arizona Cardinals,4.0,2.5
-1,Tampa Bay Buccaneers,0.681595868373669,11.0,Tampa Bay Buccaneers,9.0,3.0
-1,New York Jets,0.6804603870906951,10.0,New York Jets,7.0,3.0
-1,Green Bay Packers,0.6663694760554133,9.0,Green Bay Packers,15.0,-6.5
-1,Houston Texans,0.6614608331986271,8.0,Houston Texans,1.0,1.0
-1,Seattle Seahawks,0.6546319133925116,7.0,Seattle Seahawks,12.0,-4.0
-1,Indianapolis Colts,0.6495318210795591,6.0,Indianapolis Colts,2.0,-2.5
-1,Minnesota Vikings,0.6478511594247456,5.0,Minnesota Vikings,3.0,-2.5
-1,Philadelphia Eagles,0.6468099813129984,4.0,Philadelphia Eagles,5.0,-3.0
-1,Carolina Panthers,0.6459590474388891,3.0,Carolina Panthers,6.0,-3.0
-1,Cincinnati Bengals,0.6456306536391654,2.0,Cincinnati Bengals,10.0,-3.5
-1,Miami Dolphins,0.6455780854078047,1.0,Miami Dolphins,11.0,-3.5
+1,New England Patriots,0.717733036949,16.0,New England Patriots,16.0,7.0
+1,Dallas Cowboys,0.703347968343,15.0,Dallas Cowboys,14.0,6.0
+1,Denver Broncos,0.697469801644,14.0,Denver Broncos,13.0,4.5
+1,San Diego Chargers,0.683645094746,13.0,San Diego Chargers,8.0,3.0
+1,Arizona Cardinals,0.683601379058,12.0,Arizona Cardinals,4.0,2.5
+1,Tampa Bay Buccaneers,0.681595868374,11.0,Tampa Bay Buccaneers,9.0,3.0
+1,New York Jets,0.680460387091,10.0,New York Jets,7.0,3.0
+1,Green Bay Packers,0.666369476055,9.0,Green Bay Packers,15.0,-6.5
+1,Houston Texans,0.661460833199,8.0,Houston Texans,1.0,1.0
+1,Seattle Seahawks,0.654631913393,7.0,Seattle Seahawks,12.0,-4.0
+1,Indianapolis Colts,0.64953182108,6.0,Indianapolis Colts,2.0,-2.5
+1,Minnesota Vikings,0.647851159425,5.0,Minnesota Vikings,3.0,-2.5
+1,Philadelphia Eagles,0.646809981313,4.0,Philadelphia Eagles,5.0,-3.0
+1,Carolina Panthers,0.645959047439,3.0,Carolina Panthers,6.0,-3.0
+1,Cincinnati Bengals,0.645630653639,2.0,Cincinnati Bengals,10.0,-3.5
+1,Miami Dolphins,0.645578085408,1.0,Miami Dolphins,11.0,-3.5
