@@ -24,7 +24,7 @@ pd.set_option('expand_frame_repr', False)
 logging.basicConfig(level=logging.INFO, format=' %(asctime)s - %(levelname)s - %(message)s')
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-w', '--week', default=WEEK_TO_PICK, dest='game_week', help='Pass the week number to make the picks')
+parser.add_argument('-w', action='store', default=WEEK_TO_PICK, dest='game_week', type=int, help='Pass the week number to make the picks')
 args = parser.parse_args()
 
 # predict one week of current season
