@@ -1,17 +1,17 @@
 gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
-1,New England Patriots,0.7057552284568606,16.0,New England Patriots,16.0,7.0
-1,Dallas Cowboys,0.6860221462629654,15.0,Dallas Cowboys,14.0,6.0
-1,Green Bay Packers,0.6519590537738413,14.0,Green Bay Packers,15.0,-6.5
-1,Denver Broncos,0.6023618369940135,13.0,Denver Broncos,13.0,4.5
-1,Seattle Seahawks,0.5570094545303632,12.0,Seattle Seahawks,12.0,-4.0
-1,San Diego Chargers,0.5442676533185314,11.0,San Diego Chargers,8.0,3.0
-1,New York Jets,0.5094320722704299,10.0,New York Jets,7.0,3.0
-1,New Orleans Saints,0.49427121929555684,9.0,Arizona Cardinals,4.0,2.5
-1,Tennessee Titans,0.46960251941862324,8.0,Tampa Bay Buccaneers,9.0,3.0
-1,Washington Redskins,0.45940848757857206,7.0,Miami Dolphins,11.0,-3.5
-1,Buffalo Bills,0.45728199031602135,6.0,Indianapolis Colts,2.0,-2.5
-1,Atlanta Falcons,0.45501264574496525,5.0,Philadelphia Eagles,5.0,-3.0
-1,Oakland Raiders,0.4536361455514348,4.0,Cincinnati Bengals,10.0,-3.5
-1,San Francisco 49ers,0.4461774210560931,3.0,Minnesota Vikings,3.0,-2.5
-1,Kansas City Chiefs,0.4435801273608114,2.0,Houston Texans,1.0,1.0
-1,Jacksonville Jaguars,0.42981822366038347,1.0,Carolina Panthers,6.0,-3.0
+1,New England Patriots,0.705755228231,16.0,New England Patriots,16.0,7.0
+1,Dallas Cowboys,0.686022147997,15.0,Dallas Cowboys,14.0,6.0
+1,Green Bay Packers,0.651959056524,14.0,Green Bay Packers,15.0,-6.5
+1,Denver Broncos,0.602361836684,13.0,Denver Broncos,13.0,4.5
+1,Seattle Seahawks,0.557009457496,12.0,Seattle Seahawks,12.0,-4.0
+1,San Diego Chargers,0.54426765279,11.0,San Diego Chargers,8.0,3.0
+1,New York Jets,0.509432071355,10.0,New York Jets,7.0,3.0
+1,New Orleans Saints,0.494271218835,9.0,Arizona Cardinals,4.0,2.5
+1,Tennessee Titans,0.469602518308,8.0,Tampa Bay Buccaneers,9.0,3.0
+1,Washington Redskins,0.459408487916,7.0,Miami Dolphins,11.0,-3.5
+1,Buffalo Bills,0.4572819909,6.0,Indianapolis Colts,2.0,-2.5
+1,Atlanta Falcons,0.455012646232,5.0,Philadelphia Eagles,5.0,-3.0
+1,Oakland Raiders,0.453636146006,4.0,Cincinnati Bengals,10.0,-3.5
+1,San Francisco 49ers,0.446177421363,3.0,Minnesota Vikings,3.0,-2.5
+1,Kansas City Chiefs,0.443580126779,2.0,Houston Texans,1.0,1.0
+1,Jacksonville Jaguars,0.429818223908,1.0,Carolina Panthers,6.0,-3.0

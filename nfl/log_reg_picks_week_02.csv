@@ -1,17 +1,17 @@
 gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
-2,Green Bay Packers,0.8205889280420054,16.0,Green Bay Packers,10.0,3.5
-2,Miami Dolphins,0.810252443157729,15.0,Miami Dolphins,14.0,-6.0
-2,Carolina Panthers,0.7900421466237169,14.0,Carolina Panthers,5.0,3.0
-2,New Orleans Saints,0.7757709359262026,13.0,New Orleans Saints,16.0,9.5
-2,St Louis Rams,0.7399738501534293,12.0,St Louis Rams,9.0,-3.5
-2,Kansas City Chiefs,0.6826667640681617,11.0,Kansas City Chiefs,8.0,3.0
-2,Arizona Cardinals,0.6793962882196853,10.0,Arizona Cardinals,3.0,-1.5
-2,Tennessee Titans,0.6667974848976255,9.0,Tennessee Titans,1.0,-1.0
-2,Cincinnati Bengals,0.6100765513501862,8.0,Cincinnati Bengals,6.0,3.0
-2,Minnesota Vikings,0.5986102298152997,7.0,Minnesota Vikings,7.0,3.0
-2,Baltimore Ravens,0.5601525005913739,6.0,Baltimore Ravens,13.0,-6.0
-2,New England Patriots,0.5331806194046519,5.0,New England Patriots,2.0,-1.0
-2,Dallas Cowboys,0.47398751511407067,4.0,Philadelphia Eagles,11.0,5.0
-2,New York Jets,0.4423626162847523,3.0,Indianapolis Colts,15.0,7.0
-2,San Francisco 49ers,0.4092168281353413,2.0,Pittsburgh Steelers,12.0,5.5
-2,Atlanta Falcons,0.2598378076971068,1.0,New York Giants,4.0,2.0
+2,Green Bay Packers,0.820588932943,16.0,Green Bay Packers,10.0,3.5
+2,Miami Dolphins,0.810252450322,15.0,Miami Dolphins,14.0,-6.0
+2,Carolina Panthers,0.79004215149,14.0,Carolina Panthers,5.0,3.0
+2,New Orleans Saints,0.775770948996,13.0,New Orleans Saints,16.0,9.5
+2,St Louis Rams,0.739973856711,12.0,St Louis Rams,9.0,-3.5
+2,Kansas City Chiefs,0.682666773323,11.0,Kansas City Chiefs,8.0,3.0
+2,Arizona Cardinals,0.679396293843,10.0,Arizona Cardinals,3.0,-1.5
+2,Tennessee Titans,0.666797489603,9.0,Tennessee Titans,1.0,-1.0
+2,Cincinnati Bengals,0.610076559478,8.0,Cincinnati Bengals,6.0,3.0
+2,Minnesota Vikings,0.598610240489,7.0,Minnesota Vikings,7.0,3.0
+2,Baltimore Ravens,0.560152513766,6.0,Baltimore Ravens,13.0,-6.0
+2,New England Patriots,0.533180628513,5.0,New England Patriots,2.0,-1.0
+2,Dallas Cowboys,0.473987529819,4.0,Philadelphia Eagles,11.0,5.0
+2,New York Jets,0.442362631015,3.0,Indianapolis Colts,15.0,7.0
+2,San Francisco 49ers,0.409216840893,2.0,Pittsburgh Steelers,12.0,5.5
+2,Atlanta Falcons,0.259837814314,1.0,New York Giants,4.0,2.0
