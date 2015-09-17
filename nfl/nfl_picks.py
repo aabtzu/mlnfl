@@ -3,7 +3,7 @@ from __future__ import print_function
 
 __author__ = 'alainledon'
 
-WEEK_TO_PICK = 1
+WEEK_TO_PICK = 2
 
 import os
 import numpy as np
