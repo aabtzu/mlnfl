@@ -37,9 +37,9 @@ def run():
     favorite_teams = []
     probability_win = []
     for i in xrange(0, len(results), 3):
-        if results[i].find("at")
-        if results[i] == 'None':
-            break
+        if results[i].find("at"):
+            if results[i] == 'None':
+                break
 
         home, visitor = results[i].split(' at ')
         prediction = results[i + 2].split(' win (')
