@@ -20,18 +20,23 @@ from referencedata import ReferenceData
 pd.options.mode.chained_assignment = None
 pd.set_option('expand_frame_repr', False)
 
+# get the working directory from the environment variable MLNFL_ROOT
+MLNFL_ROOT_DIR = os.environ['MLNFL_ROOT']
 
 logging.basicConfig(level=logging.INFO, format=' %(asctime)s - %(levelname)s - %(message)s')
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-w', action='store', default=WEEK_TO_PICK, dest='game_week', type=int, help='Pass the week number to make the picks')
+parser.add_argument('--week', '-w', action='store', default=WEEK_TO_PICK, dest='game_week',
+                    type=int, help='Pass the week number to make the picks')
+parser.add_argument('--directory', '-d', action='store', default="".join([MLNFL_ROOT_DIR, os.path.sep, 'picks']),
+                    dest='picks_dir', help='Pass the target directory to get a csv with the picks')
 args = parser.parse_args()
 
 # predict one week of current season
 week_number = args.game_week
 
 # define the root directory for the nfl code in $MLNLF_ROOT
-codeDir = "".join([os.environ['MLNFL_ROOT'], os.path.sep])
+codeDir = "".join([MLNFL_ROOT_DIR, os.path.sep])
 dataRoot = "".join([codeDir, "data", os.path.sep])
 
 os.chdir(codeDir)
@@ -82,7 +87,7 @@ dfGamesTest = madden.processGames(dfGamesTest, dfTeamsTest, reference_data)
 # 4 - remove extra year of data
 dfGamesTest = dfGamesTest[dfGamesTest.season.isin(season_test)]
 
-# run the classifer
+# run the classifier
 random_state = 11
 svm_classifier = svm.SVC(kernel='poly', probability=True, random_state=random_state)
 lr_classifier = linear_model.LogisticRegression(C=1e5)
@@ -127,7 +132,9 @@ predictCols = ['gameWeek','predictTeam', 'predict_proba', guessCol, 'favorite','
 print("\nPicks for week {0:0>2} using SVM\n".format(week_number))
 svm_picks_df = df_all_picks[predictCols].sort(guessCol, ascending=False).copy()
 print(svm_picks_df)
-svm_picks_df.to_csv("svm_picks_week_{0:0>2}.csv".format(week_number), index=False)
+
+svm_picks_df.to_csv("".join([args.picks_dir, os.path.sep,
+                             "svm_picks_week_{0:0>2}.csv".format(week_number)]), index=False)
 
 #week_filter = df_all_picks.gameWeek == week_number
 #print("\nPicks using SVM")
@@ -147,7 +154,8 @@ print("\nPicks for week {0:0>2} using LogReg\n".format(week_number))
 log_reg_picks_df = df_all_picks[predictCols].sort(guessCol, ascending=False).copy()
 print(log_reg_picks_df)
 
-log_reg_picks_df.to_csv("log_reg_picks_week_{0:0>2}.csv".format(week_number), index=False)
+log_reg_picks_df.to_csv("".join([args.picks_dir, os.path.sep,
+                             "log_reg_picks_week_{0:0>2}.csv".format(week_number)]), index=False)
 
 #week_filter = df_all_picks.gameWeek == week_number
 #print("\nPicks using LogReg\n")
@@ -168,7 +176,7 @@ sortCols = ['absLine','favoredHomeGame', 'divisionGame', 'favoredRecord', 'favor
 df_spread = df_all_picks[predictCols].sort(sortCols , ascending=False)
 
 print("\nPicks for week {0:0>2} using Spread\n".format(week_number))
-#print(df_spread.to_csv(sys.stdout, index=False))
 print(df_spread)
+df_spread.to_csv("".join([args.picks_dir, os.path.sep,
+                             "spread_picks_week_{0:0>2}.csv".format(week_number)]), index=False)
 
-df_spread.to_csv("spread_picks_week_{0:0>2}.csv".format(week_number), index=False)
