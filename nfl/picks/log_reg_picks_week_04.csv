@@ -1,0 +1,16 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+4,Arizona Cardinals,0.8660685450633592,16.0,Arizona Cardinals,12.0,7.0
+4,Seattle Seahawks,0.8571116015056758,15.0,Seattle Seahawks,16.0,10.0
+4,Green Bay Packers,0.8517839313240256,14.0,Green Bay Packers,14.0,-8.5
+4,Atlanta Falcons,0.8352861338603584,13.0,Atlanta Falcons,10.0,6.5
+4,Indianapolis Colts,0.7870375344517555,12.0,Indianapolis Colts,15.0,9.0
+4,Denver Broncos,0.7838277389703608,11.0,Denver Broncos,11.0,6.5
+4,Cincinnati Bengals,0.770097526101841,10.0,Cincinnati Bengals,7.0,4.0
+4,Buffalo Bills,0.7242537685735264,9.0,Buffalo Bills,9.0,5.5
+4,San Diego Chargers,0.717824840971446,8.0,San Diego Chargers,13.0,7.5
+4,Carolina Panthers,0.6973282978857922,7.0,Carolina Panthers,6.0,-3.0
+4,Oakland Raiders,0.6390796923441767,6.0,Oakland Raiders,4.0,-3.0
+4,New York Jets,0.5850215508099299,5.0,New York Jets,2.0,-1.5
+4,Philadelphia Eagles,0.5237153255833737,4.0,Philadelphia Eagles,5.0,-3.0
+4,Dallas Cowboys,0.4655770381559403,3.0,New Orleans Saints,8.0,4.5
+4,Pittsburgh Steelers,0.3823732269853184,2.0,Baltimore Ravens,3.0,-2.5
