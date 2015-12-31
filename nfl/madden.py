@@ -469,7 +469,7 @@ def rankGames(dfPredict, reference_data, season):
         # name of Home Team is arbitrary last tie breaker  - but at least it is reproducible
         sortCols = ['absLine', 'favoredHomeGame', 'divisionGame', 'favoredRecord', 'Home Team']
         #sortCols = ['absLine', 'Home Team']
-        dfLine = dfWeek.sort(sortCols)
+        dfLine = dfWeek.sort_values(sortCols)
 
         # determine guess
         # several possibilities for predicting by probability
