@@ -130,11 +130,12 @@ guessCol = 'probaGuess'
 predictCols = ['gameWeek','predictTeam', 'predict_proba', guessCol, 'favorite','lineGuess', 'Line']
 
 print("\nPicks for week {0:0>2} using SVM\n".format(week_number))
-svm_picks_df = df_all_picks[predictCols].sort(guessCol, ascending=False).copy()
+svm_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
 print(svm_picks_df)
 
-svm_picks_df.to_csv("".join([args.picks_dir, os.path.sep,
-                             "svm_picks_week_{0:0>2}.csv".format(week_number)]), index=False)
+svm_out_file = "".join([args.picks_dir, os.path.sep, "svm_picks_week_{0:0>2}.csv".format(week_number)])
+logging.info("Writing SVM output to {}...".format(svm_out_file))
+svm_picks_df.to_csv(svm_out_file, index=False)
 
 #week_filter = df_all_picks.gameWeek == week_number
 #print("\nPicks using SVM")
@@ -151,11 +152,12 @@ df_all_picks = madden.rankGames(df_lr_predict, reference_data, season_test[0])
 df_all_picks['predictTeam'] = np.where((df_all_picks['predict_proba'] - .5) > 0 , df_all_picks['favorite'], df_all_picks['underdog'])
 
 print("\nPicks for week {0:0>2} using LogReg\n".format(week_number))
-log_reg_picks_df = df_all_picks[predictCols].sort(guessCol, ascending=False).copy()
+log_reg_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
 print(log_reg_picks_df)
 
-log_reg_picks_df.to_csv("".join([args.picks_dir, os.path.sep,
-                             "log_reg_picks_week_{0:0>2}.csv".format(week_number)]), index=False)
+log_reg_out_file = "".join([args.picks_dir, os.path.sep, "log_reg_picks_week_{0:0>2}.csv".format(week_number)])
+logging.info("Writing logistic regression output to {}...".format(log_reg_out_file))
+log_reg_picks_df.to_csv(log_reg_out_file, index=False)
 
 #week_filter = df_all_picks.gameWeek == week_number
 #print("\nPicks using LogReg\n")
@@ -173,10 +175,11 @@ log_reg_picks_df.to_csv("".join([args.picks_dir, os.path.sep,
 predictCols = ['favorite','lineGuess', 'absLine', 'Line', 'favoredHomeGame', 'divisionGame', 'favoredRecord']
 
 sortCols = ['absLine','favoredHomeGame', 'divisionGame', 'favoredRecord', 'favorite']
-df_spread = df_all_picks[predictCols].sort(sortCols , ascending=False)
+df_spread = df_all_picks[predictCols].sort_values(sortCols , ascending=False)
 
 print("\nPicks for week {0:0>2} using Spread\n".format(week_number))
 print(df_spread)
-df_spread.to_csv("".join([args.picks_dir, os.path.sep,
-                             "spread_picks_week_{0:0>2}.csv".format(week_number)]), index=False)
+spread_out_file = "".join([args.picks_dir, os.path.sep, "spread_picks_week_{0:0>2}.csv".format(week_number)])
+logging.info("Writing spread output to {}...".format(spread_out_file))
+df_spread.to_csv(spread_out_file, index=False)
 

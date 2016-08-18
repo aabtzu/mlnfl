@@ -1,4 +1,6 @@
-** Amit's spread betting system using Machine Learning **
+** Amit & Alain spread betting system using Machine Learning **
 
-Add more information to the readme file.
+When entering the spreads:
 
+* Positive Spread (+) = Favorite is Home team
+* Negative Spread (-) = Favorite is Visitor team
