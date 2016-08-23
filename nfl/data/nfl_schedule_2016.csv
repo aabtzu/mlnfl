@@ -1,0 +1,257 @@
+date,time,Visitor,Home Team
+2016-09-08,8:30 pm,Carolina Panthers,Denver Broncos
+2016-09-11,1:00 pm,Buffalo Bills,Baltimore Ravens
+2016-09-11,1:00 pm,Chicago Bears,Houston Texans
+2016-09-11,1:00 pm,Cincinnati Bengals,New York Jets
+2016-09-11,1:00 pm,Cleveland Browns,Philadelphia Eagles
+2016-09-11,1:00 pm,Green Bay Packers,Jacksonville Jaguars
+2016-09-11,1:00 pm,Minnesota Vikings,Tennessee Titans
+2016-09-11,1:00 pm,Oakland Raiders,New Orleans Saints
+2016-09-11,1:00 pm,San Diego Chargers,Kansas City Chiefs
+2016-09-11,1:00 pm,Tampa Bay Buccaneers,Atlanta Falcons
+2016-09-11,4:05 pm,Miami Dolphins,Seattle Seahawks
+2016-09-11,4:25 pm,Detroit Lions,Indianapolis Colts
+2016-09-11,4:25 pm,New York Giants,Dallas Cowboys
+2016-09-11,8:30 pm,New England Patriots,Arizona Cardinals
+2016-09-12,7:10 pm,Pittsburgh Steelers,Washington Redskins
+2016-09-12,10:20 pm,Los Angeles Rams,San Francisco 49ers
+2016-09-15,8:25 pm,New York Jets,Buffalo Bills
+2016-09-18,1:00 pm,Baltimore Ravens,Cleveland Browns
+2016-09-18,1:00 pm,Cincinnati Bengals,Pittsburgh Steelers
+2016-09-18,1:00 pm,Dallas Cowboys,Washington Redskins
+2016-09-18,1:00 pm,Kansas City Chiefs,Houston Texans
+2016-09-18,1:00 pm,Miami Dolphins,New England Patriots
+2016-09-18,1:00 pm,New Orleans Saints,New York Giants
+2016-09-18,1:00 pm,San Francisco 49ers,Carolina Panthers
+2016-09-18,1:00 pm,Tennessee Titans,Detroit Lions
+2016-09-18,4:05 pm,Seattle Seahawks,Los Angeles Rams
+2016-09-18,4:05 pm,Tampa Bay Buccaneers,Arizona Cardinals
+2016-09-18,4:25 pm,Atlanta Falcons,Oakland Raiders
+2016-09-18,4:25 pm,Indianapolis Colts,Denver Broncos
+2016-09-18,4:25 pm,Jacksonville Jaguars,San Diego Chargers
+2016-09-18,8:30 pm,Green Bay Packers,Minnesota Vikings
+2016-09-19,8:30 pm,Philadelphia Eagles,Chicago Bears
+2016-09-22,8:25 pm,Houston Texans,New England Patriots
+2016-09-25,1:00 pm,Arizona Cardinals,Buffalo Bills
+2016-09-25,1:00 pm,Baltimore Ravens,Jacksonville Jaguars
+2016-09-25,1:00 pm,Cleveland Browns,Miami Dolphins
+2016-09-25,1:00 pm,Denver Broncos,Cincinnati Bengals
+2016-09-25,1:00 pm,Detroit Lions,Green Bay Packers
+2016-09-25,1:00 pm,Minnesota Vikings,Carolina Panthers
+2016-09-25,1:00 pm,Oakland Raiders,Tennessee Titans
+2016-09-25,1:00 pm,Washington Redskins,New York Giants
+2016-09-25,4:05 pm,Los Angeles Rams,Tampa Bay Buccaneers
+2016-09-25,4:05 pm,San Francisco 49ers,Seattle Seahawks
+2016-09-25,4:25 pm,New York Jets,Kansas City Chiefs
+2016-09-25,4:25 pm,Pittsburgh Steelers,Philadelphia Eagles
+2016-09-25,4:25 pm,San Diego Chargers,Indianapolis Colts
+2016-09-25,8:30 pm,Chicago Bears,Dallas Cowboys
+2016-09-26,8:30 pm,Atlanta Falcons,New Orleans Saints
+2016-09-29,8:25 pm,Miami Dolphins,Cincinnati Bengals
+2016-10-02,9:30 am,Indianapolis Colts,Jacksonville Jaguars 
+2016-10-02,1:00 pm,Buffalo Bills,New England Patriots
+2016-10-02,1:00 pm,Carolina Panthers,Atlanta Falcons
+2016-10-02,1:00 pm,Cleveland Browns,Washington Redskins
+2016-10-02,1:00 pm,Detroit Lions,Chicago Bears
+2016-10-02,1:00 pm,Oakland Raiders,Baltimore Ravens
+2016-10-02,1:00 pm,Seattle Seahawks,New York Jets
+2016-10-02,1:00 pm,Tennessee Titans,Houston Texans
+2016-10-02,4:05 pm,Denver Broncos,Tampa Bay Buccaneers
+2016-10-02,4:25 pm,Dallas Cowboys,San Francisco 49ers
+2016-10-02,4:25 pm,Los Angeles Rams,Arizona Cardinals
+2016-10-02,4:25 pm,New Orleans Saints,San Diego Chargers
+2016-10-02,8:30 pm,Kansas City Chiefs,Pittsburgh Steelers
+2016-10-03,8:30 pm,New York Giants,Minnesota Vikings
+2016-10-06,8:25 pm,Arizona Cardinals,San Francisco 49ers
+2016-10-09,1:00 pm,Chicago Bears,Indianapolis Colts
+2016-10-09,1:00 pm,Houston Texans,Minnesota Vikings
+2016-10-09,1:00 pm,New England Patriots,Cleveland Browns
+2016-10-09,1:00 pm,New York Jets,Pittsburgh Steelers
+2016-10-09,1:00 pm,Philadelphia Eagles,Detroit Lions
+2016-10-09,1:00 pm,Tennessee Titans,Miami Dolphins
+2016-10-09,1:00 pm,Washington Redskins,Baltimore Ravens
+2016-10-09,4:05 pm,Atlanta Falcons,Denver Broncos
+2016-10-09,4:25 pm,Buffalo Bills,Los Angeles Rams
+2016-10-09,4:25 pm,Cincinnati Bengals,Dallas Cowboys
+2016-10-09,4:25 pm,San Diego Chargers,Oakland Raiders
+2016-10-09,8:30 pm,New York Giants,Green Bay Packers
+2016-10-10,8:30 pm,Tampa Bay Buccaneers,Carolina Panthers
+2016-10-13,8:25 pm,Denver Broncos,San Diego Chargers
+2016-10-16,1:00 pm,Baltimore Ravens,New York Giants
+2016-10-16,1:00 pm,Carolina Panthers,New Orleans Saints
+2016-10-16,1:00 pm,Cincinnati Bengals,New England Patriots
+2016-10-16,1:00 pm,Cleveland Browns,Tennessee Titans
+2016-10-16,1:00 pm,Jacksonville Jaguars,Chicago Bears
+2016-10-16,1:00 pm,Los Angeles Rams,Detroit Lions
+2016-10-16,1:00 pm,Philadelphia Eagles,Washington Redskins
+2016-10-16,1:00 pm,Pittsburgh Steelers,Miami Dolphins
+2016-10-16,1:00 pm,San Francisco 49ers,Buffalo Bills
+2016-10-16,4:05 pm,Kansas City Chiefs,Oakland Raiders
+2016-10-16,4:25 pm,Atlanta Falcons,Seattle Seahawks
+2016-10-16,4:25 pm,Dallas Cowboys,Green Bay Packers
+2016-10-16,8:30 pm,Indianapolis Colts,Houston Texans
+2016-10-17,8:30 pm,New York Jets,Arizona Cardinals
+2016-10-20,8:25 pm,Chicago Bears,Green Bay Packers
+2016-10-23,9:30 am,New York Giants,Los Angeles Rams 
+2016-10-23,1:00 pm,Baltimore Ravens,New York Jets
+2016-10-23,1:00 pm,Buffalo Bills,Miami Dolphins
+2016-10-23,1:00 pm,Cleveland Browns,Cincinnati Bengals
+2016-10-23,1:00 pm,Indianapolis Colts,Tennessee Titans
+2016-10-23,1:00 pm,Minnesota Vikings,Philadelphia Eagles
+2016-10-23,1:00 pm,New Orleans Saints,Kansas City Chiefs
+2016-10-23,1:00 pm,Oakland Raiders,Jacksonville Jaguars
+2016-10-23,1:00 pm,Washington Redskins,Detroit Lions
+2016-10-23,4:05 pm,San Diego Chargers,Atlanta Falcons
+2016-10-23,4:05 pm,Tampa Bay Buccaneers,San Francisco 49ers
+2016-10-23,4:25 pm,New England Patriots,Pittsburgh Steelers
+2016-10-23,8:30 pm,Seattle Seahawks,Arizona Cardinals
+2016-10-24,8:30 pm,Houston Texans,Denver Broncos
+2016-10-27,8:25 pm,Jacksonville Jaguars,Tennessee Titans
+2016-10-30,9:30 am,Washington Redskins,Cincinnati Bengals 
+2016-10-30,1:00 pm,Detroit Lions,Houston Texans
+2016-10-30,1:00 pm,Green Bay Packers,Atlanta Falcons
+2016-10-30,1:00 pm,Kansas City Chiefs,Indianapolis Colts
+2016-10-30,1:00 pm,New England Patriots,Buffalo Bills
+2016-10-30,1:00 pm,New York Jets,Cleveland Browns
+2016-10-30,1:00 pm,Oakland Raiders,Tampa Bay Buccaneers
+2016-10-30,1:00 pm,Seattle Seahawks,New Orleans Saints
+2016-10-30,4:05 pm,San Diego Chargers,Denver Broncos
+2016-10-30,4:25 pm,Arizona Cardinals,Carolina Panthers
+2016-10-30,8:30 pm,Philadelphia Eagles,Dallas Cowboys
+2016-10-31,8:30 pm,Minnesota Vikings,Chicago Bears
+2016-11-03,8:25 pm,Atlanta Falcons,Tampa Bay Buccaneers
+2016-11-06,1:00 pm,Dallas Cowboys,Cleveland Browns
+2016-11-06,1:00 pm,Detroit Lions,Minnesota Vikings
+2016-11-06,1:00 pm,Jacksonville Jaguars,Kansas City Chiefs
+2016-11-06,1:00 pm,New York Jets,Miami Dolphins
+2016-11-06,1:00 pm,Philadelphia Eagles,New York Giants
+2016-11-06,1:00 pm,Pittsburgh Steelers,Baltimore Ravens
+2016-11-06,4:05 pm,Carolina Panthers,Los Angeles Rams
+2016-11-06,4:05 pm,New Orleans Saints,San Francisco 49ers
+2016-11-06,4:25 pm,Indianapolis Colts,Green Bay Packers
+2016-11-06,4:25 pm,Tennessee Titans,San Diego Chargers
+2016-11-06,8:30 pm,Denver Broncos,Oakland Raiders
+2016-11-07,8:30 pm,Buffalo Bills,Seattle Seahawks
+2016-11-10,8:25 pm,Cleveland Browns,Baltimore Ravens
+2016-11-13,1:00 pm,Atlanta Falcons,Philadelphia Eagles
+2016-11-13,1:00 pm,Chicago Bears,Tampa Bay Buccaneers
+2016-11-13,1:00 pm,Denver Broncos,New Orleans Saints
+2016-11-13,1:00 pm,Green Bay Packers,Tennessee Titans
+2016-11-13,1:00 pm,Houston Texans,Jacksonville Jaguars
+2016-11-13,1:00 pm,Kansas City Chiefs,Carolina Panthers
+2016-11-13,1:00 pm,Los Angeles Rams,New York Jets
+2016-11-13,1:00 pm,Minnesota Vikings,Washington Redskins
+2016-11-13,4:05 pm,Miami Dolphins,San Diego Chargers
+2016-11-13,4:25 pm,Dallas Cowboys,Pittsburgh Steelers
+2016-11-13,4:25 pm,San Francisco 49ers,Arizona Cardinals
+2016-11-13,8:30 pm,Seattle Seahawks,New England Patriots
+2016-11-14,8:30 pm,Cincinnati Bengals,New York Giants
+2016-11-17,8:25 pm,New Orleans Saints,Carolina Panthers
+2016-11-20,1:00 pm,Arizona Cardinals,Minnesota Vikings
+2016-11-20,1:00 pm,Baltimore Ravens,Dallas Cowboys
+2016-11-20,1:00 pm,Buffalo Bills,Cincinnati Bengals
+2016-11-20,1:00 pm,Chicago Bears,New York Giants
+2016-11-20,1:00 pm,Jacksonville Jaguars,Detroit Lions
+2016-11-20,1:00 pm,Pittsburgh Steelers,Cleveland Browns
+2016-11-20,1:00 pm,Tampa Bay Buccaneers,Kansas City Chiefs
+2016-11-20,1:00 pm,Tennessee Titans,Indianapolis Colts
+2016-11-20,4:05 pm,Miami Dolphins,Los Angeles Rams
+2016-11-20,4:25 pm,New England Patriots,San Francisco 49ers
+2016-11-20,4:25 pm,Philadelphia Eagles,Seattle Seahawks
+2016-11-20,8:30 pm,Green Bay Packers,Washington Redskins
+2016-11-21,8:30 pm,Houston Texans,Oakland Raiders
+2016-11-24,12:30 pm,Minnesota Vikings,Detroit Lions
+2016-11-24,4:30 pm,Washington Redskins,Dallas Cowboys
+2016-11-24,8:30 pm,Pittsburgh Steelers,Indianapolis Colts
+2016-11-27,1:00 pm,Arizona Cardinals,Atlanta Falcons
+2016-11-27,1:00 pm,Cincinnati Bengals,Baltimore Ravens
+2016-11-27,1:00 pm,Jacksonville Jaguars,Buffalo Bills
+2016-11-27,1:00 pm,Los Angeles Rams,New Orleans Saints
+2016-11-27,1:00 pm,New York Giants,Cleveland Browns
+2016-11-27,1:00 pm,San Diego Chargers,Houston Texans
+2016-11-27,1:00 pm,San Francisco 49ers,Miami Dolphins
+2016-11-27,1:00 pm,Tennessee Titans,Chicago Bears
+2016-11-27,4:05 pm,Seattle Seahawks,Tampa Bay Buccaneers
+2016-11-27,4:25 pm,Carolina Panthers,Oakland Raiders
+2016-11-27,4:25 pm,Kansas City Chiefs,Denver Broncos
+2016-11-27,8:30 pm,New England Patriots,New York Jets
+2016-11-28,8:30 pm,Green Bay Packers,Philadelphia Eagles
+2016-12-01,8:25 pm,Dallas Cowboys,Minnesota Vikings
+2016-12-04,1:00 pm,Denver Broncos,Jacksonville Jaguars
+2016-12-04,1:00 pm,Detroit Lions,New Orleans Saints
+2016-12-04,1:00 pm,Houston Texans,Green Bay Packers
+2016-12-04,1:00 pm,Kansas City Chiefs,Atlanta Falcons
+2016-12-04,1:00 pm,Los Angeles Rams,New England Patriots
+2016-12-04,1:00 pm,Miami Dolphins,Baltimore Ravens
+2016-12-04,1:00 pm,Philadelphia Eagles,Cincinnati Bengals
+2016-12-04,1:00 pm,San Francisco 49ers,Chicago Bears
+2016-12-04,4:05 pm,Buffalo Bills,Oakland Raiders
+2016-12-04,4:25 pm,New York Giants,Pittsburgh Steelers
+2016-12-04,4:25 pm,Tampa Bay Buccaneers,San Diego Chargers
+2016-12-04,4:25 pm,Washington Redskins,Arizona Cardinals
+2016-12-04,8:30 pm,Carolina Panthers,Seattle Seahawks
+2016-12-05,8:30 pm,Indianapolis Colts,New York Jets
+2016-12-08,8:25 pm,Oakland Raiders,Kansas City Chiefs
+2016-12-11,1:00 pm,Arizona Cardinals,Miami Dolphins
+2016-12-11,1:00 pm,Chicago Bears,Detroit Lions
+2016-12-11,1:00 pm,Cincinnati Bengals,Cleveland Browns
+2016-12-11,1:00 pm,Denver Broncos,Tennessee Titans
+2016-12-11,1:00 pm,Houston Texans,Indianapolis Colts
+2016-12-11,1:00 pm,Minnesota Vikings,Jacksonville Jaguars
+2016-12-11,1:00 pm,New Orleans Saints,Tampa Bay Buccaneers
+2016-12-11,1:00 pm,Pittsburgh Steelers,Buffalo Bills
+2016-12-11,1:00 pm,San Diego Chargers,Carolina Panthers
+2016-12-11,1:00 pm,Washington Redskins,Philadelphia Eagles
+2016-12-11,4:05 pm,New York Jets,San Francisco 49ers
+2016-12-11,4:25 pm,Atlanta Falcons,Los Angeles Rams
+2016-12-11,4:25 pm,Seattle Seahawks,Green Bay Packers
+2016-12-11,8:30 pm,Dallas Cowboys,New York Giants
+2016-12-12,8:30 pm,Baltimore Ravens,New England Patriots
+2016-12-15,8:25 pm,Los Angeles Rams,Seattle Seahawks
+2016-12-17,8:25 pm,Miami Dolphins,New York Jets
+2016-12-18,1:00 pm,Cleveland Browns,Buffalo Bills
+2016-12-18,1:00 pm,Detroit Lions,New York Giants
+2016-12-18,1:00 pm,Green Bay Packers,Chicago Bears
+2016-12-18,1:00 pm,Indianapolis Colts,Minnesota Vikings
+2016-12-18,1:00 pm,Jacksonville Jaguars,Houston Texans
+2016-12-18,1:00 pm,Philadelphia Eagles,Baltimore Ravens
+2016-12-18,1:00 pm,Tampa Bay Buccaneers,Dallas Cowboys
+2016-12-18,1:00 pm,Tennessee Titans,Kansas City Chiefs
+2016-12-18,4:05 pm,New Orleans Saints,Arizona Cardinals
+2016-12-18,4:05 pm,San Francisco 49ers,Atlanta Falcons
+2016-12-18,4:25 pm,New England Patriots,Denver Broncos
+2016-12-18,4:25 pm,Oakland Raiders,San Diego Chargers
+2016-12-18,8:30 pm,Pittsburgh Steelers,Cincinnati Bengals
+2016-12-19,8:30 pm,Carolina Panthers,Washington Redskins
+2016-12-22,8:25 pm,New York Giants,Philadelphia Eagles
+2016-12-24,1:00 pm,Atlanta Falcons,Carolina Panthers
+2016-12-24,1:00 pm,Miami Dolphins,Buffalo Bills
+2016-12-24,1:00 pm,Minnesota Vikings,Green Bay Packers
+2016-12-24,1:00 pm,New York Jets,New England Patriots
+2016-12-24,1:00 pm,San Diego Chargers,Cleveland Browns
+2016-12-24,1:00 pm,Tampa Bay Buccaneers,New Orleans Saints
+2016-12-24,1:00 pm,Tennessee Titans,Jacksonville Jaguars
+2016-12-24,1:00 pm,Washington Redskins,Chicago Bears
+2016-12-24,4:05 pm,Indianapolis Colts,Oakland Raiders
+2016-12-24,4:25 pm,Arizona Cardinals,Seattle Seahawks
+2016-12-24,4:25 pm,San Francisco 49ers,Los Angeles Rams
+2016-12-24,8:25 pm,Cincinnati Bengals,Houston Texans
+2016-12-25,4:30 pm,Baltimore Ravens,Pittsburgh Steelers
+2016-12-25,8:30 pm,Denver Broncos,Kansas City Chiefs
+2016-12-26,8:30 pm,Detroit Lions,Dallas Cowboys
+2017-01-01,1:00 pm,Baltimore Ravens,Cincinnati Bengals
+2017-01-01,1:00 pm,Buffalo Bills,New York Jets
+2017-01-01,1:00 pm,Carolina Panthers,Tampa Bay Buccaneers
+2017-01-01,1:00 pm,Chicago Bears,Minnesota Vikings
+2017-01-01,1:00 pm,Cleveland Browns,Pittsburgh Steelers
+2017-01-01,1:00 pm,Dallas Cowboys,Philadelphia Eagles
+2017-01-01,1:00 pm,Green Bay Packers,Detroit Lions
+2017-01-01,1:00 pm,Houston Texans,Tennessee Titans
+2017-01-01,1:00 pm,Jacksonville Jaguars,Indianapolis Colts
+2017-01-01,1:00 pm,New England Patriots,Miami Dolphins
+2017-01-01,1:00 pm,New Orleans Saints,Atlanta Falcons
+2017-01-01,1:00 pm,New York Giants,Washington Redskins
+2017-01-01,4:25 pm,Arizona Cardinals,Los Angeles Rams
+2017-01-01,4:25 pm,Kansas City Chiefs,San Diego Chargers
+2017-01-01,4:25 pm,Oakland Raiders,Denver Broncos
+2017-01-01,4:25 pm,Seattle Seahawks,San Francisco 49ers
