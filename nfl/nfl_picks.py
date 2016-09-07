@@ -3,7 +3,7 @@ from __future__ import print_function
 
 __author__ = 'alainledon'
 
-WEEK_TO_PICK = 2
+WEEK_TO_PICK = 1
 
 import os
 import numpy as np
@@ -22,6 +22,7 @@ pd.set_option('expand_frame_repr', False)
 
 # get the working directory from the environment variable MLNFL_ROOT
 MLNFL_ROOT_DIR = os.environ['MLNFL_ROOT']
+print(MLNFL_ROOT_DIR)
 
 logging.basicConfig(level=logging.INFO, format=' %(asctime)s - %(levelname)s - %(message)s')
 
@@ -57,7 +58,7 @@ logging.info("lookupDir = %s" % lookupDir)
 reference_data = ReferenceData(lookupDir)
 
 # train on previous 3 yrs of data
-testYear = [2015]
+testYear = [2016]
 trainYears = range(testYear[0]-3,testYear[0])
 
 # training data set - includes one extra year for prev yr record
@@ -77,11 +78,12 @@ df_all_historical_games = df_all_historical_games[df_all_historical_games.season
 
 # use different test set
 season_test = np.array(testYear) # should be only one year
+print(season_test)
 logging.info("results for >> {0}".format(season_test))
 # 1 - read all the games
 dfGamesTest = madden.readGamesAll(path_to_lines, season_test)
 # 2 - compile season record for all teams
-dfTeamsTest = madden.seasonRecord(dfGamesTest,reference_data)
+dfTeamsTest = madden.seasonRecord(dfGamesTest, reference_data)
 # 3 - apply season records and compute other fields for all games
 dfGamesTest = madden.processGames(dfGamesTest, dfTeamsTest, reference_data)
 # 4 - remove extra year of data
