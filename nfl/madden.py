@@ -481,7 +481,7 @@ def rankGames(dfPredict, reference_data, season):
         dfLine['probaAbsGuess'] = dfLine['predict_proba_abs'].rank(method='first') + (16 - nw)
 
         # determine score of pick by spread
-dfLine['lineScore'] = dfLine['lineGuess'] * dfLine['favoredWin']
+        dfLine['lineScore'] = dfLine['lineGuess'] * dfLine['favoredWin']
 
         # determine score of pick by probability
         dfLine['probaScore1'] = dfLine['probaGuess'] * dfLine['favoredWin']
