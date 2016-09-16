@@ -8941,38 +8941,38 @@ Date,Visitor,Visitor Score,Home Team,Home Score,Line,Total Line,season,week
 2016-01-03,San Diego Chargers,20.0,Denver Broncos,27.0,9.0,,2015,
 2016-01-03,Seattle Seahawks,36.0,Arizona Cardinals,6.0,6.5,,2015,
 2016-01-03,Los Angeles Rams,16.0,San Francisco 49ers,19.0,-3.5,,2015,
-2016-09-08,Carolina Panthers,20.0,Denver Broncos,21.0,-3.0,,2016,1.0
-2016-09-11,Buffalo Bills,7.0,Baltimore Ravens,13.0,3.0,,2016,1.0
-2016-09-11,Chicago Bears,14.0,Houston Texans,23.0,6.5,,2016,1.0
-2016-09-11,Cincinnati Bengals,23.0,New York Jets,22.0,-2.5,,2016,1.0
-2016-09-11,Cleveland Browns,10.0,Philadelphia Eagles,29.0,4.0,,2016,1.0
-2016-09-11,Green Bay Packers,27.0,Jacksonville Jaguars,23.0,-5.5,,2016,1.0
-2016-09-11,Minnesota Vikings,25.0,Tennessee Titans,16.0,-2.0,,2016,1.0
-2016-09-11,Oakland Raiders,35.0,New Orleans Saints,34.0,1.0,,2016,1.0
-2016-09-11,San Diego Chargers,27.0,Kansas City Chiefs,33.0,7.0,,2016,1.0
-2016-09-11,Tampa Bay Buccaneers,31.0,Atlanta Falcons,24.0,3.0,,2016,1.0
-2016-09-11,Miami Dolphins,10.0,Seattle Seahawks,12.0,10.5,,2016,1.0
-2016-09-11,Detroit Lions,39.0,Indianapolis Colts,35.0,3.5,,2016,1.0
-2016-09-11,New York Giants,20.0,Dallas Cowboys,19.0,-1.0,,2016,1.0
-2016-09-11,New England Patriots,23.0,Arizona Cardinals,21.0,6.0,,2016,1.0
-2016-09-12,Pittsburgh Steelers,38.0,Washington Redskins,16.0,-3.0,,2016,1.0
-2016-09-12,Los Angeles Rams,0.0,San Francisco 49ers,28.0,-2.5,,2016,1.0
-2016-09-15,New York Jets,,Buffalo Bills,,-1.0,,2016,2.0
-2016-09-18,Baltimore Ravens,,Cleveland Browns,,-6.5,,2016,2.0
-2016-09-18,Cincinnati Bengals,,Pittsburgh Steelers,,3.5,,2016,2.0
-2016-09-18,Dallas Cowboys,,Washington Redskins,,2.5,,2016,2.0
-2016-09-18,Kansas City Chiefs,,Houston Texans,,2.5,,2016,2.0
-2016-09-18,Miami Dolphins,,New England Patriots,,6.5,,2016,2.0
-2016-09-18,New Orleans Saints,,New York Giants,,4.5,,2016,2.0
-2016-09-18,San Francisco 49ers,,Carolina Panthers,,13.5,,2016,2.0
-2016-09-18,Tennessee Titans,,Detroit Lions,,6.0,,2016,2.0
-2016-09-18,Seattle Seahawks,,Los Angeles Rams,,-6.5,,2016,2.0
-2016-09-18,Tampa Bay Buccaneers,,Arizona Cardinals,,6.5,,2016,2.0
-2016-09-18,Atlanta Falcons,,Oakland Raiders,,5.0,,2016,2.0
-2016-09-18,Indianapolis Colts,,Denver Broncos,,6.0,,2016,2.0
-2016-09-18,Jacksonville Jaguars,,San Diego Chargers,,3.0,,2016,2.0
-2016-09-18,Green Bay Packers,,Minnesota Vikings,,-2.5,,2016,2.0
-2016-09-19,Philadelphia Eagles,,Chicago Bears,,3.0,,2016,2.0
+2016-09-08,Carolina Panthers,20,Denver Broncos,21,-3.0,,2016,1.0
+2016-09-11,Buffalo Bills,7,Baltimore Ravens,13,3.0,,2016,1.0
+2016-09-11,Chicago Bears,14,Houston Texans,23,6.5,,2016,1.0
+2016-09-11,Cincinnati Bengals,23,New York Jets,22,-2.5,,2016,1.0
+2016-09-11,Cleveland Browns,10,Philadelphia Eagles,29,4.0,,2016,1.0
+2016-09-11,Green Bay Packers,27,Jacksonville Jaguars,23,-5.5,,2016,1.0
+2016-09-11,Minnesota Vikings,25,Tennessee Titans,16,-2.0,,2016,1.0
+2016-09-11,Oakland Raiders,35,New Orleans Saints,34,1.0,,2016,1.0
+2016-09-11,San Diego Chargers,27,Kansas City Chiefs,33,7.0,,2016,1.0
+2016-09-11,Tampa Bay Buccaneers,31,Atlanta Falcons,24,3.0,,2016,1.0
+2016-09-11,Miami Dolphins,10,Seattle Seahawks,12,10.5,,2016,1.0
+2016-09-11,Detroit Lions,39,Indianapolis Colts,35,3.5,,2016,1.0
+2016-09-11,New York Giants,20,Dallas Cowboys,19,-1.0,,2016,1.0
+2016-09-11,New England Patriots,23,Arizona Cardinals,21,6.0,,2016,1.0
+2016-09-12,Pittsburgh Steelers,38,Washington Redskins,16,-3.0,,2016,1.0
+2016-09-12,Los Angeles Rams,0,San Francisco 49ers,28,-2.5,,2016,1.0
+2016-09-15,New York Jets,,Buffalo Bills,,,,2016,2.0
+2016-09-18,Baltimore Ravens,,Cleveland Browns,,,,2016,2.0
+2016-09-18,Cincinnati Bengals,,Pittsburgh Steelers,,,,2016,2.0
+2016-09-18,Dallas Cowboys,,Washington Redskins,,,,2016,2.0
+2016-09-18,Kansas City Chiefs,,Houston Texans,,,,2016,2.0
+2016-09-18,Miami Dolphins,,New England Patriots,,,,2016,2.0
+2016-09-18,New Orleans Saints,,New York Giants,,,,2016,2.0
+2016-09-18,San Francisco 49ers,,Carolina Panthers,,,,2016,2.0
+2016-09-18,Tennessee Titans,,Detroit Lions,,,,2016,2.0
+2016-09-18,Seattle Seahawks,,Los Angeles Rams,,,,2016,2.0
+2016-09-18,Tampa Bay Buccaneers,,Arizona Cardinals,,,,2016,2.0
+2016-09-18,Atlanta Falcons,,Oakland Raiders,,,,2016,2.0
+2016-09-18,Indianapolis Colts,,Denver Broncos,,,,2016,2.0
+2016-09-18,Jacksonville Jaguars,,San Diego Chargers,,,,2016,2.0
+2016-09-18,Green Bay Packers,,Minnesota Vikings,,,,2016,2.0
+2016-09-19,Philadelphia Eagles,,Chicago Bears,,,,2016,2.0
 2016-09-22,Houston Texans,,New England Patriots,,,,2016,
 2016-09-25,Arizona Cardinals,,Buffalo Bills,,,,2016,
 2016-09-25,Baltimore Ravens,,Jacksonville Jaguars,,,,2016,
