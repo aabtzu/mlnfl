@@ -1,0 +1,257 @@
+Date,Visitor,Visitor Score,Home Team,Home Score,Line,Total Line,season,week,favorite,underdog,favoredHomeGame,divisionGame,homeWin,favoredWin,gameWeek,homeRecord,visitorRecord,favoredRecord,underdogRecord,prevFavoredRecord,prevUnderdogRecord,absLine
+2015-09-10,Pittsburgh Steelers,21.0,New England Patriots,28.0,7.0,,2015,,New England Patriots,Pittsburgh Steelers,1,0,1,1,1,0.0,0.0,0.0,0.0,0.75,0.6875,7.0
+2015-09-13,Green Bay Packers,31.0,Chicago Bears,23.0,-6.5,,2015,,Green Bay Packers,Chicago Bears,0,1,0,1,1,0.0,0.0,0.0,0.0,0.75,0.3125,6.5
+2015-09-13,Kansas City Chiefs,27.0,Houston Texans,20.0,1.0,,2015,,Houston Texans,Kansas City Chiefs,1,0,0,0,1,0.0,0.0,0.0,0.0,0.5625,0.5625,1.0
+2015-09-13,Cleveland Browns,10.0,New York Jets,31.0,3.0,,2015,,New York Jets,Cleveland Browns,1,0,1,1,1,0.0,0.0,0.0,0.0,0.25,0.4375,3.0
+2015-09-13,Indianapolis Colts,14.0,Buffalo Bills,27.0,-2.5,,2015,,Indianapolis Colts,Buffalo Bills,0,0,1,0,1,0.0,0.0,0.0,0.0,0.6875,0.5625,2.5
+2015-09-13,Miami Dolphins,17.0,Washington Redskins,10.0,-3.5,,2015,,Miami Dolphins,Washington Redskins,0,0,0,1,1,0.0,0.0,0.0,0.0,0.5,0.25,3.5
+2015-09-13,Carolina Panthers,20.0,Jacksonville Jaguars,9.0,-3.0,,2015,,Carolina Panthers,Jacksonville Jaguars,0,0,0,1,1,0.0,0.0,0.0,0.0,0.4375,0.1875,3.0
+2015-09-13,Seattle Seahawks,31.0,Los Angeles Rams,34.0,-4.0,,2015,,Seattle Seahawks,Los Angeles Rams,0,1,1,0,1,0.0,0.0,0.0,0.0,0.75,0.375,4.0
+2015-09-13,New Orleans Saints,19.0,Arizona Cardinals,31.0,2.5,,2015,,Arizona Cardinals,New Orleans Saints,1,0,1,1,1,0.0,0.0,0.0,0.0,0.6875,0.4375,2.5
+2015-09-13,Detroit Lions,28.0,San Diego Chargers,33.0,3.0,,2015,,San Diego Chargers,Detroit Lions,1,0,1,1,1,0.0,0.0,0.0,0.0,0.5625,0.6875,3.0
+2015-09-13,Tennessee Titans,42.0,Tampa Bay Buccaneers,14.0,3.0,,2015,,Tampa Bay Buccaneers,Tennessee Titans,1,0,0,0,1,0.0,0.0,0.0,0.0,0.125,0.125,3.0
+2015-09-13,Cincinnati Bengals,33.0,Oakland Raiders,13.0,-3.5,,2015,,Cincinnati Bengals,Oakland Raiders,0,0,0,1,1,0.0,0.0,0.0,0.0,0.625,0.1875,3.5
+2015-09-13,Baltimore Ravens,13.0,Denver Broncos,19.0,4.5,,2015,,Denver Broncos,Baltimore Ravens,1,0,1,1,1,0.0,0.0,0.0,0.0,0.75,0.625,4.5
+2015-09-13,New York Giants,26.0,Dallas Cowboys,27.0,6.0,,2015,,Dallas Cowboys,New York Giants,1,1,1,1,1,0.0,0.0,0.0,0.0,0.75,0.375,6.0
+2015-09-14,Philadelphia Eagles,24.0,Atlanta Falcons,26.0,-3.0,,2015,,Philadelphia Eagles,Atlanta Falcons,0,0,1,0,1,0.0,0.0,0.0,0.0,0.625,0.375,3.0
+2015-09-14,Minnesota Vikings,3.0,San Francisco 49ers,20.0,-2.5,,2015,,Minnesota Vikings,San Francisco 49ers,0,0,1,0,1,0.0,0.0,0.0,0.0,0.4375,0.5,2.5
+2015-09-17,Denver Broncos,31.0,Kansas City Chiefs,24.0,3.0,,2015,,Kansas City Chiefs,Denver Broncos,1,1,0,0,2,1.0,1.0,1.0,1.0,0.5625,0.75,3.0
+2015-09-20,Houston Texans,17.0,Carolina Panthers,24.0,3.0,,2015,,Carolina Panthers,Houston Texans,1,0,1,1,2,1.0,0.0,1.0,0.0,0.4375,0.5625,3.0
+2015-09-20,San Francisco 49ers,18.0,Pittsburgh Steelers,43.0,5.5,,2015,,Pittsburgh Steelers,San Francisco 49ers,1,0,1,1,2,0.0,1.0,0.0,1.0,0.6875,0.5,5.5
+2015-09-20,Tampa Bay Buccaneers,26.0,New Orleans Saints,19.0,9.5,,2015,,New Orleans Saints,Tampa Bay Buccaneers,1,1,0,0,2,0.0,0.0,0.0,0.0,0.4375,0.125,9.5
+2015-09-20,Detroit Lions,16.0,Minnesota Vikings,26.0,3.0,,2015,,Minnesota Vikings,Detroit Lions,1,1,1,1,2,0.0,0.0,0.0,0.0,0.4375,0.6875,3.0
+2015-09-20,Arizona Cardinals,48.0,Chicago Bears,23.0,-1.5,,2015,,Arizona Cardinals,Chicago Bears,0,0,0,1,2,0.0,1.0,1.0,0.0,0.6875,0.3125,1.5
+2015-09-20,New England Patriots,40.0,Buffalo Bills,32.0,-1.0,,2015,,New England Patriots,Buffalo Bills,0,1,0,1,2,1.0,1.0,1.0,1.0,0.75,0.5625,1.0
+2015-09-20,San Diego Chargers,19.0,Cincinnati Bengals,24.0,3.0,,2015,,Cincinnati Bengals,San Diego Chargers,1,0,1,1,2,1.0,1.0,1.0,1.0,0.625,0.5625,3.0
+2015-09-20,Tennessee Titans,14.0,Cleveland Browns,28.0,-1.0,,2015,,Tennessee Titans,Cleveland Browns,0,0,1,0,2,0.0,1.0,1.0,0.0,0.125,0.4375,1.0
+2015-09-20,Atlanta Falcons,24.0,New York Giants,20.0,2.0,,2015,,New York Giants,Atlanta Falcons,1,0,0,0,2,0.0,1.0,0.0,1.0,0.375,0.375,2.0
+2015-09-20,Los Angeles Rams,10.0,Washington Redskins,24.0,-3.5,,2015,,Los Angeles Rams,Washington Redskins,0,0,1,0,2,0.0,1.0,1.0,0.0,0.375,0.25,3.5
+2015-09-20,Miami Dolphins,20.0,Jacksonville Jaguars,23.0,-6.0,,2015,,Miami Dolphins,Jacksonville Jaguars,0,0,1,0,2,0.0,1.0,1.0,0.0,0.5,0.1875,6.0
+2015-09-20,Baltimore Ravens,33.0,Oakland Raiders,37.0,-6.0,,2015,,Baltimore Ravens,Oakland Raiders,0,0,1,0,2,0.0,0.0,0.0,0.0,0.625,0.1875,6.0
+2015-09-20,Dallas Cowboys,20.0,Philadelphia Eagles,10.0,5.0,,2015,,Philadelphia Eagles,Dallas Cowboys,1,1,0,0,2,0.0,1.0,0.0,1.0,0.625,0.75,5.0
+2015-09-20,Seattle Seahawks,17.0,Green Bay Packers,27.0,3.5,,2015,,Green Bay Packers,Seattle Seahawks,1,0,1,1,2,1.0,0.0,1.0,0.0,0.75,0.75,3.5
+2015-09-21,New York Jets,20.0,Indianapolis Colts,7.0,7.0,,2015,,Indianapolis Colts,New York Jets,1,0,0,0,2,0.0,1.0,0.0,1.0,0.6875,0.25,7.0
+2015-09-24,Washington Redskins,21.0,New York Giants,32.0,3.5,,2015,,New York Giants,Washington Redskins,1,1,1,1,3,0.0,0.5,0.0,0.5,0.375,0.25,3.5
+2015-09-27,Atlanta Falcons,39.0,Dallas Cowboys,28.0,2.0,,2015,,Dallas Cowboys,Atlanta Falcons,1,0,0,0,3,1.0,1.0,1.0,1.0,0.75,0.375,2.0
+2015-09-27,Indianapolis Colts,35.0,Tennessee Titans,33.0,-3.5,,2015,,Indianapolis Colts,Tennessee Titans,0,1,0,1,3,0.5,0.0,0.0,0.5,0.6875,0.125,3.5
+2015-09-27,Oakland Raiders,27.0,Cleveland Browns,20.0,3.5,,2015,,Cleveland Browns,Oakland Raiders,1,0,0,0,3,0.5,0.5,0.5,0.5,0.4375,0.1875,3.5
+2015-09-27,Cincinnati Bengals,28.0,Baltimore Ravens,24.0,2.5,,2015,,Baltimore Ravens,Cincinnati Bengals,1,1,0,0,3,0.0,1.0,0.0,1.0,0.625,0.625,2.5
+2015-09-27,Jacksonville Jaguars,17.0,New England Patriots,51.0,13.5,,2015,,New England Patriots,Jacksonville Jaguars,1,0,1,1,3,1.0,0.5,1.0,0.5,0.75,0.1875,13.5
+2015-09-27,New Orleans Saints,22.0,Carolina Panthers,27.0,6.5,,2015,,Carolina Panthers,New Orleans Saints,1,1,1,1,3,1.0,0.0,1.0,0.0,0.4375,0.4375,6.5
+2015-09-27,Philadelphia Eagles,24.0,New York Jets,17.0,2.5,,2015,,New York Jets,Philadelphia Eagles,1,0,0,0,3,1.0,0.0,1.0,0.0,0.25,0.625,2.5
+2015-09-27,Tampa Bay Buccaneers,9.0,Houston Texans,19.0,6.5,,2015,,Houston Texans,Tampa Bay Buccaneers,1,0,1,1,3,0.0,0.5,0.0,0.5,0.5625,0.125,6.5
+2015-09-27,San Diego Chargers,14.0,Minnesota Vikings,31.0,2.5,,2015,,Minnesota Vikings,San Diego Chargers,1,0,1,1,3,0.5,0.5,0.5,0.5,0.4375,0.5625,2.5
+2015-09-27,Pittsburgh Steelers,12.0,Los Angeles Rams,6.0,-1.0,,2015,,Pittsburgh Steelers,Los Angeles Rams,0,0,0,1,3,0.5,0.5,0.5,0.5,0.6875,0.375,1.0
+2015-09-27,San Francisco 49ers,7.0,Arizona Cardinals,47.0,6.5,,2015,,Arizona Cardinals,San Francisco 49ers,1,1,1,1,3,1.0,0.5,1.0,0.5,0.6875,0.5,6.5
+2015-09-27,Buffalo Bills,41.0,Miami Dolphins,14.0,3.0,,2015,,Miami Dolphins,Buffalo Bills,1,1,0,0,3,0.5,0.5,0.5,0.5,0.5,0.5625,3.0
+2015-09-27,Chicago Bears,0.0,Seattle Seahawks,26.0,15.0,,2015,,Seattle Seahawks,Chicago Bears,1,0,1,1,3,0.0,0.0,0.0,0.0,0.75,0.3125,15.0
+2015-09-27,Denver Broncos,24.0,Detroit Lions,12.0,-3.5,,2015,,Denver Broncos,Detroit Lions,0,0,0,1,3,0.0,1.0,1.0,0.0,0.75,0.6875,3.5
+2015-09-28,Kansas City Chiefs,28.0,Green Bay Packers,38.0,6.5,,2015,,Green Bay Packers,Kansas City Chiefs,1,0,1,1,3,1.0,0.5,1.0,0.5,0.75,0.5625,6.5
+2015-10-01,Baltimore Ravens,23.0,Pittsburgh Steelers,20.0,-2.5,,2015,,Baltimore Ravens,Pittsburgh Steelers,0,1,0,1,4,0.666666666667,0.0,0.0,0.666666666667,0.625,0.6875,2.5
+2015-10-04,New York Jets,27.0,Miami Dolphins,14.0,-1.5,,2015,,New York Jets,Miami Dolphins,0,1,0,1,4,0.333333333333,0.666666666667,0.666666666667,0.333333333333,0.25,0.5,1.5
+2015-10-04,Jacksonville Jaguars,13.0,Indianapolis Colts,16.0,9.0,,2015,,Indianapolis Colts,Jacksonville Jaguars,1,1,1,1,4,0.333333333333,0.333333333333,0.333333333333,0.333333333333,0.6875,0.1875,9.0
+2015-10-04,New York Giants,24.0,Buffalo Bills,10.0,5.5,,2015,,Buffalo Bills,New York Giants,1,0,0,0,4,0.666666666667,0.333333333333,0.666666666667,0.333333333333,0.5625,0.375,5.5
+2015-10-04,Carolina Panthers,37.0,Tampa Bay Buccaneers,23.0,-3.0,,2015,,Carolina Panthers,Tampa Bay Buccaneers,0,1,0,1,4,0.333333333333,1.0,1.0,0.333333333333,0.4375,0.125,3.0
+2015-10-04,Philadelphia Eagles,20.0,Washington Redskins,23.0,-3.0,,2015,,Philadelphia Eagles,Washington Redskins,0,1,1,0,4,0.333333333333,0.333333333333,0.333333333333,0.333333333333,0.625,0.25,3.0
+2015-10-04,Oakland Raiders,20.0,Chicago Bears,22.0,-3.0,,2015,,Oakland Raiders,Chicago Bears,0,0,1,0,4,0.0,0.666666666667,0.666666666667,0.0,0.1875,0.3125,3.0
+2015-10-04,Houston Texans,21.0,Atlanta Falcons,48.0,6.5,,2015,,Atlanta Falcons,Houston Texans,1,0,1,1,4,1.0,0.333333333333,1.0,0.333333333333,0.375,0.5625,6.5
+2015-10-04,Kansas City Chiefs,21.0,Cincinnati Bengals,36.0,4.0,,2015,,Cincinnati Bengals,Kansas City Chiefs,1,0,1,1,4,1.0,0.333333333333,1.0,0.333333333333,0.625,0.5625,4.0
+2015-10-04,Cleveland Browns,27.0,San Diego Chargers,30.0,7.5,,2015,,San Diego Chargers,Cleveland Browns,1,0,1,1,4,0.333333333333,0.333333333333,0.333333333333,0.333333333333,0.5625,0.4375,7.5
+2015-10-04,Green Bay Packers,17.0,San Francisco 49ers,3.0,-8.5,,2015,,Green Bay Packers,San Francisco 49ers,0,0,0,1,4,0.333333333333,1.0,1.0,0.333333333333,0.75,0.5,8.5
+2015-10-04,Los Angeles Rams,24.0,Arizona Cardinals,22.0,7.0,,2015,,Arizona Cardinals,Los Angeles Rams,1,1,0,0,4,1.0,0.333333333333,1.0,0.333333333333,0.6875,0.375,7.0
+2015-10-04,Minnesota Vikings,20.0,Denver Broncos,23.0,6.5,,2015,,Denver Broncos,Minnesota Vikings,1,0,1,1,4,1.0,0.666666666667,1.0,0.666666666667,0.75,0.4375,6.5
+2015-10-04,Dallas Cowboys,20.0,New Orleans Saints,26.0,4.5,,2015,,New Orleans Saints,Dallas Cowboys,1,0,1,1,4,0.0,0.666666666667,0.0,0.666666666667,0.4375,0.75,4.5
+2015-10-05,Detroit Lions,10.0,Seattle Seahawks,13.0,10.0,,2015,,Seattle Seahawks,Detroit Lions,1,0,1,1,4,0.333333333333,0.0,0.333333333333,0.0,0.75,0.6875,10.0
+2015-10-08,Indianapolis Colts,27.0,Houston Texans,20.0,4.0,,2015,,Houston Texans,Indianapolis Colts,1,1,0,0,5,0.25,0.5,0.25,0.5,0.5625,0.6875,4.0
+2015-10-11,Chicago Bears,18.0,Kansas City Chiefs,17.0,9.5,,2015,,Kansas City Chiefs,Chicago Bears,1,0,0,0,5,0.25,0.25,0.25,0.25,0.5625,0.3125,9.5
+2015-10-11,Seattle Seahawks,24.0,Cincinnati Bengals,27.0,3.0,,2015,,Cincinnati Bengals,Seattle Seahawks,1,0,1,1,5,1.0,0.5,1.0,0.5,0.625,0.75,3.0
+2015-10-11,Washington Redskins,19.0,Atlanta Falcons,25.0,7.5,,2015,,Atlanta Falcons,Washington Redskins,1,0,1,1,5,1.0,0.5,1.0,0.5,0.375,0.25,7.5
+2015-10-11,Jacksonville Jaguars,31.0,Tampa Bay Buccaneers,38.0,3.0,,2015,,Tampa Bay Buccaneers,Jacksonville Jaguars,1,0,1,1,5,0.25,0.25,0.25,0.25,0.125,0.1875,3.0
+2015-10-11,New Orleans Saints,17.0,Philadelphia Eagles,39.0,4.5,,2015,,Philadelphia Eagles,New Orleans Saints,1,0,1,1,5,0.25,0.25,0.25,0.25,0.625,0.4375,4.5
+2015-10-11,Cleveland Browns,33.0,Baltimore Ravens,30.0,6.5,,2015,,Baltimore Ravens,Cleveland Browns,1,1,0,0,5,0.25,0.25,0.25,0.25,0.625,0.4375,6.5
+2015-10-11,Los Angeles Rams,10.0,Green Bay Packers,24.0,9.0,,2015,,Green Bay Packers,Los Angeles Rams,1,0,1,1,5,1.0,0.5,1.0,0.5,0.75,0.375,9.0
+2015-10-11,Buffalo Bills,14.0,Tennessee Titans,13.0,-2.5,,2015,,Buffalo Bills,Tennessee Titans,0,0,0,1,5,0.25,0.5,0.5,0.25,0.5625,0.125,2.5
+2015-10-11,Arizona Cardinals,42.0,Detroit Lions,17.0,-2.5,,2015,,Arizona Cardinals,Detroit Lions,0,0,0,1,5,0.0,0.75,0.75,0.0,0.6875,0.6875,2.5
+2015-10-11,New England Patriots,30.0,Dallas Cowboys,6.0,-9.0,,2015,,New England Patriots,Dallas Cowboys,0,0,0,1,5,0.5,1.0,1.0,0.5,0.75,0.75,9.0
+2015-10-11,Denver Broncos,16.0,Oakland Raiders,10.0,-5.0,,2015,,Denver Broncos,Oakland Raiders,0,1,0,1,5,0.5,1.0,1.0,0.5,0.75,0.1875,5.0
+2015-10-11,San Francisco 49ers,27.0,New York Giants,30.0,7.0,,2015,,New York Giants,San Francisco 49ers,1,0,1,1,5,0.5,0.25,0.5,0.25,0.375,0.5,7.0
+2015-10-12,Pittsburgh Steelers,24.0,San Diego Chargers,20.0,-3.0,,2015,,Pittsburgh Steelers,San Diego Chargers,0,0,0,1,5,0.5,0.5,0.5,0.5,0.6875,0.5625,3.0
+2015-10-15,Atlanta Falcons,21.0,New Orleans Saints,31.0,-3.5,,2015,,Atlanta Falcons,New Orleans Saints,0,1,1,0,6,0.2,1.0,1.0,0.2,0.375,0.4375,3.5
+2015-10-18,Washington Redskins,20.0,New York Jets,34.0,6.0,,2015,,New York Jets,Washington Redskins,1,0,1,1,6,0.8,0.4,0.8,0.4,0.25,0.25,6.0
+2015-10-18,Arizona Cardinals,13.0,Pittsburgh Steelers,25.0,-3.0,,2015,,Arizona Cardinals,Pittsburgh Steelers,0,0,1,0,6,0.6,0.8,0.8,0.6,0.6875,0.6875,3.0
+2015-10-18,Kansas City Chiefs,10.0,Minnesota Vikings,16.0,4.0,,2015,,Minnesota Vikings,Kansas City Chiefs,1,0,1,1,6,0.6,0.2,0.6,0.2,0.4375,0.5625,4.0
+2015-10-18,Cincinnati Bengals,34.0,Buffalo Bills,21.0,-3.5,,2015,,Cincinnati Bengals,Buffalo Bills,0,0,0,1,6,0.6,1.0,1.0,0.6,0.625,0.5625,3.5
+2015-10-18,Chicago Bears,34.0,Detroit Lions,37.0,3.0,,2015,,Detroit Lions,Chicago Bears,1,1,1,1,6,0.0,0.4,0.0,0.4,0.6875,0.3125,3.0
+2015-10-18,Denver Broncos,26.0,Cleveland Browns,23.0,-4.0,,2015,,Denver Broncos,Cleveland Browns,0,0,0,1,6,0.4,1.0,1.0,0.4,0.75,0.4375,4.0
+2015-10-18,Houston Texans,31.0,Jacksonville Jaguars,20.0,0.0,,2015,,Houston Texans,Jacksonville Jaguars,0,1,0,0,6,0.2,0.2,0.2,0.2,0.5625,0.1875,0.0
+2015-10-18,Miami Dolphins,38.0,Tennessee Titans,10.0,2.5,,2015,,Tennessee Titans,Miami Dolphins,1,0,0,0,6,0.2,0.4,0.2,0.4,0.125,0.5,2.5
+2015-10-18,Carolina Panthers,27.0,Seattle Seahawks,23.0,7.0,,2015,,Seattle Seahawks,Carolina Panthers,1,0,0,0,6,0.4,1.0,0.4,1.0,0.75,0.4375,7.0
+2015-10-18,San Diego Chargers,20.0,Green Bay Packers,27.0,10.5,,2015,,Green Bay Packers,San Diego Chargers,1,0,1,1,6,1.0,0.4,1.0,0.4,0.75,0.5625,10.5
+2015-10-18,Baltimore Ravens,20.0,San Francisco 49ers,25.0,-2.5,,2015,,Baltimore Ravens,San Francisco 49ers,0,0,1,0,6,0.2,0.2,0.2,0.2,0.625,0.5,2.5
+2015-10-18,New England Patriots,34.0,Indianapolis Colts,27.0,-7.5,,2015,,New England Patriots,Indianapolis Colts,0,0,0,1,6,0.6,1.0,1.0,0.6,0.75,0.6875,7.5
+2015-10-19,New York Giants,7.0,Philadelphia Eagles,27.0,4.0,,2015,,Philadelphia Eagles,New York Giants,1,1,1,1,6,0.4,0.6,0.4,0.6,0.625,0.375,4.0
+2015-10-22,Seattle Seahawks,20.0,San Francisco 49ers,3.0,-6.0,,2015,,Seattle Seahawks,San Francisco 49ers,0,1,0,1,7,0.333333333333,0.333333333333,0.333333333333,0.333333333333,0.75,0.5,6.0
+2015-10-25,Buffalo Bills,31.0,Jacksonville Jaguars,34.0,-5.5,,2015,,Buffalo Bills,Jacksonville Jaguars,0,0,1,0,7,0.166666666667,0.5,0.5,0.166666666667,0.5625,0.1875,5.5
+2015-10-25,Tampa Bay Buccaneers,30.0,Washington Redskins,31.0,3.5,,2015,,Washington Redskins,Tampa Bay Buccaneers,1,0,1,1,7,0.333333333333,0.333333333333,0.333333333333,0.333333333333,0.25,0.125,3.5
+2015-10-25,Atlanta Falcons,10.0,Tennessee Titans,7.0,-4.5,,2015,,Atlanta Falcons,Tennessee Titans,0,0,0,1,7,0.166666666667,0.833333333333,0.833333333333,0.166666666667,0.375,0.125,4.5
+2015-10-25,New Orleans Saints,27.0,Indianapolis Colts,21.0,4.5,,2015,,Indianapolis Colts,New Orleans Saints,1,0,0,0,7,0.5,0.333333333333,0.5,0.333333333333,0.6875,0.4375,4.5
+2015-10-25,Minnesota Vikings,28.0,Detroit Lions,19.0,-2.5,,2015,,Minnesota Vikings,Detroit Lions,0,1,0,1,7,0.166666666667,0.666666666667,0.666666666667,0.166666666667,0.4375,0.6875,2.5
+2015-10-25,Pittsburgh Steelers,13.0,Kansas City Chiefs,23.0,-2.0,,2015,,Pittsburgh Steelers,Kansas City Chiefs,0,0,1,0,7,0.166666666667,0.666666666667,0.666666666667,0.166666666667,0.6875,0.5625,2.0
+2015-10-25,Cleveland Browns,6.0,Los Angeles Rams,24.0,5.5,,2015,,Los Angeles Rams,Cleveland Browns,1,0,1,1,7,0.5,0.333333333333,0.5,0.333333333333,0.375,0.4375,5.5
+2015-10-25,Houston Texans,26.0,Miami Dolphins,44.0,4.5,,2015,,Miami Dolphins,Houston Texans,1,0,1,1,7,0.5,0.333333333333,0.5,0.333333333333,0.5,0.5625,4.5
+2015-10-25,New York Jets,23.0,New England Patriots,30.0,9.0,,2015,,New England Patriots,New York Jets,1,1,1,1,7,1.0,0.666666666667,1.0,0.666666666667,0.75,0.25,9.0
+2015-10-25,Oakland Raiders,37.0,San Diego Chargers,29.0,4.0,,2015,,San Diego Chargers,Oakland Raiders,1,1,0,0,7,0.333333333333,0.5,0.333333333333,0.5,0.5625,0.1875,4.0
+2015-10-25,Dallas Cowboys,20.0,New York Giants,27.0,3.5,,2015,,New York Giants,Dallas Cowboys,1,1,1,1,7,0.5,0.333333333333,0.5,0.333333333333,0.375,0.75,3.5
+2015-10-25,Philadelphia Eagles,16.0,Carolina Panthers,27.0,3.0,,2015,,Carolina Panthers,Philadelphia Eagles,1,0,1,1,7,1.0,0.5,1.0,0.5,0.4375,0.625,3.0
+2015-10-26,Baltimore Ravens,18.0,Arizona Cardinals,26.0,7.5,,2015,,Arizona Cardinals,Baltimore Ravens,1,0,1,1,7,0.666666666667,0.166666666667,0.666666666667,0.166666666667,0.6875,0.625,7.5
+2015-10-29,Miami Dolphins,7.0,New England Patriots,36.0,8.0,,2015,,New England Patriots,Miami Dolphins,1,1,1,1,8,1.0,0.428571428571,1.0,0.428571428571,0.75,0.5,8.0
+2015-11-01,Detroit Lions,10.0,Kansas City Chiefs,45.0,5.0,,2015,,Kansas City Chiefs,Detroit Lions,1,0,1,1,8,0.285714285714,0.142857142857,0.285714285714,0.142857142857,0.5625,0.6875,5.0
+2015-11-01,Tampa Bay Buccaneers,23.0,Atlanta Falcons,20.0,7.0,,2015,,Atlanta Falcons,Tampa Bay Buccaneers,1,1,0,0,8,0.857142857143,0.428571428571,0.857142857143,0.428571428571,0.375,0.125,7.0
+2015-11-01,Arizona Cardinals,34.0,Cleveland Browns,20.0,-5.0,,2015,,Arizona Cardinals,Cleveland Browns,0,0,0,1,8,0.285714285714,0.714285714286,0.714285714286,0.285714285714,0.6875,0.4375,5.0
+2015-11-01,San Francisco 49ers,6.0,Los Angeles Rams,27.0,8.5,,2015,,Los Angeles Rams,San Francisco 49ers,1,1,1,1,8,0.571428571429,0.285714285714,0.571428571429,0.285714285714,0.375,0.5,8.5
+2015-11-01,New York Giants,49.0,New Orleans Saints,52.0,3.0,,2015,,New Orleans Saints,New York Giants,1,0,1,1,8,0.428571428571,0.571428571429,0.428571428571,0.571428571429,0.4375,0.375,3.0
+2015-11-01,Minnesota Vikings,23.0,Chicago Bears,20.0,-1.0,,2015,,Minnesota Vikings,Chicago Bears,0,1,0,1,8,0.285714285714,0.714285714286,0.714285714286,0.285714285714,0.4375,0.3125,1.0
+2015-11-01,San Diego Chargers,26.0,Baltimore Ravens,29.0,3.0,,2015,,Baltimore Ravens,San Diego Chargers,1,0,1,1,8,0.142857142857,0.285714285714,0.142857142857,0.285714285714,0.625,0.5625,3.0
+2015-11-01,Cincinnati Bengals,16.0,Pittsburgh Steelers,10.0,0.1,,2015,,Pittsburgh Steelers,Cincinnati Bengals,1,1,0,0,8,0.571428571429,1.0,0.571428571429,1.0,0.6875,0.625,0.1
+2015-11-01,Tennessee Titans,6.0,Houston Texans,20.0,3.5,,2015,,Houston Texans,Tennessee Titans,1,1,1,1,8,0.285714285714,0.142857142857,0.285714285714,0.142857142857,0.5625,0.125,3.5
+2015-11-01,New York Jets,20.0,Oakland Raiders,34.0,-2.0,,2015,,New York Jets,Oakland Raiders,0,0,1,0,8,0.571428571429,0.571428571429,0.571428571429,0.571428571429,0.25,0.1875,2.0
+2015-11-01,Seattle Seahawks,13.0,Dallas Cowboys,12.0,-6.0,,2015,,Seattle Seahawks,Dallas Cowboys,0,0,0,1,8,0.285714285714,0.428571428571,0.428571428571,0.285714285714,0.75,0.75,6.0
+2015-11-01,Green Bay Packers,10.0,Denver Broncos,29.0,-3.0,,2015,,Green Bay Packers,Denver Broncos,0,0,1,0,8,1.0,0.857142857143,0.857142857143,1.0,0.75,0.75,3.0
+2015-11-02,Indianapolis Colts,26.0,Carolina Panthers,29.0,7.0,,2015,,Carolina Panthers,Indianapolis Colts,1,0,1,1,8,1.0,0.428571428571,1.0,0.428571428571,0.4375,0.6875,7.0
+2015-11-05,Cleveland Browns,10.0,Cincinnati Bengals,31.0,11.5,,2015,,Cincinnati Bengals,Cleveland Browns,1,1,1,1,9,1.0,0.25,1.0,0.25,0.625,0.4375,11.5
+2015-11-08,Green Bay Packers,29.0,Carolina Panthers,37.0,-2.5,,2015,,Green Bay Packers,Carolina Panthers,0,0,1,0,9,1.0,0.75,0.75,1.0,0.75,0.4375,2.5
+2015-11-08,Washington Redskins,10.0,New England Patriots,27.0,14.0,,2015,,New England Patriots,Washington Redskins,1,0,1,1,9,1.0,0.375,1.0,0.375,0.75,0.25,14.0
+2015-11-08,Tennessee Titans,34.0,New Orleans Saints,28.0,8.0,,2015,,New Orleans Saints,Tennessee Titans,1,0,0,0,9,0.5,0.25,0.5,0.25,0.4375,0.125,8.0
+2015-11-08,Miami Dolphins,17.0,Buffalo Bills,33.0,3.0,,2015,,Buffalo Bills,Miami Dolphins,1,1,1,1,9,0.5,0.375,0.5,0.375,0.5625,0.5,3.0
+2015-11-08,Los Angeles Rams,18.0,Minnesota Vikings,21.0,2.0,,2015,,Minnesota Vikings,Los Angeles Rams,1,0,1,1,9,0.75,0.5,0.75,0.5,0.4375,0.375,2.0
+2015-11-08,Jacksonville Jaguars,23.0,New York Jets,28.0,7.5,,2015,,New York Jets,Jacksonville Jaguars,1,0,1,1,9,0.625,0.25,0.625,0.25,0.25,0.1875,7.5
+2015-11-08,Oakland Raiders,35.0,Pittsburgh Steelers,38.0,4.5,,2015,,Pittsburgh Steelers,Oakland Raiders,1,0,1,1,9,0.5,0.5,0.5,0.5,0.6875,0.1875,4.5
+2015-11-08,New York Giants,32.0,Tampa Bay Buccaneers,18.0,-2.5,,2015,,New York Giants,Tampa Bay Buccaneers,0,0,0,1,9,0.375,0.5,0.5,0.375,0.375,0.125,2.5
+2015-11-08,Atlanta Falcons,16.0,San Francisco 49ers,17.0,-7.0,,2015,,Atlanta Falcons,San Francisco 49ers,0,0,1,0,9,0.25,0.75,0.75,0.25,0.375,0.5,7.0
+2015-11-08,Denver Broncos,24.0,Indianapolis Colts,27.0,-5.0,,2015,,Denver Broncos,Indianapolis Colts,0,0,1,0,9,0.375,0.875,0.875,0.375,0.75,0.6875,5.0
+2015-11-08,Philadelphia Eagles,33.0,Dallas Cowboys,27.0,-2.5,,2015,,Philadelphia Eagles,Dallas Cowboys,0,1,0,1,9,0.25,0.5,0.5,0.25,0.625,0.75,2.5
+2015-11-09,Chicago Bears,22.0,San Diego Chargers,19.0,4.0,,2015,,San Diego Chargers,Chicago Bears,1,0,0,0,9,0.25,0.375,0.25,0.375,0.5625,0.3125,4.0
+2015-11-12,Buffalo Bills,22.0,New York Jets,17.0,2.5,,2015,,New York Jets,Buffalo Bills,1,1,0,0,10,0.555555555556,0.555555555556,0.555555555556,0.555555555556,0.25,0.5625,2.5
+2015-11-15,Detroit Lions,18.0,Green Bay Packers,16.0,11.5,,2015,,Green Bay Packers,Detroit Lions,1,1,0,0,10,0.666666666667,0.222222222222,0.666666666667,0.222222222222,0.75,0.6875,11.5
+2015-11-15,Dallas Cowboys,6.0,Tampa Bay Buccaneers,10.0,1.5,,2015,,Tampa Bay Buccaneers,Dallas Cowboys,1,0,1,1,10,0.444444444444,0.222222222222,0.444444444444,0.222222222222,0.125,0.75,1.5
+2015-11-15,Carolina Panthers,27.0,Tennessee Titans,10.0,-5.5,,2015,,Carolina Panthers,Tennessee Titans,0,0,0,1,10,0.222222222222,1.0,1.0,0.222222222222,0.4375,0.125,5.5
+2015-11-15,Chicago Bears,37.0,Los Angeles Rams,13.0,7.0,,2015,,Los Angeles Rams,Chicago Bears,1,0,0,0,10,0.444444444444,0.444444444444,0.444444444444,0.444444444444,0.375,0.3125,7.0
+2015-11-15,New Orleans Saints,14.0,Washington Redskins,47.0,-1.0,,2015,,New Orleans Saints,Washington Redskins,0,0,1,0,10,0.444444444444,0.444444444444,0.444444444444,0.444444444444,0.4375,0.25,1.0
+2015-11-15,Miami Dolphins,20.0,Philadelphia Eagles,19.0,6.5,,2015,,Philadelphia Eagles,Miami Dolphins,1,0,0,0,10,0.444444444444,0.444444444444,0.444444444444,0.444444444444,0.625,0.5,6.5
+2015-11-15,Cleveland Browns,9.0,Pittsburgh Steelers,30.0,4.5,,2015,,Pittsburgh Steelers,Cleveland Browns,1,1,1,1,10,0.555555555556,0.222222222222,0.555555555556,0.222222222222,0.6875,0.4375,4.5
+2015-11-15,Jacksonville Jaguars,22.0,Baltimore Ravens,20.0,5.5,,2015,,Baltimore Ravens,Jacksonville Jaguars,1,0,0,0,10,0.222222222222,0.333333333333,0.222222222222,0.333333333333,0.625,0.1875,5.5
+2015-11-15,Minnesota Vikings,30.0,Oakland Raiders,14.0,3.0,,2015,,Oakland Raiders,Minnesota Vikings,1,0,0,0,10,0.444444444444,0.777777777778,0.444444444444,0.777777777778,0.1875,0.4375,3.0
+2015-11-15,New England Patriots,27.0,New York Giants,26.0,-7.0,,2015,,New England Patriots,New York Giants,0,0,0,1,10,0.555555555556,1.0,1.0,0.555555555556,0.75,0.375,7.0
+2015-11-15,Kansas City Chiefs,29.0,Denver Broncos,13.0,6.0,,2015,,Denver Broncos,Kansas City Chiefs,1,1,0,0,10,0.777777777778,0.444444444444,0.777777777778,0.444444444444,0.75,0.5625,6.0
+2015-11-15,Arizona Cardinals,39.0,Seattle Seahawks,32.0,3.0,,2015,,Seattle Seahawks,Arizona Cardinals,1,1,0,0,10,0.444444444444,0.777777777778,0.444444444444,0.777777777778,0.75,0.6875,3.0
+2015-11-16,Houston Texans,10.0,Cincinnati Bengals,6.0,10.5,,2015,,Cincinnati Bengals,Houston Texans,1,0,0,0,10,0.888888888889,0.444444444444,0.888888888889,0.444444444444,0.625,0.5625,10.5
+2015-11-19,Tennessee Titans,13.0,Jacksonville Jaguars,19.0,3.0,,2015,,Jacksonville Jaguars,Tennessee Titans,1,1,1,1,11,0.4,0.2,0.4,0.2,0.1875,0.125,3.0
+2015-11-22,Oakland Raiders,13.0,Detroit Lions,18.0,-1.5,,2015,,Oakland Raiders,Detroit Lions,0,0,1,0,11,0.3,0.4,0.4,0.3,0.1875,0.6875,1.5
+2015-11-22,Indianapolis Colts,24.0,Atlanta Falcons,21.0,6.0,,2015,,Atlanta Falcons,Indianapolis Colts,1,0,0,0,11,0.6,0.5,0.6,0.5,0.375,0.6875,6.0
+2015-11-22,New York Jets,17.0,Houston Texans,24.0,-2.5,,2015,,New York Jets,Houston Texans,0,0,1,0,11,0.5,0.5,0.5,0.5,0.25,0.5625,2.5
+2015-11-22,Tampa Bay Buccaneers,45.0,Philadelphia Eagles,17.0,5.5,,2015,,Philadelphia Eagles,Tampa Bay Buccaneers,1,0,0,0,11,0.4,0.5,0.4,0.5,0.625,0.125,5.5
+2015-11-22,Denver Broncos,17.0,Chicago Bears,15.0,1.0,,2015,,Chicago Bears,Denver Broncos,1,0,0,0,11,0.4,0.8,0.4,0.8,0.3125,0.75,1.0
+2015-11-22,Green Bay Packers,30.0,Minnesota Vikings,13.0,1.0,,2015,,Minnesota Vikings,Green Bay Packers,1,1,0,0,11,0.7,0.7,0.7,0.7,0.4375,0.75,1.0
+2015-11-22,Los Angeles Rams,13.0,Baltimore Ravens,16.0,2.5,,2015,,Baltimore Ravens,Los Angeles Rams,1,0,1,1,11,0.3,0.4,0.3,0.4,0.625,0.375,2.5
+2015-11-22,Dallas Cowboys,24.0,Miami Dolphins,14.0,0.1,,2015,,Miami Dolphins,Dallas Cowboys,1,0,0,0,11,0.4,0.3,0.4,0.3,0.5,0.75,0.1
+2015-11-22,Washington Redskins,16.0,Carolina Panthers,44.0,7.0,,2015,,Carolina Panthers,Washington Redskins,1,0,1,1,11,1.0,0.4,1.0,0.4,0.4375,0.25,7.0
+2015-11-22,Cincinnati Bengals,31.0,Arizona Cardinals,34.0,5.0,,2015,,Arizona Cardinals,Cincinnati Bengals,1,0,1,1,11,0.8,0.8,0.8,0.8,0.6875,0.625,5.0
+2015-11-22,San Francisco 49ers,13.0,Seattle Seahawks,29.0,12.5,,2015,,Seattle Seahawks,San Francisco 49ers,1,1,1,1,11,0.5,0.3,0.5,0.3,0.75,0.5,12.5
+2015-11-22,Kansas City Chiefs,33.0,San Diego Chargers,3.0,-3.0,,2015,,Kansas City Chiefs,San Diego Chargers,0,1,0,1,11,0.2,0.5,0.5,0.2,0.5625,0.5625,3.0
+2015-11-23,Buffalo Bills,13.0,New England Patriots,20.0,7.0,,2015,,New England Patriots,Buffalo Bills,1,1,1,1,11,1.0,0.5,1.0,0.5,0.75,0.5625,7.0
+2015-11-26,Philadelphia Eagles,14.0,Detroit Lions,45.0,1.0,,2015,,Detroit Lions,Philadelphia Eagles,1,0,1,1,12,0.363636363636,0.363636363636,0.363636363636,0.363636363636,0.6875,0.625,1.0
+2015-11-26,Carolina Panthers,33.0,Dallas Cowboys,14.0,-1.0,,2015,,Carolina Panthers,Dallas Cowboys,0,0,0,1,12,0.272727272727,1.0,1.0,0.272727272727,0.4375,0.75,1.0
+2015-11-26,Chicago Bears,17.0,Green Bay Packers,13.0,9.0,,2015,,Green Bay Packers,Chicago Bears,1,1,0,0,12,0.636363636364,0.454545454545,0.636363636364,0.454545454545,0.75,0.3125,9.0
+2015-11-29,New Orleans Saints,6.0,Houston Texans,24.0,3.0,,2015,,Houston Texans,New Orleans Saints,1,0,1,1,12,0.545454545455,0.363636363636,0.545454545455,0.363636363636,0.5625,0.4375,3.0
+2015-11-29,Los Angeles Rams,7.0,Cincinnati Bengals,31.0,9.0,,2015,,Cincinnati Bengals,Los Angeles Rams,1,0,1,1,12,0.818181818182,0.363636363636,0.818181818182,0.363636363636,0.625,0.375,9.0
+2015-11-29,Minnesota Vikings,20.0,Atlanta Falcons,10.0,2.0,,2015,,Atlanta Falcons,Minnesota Vikings,1,0,0,0,12,0.545454545455,0.727272727273,0.545454545455,0.727272727273,0.375,0.4375,2.0
+2015-11-29,New York Giants,14.0,Washington Redskins,20.0,-2.5,,2015,,New York Giants,Washington Redskins,0,1,1,0,12,0.454545454545,0.454545454545,0.454545454545,0.454545454545,0.375,0.25,2.5
+2015-11-29,Tampa Bay Buccaneers,12.0,Indianapolis Colts,25.0,3.0,,2015,,Indianapolis Colts,Tampa Bay Buccaneers,1,0,1,1,12,0.545454545455,0.454545454545,0.545454545455,0.454545454545,0.6875,0.125,3.0
+2015-11-29,Buffalo Bills,22.0,Kansas City Chiefs,30.0,5.5,,2015,,Kansas City Chiefs,Buffalo Bills,1,0,1,1,12,0.545454545455,0.454545454545,0.545454545455,0.454545454545,0.5625,0.5625,5.5
+2015-11-29,Oakland Raiders,24.0,Tennessee Titans,21.0,-2.0,,2015,,Oakland Raiders,Tennessee Titans,0,0,0,1,12,0.181818181818,0.454545454545,0.454545454545,0.181818181818,0.1875,0.125,2.0
+2015-11-29,San Diego Chargers,31.0,Jacksonville Jaguars,25.0,4.0,,2015,,Jacksonville Jaguars,San Diego Chargers,1,0,0,0,12,0.363636363636,0.272727272727,0.363636363636,0.272727272727,0.1875,0.5625,4.0
+2015-11-29,Miami Dolphins,20.0,New York Jets,38.0,3.5,,2015,,New York Jets,Miami Dolphins,1,1,1,1,12,0.545454545455,0.363636363636,0.545454545455,0.363636363636,0.25,0.5,3.5
+2015-11-29,Arizona Cardinals,19.0,San Francisco 49ers,13.0,-10.5,,2015,,Arizona Cardinals,San Francisco 49ers,0,1,0,1,12,0.272727272727,0.818181818182,0.818181818182,0.272727272727,0.6875,0.5,10.5
+2015-11-29,Pittsburgh Steelers,30.0,Seattle Seahawks,39.0,4.0,,2015,,Seattle Seahawks,Pittsburgh Steelers,1,0,1,1,12,0.545454545455,0.545454545455,0.545454545455,0.545454545455,0.75,0.6875,4.0
+2015-11-29,New England Patriots,24.0,Denver Broncos,30.0,-3.0,,2015,,New England Patriots,Denver Broncos,0,0,1,0,12,0.818181818182,0.909090909091,0.909090909091,0.818181818182,0.75,0.75,3.0
+2015-11-30,Baltimore Ravens,33.0,Cleveland Browns,27.0,2.5,,2015,,Cleveland Browns,Baltimore Ravens,1,1,0,0,12,0.181818181818,0.363636363636,0.181818181818,0.363636363636,0.4375,0.625,2.5
+2015-12-03,Green Bay Packers,27.0,Detroit Lions,23.0,-3.0,,2015,,Green Bay Packers,Detroit Lions,0,1,0,1,13,0.333333333333,0.666666666667,0.666666666667,0.333333333333,0.75,0.6875,3.0
+2015-12-06,New York Jets,23.0,New York Giants,20.0,-2.0,,2015,,New York Jets,New York Giants,0,0,0,1,13,0.416666666667,0.583333333333,0.583333333333,0.416666666667,0.25,0.375,2.0
+2015-12-06,Arizona Cardinals,27.0,Los Angeles Rams,3.0,-5.5,,2015,,Arizona Cardinals,Los Angeles Rams,0,1,0,1,13,0.333333333333,0.833333333333,0.833333333333,0.333333333333,0.6875,0.375,5.5
+2015-12-06,Atlanta Falcons,19.0,Tampa Bay Buccaneers,23.0,2.0,,2015,,Tampa Bay Buccaneers,Atlanta Falcons,1,1,1,1,13,0.5,0.5,0.5,0.5,0.125,0.375,2.0
+2015-12-06,Carolina Panthers,41.0,New Orleans Saints,38.0,-7.0,,2015,,Carolina Panthers,New Orleans Saints,0,1,0,1,13,0.333333333333,1.0,1.0,0.333333333333,0.4375,0.4375,7.0
+2015-12-06,Seattle Seahawks,38.0,Minnesota Vikings,7.0,0.1,,2015,,Minnesota Vikings,Seattle Seahawks,1,0,0,0,13,0.666666666667,0.583333333333,0.666666666667,0.583333333333,0.4375,0.75,0.1
+2015-12-06,Houston Texans,21.0,Buffalo Bills,30.0,3.0,,2015,,Buffalo Bills,Houston Texans,1,0,1,1,13,0.5,0.5,0.5,0.5,0.5625,0.5625,3.0
+2015-12-06,Baltimore Ravens,13.0,Miami Dolphins,15.0,4.0,,2015,,Miami Dolphins,Baltimore Ravens,1,0,1,1,13,0.416666666667,0.333333333333,0.416666666667,0.333333333333,0.5,0.625,4.0
+2015-12-06,Cincinnati Bengals,37.0,Cleveland Browns,3.0,-9.5,,2015,,Cincinnati Bengals,Cleveland Browns,0,1,0,1,13,0.166666666667,0.833333333333,0.833333333333,0.166666666667,0.625,0.4375,9.5
+2015-12-06,Jacksonville Jaguars,39.0,Tennessee Titans,42.0,2.5,,2015,,Tennessee Titans,Jacksonville Jaguars,1,1,1,1,13,0.25,0.333333333333,0.25,0.333333333333,0.125,0.1875,2.5
+2015-12-06,San Francisco 49ers,26.0,Chicago Bears,20.0,7.0,,2015,,Chicago Bears,San Francisco 49ers,1,0,0,0,13,0.416666666667,0.333333333333,0.416666666667,0.333333333333,0.3125,0.5,7.0
+2015-12-06,Denver Broncos,17.0,San Diego Chargers,3.0,-4.0,,2015,,Denver Broncos,San Diego Chargers,0,1,0,1,13,0.25,0.833333333333,0.833333333333,0.25,0.75,0.5625,4.0
+2015-12-06,Kansas City Chiefs,34.0,Oakland Raiders,20.0,-3.0,,2015,,Kansas City Chiefs,Oakland Raiders,0,1,0,1,13,0.416666666667,0.583333333333,0.583333333333,0.416666666667,0.5625,0.1875,3.0
+2015-12-06,Philadelphia Eagles,35.0,New England Patriots,28.0,9.5,,2015,,New England Patriots,Philadelphia Eagles,1,0,0,0,13,0.833333333333,0.416666666667,0.833333333333,0.416666666667,0.75,0.625,9.5
+2015-12-06,Indianapolis Colts,10.0,Pittsburgh Steelers,45.0,6.5,,2015,,Pittsburgh Steelers,Indianapolis Colts,1,0,1,1,13,0.583333333333,0.5,0.583333333333,0.5,0.6875,0.6875,6.5
+2015-12-07,Dallas Cowboys,19.0,Washington Redskins,16.0,4.0,,2015,,Washington Redskins,Dallas Cowboys,1,1,0,0,13,0.416666666667,0.333333333333,0.416666666667,0.333333333333,0.25,0.75,4.0
+2015-12-10,Minnesota Vikings,20.0,Arizona Cardinals,23.0,11.0,,2015,,Arizona Cardinals,Minnesota Vikings,1,0,1,1,14,0.846153846154,0.615384615385,0.846153846154,0.615384615385,0.6875,0.4375,11.0
+2015-12-13,Buffalo Bills,20.0,Philadelphia Eagles,23.0,-1.5,,2015,,Buffalo Bills,Philadelphia Eagles,0,0,1,0,14,0.461538461538,0.461538461538,0.461538461538,0.461538461538,0.5625,0.625,1.5
+2015-12-13,San Francisco 49ers,10.0,Cleveland Browns,24.0,1.5,,2015,,Cleveland Browns,San Francisco 49ers,1,0,1,1,14,0.230769230769,0.307692307692,0.230769230769,0.307692307692,0.4375,0.5,1.5
+2015-12-13,Detroit Lions,14.0,Los Angeles Rams,21.0,-2.5,,2015,,Detroit Lions,Los Angeles Rams,0,0,1,0,14,0.384615384615,0.307692307692,0.307692307692,0.384615384615,0.6875,0.375,2.5
+2015-12-13,New Orleans Saints,24.0,Tampa Bay Buccaneers,17.0,4.0,,2015,,Tampa Bay Buccaneers,New Orleans Saints,1,1,0,0,14,0.461538461538,0.384615384615,0.461538461538,0.384615384615,0.125,0.4375,4.0
+2015-12-13,Tennessee Titans,8.0,New York Jets,30.0,7.0,,2015,,New York Jets,Tennessee Titans,1,0,1,1,14,0.615384615385,0.230769230769,0.615384615385,0.230769230769,0.25,0.125,7.0
+2015-12-13,Pittsburgh Steelers,33.0,Cincinnati Bengals,20.0,3.0,,2015,,Cincinnati Bengals,Pittsburgh Steelers,1,1,0,0,14,0.769230769231,0.615384615385,0.769230769231,0.615384615385,0.625,0.6875,3.0
+2015-12-13,New England Patriots,27.0,Houston Texans,6.0,-3.0,,2015,,New England Patriots,Houston Texans,0,0,0,1,14,0.461538461538,0.846153846154,0.846153846154,0.461538461538,0.75,0.5625,3.0
+2015-12-13,Indianapolis Colts,16.0,Jacksonville Jaguars,51.0,1.0,,2015,,Jacksonville Jaguars,Indianapolis Colts,1,1,1,1,14,0.384615384615,0.461538461538,0.384615384615,0.461538461538,0.1875,0.6875,1.0
+2015-12-13,San Diego Chargers,3.0,Kansas City Chiefs,10.0,10.0,,2015,,Kansas City Chiefs,San Diego Chargers,1,1,1,1,14,0.615384615385,0.230769230769,0.615384615385,0.230769230769,0.5625,0.5625,10.0
+2015-12-13,Washington Redskins,24.0,Chicago Bears,21.0,3.0,,2015,,Chicago Bears,Washington Redskins,1,0,0,0,14,0.384615384615,0.461538461538,0.384615384615,0.461538461538,0.3125,0.25,3.0
+2015-12-13,Atlanta Falcons,0.0,Carolina Panthers,38.0,7.5,,2015,,Carolina Panthers,Atlanta Falcons,1,1,1,1,14,1.0,0.461538461538,1.0,0.461538461538,0.4375,0.375,7.5
+2015-12-13,Oakland Raiders,15.0,Denver Broncos,12.0,7.5,,2015,,Denver Broncos,Oakland Raiders,1,1,0,0,14,0.769230769231,0.461538461538,0.769230769231,0.461538461538,0.75,0.1875,7.5
+2015-12-13,Dallas Cowboys,7.0,Green Bay Packers,28.0,7.0,,2015,,Green Bay Packers,Dallas Cowboys,1,0,1,1,14,0.692307692308,0.307692307692,0.692307692308,0.307692307692,0.75,0.75,7.0
+2015-12-13,Seattle Seahawks,35.0,Baltimore Ravens,6.0,-9.0,,2015,,Seattle Seahawks,Baltimore Ravens,0,0,0,1,14,0.307692307692,0.615384615385,0.615384615385,0.307692307692,0.75,0.625,9.0
+2015-12-14,New York Giants,31.0,Miami Dolphins,24.0,-1.0,,2015,,New York Giants,Miami Dolphins,0,0,0,1,14,0.384615384615,0.461538461538,0.461538461538,0.384615384615,0.375,0.5,1.0
+2015-12-17,Tampa Bay Buccaneers,23.0,Los Angeles Rams,31.0,1.5,,2015,,Los Angeles Rams,Tampa Bay Buccaneers,1,0,1,1,15,0.428571428571,0.428571428571,0.428571428571,0.428571428571,0.375,0.125,1.5
+2015-12-19,New York Jets,19.0,Dallas Cowboys,16.0,-3.0,,2015,,New York Jets,Dallas Cowboys,0,0,0,1,15,0.285714285714,0.642857142857,0.642857142857,0.285714285714,0.25,0.75,3.0
+2015-12-20,Chicago Bears,17.0,Minnesota Vikings,38.0,5.5,,2015,,Minnesota Vikings,Chicago Bears,1,1,1,1,15,0.642857142857,0.357142857143,0.642857142857,0.357142857143,0.4375,0.3125,5.5
+2015-12-20,Atlanta Falcons,23.0,Jacksonville Jaguars,17.0,3.5,,2015,,Jacksonville Jaguars,Atlanta Falcons,1,0,0,0,15,0.357142857143,0.5,0.357142857143,0.5,0.1875,0.375,3.5
+2015-12-20,Houston Texans,16.0,Indianapolis Colts,10.0,0.1,,2015,,Indianapolis Colts,Houston Texans,1,1,0,0,15,0.428571428571,0.5,0.428571428571,0.5,0.6875,0.5625,0.1
+2015-12-20,Arizona Cardinals,40.0,Philadelphia Eagles,17.0,-3.5,,2015,,Arizona Cardinals,Philadelphia Eagles,0,0,0,1,15,0.428571428571,0.857142857143,0.857142857143,0.428571428571,0.6875,0.625,3.5
+2015-12-20,Carolina Panthers,38.0,New York Giants,35.0,-5.0,,2015,,Carolina Panthers,New York Giants,0,0,0,1,15,0.428571428571,1.0,1.0,0.428571428571,0.4375,0.375,5.0
+2015-12-20,Tennessee Titans,16.0,New England Patriots,33.0,14.0,,2015,,New England Patriots,Tennessee Titans,1,0,1,1,15,0.857142857143,0.214285714286,0.857142857143,0.214285714286,0.75,0.125,14.0
+2015-12-20,Buffalo Bills,25.0,Washington Redskins,35.0,-1.0,,2015,,Buffalo Bills,Washington Redskins,0,0,1,0,15,0.5,0.428571428571,0.428571428571,0.5,0.5625,0.25,1.0
+2015-12-20,Kansas City Chiefs,34.0,Baltimore Ravens,14.0,-7.5,,2015,,Kansas City Chiefs,Baltimore Ravens,0,0,0,1,15,0.285714285714,0.642857142857,0.642857142857,0.285714285714,0.5625,0.625,7.5
+2015-12-20,Cleveland Browns,13.0,Seattle Seahawks,30.0,14.5,,2015,,Seattle Seahawks,Cleveland Browns,1,0,1,1,15,0.642857142857,0.214285714286,0.642857142857,0.214285714286,0.75,0.4375,14.5
+2015-12-20,Green Bay Packers,30.0,Oakland Raiders,20.0,-3.0,,2015,,Green Bay Packers,Oakland Raiders,0,0,0,1,15,0.428571428571,0.714285714286,0.714285714286,0.428571428571,0.75,0.1875,3.0
+2015-12-20,Denver Broncos,27.0,Pittsburgh Steelers,34.0,6.0,,2015,,Pittsburgh Steelers,Denver Broncos,1,0,1,1,15,0.642857142857,0.714285714286,0.642857142857,0.714285714286,0.6875,0.75,6.0
+2015-12-20,Miami Dolphins,14.0,San Diego Chargers,30.0,1.5,,2015,,San Diego Chargers,Miami Dolphins,1,0,1,1,15,0.285714285714,0.357142857143,0.285714285714,0.357142857143,0.5625,0.5,1.5
+2015-12-20,Cincinnati Bengals,24.0,San Francisco 49ers,14.0,-4.5,,2015,,Cincinnati Bengals,San Francisco 49ers,0,0,0,1,15,0.285714285714,0.785714285714,0.785714285714,0.285714285714,0.625,0.5,4.5
+2015-12-21,Detroit Lions,35.0,New Orleans Saints,27.0,3.0,,2015,,New Orleans Saints,Detroit Lions,1,0,0,0,15,0.357142857143,0.357142857143,0.357142857143,0.357142857143,0.4375,0.6875,3.0
+2015-12-24,San Diego Chargers,20.0,Oakland Raiders,23.0,5.5,,2015,,Oakland Raiders,San Diego Chargers,1,1,1,1,16,0.466666666667,0.266666666667,0.466666666667,0.266666666667,0.1875,0.5625,5.5
+2015-12-26,Washington Redskins,38.0,Philadelphia Eagles,24.0,3.0,,2015,,Philadelphia Eagles,Washington Redskins,1,1,0,0,16,0.4,0.533333333333,0.4,0.533333333333,0.625,0.25,3.0
+2015-12-27,New England Patriots,20.0,New York Jets,26.0,-3.0,,2015,,New England Patriots,New York Jets,0,1,1,0,16,0.666666666667,0.8,0.8,0.666666666667,0.75,0.25,3.0
+2015-12-27,Houston Texans,34.0,Tennessee Titans,6.0,4.5,,2015,,Tennessee Titans,Houston Texans,1,1,0,0,16,0.2,0.533333333333,0.2,0.533333333333,0.125,0.5625,4.5
+2015-12-27,Cleveland Browns,13.0,Kansas City Chiefs,17.0,12.5,,2015,,Kansas City Chiefs,Cleveland Browns,1,0,1,1,16,0.666666666667,0.2,0.666666666667,0.2,0.5625,0.4375,12.5
+2015-12-27,Indianapolis Colts,18.0,Miami Dolphins,12.0,1.5,,2015,,Miami Dolphins,Indianapolis Colts,1,0,0,0,16,0.333333333333,0.466666666667,0.333333333333,0.466666666667,0.5,0.6875,1.5
+2015-12-27,Jacksonville Jaguars,27.0,New Orleans Saints,38.0,3.5,,2015,,New Orleans Saints,Jacksonville Jaguars,1,0,1,1,16,0.4,0.333333333333,0.4,0.333333333333,0.4375,0.1875,3.5
+2015-12-27,San Francisco 49ers,17.0,Detroit Lions,32.0,9.0,,2015,,Detroit Lions,San Francisco 49ers,1,0,1,1,16,0.4,0.266666666667,0.4,0.266666666667,0.6875,0.5,9.0
+2015-12-27,Dallas Cowboys,6.0,Buffalo Bills,16.0,6.0,,2015,,Buffalo Bills,Dallas Cowboys,1,0,1,1,16,0.466666666667,0.266666666667,0.466666666667,0.266666666667,0.5625,0.75,6.0
+2015-12-27,Chicago Bears,26.0,Tampa Bay Buccaneers,21.0,3.0,,2015,,Tampa Bay Buccaneers,Chicago Bears,1,0,0,0,16,0.4,0.4,0.4,0.4,0.125,0.3125,3.0
+2015-12-27,Carolina Panthers,13.0,Atlanta Falcons,20.0,-7.0,,2015,,Carolina Panthers,Atlanta Falcons,0,1,1,0,16,0.533333333333,0.933333333333,0.933333333333,0.533333333333,0.4375,0.375,7.0
+2015-12-27,New York Giants,17.0,Minnesota Vikings,49.0,6.0,,2015,,Minnesota Vikings,New York Giants,1,0,1,1,16,0.666666666667,0.4,0.666666666667,0.4,0.4375,0.375,6.0
+2015-12-27,Los Angeles Rams,23.0,Seattle Seahawks,17.0,13.5,,2015,,Seattle Seahawks,Los Angeles Rams,1,1,0,0,16,0.6,0.466666666667,0.6,0.466666666667,0.75,0.375,13.5
+2015-12-27,Green Bay Packers,8.0,Arizona Cardinals,38.0,4.5,,2015,,Arizona Cardinals,Green Bay Packers,1,0,1,1,16,0.866666666667,0.666666666667,0.866666666667,0.666666666667,0.6875,0.75,4.5
+2015-12-27,Pittsburgh Steelers,17.0,Baltimore Ravens,20.0,-10.0,,2015,,Pittsburgh Steelers,Baltimore Ravens,0,1,1,0,16,0.333333333333,0.6,0.6,0.333333333333,0.6875,0.625,10.0
+2015-12-28,Cincinnati Bengals,17.0,Denver Broncos,20.0,3.5,,2015,,Denver Broncos,Cincinnati Bengals,1,0,1,1,16,0.733333333333,0.733333333333,0.733333333333,0.733333333333,0.75,0.625,3.5
+2016-01-03,New York Jets,17.0,Buffalo Bills,22.0,-3.0,,2015,,New York Jets,Buffalo Bills,0,1,1,0,17,0.5,0.625,0.625,0.5,0.25,0.5625,3.0
+2016-01-03,New England Patriots,10.0,Miami Dolphins,20.0,-10.5,,2015,,New England Patriots,Miami Dolphins,0,1,1,0,17,0.375,0.75,0.75,0.375,0.75,0.5,10.5
+2016-01-03,Tampa Bay Buccaneers,10.0,Carolina Panthers,38.0,10.5,,2015,,Carolina Panthers,Tampa Bay Buccaneers,1,1,1,1,17,0.9375,0.375,0.9375,0.375,0.4375,0.125,10.5
+2016-01-03,New Orleans Saints,20.0,Atlanta Falcons,17.0,4.0,,2015,,Atlanta Falcons,New Orleans Saints,1,1,0,0,17,0.5,0.4375,0.5,0.4375,0.375,0.4375,4.0
+2016-01-03,Baltimore Ravens,16.0,Cincinnati Bengals,24.0,9.0,,2015,,Cincinnati Bengals,Baltimore Ravens,1,1,1,1,17,0.75,0.3125,0.75,0.3125,0.625,0.625,9.0
+2016-01-03,Pittsburgh Steelers,28.0,Cleveland Browns,12.0,-10.5,,2015,,Pittsburgh Steelers,Cleveland Browns,0,1,0,1,17,0.1875,0.625,0.625,0.1875,0.6875,0.4375,10.5
+2016-01-03,Jacksonville Jaguars,6.0,Houston Texans,30.0,6.0,,2015,,Houston Texans,Jacksonville Jaguars,1,1,1,1,17,0.5625,0.3125,0.5625,0.3125,0.5625,0.1875,6.0
+2016-01-03,Tennessee Titans,24.0,Indianapolis Colts,30.0,6.0,,2015,,Indianapolis Colts,Tennessee Titans,1,1,1,1,17,0.5,0.1875,0.5,0.1875,0.6875,0.125,6.0
+2016-01-03,Oakland Raiders,17.0,Kansas City Chiefs,23.0,6.5,,2015,,Kansas City Chiefs,Oakland Raiders,1,1,1,1,17,0.6875,0.4375,0.6875,0.4375,0.5625,0.1875,6.5
+2016-01-03,Washington Redskins,34.0,Dallas Cowboys,23.0,3.5,,2015,,Dallas Cowboys,Washington Redskins,1,1,0,0,17,0.25,0.5625,0.25,0.5625,0.75,0.25,3.5
+2016-01-03,Philadelphia Eagles,35.0,New York Giants,30.0,3.5,,2015,,New York Giants,Philadelphia Eagles,1,1,0,0,17,0.375,0.4375,0.375,0.4375,0.375,0.625,3.5
+2016-01-03,Detroit Lions,24.0,Chicago Bears,20.0,1.0,,2015,,Chicago Bears,Detroit Lions,1,1,0,0,17,0.375,0.4375,0.375,0.4375,0.3125,0.6875,1.0
+2016-01-03,Minnesota Vikings,20.0,Green Bay Packers,13.0,3.0,,2015,,Green Bay Packers,Minnesota Vikings,1,1,0,0,17,0.625,0.6875,0.625,0.6875,0.75,0.4375,3.0
+2016-01-03,San Diego Chargers,20.0,Denver Broncos,27.0,9.0,,2015,,Denver Broncos,San Diego Chargers,1,1,1,1,17,0.75,0.25,0.75,0.25,0.75,0.5625,9.0
+2016-01-03,Seattle Seahawks,36.0,Arizona Cardinals,6.0,6.5,,2015,,Arizona Cardinals,Seattle Seahawks,1,1,0,0,17,0.8125,0.625,0.8125,0.625,0.6875,0.75,6.5
+2016-01-03,Los Angeles Rams,16.0,San Francisco 49ers,19.0,-3.5,,2015,,Los Angeles Rams,San Francisco 49ers,0,1,1,0,17,0.3125,0.4375,0.4375,0.3125,0.375,0.5,3.5
