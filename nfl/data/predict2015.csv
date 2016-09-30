@@ -1,0 +1,257 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+1,Kansas City Chiefs,0.44358012531,2.0,Houston Texans,1.0,1.0
+1,Buffalo Bills,0.457281988813,6.0,Indianapolis Colts,2.0,-2.5
+1,San Francisco 49ers,0.446177419283,3.0,Minnesota Vikings,3.0,-2.5
+1,New Orleans Saints,0.494271216684,9.0,Arizona Cardinals,4.0,2.5
+1,Atlanta Falcons,0.455012643929,5.0,Philadelphia Eagles,5.0,-3.0
+1,Jacksonville Jaguars,0.429818221634,1.0,Carolina Panthers,6.0,-3.0
+1,New York Jets,0.509432068974,10.0,New York Jets,7.0,3.0
+1,San Diego Chargers,0.544267650426,11.0,San Diego Chargers,8.0,3.0
+1,Tennessee Titans,0.469602515942,8.0,Tampa Bay Buccaneers,9.0,3.0
+1,Oakland Raiders,0.453636143489,4.0,Cincinnati Bengals,10.0,-3.5
+1,Washington Redskins,0.45940848539,7.0,Miami Dolphins,11.0,-3.5
+1,Seattle Seahawks,0.55700945485,12.0,Seattle Seahawks,12.0,-4.0
+1,Denver Broncos,0.602361833764,13.0,Denver Broncos,13.0,4.5
+1,Dallas Cowboys,0.686022144874,15.0,Dallas Cowboys,14.0,6.0
+1,Green Bay Packers,0.65195905308,14.0,Green Bay Packers,15.0,-6.5
+1,New England Patriots,0.705755224772,16.0,New England Patriots,16.0,7.0
+2,Tennessee Titans,0.666797487571,9.0,Tennessee Titans,1.0,-1.0
+2,New England Patriots,0.53318062592,5.0,New England Patriots,2.0,-1.0
+2,Arizona Cardinals,0.679396291667,10.0,Arizona Cardinals,3.0,-1.5
+2,Atlanta Falcons,0.259837811758,1.0,New York Giants,4.0,2.0
+2,Carolina Panthers,0.790042149348,14.0,Carolina Panthers,5.0,3.0
+2,Cincinnati Bengals,0.610076556019,8.0,Cincinnati Bengals,6.0,3.0
+2,Minnesota Vikings,0.598610237334,7.0,Minnesota Vikings,7.0,3.0
+2,Kansas City Chiefs,0.682666770241,11.0,Kansas City Chiefs,8.0,3.0
+2,Los Angeles Rams,0.7399738541,12.0,Los Angeles Rams,9.0,-3.5
+2,Green Bay Packers,0.82058893091,16.0,Green Bay Packers,10.0,3.5
+2,Dallas Cowboys,0.473987525249,4.0,Philadelphia Eagles,11.0,5.0
+2,San Francisco 49ers,0.409216836171,2.0,Pittsburgh Steelers,12.0,5.5
+2,Baltimore Ravens,0.560152509196,6.0,Baltimore Ravens,13.0,-6.0
+2,Miami Dolphins,0.810252447552,15.0,Miami Dolphins,14.0,-6.0
+2,New York Jets,0.442362625544,3.0,Indianapolis Colts,15.0,7.0
+2,New Orleans Saints,0.775770944705,13.0,New Orleans Saints,16.0,9.5
+3,Los Angeles Rams,0.411353817057,3.0,Pittsburgh Steelers,1.0,-1.0
+3,Dallas Cowboys,0.5474836054,8.0,Dallas Cowboys,2.0,2.0
+3,Minnesota Vikings,0.546205971972,7.0,Minnesota Vikings,3.0,2.5
+3,New York Jets,0.778633249364,10.0,New York Jets,4.0,2.5
+3,Cincinnati Bengals,0.355384338437,1.0,Baltimore Ravens,5.0,2.5
+3,Miami Dolphins,0.623730240492,9.0,Miami Dolphins,6.0,3.0
+3,Denver Broncos,0.782328297649,11.0,Denver Broncos,7.0,-3.5
+3,Tennessee Titans,0.394365893584,2.0,Indianapolis Colts,8.0,-3.5
+3,Cleveland Browns,0.543452125713,6.0,Cleveland Browns,9.0,3.5
+3,Washington Redskins,0.455920997118,4.0,New York Giants,10.0,3.5
+3,Houston Texans,0.514334319764,5.0,Houston Texans,11.0,6.5
+3,Green Bay Packers,0.81733500256,12.0,Green Bay Packers,12.0,6.5
+3,Arizona Cardinals,0.844879268153,13.0,Arizona Cardinals,13.0,6.5
+3,Carolina Panthers,0.890349670472,15.0,Carolina Panthers,14.0,6.5
+3,New England Patriots,0.925331425804,16.0,New England Patriots,15.0,13.5
+3,Seattle Seahawks,0.887210667704,14.0,Seattle Seahawks,16.0,15.0
+4,New York Jets,0.585021546265,5.0,New York Jets,2.0,-1.5
+4,Pittsburgh Steelers,0.382373223725,2.0,Baltimore Ravens,3.0,-2.5
+4,Oakland Raiders,0.639079684779,6.0,Oakland Raiders,4.0,-3.0
+4,Philadelphia Eagles,0.523715321035,4.0,Philadelphia Eagles,5.0,-3.0
+4,Carolina Panthers,0.697328292854,7.0,Carolina Panthers,6.0,-3.0
+4,Cincinnati Bengals,0.770097519196,10.0,Cincinnati Bengals,7.0,4.0
+4,Dallas Cowboys,0.465577029943,3.0,New Orleans Saints,8.0,4.5
+4,Buffalo Bills,0.724253760521,9.0,Buffalo Bills,9.0,5.5
+4,Atlanta Falcons,0.835286127594,13.0,Atlanta Falcons,10.0,6.5
+4,Denver Broncos,0.78382773162,11.0,Denver Broncos,11.0,6.5
+4,Arizona Cardinals,0.86606854092,16.0,Arizona Cardinals,12.0,7.0
+4,San Diego Chargers,0.717824832403,8.0,San Diego Chargers,13.0,7.5
+4,Green Bay Packers,0.851783925763,14.0,Green Bay Packers,14.0,-8.5
+4,Indianapolis Colts,0.787037528501,12.0,Indianapolis Colts,15.0,9.0
+4,Seattle Seahawks,0.857111595691,15.0,Seattle Seahawks,16.0,10.0
+5,Tennessee Titans,0.497379653439,4.0,Buffalo Bills,3.0,-2.5
+5,Arizona Cardinals,0.689367751761,8.0,Arizona Cardinals,4.0,-2.5
+5,Pittsburgh Steelers,0.518401195939,5.0,Pittsburgh Steelers,5.0,-3.0
+5,Jacksonville Jaguars,0.496411259166,3.0,Tampa Bay Buccaneers,6.0,3.0
+5,Cincinnati Bengals,0.726955139643,10.0,Cincinnati Bengals,7.0,3.0
+5,Houston Texans,0.606986193978,7.0,Houston Texans,8.0,4.0
+5,Philadelphia Eagles,0.597169301379,6.0,Philadelphia Eagles,9.0,4.5
+5,Denver Broncos,0.745914412068,11.0,Denver Broncos,10.0,-5.0
+5,Baltimore Ravens,0.724640531349,9.0,Baltimore Ravens,11.0,6.5
+5,New York Giants,0.758249908657,12.0,New York Giants,12.0,7.0
+5,Atlanta Falcons,0.816610124738,14.0,Atlanta Falcons,13.0,7.5
+5,New England Patriots,0.858991079246,15.0,New England Patriots,14.0,-9.0
+5,Green Bay Packers,0.862176162913,16.0,Green Bay Packers,15.0,9.0
+5,Kansas City Chiefs,0.766265800049,13.0,Kansas City Chiefs,16.0,9.5
+6,Jacksonville Jaguars,0.377428364012,3.0,Houston Texans,3.0,0.0
+6,San Francisco 49ers,0.46352418417,4.0,Baltimore Ravens,4.0,-2.5
+6,Miami Dolphins,0.464234594976,5.0,Tennessee Titans,5.0,2.5
+6,Arizona Cardinals,0.600973385799,9.0,Arizona Cardinals,6.0,-3.0
+6,Chicago Bears,0.467728548646,6.0,Detroit Lions,7.0,3.0
+6,Cincinnati Bengals,0.662452674959,10.0,Cincinnati Bengals,8.0,-3.5
+6,Atlanta Falcons,0.765832758986,14.0,Atlanta Falcons,9.0,-3.5
+6,Denver Broncos,0.707651394329,12.0,Denver Broncos,10.0,-4.0
+6,Minnesota Vikings,0.695734720129,11.0,Minnesota Vikings,11.0,4.0
+6,Philadelphia Eagles,0.593484075359,8.0,Philadelphia Eagles,12.0,4.0
+6,New York Jets,0.745169579712,13.0,New York Jets,13.0,6.0
+6,Seattle Seahawks,0.585393953576,7.0,Seattle Seahawks,14.0,7.0
+6,New England Patriots,0.80672702764,15.0,New England Patriots,15.0,-7.5
+6,Green Bay Packers,0.906346740272,16.0,Green Bay Packers,16.0,10.5
+7,Pittsburgh Steelers,0.59828672142,5.0,Pittsburgh Steelers,3.0,-2.0
+7,Minnesota Vikings,0.681641573764,10.0,Minnesota Vikings,4.0,-2.5
+7,Carolina Panthers,0.711955957888,14.0,Carolina Panthers,5.0,3.0
+7,Washington Redskins,0.51823272666,3.0,Washington Redskins,6.0,3.5
+7,New York Giants,0.693855862784,13.0,New York Giants,7.0,3.5
+7,San Diego Chargers,0.571948383347,4.0,San Diego Chargers,8.0,4.0
+7,Atlanta Falcons,0.68977923037,12.0,Atlanta Falcons,9.0,-4.5
+7,Indianapolis Colts,0.651329977543,7.0,Indianapolis Colts,10.0,4.5
+7,Miami Dolphins,0.662625622857,8.0,Miami Dolphins,11.0,4.5
+7,Buffalo Bills,0.647090996994,6.0,Buffalo Bills,12.0,-5.5
+7,Los Angeles Rams,0.685366872632,11.0,Los Angeles Rams,13.0,5.5
+7,Seattle Seahawks,0.675881724138,9.0,Seattle Seahawks,14.0,-6.0
+7,Arizona Cardinals,0.829495994074,15.0,Arizona Cardinals,15.0,7.5
+7,New England Patriots,0.864424454652,16.0,New England Patriots,16.0,9.0
+8,Cincinnati Bengals,0.421923132832,3.0,Pittsburgh Steelers,3.0,0.1
+8,Minnesota Vikings,0.567590027371,8.0,Minnesota Vikings,4.0,-1.0
+8,Oakland Raiders,0.4288948093,4.0,New York Jets,5.0,-2.0
+8,Green Bay Packers,0.538712629699,7.0,Green Bay Packers,6.0,-3.0
+8,Baltimore Ravens,0.507769519445,6.0,Baltimore Ravens,7.0,3.0
+8,New Orleans Saints,0.505711706195,5.0,New Orleans Saints,8.0,3.0
+8,Houston Texans,0.606237595454,9.0,Houston Texans,9.0,3.5
+8,Arizona Cardinals,0.690660249961,12.0,Arizona Cardinals,10.0,-5.0
+8,Kansas City Chiefs,0.675339552332,10.0,Kansas City Chiefs,11.0,5.0
+8,Seattle Seahawks,0.686323559418,11.0,Seattle Seahawks,12.0,-6.0
+8,Carolina Panthers,0.843437777912,15.0,Carolina Panthers,13.0,7.0
+8,Atlanta Falcons,0.812007940541,13.0,Atlanta Falcons,14.0,7.0
+8,New England Patriots,0.882147025899,16.0,New England Patriots,15.0,8.0
+8,Los Angeles Rams,0.843231597434,14.0,Los Angeles Rams,16.0,8.5
+9,Minnesota Vikings,0.575554704818,7.0,Minnesota Vikings,4.0,2.0
+9,Tampa Bay Buccaneers,0.46566335352,5.0,New York Giants,5.0,-2.5
+9,Carolina Panthers,0.44654243618,4.0,Green Bay Packers,6.0,-2.5
+9,Philadelphia Eagles,0.627865503577,9.0,Philadelphia Eagles,7.0,-2.5
+9,Buffalo Bills,0.641461079716,10.0,Buffalo Bills,8.0,3.0
+9,San Diego Chargers,0.531723297625,6.0,San Diego Chargers,9.0,4.0
+9,Pittsburgh Steelers,0.587195232437,8.0,Pittsburgh Steelers,10.0,4.5
+9,Denver Broncos,0.739543867007,11.0,Denver Broncos,11.0,-5.0
+9,Atlanta Falcons,0.77431414152,14.0,Atlanta Falcons,12.0,-7.0
+9,New York Jets,0.771417280593,13.0,New York Jets,13.0,7.5
+9,New Orleans Saints,0.755902629322,12.0,New Orleans Saints,14.0,8.0
+9,Cincinnati Bengals,0.93896373994,15.0,Cincinnati Bengals,15.0,11.5
+9,New England Patriots,0.93914789355,16.0,New England Patriots,16.0,14.0
+10,Washington Redskins,0.38671942261,3.0,New Orleans Saints,3.0,-1.0
+10,Tampa Bay Buccaneers,0.563913710318,5.0,Tampa Bay Buccaneers,4.0,1.5
+10,New York Jets,0.602114065024,8.0,New York Jets,5.0,2.5
+10,Minnesota Vikings,0.468120170995,4.0,Oakland Raiders,6.0,3.0
+10,Seattle Seahawks,0.563932737526,6.0,Seattle Seahawks,7.0,3.0
+10,Pittsburgh Steelers,0.734566202553,11.0,Pittsburgh Steelers,8.0,4.5
+10,Carolina Panthers,0.754705457044,12.0,Carolina Panthers,9.0,-5.5
+10,Baltimore Ravens,0.581537976417,7.0,Baltimore Ravens,10.0,5.5
+10,Denver Broncos,0.804226788419,14.0,Denver Broncos,11.0,6.0
+10,Philadelphia Eagles,0.695245887143,10.0,Philadelphia Eagles,12.0,6.5
+10,New England Patriots,0.772944101761,13.0,New England Patriots,13.0,-7.0
+10,Los Angeles Rams,0.691005922228,9.0,Los Angeles Rams,14.0,7.0
+10,Cincinnati Bengals,0.889207107223,15.0,Cincinnati Bengals,15.0,10.5
+10,Green Bay Packers,0.922727835594,16.0,Green Bay Packers,16.0,11.5
+11,Dallas Cowboys,0.478475542778,5.0,Miami Dolphins,3.0,0.1
+11,Denver Broncos,0.404528126598,3.0,Chicago Bears,4.0,1.0
+11,Minnesota Vikings,0.575702486111,8.0,Minnesota Vikings,5.0,1.0
+11,Detroit Lions,0.474127206452,4.0,Oakland Raiders,6.0,-1.5
+11,Houston Texans,0.488695027001,7.0,New York Jets,7.0,-2.5
+11,Los Angeles Rams,0.484925312557,6.0,Baltimore Ravens,8.0,2.5
+11,Kansas City Chiefs,0.635459920322,11.0,Kansas City Chiefs,9.0,-3.0
+11,Jacksonville Jaguars,0.600734239587,10.0,Jacksonville Jaguars,10.0,3.0
+11,Arizona Cardinals,0.678608874423,12.0,Arizona Cardinals,11.0,5.0
+11,Philadelphia Eagles,0.590402952019,9.0,Philadelphia Eagles,12.0,5.5
+11,Atlanta Falcons,0.722036594433,13.0,Atlanta Falcons,13.0,6.0
+11,Carolina Panthers,0.81641999235,14.0,Carolina Panthers,14.0,7.0
+11,New England Patriots,0.858677741268,15.0,New England Patriots,15.0,7.0
+11,Seattle Seahawks,0.907795949505,16.0,Seattle Seahawks,16.0,12.5
+12,Carolina Panthers,0.647618638527,11.0,Carolina Panthers,1.0,-1.0
+12,Philadelphia Eagles,0.479035369161,3.0,Detroit Lions,2.0,1.0
+12,Tennessee Titans,0.469583089679,2.0,Oakland Raiders,3.0,-2.0
+12,Minnesota Vikings,0.469197505934,1.0,Atlanta Falcons,4.0,2.0
+12,New York Giants,0.506017756132,4.0,New York Giants,5.0,-2.5
+12,Cleveland Browns,0.542031551195,6.0,Cleveland Browns,6.0,2.5
+12,New England Patriots,0.59258113419,7.0,New England Patriots,7.0,-3.0
+12,Houston Texans,0.594375515023,8.0,Houston Texans,8.0,3.0
+12,Indianapolis Colts,0.538979473629,5.0,Indianapolis Colts,9.0,3.0
+12,New York Jets,0.670627883473,12.0,New York Jets,10.0,3.5
+12,Jacksonville Jaguars,0.611240836037,9.0,Jacksonville Jaguars,11.0,4.0
+12,Seattle Seahawks,0.62827278739,10.0,Seattle Seahawks,12.0,4.0
+12,Kansas City Chiefs,0.688115349034,13.0,Kansas City Chiefs,13.0,5.5
+12,Cincinnati Bengals,0.847735615465,15.0,Cincinnati Bengals,14.0,9.0
+12,Green Bay Packers,0.835110739818,14.0,Green Bay Packers,15.0,9.0
+12,Arizona Cardinals,0.894827299356,16.0,Arizona Cardinals,16.0,-10.5
+13,Seattle Seahawks,0.495120706999,2.0,Minnesota Vikings,1.0,0.1
+13,New York Giants,0.48760474784,1.0,New York Jets,2.0,-2.0
+13,Tampa Bay Buccaneers,0.551739504,4.0,Tampa Bay Buccaneers,3.0,2.0
+13,Tennessee Titans,0.51148276901,3.0,Tennessee Titans,4.0,2.5
+13,Kansas City Chiefs,0.569373886999,6.0,Kansas City Chiefs,5.0,-3.0
+13,Green Bay Packers,0.670220811939,8.0,Green Bay Packers,6.0,-3.0
+13,Buffalo Bills,0.565920445918,5.0,Buffalo Bills,7.0,3.0
+13,Denver Broncos,0.749655537384,12.0,Denver Broncos,8.0,-4.0
+13,Miami Dolphins,0.624889429102,7.0,Miami Dolphins,9.0,4.0
+13,Washington Redskins,0.687301076052,9.0,Washington Redskins,10.0,4.0
+13,Arizona Cardinals,0.765887636109,13.0,Arizona Cardinals,11.0,-5.5
+13,Pittsburgh Steelers,0.73797480322,11.0,Pittsburgh Steelers,12.0,6.5
+13,Carolina Panthers,0.840453076336,14.0,Carolina Panthers,13.0,-7.0
+13,Chicago Bears,0.721829735581,10.0,Chicago Bears,14.0,7.0
+13,Cincinnati Bengals,0.885612259178,16.0,Cincinnati Bengals,15.0,-9.5
+13,New England Patriots,0.870095346162,15.0,New England Patriots,16.0,9.5
+14,Miami Dolphins,0.431877682977,1.0,New York Giants,1.0,-1.0
+14,Jacksonville Jaguars,0.521079547705,6.0,Jacksonville Jaguars,2.0,1.0
+14,Philadelphia Eagles,0.453878573199,4.0,Buffalo Bills,3.0,-1.5
+14,San Francisco 49ers,0.453132281983,3.0,Cleveland Browns,4.0,1.5
+14,Los Angeles Rams,0.438581821801,2.0,Detroit Lions,5.0,-2.5
+14,New England Patriots,0.627350995244,7.0,New England Patriots,6.0,-3.0
+14,Washington Redskins,0.497746271192,5.0,Chicago Bears,7.0,3.0
+14,Cincinnati Bengals,0.686592687073,9.0,Cincinnati Bengals,8.0,3.0
+14,Tampa Bay Buccaneers,0.653803784406,8.0,Tampa Bay Buccaneers,9.0,4.0
+14,New York Jets,0.750048594728,10.0,New York Jets,10.0,7.0
+14,Green Bay Packers,0.811147816215,13.0,Green Bay Packers,11.0,7.0
+14,Denver Broncos,0.811042032293,12.0,Denver Broncos,12.0,7.5
+14,Carolina Panthers,0.859488441481,14.0,Carolina Panthers,13.0,7.5
+14,Seattle Seahawks,0.807979401294,11.0,Seattle Seahawks,14.0,-9.0
+14,Kansas City Chiefs,0.888508025531,16.0,Kansas City Chiefs,15.0,10.0
+14,Arizona Cardinals,0.870123413765,15.0,Arizona Cardinals,16.0,11.0
+15,Houston Texans,0.478953838419,4.0,Indianapolis Colts,1.0,0.1
+15,Washington Redskins,0.370710532064,1.0,Buffalo Bills,2.0,-1.0
+15,Miami Dolphins,0.46028323278,3.0,San Diego Chargers,3.0,1.5
+15,Tampa Bay Buccaneers,0.439716304191,2.0,Los Angeles Rams,4.0,1.5
+15,New York Jets,0.620324837551,8.0,New York Jets,5.0,-3.0
+15,Green Bay Packers,0.551222532222,6.0,Green Bay Packers,6.0,-3.0
+15,New Orleans Saints,0.566935618368,7.0,New Orleans Saints,7.0,3.0
+15,Arizona Cardinals,0.662598032768,9.0,Arizona Cardinals,8.0,-3.5
+15,Jacksonville Jaguars,0.515397127936,5.0,Jacksonville Jaguars,9.0,3.5
+15,Cincinnati Bengals,0.694658724254,10.0,Cincinnati Bengals,10.0,-4.5
+15,Carolina Panthers,0.725120029356,12.0,Carolina Panthers,11.0,-5.0
+15,Minnesota Vikings,0.749149910038,13.0,Minnesota Vikings,12.0,5.5
+15,Pittsburgh Steelers,0.702570583883,11.0,Pittsburgh Steelers,13.0,6.0
+15,Kansas City Chiefs,0.772123932868,14.0,Kansas City Chiefs,14.0,-7.5
+15,New England Patriots,0.933182428871,16.0,New England Patriots,15.0,14.0
+15,Seattle Seahawks,0.931753021953,15.0,Seattle Seahawks,16.0,14.5
+16,Indianapolis Colts,0.472009204172,1.0,Miami Dolphins,1.0,1.5
+16,New England Patriots,0.588607778525,6.0,New England Patriots,2.0,-3.0
+16,Tampa Bay Buccaneers,0.520343461094,2.0,Tampa Bay Buccaneers,3.0,3.0
+16,Philadelphia Eagles,0.547835295641,4.0,Philadelphia Eagles,4.0,3.0
+16,New Orleans Saints,0.545752178472,3.0,New Orleans Saints,5.0,3.5
+16,Denver Broncos,0.614211091091,7.0,Denver Broncos,6.0,3.5
+16,Arizona Cardinals,0.714123559965,8.0,Arizona Cardinals,7.0,4.5
+16,Tennessee Titans,0.581634084655,5.0,Tennessee Titans,8.0,4.5
+16,Oakland Raiders,0.743864502201,11.0,Oakland Raiders,9.0,5.5
+16,Buffalo Bills,0.737741770943,10.0,Buffalo Bills,10.0,6.0
+16,Minnesota Vikings,0.724980552689,9.0,Minnesota Vikings,11.0,6.0
+16,Carolina Panthers,0.797121927481,13.0,Carolina Panthers,12.0,-7.0
+16,Detroit Lions,0.794683815137,12.0,Detroit Lions,13.0,9.0
+16,Pittsburgh Steelers,0.857109872408,14.0,Pittsburgh Steelers,14.0,-10.0
+16,Kansas City Chiefs,0.908896549584,15.0,Kansas City Chiefs,15.0,12.5
+16,Seattle Seahawks,0.914105008288,16.0,Seattle Seahawks,16.0,13.5
+17,Chicago Bears,0.524298405471,2.0,Chicago Bears,1.0,1.0
+17,New York Jets,0.602402991351,3.0,New York Jets,2.0,-3.0
+17,Green Bay Packers,0.604933005187,5.0,Green Bay Packers,3.0,3.0
+17,Los Angeles Rams,0.602622012917,4.0,Los Angeles Rams,4.0,-3.5
+17,Dallas Cowboys,0.518779549565,1.0,Dallas Cowboys,5.0,3.5
+17,New York Giants,0.622340294353,6.0,New York Giants,6.0,3.5
+17,Atlanta Falcons,0.656125158955,7.0,Atlanta Falcons,7.0,4.0
+17,Indianapolis Colts,0.745948442846,9.0,Indianapolis Colts,8.0,6.0
+17,Houston Texans,0.743722981264,8.0,Houston Texans,9.0,6.0
+17,Kansas City Chiefs,0.767155324679,10.0,Kansas City Chiefs,10.0,6.5
+17,Arizona Cardinals,0.811408225951,11.0,Arizona Cardinals,11.0,6.5
+17,Cincinnati Bengals,0.883427918694,14.0,Cincinnati Bengals,12.0,9.0
+17,Denver Broncos,0.886708794447,15.0,Denver Broncos,13.0,9.0
+17,Pittsburgh Steelers,0.874856546012,12.0,Pittsburgh Steelers,14.0,-10.5
+17,New England Patriots,0.8769890873,13.0,New England Patriots,15.0,-10.5
+17,Carolina Panthers,0.900338489167,16.0,Carolina Panthers,16.0,10.5
