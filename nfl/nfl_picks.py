@@ -8,7 +8,6 @@ WEEK_TO_PICK = 1
 import os
 import numpy as np
 import pandas as pd
-import sys
 import madden
 import logging
 import argparse
@@ -184,4 +183,23 @@ print(df_spread)
 spread_out_file = "".join([args.picks_dir, os.path.sep, "spread_picks_week_{0:0>2}.csv".format(week_number)])
 logging.info("Writing spread output to {}...".format(spread_out_file))
 df_spread.to_csv(spread_out_file, index=False)
+
+
+def get_picks_by_spread():
+    pass
+
+
+def get_picks_by_svm():
+    pass
+
+
+def get_picks_by_log_reg():
+    pass
+
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
 

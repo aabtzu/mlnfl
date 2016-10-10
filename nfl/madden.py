@@ -350,6 +350,7 @@ def runScikitLogisticRegression(X, y):
 
     return logreg
 
+
 def runGraphLabClassifier(all_games_sf, features, yClassifier, gl_classifier):
     """
     :Synopsis: run GraphLab classifier on training data
@@ -420,14 +421,14 @@ def predictGames(all_games_df, classifier, featuresList, yClassifier = 'favoredW
 
 
 def predictAccuracy(all_games_df, classifier, featuresList, yClassifier):
-    '''
+    """
     Synopsis: compute predict accuracy using classifier results
     :param all_games_df: pandas.DataFrame with training/test data and outcomes
     :param classifier: fitter classifier object
     :param featuresList: list of columns used in training data
     :param yClassifier: name of the column that is classified
     :return:
-    '''
+    """
 
     dfPredict = all_games_df[all_games_df[yClassifier].notnull()]
     predict_X, predict_y = getTrainData(dfPredict, featuresList, yClassifier)
@@ -439,6 +440,7 @@ def predictAccuracy(all_games_df, classifier, featuresList, yClassifier):
     sc = classifier.score(predict_X, predict_y_int)
 
     return sc
+
 
 def rankGames(dfPredict, reference_data, season):
     """
@@ -468,7 +470,6 @@ def rankGames(dfPredict, reference_data, season):
 
         # name of Home Team is arbitrary last tie breaker  - but at least it is reproducible
         sortCols = ['absLine', 'favoredHomeGame', 'divisionGame', 'favoredRecord', 'Home Team']
-        #sortCols = ['absLine', 'Home Team']
         dfLine = dfWeek.sort_values(sortCols)
 
         # determine guess
