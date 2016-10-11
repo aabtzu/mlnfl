@@ -6,6 +6,7 @@ import numpy as np
 #TODO: REFACTOR TO MAKE THINGS CLEAR - SORT OF A MESS RIGHT NOW
 #TODO: What is the purpose of this module?
 
+
 def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
     """
 
