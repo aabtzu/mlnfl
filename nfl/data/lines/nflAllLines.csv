@@ -8989,50 +8989,50 @@ Date,Visitor,Visitor Score,Home Team,Home Score,Line,Total Line,season,week
 2016-09-25,San Diego Chargers,22.0,Indianapolis Colts,26.0,3.0,,2016,3.0
 2016-09-25,Chicago Bears,17.0,Dallas Cowboys,31.0,7.0,,2016,3.0
 2016-09-26,Atlanta Falcons,45.0,New Orleans Saints,32.0,3.0,,2016,3.0
-2016-09-29,Miami Dolphins,7,Cincinnati Bengals,22,7.0,,2016,4.0
-2016-10-02,Indianapolis Colts,27,Jacksonville Jaguars,30,-2.5,,2016,4.0
-2016-10-02,Buffalo Bills,16,New England Patriots,0,5.5,,2016,4.0
-2016-10-02,Carolina Panthers,33,Atlanta Falcons,48,-3.0,,2016,4.0
-2016-10-02,Cleveland Browns,20,Washington Redskins,31,8.0,,2016,4.0
-2016-10-02,Detroit Lions,14,Chicago Bears,17,-3.0,,2016,4.0
-2016-10-02,Oakland Raiders,28,Baltimore Ravens,27,3.5,,2016,4.0
-2016-10-02,Seattle Seahawks,27,New York Jets,17,-2.5,,2016,4.0
-2016-10-02,Tennessee Titans,20,Houston Texans,27,5.0,,2016,4.0
-2016-10-02,Denver Broncos,27,Tampa Bay Buccaneers,7,-3.0,,2016,4.0
-2016-10-02,Dallas Cowboys,24,San Francisco 49ers,17,-3.0,,2016,4.0
-2016-10-02,Los Angeles Rams,17,Arizona Cardinals,13,8.0,,2016,4.0
-2016-10-02,New Orleans Saints,35,San Diego Chargers,34,3.5,,2016,4.0
-2016-10-02,Kansas City Chiefs,14,Pittsburgh Steelers,43,5.5,,2016,4.0
-2016-10-03,New York Giants,10,Minnesota Vikings,24,4.5,,2016,4.0
-2016-10-06,Arizona Cardinals,,San Francisco 49ers,,-3.5,,2016,5.0
-2016-10-09,Chicago Bears,,Indianapolis Colts,,4.5,,2016,5.0
-2016-10-09,Houston Texans,,Minnesota Vikings,,6.5,,2016,5.0
-2016-10-09,New England Patriots,,Cleveland Browns,,-10.5,,2016,5.0
-2016-10-09,New York Jets,,Pittsburgh Steelers,,7.0,,2016,5.0
-2016-10-09,Philadelphia Eagles,,Detroit Lions,,-3.0,,2016,5.0
-2016-10-09,Tennessee Titans,,Miami Dolphins,,3.5,,2016,5.0
-2016-10-09,Washington Redskins,,Baltimore Ravens,,4.0,,2016,5.0
-2016-10-09,Atlanta Falcons,,Denver Broncos,,5.5,,2016,5.0
-2016-10-09,Buffalo Bills,,Los Angeles Rams,,2.5,,2016,5.0
-2016-10-09,Cincinnati Bengals,,Dallas Cowboys,,-1.0,,2016,5.0
-2016-10-09,San Diego Chargers,,Oakland Raiders,,3.5,,2016,5.0
-2016-10-09,New York Giants,,Green Bay Packers,,7.5,,2016,5.0
-2016-10-10,Tampa Bay Buccaneers,,Carolina Panthers,,7.0,,2016,5.0
-2016-10-13,Denver Broncos,,San Diego Chargers,,,,2016,6.0
-2016-10-16,Baltimore Ravens,,New York Giants,,,,2016,6.0
-2016-10-16,Carolina Panthers,,New Orleans Saints,,,,2016,6.0
-2016-10-16,Cincinnati Bengals,,New England Patriots,,,,2016,6.0
-2016-10-16,Cleveland Browns,,Tennessee Titans,,,,2016,6.0
-2016-10-16,Jacksonville Jaguars,,Chicago Bears,,,,2016,6.0
-2016-10-16,Los Angeles Rams,,Detroit Lions,,,,2016,6.0
-2016-10-16,Philadelphia Eagles,,Washington Redskins,,,,2016,6.0
-2016-10-16,Pittsburgh Steelers,,Miami Dolphins,,,,2016,6.0
-2016-10-16,San Francisco 49ers,,Buffalo Bills,,,,2016,6.0
-2016-10-16,Kansas City Chiefs,,Oakland Raiders,,,,2016,6.0
-2016-10-16,Atlanta Falcons,,Seattle Seahawks,,,,2016,6.0
-2016-10-16,Dallas Cowboys,,Green Bay Packers,,,,2016,6.0
-2016-10-16,Indianapolis Colts,,Houston Texans,,,,2016,6.0
-2016-10-17,New York Jets,,Arizona Cardinals,,,,2016,6.0
+2016-09-29,Miami Dolphins,7.0,Cincinnati Bengals,22.0,7.0,,2016,4.0
+2016-10-02,Indianapolis Colts,27.0,Jacksonville Jaguars,30.0,-2.5,,2016,4.0
+2016-10-02,Buffalo Bills,16.0,New England Patriots,0.0,5.5,,2016,4.0
+2016-10-02,Carolina Panthers,33.0,Atlanta Falcons,48.0,-3.0,,2016,4.0
+2016-10-02,Cleveland Browns,20.0,Washington Redskins,31.0,8.0,,2016,4.0
+2016-10-02,Detroit Lions,14.0,Chicago Bears,17.0,-3.0,,2016,4.0
+2016-10-02,Oakland Raiders,28.0,Baltimore Ravens,27.0,3.5,,2016,4.0
+2016-10-02,Seattle Seahawks,27.0,New York Jets,17.0,-2.5,,2016,4.0
+2016-10-02,Tennessee Titans,20.0,Houston Texans,27.0,5.0,,2016,4.0
+2016-10-02,Denver Broncos,27.0,Tampa Bay Buccaneers,7.0,-3.0,,2016,4.0
+2016-10-02,Dallas Cowboys,24.0,San Francisco 49ers,17.0,-3.0,,2016,4.0
+2016-10-02,Los Angeles Rams,17.0,Arizona Cardinals,13.0,8.0,,2016,4.0
+2016-10-02,New Orleans Saints,35.0,San Diego Chargers,34.0,3.5,,2016,4.0
+2016-10-02,Kansas City Chiefs,14.0,Pittsburgh Steelers,43.0,5.5,,2016,4.0
+2016-10-03,New York Giants,10.0,Minnesota Vikings,24.0,4.5,,2016,4.0
+2016-10-06,Arizona Cardinals,33.0,San Francisco 49ers,21.0,-3.5,,2016,5.0
+2016-10-09,Chicago Bears,23.0,Indianapolis Colts,29.0,4.5,,2016,5.0
+2016-10-09,Houston Texans,13.0,Minnesota Vikings,31.0,6.5,,2016,5.0
+2016-10-09,New England Patriots,33.0,Cleveland Browns,13.0,-10.5,,2016,5.0
+2016-10-09,New York Jets,13.0,Pittsburgh Steelers,31.0,7.0,,2016,5.0
+2016-10-09,Philadelphia Eagles,23.0,Detroit Lions,24.0,-3.0,,2016,5.0
+2016-10-09,Tennessee Titans,30.0,Miami Dolphins,17.0,3.5,,2016,5.0
+2016-10-09,Washington Redskins,16.0,Baltimore Ravens,10.0,4.0,,2016,5.0
+2016-10-09,Atlanta Falcons,23.0,Denver Broncos,16.0,5.5,,2016,5.0
+2016-10-09,Buffalo Bills,30.0,Los Angeles Rams,19.0,2.5,,2016,5.0
+2016-10-09,Cincinnati Bengals,14.0,Dallas Cowboys,28.0,-1.0,,2016,5.0
+2016-10-09,San Diego Chargers,31.0,Oakland Raiders,34.0,3.5,,2016,5.0
+2016-10-09,New York Giants,16.0,Green Bay Packers,23.0,7.5,,2016,5.0
+2016-10-10,Tampa Bay Buccaneers,17.0,Carolina Panthers,14.0,7.0,,2016,5.0
+2016-10-13,Denver Broncos,,San Diego Chargers,,-3.5,,2016,6.0
+2016-10-16,Baltimore Ravens,,New York Giants,,3.0,,2016,6.0
+2016-10-16,Carolina Panthers,,New Orleans Saints,,-3.0,,2016,6.0
+2016-10-16,Cincinnati Bengals,,New England Patriots,,9.0,,2016,6.0
+2016-10-16,Cleveland Browns,,Tennessee Titans,,7.0,,2016,6.0
+2016-10-16,Jacksonville Jaguars,,Chicago Bears,,2.5,,2016,6.0
+2016-10-16,Los Angeles Rams,,Detroit Lions,,3.5,,2016,6.0
+2016-10-16,Philadelphia Eagles,,Washington Redskins,,-2.0,,2016,6.0
+2016-10-16,Pittsburgh Steelers,,Miami Dolphins,,-7.5,,2016,6.0
+2016-10-16,San Francisco 49ers,,Buffalo Bills,,8.0,,2016,6.0
+2016-10-16,Kansas City Chiefs,,Oakland Raiders,,1.0,,2016,6.0
+2016-10-16,Atlanta Falcons,,Seattle Seahawks,,6.5,,2016,6.0
+2016-10-16,Dallas Cowboys,,Green Bay Packers,,4.0,,2016,6.0
+2016-10-16,Indianapolis Colts,,Houston Texans,,3.0,,2016,6.0
+2016-10-17,New York Jets,,Arizona Cardinals,,8.0,,2016,6.0
 2016-10-20,Chicago Bears,,Green Bay Packers,,,,2016,7.0
 2016-10-23,New York Giants,,Los Angeles Rams,,,,2016,7.0
 2016-10-23,Baltimore Ravens,,New York Jets,,,,2016,7.0
