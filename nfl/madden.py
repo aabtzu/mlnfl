@@ -368,8 +368,8 @@ def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CL
 
     :param all_games_df: pandas.DataFrame with training data and outcomes for all games
     :param featuresList: list of columns to include in training
-    :param yClassifier: the variable to predict
     :param classifier: which classifier to use, default = linear_model.LogisticRegression()
+    :param yClassifier: the variable to predict
 
     :returns: fitted model object based on input classifier
     """
