@@ -58,7 +58,7 @@ def scrape_spreads():
     # get the home favorite
     df_spreads['home_favorite'] = (df_spreads.favorite.str.contains('^At ')) | (df_spreads.favorite.str.contains('\(At '))
     # fix any spreads that are tied (PK)
-    df_spreads.loc[df_spreads.spread.astype(unicode).str.contains('PK'), 'spread'] = .1
+    df_spreads.loc[df_spreads.spread.astype(unicode).str.contains('PK'), 'spread'] = -.1 # need -1 for some reason
 
     # flip sign on spread for away favorite
     df_spreads['factor'] = 1
