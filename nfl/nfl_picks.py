@@ -57,7 +57,7 @@ logging.info("lookupDir = %s" % lookupDir)
 reference_data = ReferenceData(lookupDir)
 
 # train on previous 3 yrs of data
-testYear = [2016]
+testYear = [2017]
 trainYears = range(testYear[0]-3,testYear[0])
 
 # training data set - includes one extra year for prev yr record
