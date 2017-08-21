@@ -45,7 +45,8 @@ def scrape_spreads():
     tt = soup.findAll("table", {"width": "580"})
 
     df_spreads = pandas.DataFrame()
-    for i in range(2):  # hard coded table number
+    for i in range(1,3):  # hard coded table number most of the time
+    #for i in range(1):  # hard coded table number for last week of season
         dfs = pandas.read_html(str(tt[i]), )
         df_spreads = df_spreads.append(dfs[0][range(4)])
 
@@ -71,7 +72,7 @@ def scrape_spreads():
     df_spreads.loc[home_filter, 'home_team'] = df_spreads.loc[home_filter, 'underdog']
     df_spreads.home_team = df_spreads.home_team.str.replace('^At ', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(At .*\)', '')
-    df_spreads['datetime'] = pandas.to_datetime('2016/'+df_spreads.date.str.split(" ", expand=True)[0],
+    df_spreads['datetime'] = pandas.to_datetime('2017/'+df_spreads.date.str.split(" ", expand=True)[0],
                                                 format='%Y/%m/%d').dt.date
 
     return df_spreads
@@ -83,7 +84,7 @@ def merge_spreads(df_spreads, df_lines):
 
     for ii, rr in df_spreads.iterrows():
         print ii, rr['home_team'], rr['spreads2']
-        if 'NY' in rr['home_team']:
+        if ('NY' in rr['home_team']) | ('LA' in rr['home_team']):
             rr['home_team'] = rr['home_team'].split(' ')[1]
         game_filter = df_lines[week_filter]['Home Team'].str.contains(rr['home_team'])
         irow = df_lines[week_filter][game_filter].index[0]
@@ -153,10 +154,10 @@ def merge_scores(df_week, week, season, df_lines):
     return df_lines
 
 
-def get_current_week(df_lines):
+def get_current_week(df_lines, current_season):
 
     today = datetime.datetime.today().date()
-    date_filter = (df_lines.Date > today) & (df_lines.season == 2016)
+    date_filter = (df_lines.Date > today) & (df_lines.season == current_season)
     current_week = df_lines[date_filter].week.min()
     return int(current_week)
 
@@ -174,7 +175,8 @@ if __name__ == "__main__":
 
     # read lines file and get current week
     df_lines = read_lines()
-    current_week = get_current_week(df_lines)
+    season = 2017
+    current_week = get_current_week(df_lines, season)
 
     # define input args
     parser = argparse.ArgumentParser()
@@ -187,7 +189,7 @@ if __name__ == "__main__":
     # get and save scores
     if args.scores:
         week = args.game_week
-        season = 2016
+
 
         print "getting scores of week %d of %d season ..." % (week, season)
         df_week = scrape_scores(week)
