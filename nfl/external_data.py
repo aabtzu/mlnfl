@@ -45,7 +45,7 @@ def scrape_spreads():
     tt = soup.findAll("table", {"width": "580"})
 
     df_spreads = pandas.DataFrame()
-    for i in range(1,3):  # hard coded table number most of the time
+    for i in range(2):  # hard coded table number most of the time
     #for i in range(1):  # hard coded table number for last week of season
         dfs = pandas.read_html(str(tt[i]), )
         df_spreads = df_spreads.append(dfs[0][range(4)])
