@@ -8,9 +8,13 @@ from __future__ import print_function
 import pandas as pd
 import dateutil.parser as dp
 import numpy as np
+
 from sklearn import linear_model
 from sklearn import svm
+from sklearn import preprocessing
+
 from referencedata import ReferenceData
+
 import logging
 
 logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
@@ -375,6 +379,10 @@ def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CL
     """
 
     X, y = getTrainData(all_games_df, featuresList, yClassifier)
+
+    # try normalizing
+    #X = preprocessing.normalize(X)
+    #y = preprocessing.normalize(y)
     classifier.fit(X, y)
 
     # compute training accuracy
