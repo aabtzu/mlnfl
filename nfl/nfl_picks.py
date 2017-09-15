@@ -88,15 +88,7 @@ dfGamesTest = madden.processGames(dfGamesTest, dfTeamsTest, reference_data)
 # 4 - remove extra year of data
 dfGamesTest = dfGamesTest[dfGamesTest.season.isin(season_test)]
 
-# run the classifier
-random_state = 11
-svm_classifier = svm.SVC(kernel='poly', probability=True, random_state=random_state)
-lr_classifier = linear_model.LogisticRegression(C=1e5)
-
-svm_trained_classifier = madden.runScikitClassifier(df_all_historical_games, madden.FEATURE_COLUMNS, svm_classifier)
-lr_trained_classifier = madden.runScikitClassifier(df_all_historical_games, madden.FEATURE_COLUMNS, lr_classifier)
-
-# should be only one year
+# get games for testing and predicting -- should be only one year
 season_test = np.array(testYear)
 
 dfGamesTest = madden.readGamesAll(path_to_lines, season_test)
@@ -104,8 +96,25 @@ dfTeamsTest = madden.seasonRecord(dfGamesTest,reference_data)
 dfGamesTest = madden.processGames(dfGamesTest, dfTeamsTest, reference_data)
 dfGamesTest = dfGamesTest[dfGamesTest.season.isin(season_test)]
 
+# add current season games to training set for 2nd logreg model
+df_all_historical_games2 = df_all_historical_games.append(dfGamesTest[dfGamesTest.gameWeek < week_number])
+
 # pick only this weeks games for predict
 dfTest = dfGamesTest[dfGamesTest.gameWeek == week_number]
+
+print(len(df_all_historical_games), len(df_all_historical_games2), len(dfTest))
+
+# run the classifier
+random_state = 11
+svm_classifier = svm.SVC(kernel='poly', probability=True, random_state=random_state)
+lr_classifier = linear_model.LogisticRegression(C=1e5)
+lr2_classifier = linear_model.LogisticRegression(C=1e5)
+
+svm_trained_classifier = madden.runScikitClassifier(df_all_historical_games, madden.FEATURE_COLUMNS, svm_classifier)
+lr_trained_classifier = madden.runScikitClassifier(df_all_historical_games, madden.FEATURE_COLUMNS, lr_classifier)
+lr2_trained_classifier = madden.runScikitClassifier(df_all_historical_games2, madden.FEATURE_COLUMNS, lr2_classifier)
+
+
 
 ###################################################################################################################
 # apply results of logistic regression to the test set
@@ -157,6 +166,26 @@ log_reg_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=Fal
 print(log_reg_picks_df)
 
 log_reg_out_file = "".join([args.picks_dir, os.path.sep, "log_reg_picks_week_{0:0>2}.csv".format(week_number)])
+logging.info("Writing logistic regression output to {}...".format(log_reg_out_file))
+log_reg_picks_df.to_csv(log_reg_out_file, index=False)
+
+
+
+###################################################################################################################
+# legreg version 2
+# apply results of logistic regression to the test set
+df_lr2_predict = madden.predictGames(dfTest, lr2_trained_classifier, madden.FEATURE_COLUMNS)
+# apply ranking logic and determine scoring outcomes for league
+df_all_picks = madden.rankGames(df_lr2_predict, reference_data, season_test[0])
+
+# Use Method 2
+df_all_picks['predictTeam'] = np.where((df_all_picks['predict_proba'] - .5) > 0 , df_all_picks['favorite'], df_all_picks['underdog'])
+
+print("\nPicks for week {0:0>2} using LogReg2\n".format(week_number))
+log_reg_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
+print(log_reg_picks_df)
+
+log_reg_out_file = "".join([args.picks_dir, os.path.sep, "log_reg_2_picks_week_{0:0>2}.csv".format(week_number)])
 logging.info("Writing logistic regression output to {}...".format(log_reg_out_file))
 log_reg_picks_df.to_csv(log_reg_out_file, index=False)
 

@@ -2,10 +2,16 @@ __author__ = 'amit.bhattacharyya'
 
 import madden
 import numpy as np
+import os
+from sklearn import linear_model
 
 #TODO: REFACTOR TO MAKE THINGS CLEAR - SORT OF A MESS RIGHT NOW
 #TODO: What is the purpose of this module?
 
+MLNFL_ROOT_DIR = os.environ['MLNFL_ROOT']
+codeDir = "".join([MLNFL_ROOT_DIR, os.path.sep])
+dataRoot = "".join([codeDir, "data", os.path.sep])
+path_to_lines = dataRoot + "lines/"
 
 def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
     """
@@ -18,8 +24,8 @@ def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
     seasonTest = np.array(testYear) # should be only one year
 
     # read the games
-    df_all_games = madden.readGamesAll(madden.PATH_TO_NFL_LINES, seasons)
-    df_games_test = madden.readGamesAll(madden.PATH_TO_NFL_LINES, seasonTest)
+    df_all_games = madden.readGamesAll(path_to_lines, seasons)
+    df_games_test = madden.readGamesAll(path_to_lines, seasonTest)
 
     # compile season record for all teams
     df_all_teams = madden.seasonRecord(df_all_games, ref_data)
@@ -55,15 +61,16 @@ def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
             dfTest = df_games_test[df_games_test.gameWeek == iw]
 
         # run the logistic regression
-        logreg = madden.runML(dfGames,features)
+        classifier = linear_model.LogisticRegression(C=1e5)
+        trained_classifier = madden.runScikitClassifier(dfGames, madden.FEATURE_COLUMNS, classifier)
 
         # apply results of logistic regression to the test set
-        dfPredict = madden.predictGames(dfTest,logreg,features)
+        dfPredict = madden.predictGames(dfTest, classifier, features)
 
         # apply ranking logic and determine scoring outcomes for league
-        dfAll = madden.rankGames(dfPredict,ref_data,seasonTest[0])
+        dfAll = madden.rankGames(dfPredict, ref_data, seasonTest[0])
 
-        g = dfAll.groupby('gameWeek',as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
+        g = dfAll.groupby('gameWeek', as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
         g.index = [iw]
         g['season'] = seasonTest[0]
         #print(g)
@@ -75,7 +82,7 @@ def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
 
         g = dfWeeks.groupby('season',as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
         g.index = [seasonTest[0]]
-        g['train'] = seasons
+        g['train'] = seasons[0]
         g['trainFreq'] = trainFreq
 
     return (g)

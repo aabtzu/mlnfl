@@ -9,7 +9,7 @@ import datetime
 import argparse
 
 SPREADS_URL = 'http://www.footballlocks.com/nfl_point_spreads.shtml'
-SCORES_URL = 'http://www.pro-football-reference.com/years/2016/games.htm'
+SCORES_URL = 'http://www.pro-football-reference.com/years/%d/games.htm'
 
 CODE_DIR = "".join([os.environ['MLNFL_ROOT'], os.path.sep])
 path_to_lines = CODE_DIR + "data/lines/"
@@ -93,9 +93,10 @@ def merge_spreads(df_spreads, df_lines):
     return df_lines
 
 
-def scrape_scores(week):
+def scrape_scores(week, season):
 
-    r  = requests.get(SCORES_URL)
+    scores_url = SCORES_URL % season
+    r  = requests.get(scores_url)
     data = r.text
 
     soup = bs4.BeautifulSoup(data, 'lxml')
@@ -190,9 +191,8 @@ if __name__ == "__main__":
     if args.scores:
         week = args.game_week
 
-
         print "getting scores of week %d of %d season ..." % (week, season)
-        df_week = scrape_scores(week)
+        df_week = scrape_scores(week, season)
         df_lines = merge_scores(df_week, week, season, df_lines)
         if verify_data(df_week, 'scores'):
             save_lines(df_lines)
