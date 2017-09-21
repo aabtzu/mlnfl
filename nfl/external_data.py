@@ -72,6 +72,7 @@ def scrape_spreads():
     df_spreads.loc[home_filter, 'home_team'] = df_spreads.loc[home_filter, 'underdog']
     df_spreads.home_team = df_spreads.home_team.str.replace('^At ', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(At .*\)', '')
+    df_spreads.home_team = df_spreads.home_team.str.replace(' \(.*\)', '')
     df_spreads['datetime'] = pandas.to_datetime('2017/'+df_spreads.date.str.split(" ", expand=True)[0],
                                                 format='%Y/%m/%d').dt.date
 
