@@ -39,7 +39,7 @@ def get_picks_by_log_reg():
     pass
 
 
-def main(season, week_number):
+def main(season, week_number, picks_dir):
 
 
     # define the root directory for the nfl code in $MLNLF_ROOT
@@ -150,7 +150,7 @@ def main(season, week_number):
     svm_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
     print(svm_picks_df)
 
-    svm_out_file = "".join([args.picks_dir, os.path.sep, "svm_picks_week_{0:0>2}.csv".format(week_number)])
+    svm_out_file = "".join([picks_dir, os.path.sep, "svm_picks_week_{0:0>2}.csv".format(week_number)])
     logging.info("Writing SVM output to {}...".format(svm_out_file))
     svm_picks_df.to_csv(svm_out_file, index=False)
 
@@ -172,7 +172,7 @@ def main(season, week_number):
     log_reg_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
     print(log_reg_picks_df)
 
-    log_reg_out_file = "".join([args.picks_dir, os.path.sep, "log_reg_picks_week_{0:0>2}.csv".format(week_number)])
+    log_reg_out_file = "".join([picks_dir, os.path.sep, "log_reg_picks_week_{0:0>2}.csv".format(week_number)])
     logging.info("Writing logistic regression output to {}...".format(log_reg_out_file))
     log_reg_picks_df.to_csv(log_reg_out_file, index=False)
 
@@ -192,7 +192,7 @@ def main(season, week_number):
     log_reg_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
     print(log_reg_picks_df)
 
-    log_reg_out_file = "".join([args.picks_dir, os.path.sep, "log_reg_2_picks_week_{0:0>2}.csv".format(week_number)])
+    log_reg_out_file = "".join([picks_dir, os.path.sep, "log_reg_2_picks_week_{0:0>2}.csv".format(week_number)])
     logging.info("Writing logistic regression output to {}...".format(log_reg_out_file))
     log_reg_picks_df.to_csv(log_reg_out_file, index=False)
 
@@ -216,7 +216,7 @@ def main(season, week_number):
 
     print("\nPicks for week {0:0>2} using Spread\n".format(week_number))
     print(df_spread)
-    spread_out_file = "".join([args.picks_dir, os.path.sep, "spread_picks_week_{0:0>2}.csv".format(week_number)])
+    spread_out_file = "".join([picks_dir, os.path.sep, "spread_picks_week_{0:0>2}.csv".format(week_number)])
     logging.info("Writing spread output to {}...".format(spread_out_file))
     df_spread.to_csv(spread_out_file, index=False)
 
@@ -229,8 +229,10 @@ if __name__ == "__main__":
                         dest='picks_dir', help='Pass the target directory to get a csv with the picks')
     args = parser.parse_args()
 
+    picks_dir = args.picks_dir
+
     # predict one week of current season
     week_number = args.game_week
     season = 2017
-    main(season, week_number)
+    main(season, week_number, picks_dir)
 
