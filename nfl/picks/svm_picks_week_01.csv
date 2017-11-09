@@ -1,16 +1,16 @@
 gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
-1,Pittsburgh Steelers,0.816615081176,16.0,Pittsburgh Steelers,14.0,-9.0
-1,Buffalo Bills,0.784905547132,15.0,Buffalo Bills,16.0,9.5
-1,New England Patriots,0.698465832462,14.0,New England Patriots,15.0,9.0
-1,Minnesota Vikings,0.691557451856,13.0,Minnesota Vikings,8.0,3.5
-1,Green Bay Packers,0.691205734816,12.0,Green Bay Packers,5.0,3.0
-1,Houston Texans,0.688194501368,11.0,Houston Texans,12.0,5.5
-1,Los Angeles Rams,0.687951788584,10.0,Los Angeles Rams,7.0,3.5
-1,Tennessee Titans,0.684768131301,9.0,Tennessee Titans,4.0,2.5
-1,Atlanta Falcons,0.68263410992,8.0,Atlanta Falcons,13.0,-7.0
-1,Carolina Panthers,0.679506527576,7.0,Carolina Panthers,11.0,-5.5
-1,Arizona Cardinals,0.662783167213,6.0,Arizona Cardinals,3.0,-1.5
-1,Denver Broncos,0.653286096456,5.0,Denver Broncos,9.0,3.5
-1,Philadelphia Eagles,0.648084977675,4.0,Philadelphia Eagles,2.0,-1.0
-1,Cincinnati Bengals,0.644489353196,3.0,Cincinnati Bengals,6.0,3.0
-1,Dallas Cowboys,0.62336657679,2.0,Dallas Cowboys,10.0,4.0
+1,Pittsburgh Steelers,0.804861775678,16.0,Pittsburgh Steelers,14.0,-9.0
+1,Buffalo Bills,0.774687865595,15.0,Buffalo Bills,16.0,9.5
+1,New England Patriots,0.694117418056,14.0,New England Patriots,15.0,9.0
+1,Minnesota Vikings,0.687753699688,13.0,Minnesota Vikings,8.0,3.5
+1,Green Bay Packers,0.687429935963,12.0,Green Bay Packers,5.0,3.0
+1,Houston Texans,0.684658882968,11.0,Houston Texans,12.0,5.5
+1,Los Angeles Rams,0.684435595395,10.0,Los Angeles Rams,7.0,3.5
+1,Tennessee Titans,0.681507631179,9.0,Tennessee Titans,4.0,2.5
+1,Atlanta Falcons,0.679545913774,8.0,Atlanta Falcons,13.0,-7.0
+1,Carolina Panthers,0.676672140824,7.0,Carolina Panthers,11.0,-5.5
+1,Arizona Cardinals,0.66132985731,6.0,Arizona Cardinals,3.0,-1.5
+1,Denver Broncos,0.652633144844,5.0,Denver Broncos,9.0,3.5
+1,Philadelphia Eagles,0.647874667003,4.0,Philadelphia Eagles,2.0,-1.0
+1,Cincinnati Bengals,0.644926352372,3.0,Cincinnati Bengals,6.0,3.0
+1,Dallas Cowboys,0.6256011226,2.0,Dallas Cowboys,10.0,4.0

@@ -220,6 +220,7 @@ def main(season, week_number, picks_dir):
     logging.info("Writing spread output to {}...".format(spread_out_file))
     df_spread.to_csv(spread_out_file, index=False)
 
+    return df_spread
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
