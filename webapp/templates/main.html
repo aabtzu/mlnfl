@@ -1,0 +1,30 @@
+{% macro render_field(field) %}
+  <dt>{{ field.label }}
+  <dd>{{ field(**kwargs)|safe }}
+  {% if field.errors %}
+    <ul class=errors>
+    {% for error in field.errors %}
+      <li>{{ error }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+  </dd>
+{% endmacro %}
+
+
+<html>
+
+<form method=post>
+    <p><input type=submit name=submit value="Scrape spreads">
+    <p><input type=submit name=submit value="Scrape scores">
+    <p><input type=submit name=submit value="Go Bananas">
+
+  <dl>
+    {{ render_field(form.season) }}
+    {{ render_field(form.week) }}
+
+  </dl>
+
+
+</form>
+</html>

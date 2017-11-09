@@ -1,0 +1,42 @@
+
+
+
+<html>
+
+
+    <head lang="en">
+        <style>
+
+        </style>
+        {% block head %}
+        <meta charset="UTF-8">
+        <title>{{page_title}}</title>
+        {% endblock %}
+    </head>
+
+
+
+    <body>
+    <div id="container">
+      {% block header %}
+      {% endblock %}
+      {% block content %}
+        {% block top %}
+        {% endblock %}
+        {% block left %}
+          this is the sidebar
+        {% endblock %}
+        {% block right %}
+          this is the main area
+        {% endblock %}
+        {% block bottom %}
+        {% endblock %}
+      {% endblock %}
+    </div>
+
+
+    </body>
+
+
+
+</html>
