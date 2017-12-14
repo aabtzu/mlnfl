@@ -9373,38 +9373,38 @@ Date,Visitor,Visitor Score,Home Team,Home Score,Line,Total Line,season,week
 2017-11-26,Denver Broncos,14.0,Oakland Raiders,21.0,5.0,,2017,12.0
 2017-11-26,Green Bay Packers,28.0,Pittsburgh Steelers,31.0,14.0,,2017,12.0
 2017-11-27,Houston Texans,16.0,Baltimore Ravens,23.0,7.0,,2017,12.0
-2017-11-30,Washington Redskins,,Dallas Cowboys,,-1.5,,2017,13.0
-2017-12-03,Minnesota Vikings,,Atlanta Falcons,,3.0,,2017,13.0
-2017-12-03,New England Patriots,,Buffalo Bills,,-8.5,,2017,13.0
-2017-12-03,San Francisco 49ers,,Chicago Bears,,3.0,,2017,13.0
-2017-12-03,Tampa Bay Buccaneers,,Green Bay Packers,,-1.0,,2017,13.0
-2017-12-03,Indianapolis Colts,,Jacksonville Jaguars,,9.5,,2017,13.0
-2017-12-03,Denver Broncos,,Miami Dolphins,,-1.5,,2017,13.0
-2017-12-03,Carolina Panthers,,New Orleans Saints,,4.5,,2017,13.0
-2017-12-03,Kansas City Chiefs,,New York Jets,,-3.5,,2017,13.0
-2017-12-03,Houston Texans,,Tennessee Titans,,7.0,,2017,13.0
-2017-12-03,Detroit Lions,,Baltimore Ravens,,3.0,,2017,13.0
-2017-12-03,Cleveland Browns,,Los Angeles Chargers,,14.0,,2017,13.0
-2017-12-03,Los Angeles Rams,,Arizona Cardinals,,-7.0,,2017,13.0
-2017-12-03,New York Giants,,Oakland Raiders,,8.5,,2017,13.0
-2017-12-03,Philadelphia Eagles,,Seattle Seahawks,,-6.0,,2017,13.0
-2017-12-04,Pittsburgh Steelers,,Cincinnati Bengals,,-5.5,,2017,13.0
-2017-12-07,New Orleans Saints,,Atlanta Falcons,,,,2017,14.0
-2017-12-10,Indianapolis Colts,,Buffalo Bills,,,,2017,14.0
-2017-12-10,Minnesota Vikings,,Carolina Panthers,,,,2017,14.0
-2017-12-10,Chicago Bears,,Cincinnati Bengals,,,,2017,14.0
-2017-12-10,Green Bay Packers,,Cleveland Browns,,,,2017,14.0
-2017-12-10,San Francisco 49ers,,Houston Texans,,,,2017,14.0
-2017-12-10,Seattle Seahawks,,Jacksonville Jaguars,,,,2017,14.0
-2017-12-10,Oakland Raiders,,Kansas City Chiefs,,,,2017,14.0
-2017-12-10,Detroit Lions,,Tampa Bay Buccaneers,,,,2017,14.0
-2017-12-10,Tennessee Titans,,Arizona Cardinals,,,,2017,14.0
-2017-12-10,New York Jets,,Denver Broncos,,,,2017,14.0
-2017-12-10,Washington Redskins,,Los Angeles Chargers,,,,2017,14.0
-2017-12-10,Dallas Cowboys,,New York Giants,,,,2017,14.0
-2017-12-10,Philadelphia Eagles,,Los Angeles Rams,,,,2017,14.0
-2017-12-10,Baltimore Ravens,,Pittsburgh Steelers,,,,2017,14.0
-2017-12-11,New England Patriots,,Miami Dolphins,,,,2017,14.0
+2017-11-30,Washington Redskins,14.0,Dallas Cowboys,38.0,-1.5,,2017,13.0
+2017-12-03,Minnesota Vikings,14.0,Atlanta Falcons,9.0,3.0,,2017,13.0
+2017-12-03,New England Patriots,23.0,Buffalo Bills,3.0,-8.5,,2017,13.0
+2017-12-03,San Francisco 49ers,15.0,Chicago Bears,14.0,3.0,,2017,13.0
+2017-12-03,Tampa Bay Buccaneers,20.0,Green Bay Packers,26.0,-1.0,,2017,13.0
+2017-12-03,Indianapolis Colts,10.0,Jacksonville Jaguars,30.0,9.5,,2017,13.0
+2017-12-03,Denver Broncos,9.0,Miami Dolphins,35.0,-1.5,,2017,13.0
+2017-12-03,Carolina Panthers,21.0,New Orleans Saints,31.0,4.5,,2017,13.0
+2017-12-03,Kansas City Chiefs,31.0,New York Jets,38.0,-3.5,,2017,13.0
+2017-12-03,Houston Texans,13.0,Tennessee Titans,24.0,7.0,,2017,13.0
+2017-12-03,Detroit Lions,20.0,Baltimore Ravens,44.0,3.0,,2017,13.0
+2017-12-03,Cleveland Browns,10.0,Los Angeles Chargers,19.0,14.0,,2017,13.0
+2017-12-03,Los Angeles Rams,32.0,Arizona Cardinals,16.0,-7.0,,2017,13.0
+2017-12-03,New York Giants,17.0,Oakland Raiders,24.0,8.5,,2017,13.0
+2017-12-03,Philadelphia Eagles,10.0,Seattle Seahawks,24.0,-6.0,,2017,13.0
+2017-12-04,Pittsburgh Steelers,23.0,Cincinnati Bengals,20.0,-5.5,,2017,13.0
+2017-12-07,New Orleans Saints,17,Atlanta Falcons,20,2.5,,2017,14.0
+2017-12-10,Indianapolis Colts,7,Buffalo Bills,13,4.0,,2017,14.0
+2017-12-10,Minnesota Vikings,24,Carolina Panthers,31,-2.5,,2017,14.0
+2017-12-10,Chicago Bears,33,Cincinnati Bengals,7,6.0,,2017,14.0
+2017-12-10,Green Bay Packers,27,Cleveland Browns,21,-3.0,,2017,14.0
+2017-12-10,San Francisco 49ers,26,Houston Texans,16,3.0,,2017,14.0
+2017-12-10,Seattle Seahawks,24,Jacksonville Jaguars,30,2.5,,2017,14.0
+2017-12-10,Oakland Raiders,15,Kansas City Chiefs,26,4.0,,2017,14.0
+2017-12-10,Detroit Lions,24,Tampa Bay Buccaneers,21,-1.0,,2017,14.0
+2017-12-10,Tennessee Titans,7,Arizona Cardinals,12,-3.0,,2017,14.0
+2017-12-10,New York Jets,0,Denver Broncos,23,-1.0,,2017,14.0
+2017-12-10,Washington Redskins,13,Los Angeles Chargers,30,6.0,,2017,14.0
+2017-12-10,Dallas Cowboys,30,New York Giants,10,-4.5,,2017,14.0
+2017-12-10,Philadelphia Eagles,43,Los Angeles Rams,35,2.5,,2017,14.0
+2017-12-10,Baltimore Ravens,38,Pittsburgh Steelers,39,5.0,,2017,14.0
+2017-12-11,New England Patriots,20,Miami Dolphins,27,-11.0,,2017,14.0
 2017-12-14,Denver Broncos,,Indianapolis Colts,,,,2017,15.0
 2017-12-16,Chicago Bears,,Detroit Lions,,,,2017,15.0
 2017-12-16,Los Angeles Chargers,,Kansas City Chiefs,,,,2017,15.0
