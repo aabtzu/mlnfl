@@ -3,7 +3,7 @@ from __future__ import print_function
 
 __author__ = 'alainledon'
 
-WEEK_TO_PICK = 1
+WEEK_TO_PICK = 15
 
 import os
 import numpy as np
@@ -34,6 +34,7 @@ args = parser.parse_args()
 
 # predict one week of current season
 week_number = args.game_week
+print(week_number)
 
 # define the root directory for the nfl code in $MLNLF_ROOT
 codeDir = "".join([MLNFL_ROOT_DIR, os.path.sep])
@@ -118,34 +119,35 @@ lr2_trained_classifier = madden.runScikitClassifier(df_all_historical_games2, ma
 
 ###################################################################################################################
 # apply results of logistic regression to the test set
-df_svm_predict = madden.predictGames(dfTest, svm_trained_classifier, madden.FEATURE_COLUMNS)
-# apply ranking logic and determine scoring outcomes for league
-df_all_picks = madden.rankGames(df_svm_predict, reference_data, season_test[0])
+if 0:
+    df_svm_predict = madden.predictGames(dfTest, svm_trained_classifier, madden.FEATURE_COLUMNS)
+    # apply ranking logic and determine scoring outcomes for league
+    df_all_picks = madden.rankGames(df_svm_predict, reference_data, season_test[0])
 
-# display weekly ranking output
+    # display weekly ranking output
 
-# ranking methods choices
-# 0. pick based on spread
-# 1. always pick favored team, rank by probability of win
-# 2. pick winner based on abs(probability - .5), rank by probability
-# 3. pick winner based on abs(probability - .5), rank by abs(probability - .5)
+    # ranking methods choices
+    # 0. pick based on spread
+    # 1. always pick favored team, rank by probability of win
+    # 2. pick winner based on abs(probability - .5), rank by probability
+    # 3. pick winner based on abs(probability - .5), rank by abs(probability - .5)
 
-DISPLAY_COLUMNS = ['season','gameWeek','Visitor','visitorRecord','Home Team','homeRecord',
-            'Line','prevFavoredRecord','prevUnderdogRecord','predict_proba',
-            'lineGuess','probaGuess', 'probaAbsGuess', 'predictTeam']
+    DISPLAY_COLUMNS = ['season','gameWeek','Visitor','visitorRecord','Home Team','homeRecord',
+                'Line','prevFavoredRecord','prevUnderdogRecord','predict_proba',
+                'lineGuess','probaGuess', 'probaAbsGuess', 'predictTeam']
 
 
-df_all_picks['predictTeam'] = np.where((df_all_picks['predict_proba'] - .5) > 0 , df_all_picks['favorite'], df_all_picks['underdog'])
-guessCol = 'probaGuess'
-predictCols = ['gameWeek','predictTeam', 'predict_proba', guessCol, 'favorite','lineGuess', 'Line']
+    df_all_picks['predictTeam'] = np.where((df_all_picks['predict_proba'] - .5) > 0 , df_all_picks['favorite'], df_all_picks['underdog'])
+    guessCol = 'probaGuess'
+    predictCols = ['gameWeek','predictTeam', 'predict_proba', guessCol, 'favorite','lineGuess', 'Line']
 
-print("\nPicks for week {0:0>2} using SVM\n".format(week_number))
-svm_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
-print(svm_picks_df)
+    print("\nPicks for week {0:0>2} using SVM\n".format(week_number))
+    svm_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
+    print(svm_picks_df)
 
-svm_out_file = "".join([args.picks_dir, os.path.sep, "svm_picks_week_{0:0>2}.csv".format(week_number)])
-logging.info("Writing SVM output to {}...".format(svm_out_file))
-svm_picks_df.to_csv(svm_out_file, index=False)
+    svm_out_file = "".join([args.picks_dir, os.path.sep, "svm_picks_week_{0:0>2}.csv".format(week_number)])
+    logging.info("Writing SVM output to {}...".format(svm_out_file))
+    svm_picks_df.to_csv(svm_out_file, index=False)
 
 #week_filter = df_all_picks.gameWeek == week_number
 #print("\nPicks using SVM")

@@ -152,7 +152,7 @@ def merge_scores(df_week, week, season, df_lines):
         print ii, rr['home_team'], rr['home_pts']
         game_filter = df_lines[week_filter]['Home Team'].str.contains(rr['home_team'])
         irow = df_lines[week_filter][game_filter].index[0]
-        print df_lines.irow(irow)['Home Team']
+        print df_lines.iloc[irow]['Home Team']
         df_lines.loc[irow, 'Home Score'] = rr['home_pts']
         df_lines.loc[irow, 'Visitor Score'] = rr['away_pts']
 
