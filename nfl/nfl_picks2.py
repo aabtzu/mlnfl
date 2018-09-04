@@ -234,6 +234,6 @@ if __name__ == "__main__":
 
     # predict one week of current season
     week_number = args.game_week
-    season = 2017
+    season = 2018
     main(season, week_number, picks_dir)
 
