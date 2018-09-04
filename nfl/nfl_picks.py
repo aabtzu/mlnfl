@@ -3,7 +3,7 @@ from __future__ import print_function
 
 __author__ = 'alainledon'
 
-WEEK_TO_PICK = 15
+WEEK_TO_PICK = 1
 
 import os
 import numpy as np
@@ -58,7 +58,7 @@ logging.info("lookupDir = %s" % lookupDir)
 reference_data = ReferenceData(lookupDir)
 
 # train on previous 3 yrs of data
-testYear = [2017]
+testYear = [2018]
 trainYears = range(testYear[0]-3,testYear[0])
 
 # training data set - includes one extra year for prev yr record

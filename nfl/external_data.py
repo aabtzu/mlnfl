@@ -8,7 +8,7 @@ import os
 import datetime
 import argparse
 
-CURRENT_SEASON = 2017
+CURRENT_SEASON = 2018
 SPREADS_URL = 'http://www.footballlocks.com/nfl_point_spreads.shtml'
 SCORES_URL = 'http://www.pro-football-reference.com/years/%d/games.htm' % CURRENT_SEASON
 
@@ -20,7 +20,7 @@ lines_file = path_to_lines + "nflAllLines.csv"
 def read_lines():
     # read in the master lines file
     df_lines = pandas.read_csv(lines_file)
-    df_lines.Date = pandas.to_datetime(df_lines.Date)
+    df_lines.Date = pandas.to_datetime(df_lines.Date).dt.date
     return df_lines
 
 
@@ -75,7 +75,7 @@ def scrape_spreads():
     df_spreads.home_team = df_spreads.home_team.str.replace('^At ', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(At .*\)', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(.*\)', '')
-    df_spreads['datetime'] = pandas.to_datetime('2017/'+df_spreads.date.str.split(" ", expand=True)[0],
+    df_spreads['datetime'] = pandas.to_datetime('2018/'+df_spreads.date.str.split(" ", expand=True)[0],
                                                 format='%Y/%m/%d').dt.date
 
     return df_spreads
