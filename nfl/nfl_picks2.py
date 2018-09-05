@@ -8,13 +8,16 @@ WEEK_TO_PICK = 1
 import os
 import numpy as np
 import pandas as pd
-import madden
+
 import logging
 import argparse
 
 from sklearn import linear_model
 from sklearn import svm
-from referencedata import ReferenceData
+from sklearn import ensemble
+
+from .referencedata import ReferenceData
+from . import madden
 
 pd.options.mode.chained_assignment = None
 pd.set_option('expand_frame_repr', False)
@@ -24,7 +27,7 @@ MLNFL_ROOT_DIR = os.environ['MLNFL_ROOT']
 print(MLNFL_ROOT_DIR)
 
 logging.basicConfig(level=logging.INFO, format=' %(asctime)s - %(levelname)s - %(message)s')
-
+_logger = logging.getLogger()
 
 
 def get_picks_by_spread():
@@ -40,25 +43,23 @@ def get_picks_by_log_reg():
 
 
 def main(season, week_number, picks_dir):
-
-
     # define the root directory for the nfl code in $MLNLF_ROOT
-    codeDir = "".join([MLNFL_ROOT_DIR, os.path.sep])
-    dataRoot = "".join([codeDir, "data", os.path.sep])
+    code_dir = "".join([MLNFL_ROOT_DIR, os.path.sep])
+    data_root = "".join([code_dir, "data", os.path.sep])
 
-    os.chdir(codeDir)
+    os.chdir(code_dir)
 
-    logging.info("Base directory = {0}".format(codeDir))
-    logging.info("Data directory = {0}".format(dataRoot))
+    logging.info("Base directory = {0}".format(code_dir))
+    logging.info("Data directory = {0}".format(data_root))
 
     # location of lookup files
 
     lookupFiles = {'teams' : {'file': 'nflTeams.csv'}, 'seasons': {'file': 'seasons.csv'}, }
 
-    lookupDir = "".join([dataRoot, 'lookup', os.path.sep])
+    lookupDir = "".join([data_root, 'lookup', os.path.sep])
 
-    logging.info("lookupFiles = %s" % lookupFiles)
-    logging.info("lookupDir = %s" % lookupDir)
+    logging.info(f"lookupFiles = {lookupFiles}")
+    logging.info(f"lookupDir = {lookupDir}")
 
     # load reference data
     reference_data = ReferenceData(lookupDir)
@@ -73,7 +74,7 @@ def main(season, week_number, picks_dir):
 
     # get training data
     # 1 - read all the games
-    path_to_lines = dataRoot + "lines/"
+    path_to_lines = data_root + "lines/"
     df_all_historical_games = madden.readGamesAll(path_to_lines, seasons)
     # 2 - compile season record for all teams
     df_all_teams = madden.seasonRecord(df_all_historical_games, reference_data)

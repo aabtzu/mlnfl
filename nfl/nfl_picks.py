@@ -8,13 +8,13 @@ WEEK_TO_PICK = 1
 import os
 import numpy as np
 import pandas as pd
-import madden
 import logging
 import argparse
 
 from sklearn import linear_model
 from sklearn import svm
-from referencedata import ReferenceData
+from .referencedata import ReferenceData
+from . import madden
 
 pd.options.mode.chained_assignment = None
 pd.set_option('expand_frame_repr', False)
@@ -228,6 +228,7 @@ def get_picks_by_log_reg():
 
 def main():
     pass
+
 
 if __name__ == "__main__":
     main()

@@ -4,7 +4,7 @@ __author__ = 'alain'
 
 import pandas as pd
 import numpy as np
-import madden
+from . import madden
 
 
 class SeasonClassifier(object):

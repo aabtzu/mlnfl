@@ -1,9 +1,10 @@
 __author__ = 'amit.bhattacharyya'
 
-import madden
+from . import madden
 import numpy as np
 import os
 from sklearn import linear_model
+import logging
 
 #TODO: REFACTOR TO MAKE THINGS CLEAR - SORT OF A MESS RIGHT NOW
 #TODO: What is the purpose of this module?
@@ -12,6 +13,8 @@ MLNFL_ROOT_DIR = os.environ['MLNFL_ROOT']
 codeDir = "".join([MLNFL_ROOT_DIR, os.path.sep])
 dataRoot = "".join([codeDir, "data", os.path.sep])
 path_to_lines = dataRoot + "lines/"
+
+_logger = logging.getLogger()
 
 def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
     """
@@ -44,33 +47,30 @@ def runSeasonRolling(trainYears, testYear, ref_data, trainFreq = 1):
 
     nweeks = 17
     dfWeeks = None
-    trainWeeks = 1
+    train_weeks = 1
     for i in range(nweeks):
         iw = i + 1 # actual week of season
-
-        print "season %d, week %d" % (seasonTest[0],iw)
-
+        _logger.info(f"season {seasonTest[0]}, week {iw}")
         if trainFreq == 0:
-            dfGames = df_all_games
-            dfTest = df_games_test[df_games_test.gameWeek == iw]
+            df_games = df_all_games
+            df_test = df_games_test[df_games_test.gameWeek == iw]
         else:
             if (iw % trainFreq) == 0:
-                trainWeeks = iw
+                train_weeks = iw
 
-            dfGames = df_all_games.append(df_games_test[df_games_test.gameWeek < trainWeeks])
-            dfTest = df_games_test[df_games_test.gameWeek == iw]
+            df_games = df_all_games.append(df_games_test[df_games_test.gameWeek < train_weeks])
+            df_test = df_games_test[df_games_test.gameWeek == iw]
 
         # run the logistic regression
         classifier = linear_model.LogisticRegression(C=1e5)
-        trained_classifier = madden.runScikitClassifier(dfGames, madden.FEATURE_COLUMNS, classifier)
+        trained_classifier = madden.runScikitClassifier(df_games, madden.FEATURE_COLUMNS, classifier)
 
         # apply results of logistic regression to the test set
-        dfPredict = madden.predictGames(dfTest, classifier, features)
-
+        df_predict = madden.predictGames(df_test, classifier, features)
         # apply ranking logic and determine scoring outcomes for league
-        dfAll = madden.rankGames(dfPredict, ref_data, seasonTest[0])
+        df_all = madden.rankGames(df_predict, ref_data, seasonTest[0])
 
-        g = dfAll.groupby('gameWeek', as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
+        g = df_all.groupby('gameWeek', as_index=False)['lineScore','probaScore1','probaScore2','probaScore3'].sum()
         g.index = [iw]
         g['season'] = seasonTest[0]
         #print(g)
@@ -98,7 +98,7 @@ def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_dat
         testYear = trainStart + trainLen
         trainYears = range(testYear-trainLen,testYear)
 
-        print testYear, trainYears
+        print(testYear, trainYears)
 
         # define test and train years
         seasons = np.array(trainYears)
@@ -142,7 +142,7 @@ def runSeasonLoop(trainStart, trainLen, classifier, path_to_lines, reference_dat
         except:
             winningScore = dfAll.groupby('season')['lineScore'].sum().values[0]
 
-        print winningScore, type(winningScore)
+        print(winningScore, type(winningScore))
 
         # get full season scores in pandas.Series
         scoreCols = ['lineScore', 'probaScore1','probaScore2','probaScore3',]

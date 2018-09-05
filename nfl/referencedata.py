@@ -5,6 +5,7 @@ import dateutil.parser as dp
 SEASONS_FILE = "seasons.csv"
 TEAMS_FILE = "nflteams.csv"
 
+
 def loadSimpleCSV(source, dataDir, lookupDict, lookupCol=None):
     """
     :Synopsis: loads multiple files

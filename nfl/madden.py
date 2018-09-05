@@ -1,8 +1,5 @@
 #!/bin/python
 
-from __future__ import division
-from __future__ import print_function
-
 # TODO: CONVERT ALL STRINGS TO CONSTANTS
 
 import pandas as pd
@@ -13,12 +10,11 @@ from sklearn import linear_model
 from sklearn import svm
 from sklearn import preprocessing
 
-from referencedata import ReferenceData
+from .referencedata import ReferenceData
 
 import logging
 
 logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
-
 
 MAX_WEEK = 17
 
