@@ -16,8 +16,8 @@ from sklearn import linear_model
 from sklearn import svm
 from sklearn import ensemble
 
-from .referencedata import ReferenceData
-from . import madden
+from nfl.referencedata import ReferenceData
+from nfl import madden
 
 pd.options.mode.chained_assignment = None
 pd.set_option('expand_frame_repr', False)
@@ -65,11 +65,11 @@ def main(season, week_number, picks_dir):
     reference_data = ReferenceData(lookupDir)
 
     # train on previous 3 yrs of data
-    testYear = [season]
-    trainYears = range(testYear[0]-3,testYear[0])
+    test_year = [season]
+    train_years = list(range(test_year[0]-3, test_year[0]))
 
     # training data set - includes one extra year for prev yr record
-    seasons = np.array(trainYears)
+    seasons = np.array(train_years)
     logging.info("training seasons >> {0}".format(seasons))
 
     # get training data
@@ -84,31 +84,31 @@ def main(season, week_number, picks_dir):
     df_all_historical_games = df_all_historical_games[df_all_historical_games.season.isin(seasons)]
 
     # use different test set
-    season_test = np.array(testYear) # should be only one year
+    season_test = np.array(test_year) # should be only one year
     print(season_test)
     logging.info("results for >> {0}".format(season_test))
     # 1 - read all the games
-    dfGamesTest = madden.readGamesAll(path_to_lines, season_test)
+    df_games_test = madden.readGamesAll(path_to_lines, season_test)
     # 2 - compile season record for all teams
-    dfTeamsTest = madden.seasonRecord(dfGamesTest, reference_data)
+    df_teams_test = madden.seasonRecord(df_games_test, reference_data)
     # 3 - apply season records and compute other fields for all games
-    dfGamesTest = madden.processGames(dfGamesTest, dfTeamsTest, reference_data)
+    df_games_test = madden.processGames(df_games_test, df_teams_test, reference_data)
     # 4 - remove extra year of data
-    dfGamesTest = dfGamesTest[dfGamesTest.season.isin(season_test)]
+    df_games_test = df_games_test[df_games_test.season.isin(season_test)]
 
     # get games for testing and predicting -- should be only one year
-    season_test = np.array(testYear)
+    season_test = np.array(test_year)
 
-    dfGamesTest = madden.readGamesAll(path_to_lines, season_test)
-    dfTeamsTest = madden.seasonRecord(dfGamesTest,reference_data)
-    dfGamesTest = madden.processGames(dfGamesTest, dfTeamsTest, reference_data)
-    dfGamesTest = dfGamesTest[dfGamesTest.season.isin(season_test)]
+    df_games_test = madden.readGamesAll(path_to_lines, season_test)
+    df_teams_test = madden.seasonRecord(df_games_test,reference_data)
+    df_games_test = madden.processGames(df_games_test, df_teams_test, reference_data)
+    df_games_test = df_games_test[df_games_test.season.isin(season_test)]
 
     # add current season games to training set for 2nd logreg model
-    df_all_historical_games2 = df_all_historical_games.append(dfGamesTest[dfGamesTest.gameWeek < week_number])
+    df_all_historical_games2 = df_all_historical_games.append(df_games_test[df_games_test.gameWeek < week_number])
 
     # pick only this weeks games for predict
-    dfTest = dfGamesTest[dfGamesTest.gameWeek == week_number]
+    dfTest = df_games_test[df_games_test.gameWeek == week_number]
 
     print(len(df_all_historical_games), len(df_all_historical_games2), len(dfTest))
 
@@ -118,11 +118,9 @@ def main(season, week_number, picks_dir):
     lr_classifier = linear_model.LogisticRegression(C=1e5)
     lr2_classifier = linear_model.LogisticRegression(C=1e5)
 
-    svm_trained_classifier = madden.runScikitClassifier(df_all_historical_games, madden.FEATURE_COLUMNS, svm_classifier)
     lr_trained_classifier = madden.runScikitClassifier(df_all_historical_games, madden.FEATURE_COLUMNS, lr_classifier)
+    svm_trained_classifier = madden.runScikitClassifier(df_all_historical_games, madden.FEATURE_COLUMNS, svm_classifier)
     lr2_trained_classifier = madden.runScikitClassifier(df_all_historical_games2, madden.FEATURE_COLUMNS, lr2_classifier)
-
-
 
     ###################################################################################################################
     # apply results of logistic regression to the test set
@@ -223,6 +221,7 @@ def main(season, week_number, picks_dir):
 
     return df_spread
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--week', '-w', action='store', default=WEEK_TO_PICK, dest='game_week',
@@ -235,6 +234,6 @@ if __name__ == "__main__":
 
     # predict one week of current season
     week_number = args.game_week
-    season = 2017
+    season = 2018
     main(season, week_number, picks_dir)
 
