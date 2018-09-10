@@ -3,12 +3,12 @@ __author__ = 'amit'
 import pandas
 import bs4
 import requests
-import urllib2
+import urllib
 import os
 import datetime
 import argparse
 
-CURRENT_SEASON = 2018
+CURRENT_SEASON = 2017
 SPREADS_URL = 'http://www.footballlocks.com/nfl_point_spreads.shtml'
 SCORES_URL = 'http://www.pro-football-reference.com/years/%d/games.htm' % CURRENT_SEASON
 
@@ -20,7 +20,7 @@ lines_file = path_to_lines + "nflAllLines.csv"
 def read_lines():
     # read in the master lines file
     df_lines = pandas.read_csv(lines_file)
-    df_lines.Date = pandas.to_datetime(df_lines.Date).dt.date
+    df_lines.Date = pandas.to_datetime(df_lines.Date)
     return df_lines
 
 
@@ -60,8 +60,8 @@ def scrape_spreads():
     # get the home favorite
     df_spreads['home_favorite'] = (df_spreads.favorite.str.contains('^At ')) | (df_spreads.favorite.str.contains('\(At '))
     # fix any spreads that are tied (PK)
-    df_spreads.loc[df_spreads.spread.astype(unicode).str.contains('Off'), 'spread'] = -.1 # need -1 for some reason
-    df_spreads.loc[df_spreads.spread.astype(unicode).str.contains('PK'), 'spread'] = -.1 # need -1 for some reason
+    df_spreads.loc[df_spreads.spread.str.contains('Off'), 'spread'] = -.1 # need -1 for some reason
+    df_spreads.loc[df_spreads.spread.str.contains('PK'), 'spread'] = -.1 # need -1 for some reason
 
     # flip sign on spread for away favorite
     df_spreads['factor'] = 1
@@ -75,7 +75,7 @@ def scrape_spreads():
     df_spreads.home_team = df_spreads.home_team.str.replace('^At ', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(At .*\)', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(.*\)', '')
-    df_spreads['datetime'] = pandas.to_datetime('2018/'+df_spreads.date.str.split(" ", expand=True)[0],
+    df_spreads['datetime'] = pandas.to_datetime('2017/'+df_spreads.date.str.split(" ", expand=True)[0],
                                                 format='%Y/%m/%d').dt.date
 
     return df_spreads
@@ -86,7 +86,7 @@ def merge_spreads(df_spreads, df_lines):
     week_filter = (df_lines.Date <= df_spreads.datetime.max()) & (df_lines.Date >= df_spreads.datetime.min())
 
     for ii, rr in df_spreads.iterrows():
-        print ii, rr['home_team'], rr['spreads2']
+        print(ii, rr['home_team'], rr['spreads2'])
         if ('NY' in rr['home_team']) | ('LA' in rr['home_team']):
             rr['home_team'] = rr['home_team'].split(' ')[1]
         game_filter = df_lines[week_filter]['Home Team'].str.contains(rr['home_team'])
@@ -143,16 +143,17 @@ def scrape_scores(week, season=CURRENT_SEASON):
 
     return df_week
 
+
 def merge_scores(df_week, week, season, df_lines):
 
     # find the right week/game and update the score
     week_filter = (df_lines.season == season) & (df_lines.week == week)
 
     for ii, rr in df_week.iterrows():
-        print ii, rr['home_team'], rr['home_pts']
+        print(ii, rr['home_team'], rr['home_pts'])
         game_filter = df_lines[week_filter]['Home Team'].str.contains(rr['home_team'])
         irow = df_lines[week_filter][game_filter].index[0]
-        print df_lines.iloc[irow]['Home Team']
+        print(df_lines.irow(irow)['Home Team'])
         df_lines.loc[irow, 'Home Score'] = rr['home_pts']
         df_lines.loc[irow, 'Visitor Score'] = rr['away_pts']
 
@@ -168,9 +169,9 @@ def get_current_week(df_lines, current_season=CURRENT_SEASON):
 
 
 def verify_data(df_data, data_type):
-    print "verifying %s data:" % data_type
-    print df_data
-    ans = raw_input("accept (y/n): ")
+    print("verifying %s data:" % data_type)
+    print(df_data)
+    ans = input("accept (y/n): ")
     if ans.lower() == 'y':
         return True
     return False
@@ -195,7 +196,7 @@ if __name__ == "__main__":
     if args.scores:
         week = args.game_week
 
-        print "getting scores of week %d of %d season ..." % (week, season)
+        print("getting scores of week %d of %d season ..." % (week, season))
         df_week = scrape_scores(week, season)
         df_lines = merge_scores(df_week, week, season, df_lines)
         if verify_data(df_week, 'scores'):
@@ -203,9 +204,8 @@ if __name__ == "__main__":
 
     if args.spreads:
         # get and save spreads
-        print "getting most recent spreads ..."
+        print("getting most recent spreads ...")
         df_spreads = scrape_spreads()
         df_lines = merge_spreads(df_spreads, df_lines)
         if verify_data(df_spreads, 'spreads'):
             save_lines(df_lines)
-

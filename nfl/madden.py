@@ -1,8 +1,5 @@
 #!/bin/python
 
-from __future__ import division
-from __future__ import print_function
-
 # TODO: CONVERT ALL STRINGS TO CONSTANTS
 
 import pandas as pd
@@ -13,12 +10,11 @@ from sklearn import linear_model
 from sklearn import svm
 from sklearn import preprocessing
 
-from referencedata import ReferenceData
+from .referencedata import ReferenceData
 
 import logging
 
 logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
-
 
 MAX_WEEK = 17
 
@@ -328,9 +324,9 @@ def getTrainData(all_games_df, featuresList, yClassifier='favoredWin', maxTrainW
     :returns: X,y and arrays for use in sklearn routines
     """
 
-    dfTrain = all_games_df[(all_games_df.gameWeek <= maxTrainWeek)]
-    y = dfTrain[yClassifier].tolist()
-    X = dfTrain[featuresList].as_matrix()
+    df_train = all_games_df[(all_games_df.gameWeek <= maxTrainWeek)]
+    y = df_train[yClassifier].tolist()
+    X = df_train[featuresList].values
 
     return X, y
 
@@ -366,19 +362,19 @@ def runGraphLabClassifier(all_games_sf, features, yClassifier, gl_classifier):
     return gl_model
 
 
-def runScikitClassifier(all_games_df, featuresList, classifier=DEFAULT_SCIKIT_CLASSIFIER, yClassifier = 'favoredWin'):
+def runScikitClassifier(all_games_df, features_list, classifier=DEFAULT_SCIKIT_CLASSIFIER, yClassifier ='favoredWin'):
     """
     :Synopsis: run machine learning on training data
 
     :param all_games_df: pandas.DataFrame with training data and outcomes for all games
-    :param featuresList: list of columns to include in training
+    :param features_list: list of columns to include in training
     :param classifier: which classifier to use, default = linear_model.LogisticRegression()
     :param yClassifier: the variable to predict
 
     :returns: fitted model object based on input classifier
     """
 
-    X, y = getTrainData(all_games_df, featuresList, yClassifier)
+    X, y = getTrainData(all_games_df, features_list, yClassifier)
 
     # try normalizing
     #X = preprocessing.normalize(X)
@@ -402,8 +398,8 @@ def predictGames(all_games_df, classifier, featuresList, yClassifier = 'favoredW
     :returns: augmented pandas.DataFrame with predictions of games based on logistic regression results
     """
 
-    dfPredict = all_games_df # [all_games_df[yClassifier].notnull()]
-    predict_X, predict_y = getTrainData(dfPredict, featuresList, yClassifier)
+    df_predict = all_games_df # [all_games_df[yClassifier].notnull()]
+    predict_X, predict_y = getTrainData(df_predict, featuresList, yClassifier)
 
     # proba_predict gives the probability that the favored team wins
     # 1 = 100% chance favored team wins
@@ -417,15 +413,15 @@ def predictGames(all_games_df, classifier, featuresList, yClassifier = 'favoredW
     pp = classifier.predict_proba(predict_X)  # probability of favored team winning
     #dfxn = classifier.decision_function(predict_X)  # not sure how this is helpful yet
 
-    dfPredict['predict_proba'] = pp[:, 1]
-    dfPredict['predict_proba_abs'] = abs(pp[:, 1] - 0.5)
+    df_predict['predict_proba'] = pp[:, 1]
+    df_predict['predict_proba_abs'] = abs(pp[:, 1] - 0.5)
     #df_svm_predict['decision_fxn'] = dfxn
 
-    scoreDiff = dfPredict['Home Score'] - dfPredict['Visitor Score']
+    score_diff = df_predict['Home Score'] - df_predict['Visitor Score']
     # predicted win = if the team that is predicted to win by classifier actually wins
     #                 not necessarily the favored team
-    dfPredict['predictWin'] = 1 * ((scoreDiff * dfPredict['Line'] * (dfPredict['predict_proba'] - 0.5)) > 0)
-    return dfPredict
+    df_predict['predictWin'] = 1 * ((score_diff * df_predict['Line'] * (df_predict['predict_proba'] - 0.5)) > 0)
+    return df_predict
 
 
 def predictAccuracy(all_games_df, classifier, featuresList, yClassifier):
