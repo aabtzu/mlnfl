@@ -1,16 +1,17 @@
 gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
-1,Pittsburgh Steelers,0.804861775678,16.0,Pittsburgh Steelers,14.0,-9.0
-1,Buffalo Bills,0.774687865595,15.0,Buffalo Bills,16.0,9.5
-1,New England Patriots,0.694117418056,14.0,New England Patriots,15.0,9.0
-1,Minnesota Vikings,0.687753699688,13.0,Minnesota Vikings,8.0,3.5
-1,Green Bay Packers,0.687429935963,12.0,Green Bay Packers,5.0,3.0
-1,Houston Texans,0.684658882968,11.0,Houston Texans,12.0,5.5
-1,Los Angeles Rams,0.684435595395,10.0,Los Angeles Rams,7.0,3.5
-1,Tennessee Titans,0.681507631179,9.0,Tennessee Titans,4.0,2.5
-1,Atlanta Falcons,0.679545913774,8.0,Atlanta Falcons,13.0,-7.0
-1,Carolina Panthers,0.676672140824,7.0,Carolina Panthers,11.0,-5.5
-1,Arizona Cardinals,0.66132985731,6.0,Arizona Cardinals,3.0,-1.5
-1,Denver Broncos,0.652633144844,5.0,Denver Broncos,9.0,3.5
-1,Philadelphia Eagles,0.647874667003,4.0,Philadelphia Eagles,2.0,-1.0
-1,Cincinnati Bengals,0.644926352372,3.0,Cincinnati Bengals,6.0,3.0
-1,Dallas Cowboys,0.6256011226,2.0,Dallas Cowboys,10.0,4.0
+1,Pittsburgh Steelers,0.757948520354,16.0,Pittsburgh Steelers,10.0,-5.5
+1,New Orleans Saints,0.744679912814,15.0,New Orleans Saints,16.0,9.5
+1,New England Patriots,0.738701540748,14.0,New England Patriots,13.0,6.5
+1,Minnesota Vikings,0.718883222966,13.0,Minnesota Vikings,11.0,6.0
+1,Detroit Lions,0.701371686518,12.0,Detroit Lions,12.0,6.5
+1,Philadelphia Eagles,0.68808370474,11.0,Philadelphia Eagles,5.0,2.5
+1,Carolina Panthers,0.681000975989,10.0,Carolina Panthers,3.0,2.5
+1,Green Bay Packers,0.674354515546,9.0,Green Bay Packers,15.0,7.5
+1,Denver Broncos,0.668730134377,8.0,Denver Broncos,4.0,2.5
+1,Indianapolis Colts,0.667311349967,7.0,Indianapolis Colts,7.0,3.0
+1,Jacksonville Jaguars,0.665093933068,6.0,Jacksonville Jaguars,6.0,-3.0
+1,Los Angeles Rams,0.663102915848,5.0,Los Angeles Rams,9.0,-4.5
+1,Tennessee Titans,0.660800353282,4.0,Tennessee Titans,2.0,-2.0
+1,Baltimore Ravens,0.659082517817,3.0,Baltimore Ravens,14.0,7.0
+1,Arizona Cardinals,0.643602041015,2.0,Arizona Cardinals,1.0,0.1
+1,Los Angeles Chargers,0.638730284889,1.0,Los Angeles Chargers,8.0,3.0

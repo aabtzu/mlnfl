@@ -1,16 +1,17 @@
 gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
-1,New England Patriots,0.716145816581,16.0,New England Patriots,15.0,9.0
-1,Pittsburgh Steelers,0.697802833819,15.0,Pittsburgh Steelers,14.0,-9.0
-1,Buffalo Bills,0.688416859853,14.0,Buffalo Bills,16.0,9.5
-1,Atlanta Falcons,0.672663940603,13.0,Atlanta Falcons,13.0,-7.0
-1,Houston Texans,0.659298824111,12.0,Houston Texans,12.0,5.5
-1,Denver Broncos,0.599695168047,11.0,Denver Broncos,9.0,3.5
-1,Minnesota Vikings,0.598706377794,10.0,Minnesota Vikings,8.0,3.5
-1,Carolina Panthers,0.595881695708,9.0,Carolina Panthers,11.0,-5.5
-1,Dallas Cowboys,0.591998023554,8.0,Dallas Cowboys,10.0,4.0
-1,Green Bay Packers,0.579995983337,7.0,Green Bay Packers,5.0,3.0
-1,Los Angeles Rams,0.537309671366,6.0,Los Angeles Rams,7.0,3.5
-1,Tennessee Titans,0.534537261382,5.0,Tennessee Titans,4.0,2.5
-1,Cincinnati Bengals,0.51784883684,4.0,Cincinnati Bengals,6.0,3.0
-1,Detroit Lions,0.447411355719,3.0,Arizona Cardinals,3.0,-1.5
-1,Washington Redskins,0.414546123755,2.0,Philadelphia Eagles,2.0,-1.0
+1,New Orleans Saints,0.722164598121,16.0,New Orleans Saints,16.0,9.5
+1,New England Patriots,0.705500580443,15.0,New England Patriots,13.0,6.5
+1,Minnesota Vikings,0.696309593952,14.0,Minnesota Vikings,11.0,6.0
+1,Baltimore Ravens,0.678392261122,13.0,Baltimore Ravens,14.0,7.0
+1,Detroit Lions,0.671882753196,12.0,Detroit Lions,12.0,6.5
+1,Green Bay Packers,0.655696334955,11.0,Green Bay Packers,15.0,7.5
+1,Philadelphia Eagles,0.633318248348,10.0,Philadelphia Eagles,5.0,2.5
+1,Carolina Panthers,0.615753174903,9.0,Carolina Panthers,3.0,2.5
+1,Pittsburgh Steelers,0.604460644491,8.0,Pittsburgh Steelers,10.0,-5.5
+1,Los Angeles Chargers,0.588444278172,7.0,Los Angeles Chargers,8.0,3.0
+1,Los Angeles Rams,0.58124922692,6.0,Los Angeles Rams,9.0,-4.5
+1,Indianapolis Colts,0.560928558767,5.0,Indianapolis Colts,7.0,3.0
+1,Denver Broncos,0.559646047237,4.0,Denver Broncos,4.0,2.5
+1,Jacksonville Jaguars,0.544625111154,3.0,Jacksonville Jaguars,6.0,-3.0
+1,Arizona Cardinals,0.543036423064,2.0,Arizona Cardinals,1.0,0.1
+1,Tennessee Titans,0.513748610534,1.0,Tennessee Titans,2.0,-2.0
