@@ -326,7 +326,7 @@ def getTrainData(all_games_df, featuresList, yClassifier='favoredWin', maxTrainW
 
     df_train = all_games_df[(all_games_df.gameWeek <= maxTrainWeek)]
     y = df_train[yClassifier].tolist()
-    X = df_train[featuresList].as_matrix()
+    X = df_train[featuresList].values
 
     return X, y
 
