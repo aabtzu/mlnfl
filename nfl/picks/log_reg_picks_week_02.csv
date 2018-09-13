@@ -1,0 +1,17 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+2,Los Angeles Rams,0.9231628162911917,16.0,Los Angeles Rams,16.0,12.5
+2,Washington Redskins,0.8705585708058866,15.0,Washington Redskins,11.0,6.0
+2,Denver Broncos,0.8520031349048819,14.0,Denver Broncos,13.0,6.0
+2,New Orleans Saints,0.7379717214501327,13.0,New Orleans Saints,15.0,9.0
+2,San Francisco 49ers,0.6425087402211275,12.0,San Francisco 49ers,10.0,6.0
+2,Los Angeles Chargers,0.6253511334615462,11.0,Los Angeles Chargers,14.0,-7.5
+2,Dallas Cowboys,0.6006332223641047,10.0,Dallas Cowboys,6.0,3.0
+2,Chicago Bears,0.5871057256081176,9.0,Chicago Bears,8.0,3.5
+2,Tennessee Titans,0.45394672207440284,8.0,Houston Texans,4.0,-2.0
+2,Tampa Bay Buccaneers,0.4222717548532889,7.0,Philadelphia Eagles,5.0,-3.0
+2,Miami Dolphins,0.40342767200925606,6.0,New York Jets,7.0,3.0
+2,Jacksonville Jaguars,0.4004704620405139,5.0,New England Patriots,3.0,-2.0
+2,Baltimore Ravens,0.366346468124946,4.0,Cincinnati Bengals,1.0,0.1
+2,Green Bay Packers,0.3662874557981072,3.0,Minnesota Vikings,2.0,-1.0
+2,Kansas City Chiefs,0.229882945654184,2.0,Pittsburgh Steelers,9.0,4.0
+2,Carolina Panthers,0.22369454135151198,1.0,Atlanta Falcons,12.0,6.0
