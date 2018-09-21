@@ -18,25 +18,32 @@ lines_file = path_to_lines + "nflAllLines.csv"
 
 
 def read_lines():
-    # read in the master lines file
+    """
+    read in the master lines file
+
+    :return:
+    """
     df_lines = pandas.read_csv(lines_file)
     df_lines.Date = pandas.to_datetime(df_lines.Date).dt.date
     return df_lines
 
 
 def save_lines(df_lines):
-    '''
+    """
     Synopsis: save the master lines file
 
     :param df_lines: pandas DataFrame of all lines and scores
-
     :return: None
-    '''
+    """
     df_lines.to_csv(lines_file, index=False)
 
 
 def scrape_spreads():
+    """
+    Scrape spreads from site
 
+    :return:
+    """
     r = requests.get(SPREADS_URL)
     data = r.text
 
@@ -80,8 +87,15 @@ def scrape_spreads():
 
     return df_spreads
 
-def merge_spreads(df_spreads, df_lines):
 
+def merge_spreads(df_spreads, df_lines):
+    """
+    Merge Spreads into lines dataframe
+
+    :param df_spreads:
+    :param df_lines:
+    :return:
+    """
     # find the right week/game and update the spread
     week_filter = (df_lines.Date <= df_spreads.datetime.max()) & (df_lines.Date >= df_spreads.datetime.min())
 
@@ -97,9 +111,16 @@ def merge_spreads(df_spreads, df_lines):
 
 
 def scrape_scores(week, season=CURRENT_SEASON):
+    """
+    Scrape scores
+
+    :param week:
+    :param season:
+    :return:
+    """
 
     scores_url = SCORES_URL
-    r  = requests.get(scores_url)
+    r = requests.get(scores_url)
     data = r.text
 
     soup = bs4.BeautifulSoup(data, 'lxml')
@@ -143,8 +164,17 @@ def scrape_scores(week, season=CURRENT_SEASON):
 
     return df_week
 
-def merge_scores(df_week, week, season, df_lines):
 
+def merge_scores(df_week, week, season, df_lines):
+    """
+    Merge Scores into file
+
+    :param df_week:
+    :param week:
+    :param season:
+    :param df_lines:
+    :return:
+    """
     # find the right week/game and update the score
     week_filter = (df_lines.season == season) & (df_lines.week == week)
 
@@ -160,7 +190,13 @@ def merge_scores(df_week, week, season, df_lines):
 
 
 def get_current_week(df_lines, current_season=CURRENT_SEASON):
+    """
+    Get current week lines
 
+    :param df_lines:
+    :param current_season:
+    :return:
+    """
     today = datetime.datetime.today().date()
     date_filter = (df_lines.Date > today) & (df_lines.season == current_season)
     current_week = df_lines[date_filter].week.min()
@@ -168,6 +204,13 @@ def get_current_week(df_lines, current_season=CURRENT_SEASON):
 
 
 def verify_data(df_data, data_type):
+    """
+    look at the data
+
+    :param df_data:
+    :param data_type:
+    :return:
+    """
     print ("verifying %s data:" % data_type)
     print (df_data)
     ans = input("accept (y/n): ")
