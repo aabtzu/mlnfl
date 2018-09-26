@@ -9469,53 +9469,53 @@ Date,Visitor,Visitor Score,Home Team,Home Score,Line,Total Line,season,week
 2018-09-09,Chicago Bears,23.0,Green Bay Packers,24.0,7.5,,2018,1.0
 2018-09-10,New York Jets,48.0,Detroit Lions,17.0,6.5,,2018,1.0
 2018-09-10,Los Angeles Rams,33.0,Oakland Raiders,13.0,-4.5,,2018,1.0
-2018-09-13,Baltimore Ravens,,Cincinnati Bengals,,0.1,,2018,2.0
-2018-09-16,Carolina Panthers,,Atlanta Falcons,,6.0,,2018,2.0
-2018-09-16,Los Angeles Chargers,,Buffalo Bills,,-7.5,,2018,2.0
-2018-09-16,Minnesota Vikings,,Green Bay Packers,,-1.0,,2018,2.0
-2018-09-16,Cleveland Browns,,New Orleans Saints,,9.0,,2018,2.0
-2018-09-16,Miami Dolphins,,New York Jets,,3.0,,2018,2.0
-2018-09-16,Houston Texans,,Tennessee Titans,,-2.0,,2018,2.0
-2018-09-16,Kansas City Chiefs,,Pittsburgh Steelers,,4.0,,2018,2.0
-2018-09-16,Philadelphia Eagles,,Tampa Bay Buccaneers,,-3.0,,2018,2.0
-2018-09-16,Indianapolis Colts,,Washington Redskins,,6.0,,2018,2.0
-2018-09-16,Arizona Cardinals,,Los Angeles Rams,,12.5,,2018,2.0
-2018-09-16,Detroit Lions,,San Francisco 49ers,,6.0,,2018,2.0
-2018-09-16,Oakland Raiders,,Denver Broncos,,6.0,,2018,2.0
-2018-09-16,New England Patriots,,Jacksonville Jaguars,,-2.0,,2018,2.0
-2018-09-16,New York Giants,,Dallas Cowboys,,3.0,,2018,2.0
-2018-09-17,Seattle Seahawks,,Chicago Bears,,3.5,,2018,2.0
-2018-09-20,New York Jets,,Cleveland Browns,,,,2018,3.0
-2018-09-23,New Orleans Saints,,Atlanta Falcons,,,,2018,3.0
-2018-09-23,Cincinnati Bengals,,Carolina Panthers,,,,2018,3.0
-2018-09-23,New York Giants,,Houston Texans,,,,2018,3.0
-2018-09-23,Tennessee Titans,,Jacksonville Jaguars,,,,2018,3.0
-2018-09-23,San Francisco 49ers,,Kansas City Chiefs,,,,2018,3.0
-2018-09-23,Oakland Raiders,,Miami Dolphins,,,,2018,3.0
-2018-09-23,Buffalo Bills,,Minnesota Vikings,,,,2018,3.0
-2018-09-23,Indianapolis Colts,,Philadelphia Eagles,,,,2018,3.0
-2018-09-23,Denver Broncos,,Baltimore Ravens,,,,2018,3.0
-2018-09-23,Green Bay Packers,,Washington Redskins,,,,2018,3.0
-2018-09-23,Los Angeles Chargers,,Los Angeles Rams,,,,2018,3.0
-2018-09-23,Chicago Bears,,Arizona Cardinals,,,,2018,3.0
-2018-09-23,Dallas Cowboys,,Seattle Seahawks,,,,2018,3.0
-2018-09-23,New England Patriots,,Detroit Lions,,,,2018,3.0
-2018-09-24,Pittsburgh Steelers,,Tampa Bay Buccaneers,,,,2018,3.0
-2018-09-27,Minnesota Vikings,,Los Angeles Rams,,,,2018,4.0
-2018-09-30,Cincinnati Bengals,,Atlanta Falcons,,,,2018,4.0
-2018-09-30,Tampa Bay Buccaneers,,Chicago Bears,,,,2018,4.0
-2018-09-30,Houston Texans,,Indianapolis Colts,,,,2018,4.0
-2018-09-30,Detroit Lions,,Dallas Cowboys,,,,2018,4.0
-2018-09-30,Buffalo Bills,,Green Bay Packers,,,,2018,4.0
-2018-09-30,New York Jets,,Jacksonville Jaguars,,,,2018,4.0
-2018-09-30,Miami Dolphins,,New England Patriots,,,,2018,4.0
-2018-09-30,Philadelphia Eagles,,Tennessee Titans,,,,2018,4.0
-2018-09-30,Seattle Seahawks,,Arizona Cardinals,,,,2018,4.0
-2018-09-30,Cleveland Browns,,Oakland Raiders,,,,2018,4.0
-2018-09-30,New Orleans Saints,,New York Giants,,,,2018,4.0
-2018-09-30,San Francisco 49ers,,Los Angeles Chargers,,,,2018,4.0
-2018-09-30,Baltimore Ravens,,Pittsburgh Steelers,,,,2018,4.0
-2018-10-01,Kansas City Chiefs,,Denver Broncos,,,,2018,4.0
+2018-09-13,Baltimore Ravens,23.0,Cincinnati Bengals,34.0,0.1,,2018,2.0
+2018-09-16,Carolina Panthers,24.0,Atlanta Falcons,31.0,6.0,,2018,2.0
+2018-09-16,Los Angeles Chargers,31.0,Buffalo Bills,20.0,-7.5,,2018,2.0
+2018-09-16,Minnesota Vikings,29.0,Green Bay Packers,29.0,-1.0,,2018,2.0
+2018-09-16,Cleveland Browns,18.0,New Orleans Saints,21.0,9.0,,2018,2.0
+2018-09-16,Miami Dolphins,20.0,New York Jets,12.0,3.0,,2018,2.0
+2018-09-16,Houston Texans,17.0,Tennessee Titans,20.0,-2.0,,2018,2.0
+2018-09-16,Kansas City Chiefs,42.0,Pittsburgh Steelers,37.0,4.0,,2018,2.0
+2018-09-16,Philadelphia Eagles,21.0,Tampa Bay Buccaneers,27.0,-3.0,,2018,2.0
+2018-09-16,Indianapolis Colts,21.0,Washington Redskins,9.0,6.0,,2018,2.0
+2018-09-16,Arizona Cardinals,0.0,Los Angeles Rams,34.0,12.5,,2018,2.0
+2018-09-16,Detroit Lions,27.0,San Francisco 49ers,30.0,6.0,,2018,2.0
+2018-09-16,Oakland Raiders,19.0,Denver Broncos,20.0,6.0,,2018,2.0
+2018-09-16,New England Patriots,20.0,Jacksonville Jaguars,31.0,-2.0,,2018,2.0
+2018-09-16,New York Giants,13.0,Dallas Cowboys,20.0,3.0,,2018,2.0
+2018-09-17,Seattle Seahawks,17.0,Chicago Bears,24.0,3.5,,2018,2.0
+2018-09-20,New York Jets,17.0,Cleveland Browns,21.0,3.0,,2018,3.0
+2018-09-23,New Orleans Saints,43.0,Atlanta Falcons,37.0,3.0,,2018,3.0
+2018-09-23,Cincinnati Bengals,21.0,Carolina Panthers,31.0,3.0,,2018,3.0
+2018-09-23,New York Giants,27.0,Houston Texans,22.0,6.0,,2018,3.0
+2018-09-23,Tennessee Titans,9.0,Jacksonville Jaguars,6.0,7.5,,2018,3.0
+2018-09-23,San Francisco 49ers,27.0,Kansas City Chiefs,38.0,6.5,,2018,3.0
+2018-09-23,Oakland Raiders,20.0,Miami Dolphins,28.0,3.0,,2018,3.0
+2018-09-23,Buffalo Bills,27.0,Minnesota Vikings,6.0,16.5,,2018,3.0
+2018-09-23,Indianapolis Colts,16.0,Philadelphia Eagles,20.0,6.5,,2018,3.0
+2018-09-23,Denver Broncos,14.0,Baltimore Ravens,27.0,5.5,,2018,3.0
+2018-09-23,Green Bay Packers,17.0,Washington Redskins,31.0,-3.0,,2018,3.0
+2018-09-23,Los Angeles Chargers,23.0,Los Angeles Rams,35.0,7.0,,2018,3.0
+2018-09-23,Chicago Bears,16.0,Arizona Cardinals,14.0,-6.0,,2018,3.0
+2018-09-23,Dallas Cowboys,13.0,Seattle Seahawks,24.0,1.5,,2018,3.0
+2018-09-23,New England Patriots,10.0,Detroit Lions,26.0,-6.5,,2018,3.0
+2018-09-24,Pittsburgh Steelers,30.0,Tampa Bay Buccaneers,27.0,-1.0,,2018,3.0
+2018-09-27,Minnesota Vikings,,Los Angeles Rams,,6.5,,2018,4.0
+2018-09-30,Cincinnati Bengals,,Atlanta Falcons,,5.5,,2018,4.0
+2018-09-30,Tampa Bay Buccaneers,,Chicago Bears,,3.0,,2018,4.0
+2018-09-30,Houston Texans,,Indianapolis Colts,,1.0,,2018,4.0
+2018-09-30,Detroit Lions,,Dallas Cowboys,,3.0,,2018,4.0
+2018-09-30,Buffalo Bills,,Green Bay Packers,,10.0,,2018,4.0
+2018-09-30,New York Jets,,Jacksonville Jaguars,,7.5,,2018,4.0
+2018-09-30,Miami Dolphins,,New England Patriots,,7.0,,2018,4.0
+2018-09-30,Philadelphia Eagles,,Tennessee Titans,,-4.0,,2018,4.0
+2018-09-30,Seattle Seahawks,,Arizona Cardinals,,-3.0,,2018,4.0
+2018-09-30,Cleveland Browns,,Oakland Raiders,,2.5,,2018,4.0
+2018-09-30,New Orleans Saints,,New York Giants,,-3.5,,2018,4.0
+2018-09-30,San Francisco 49ers,,Los Angeles Chargers,,10.5,,2018,4.0
+2018-09-30,Baltimore Ravens,,Pittsburgh Steelers,,3.0,,2018,4.0
+2018-10-01,Kansas City Chiefs,,Denver Broncos,,-5.0,,2018,4.0
 2018-10-04,Indianapolis Colts,,New England Patriots,,,,2018,5.0
 2018-10-07,Tennessee Titans,,Buffalo Bills,,,,2018,5.0
 2018-10-07,New York Giants,,Carolina Panthers,,,,2018,5.0
