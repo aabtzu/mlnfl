@@ -1,0 +1,10 @@
+[I 10:23:29.776 NotebookApp] Serving notebooks from local directory: /Users/amitbhattacharyya/repos/data-science/notebooks
+[I 10:23:29.776 NotebookApp] 0 active kernels
+[I 10:23:29.776 NotebookApp] The Jupyter Notebook is running at:
+[I 10:23:29.776 NotebookApp] http://localhost:8888/?token=d7724b4b437a166eace3158c4610cc3e3311de3a8f2ed008
+[I 10:23:29.776 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:23:29.776 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=d7724b4b437a166eace3158c4610cc3e3311de3a8f2ed008

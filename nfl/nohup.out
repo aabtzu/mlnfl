@@ -1,0 +1,1243 @@
+[I 04:49:41.108 NotebookApp] The port 8888 is already in use, trying another port.
+[I 04:49:41.116 NotebookApp] Serving notebooks from local directory: /Users/amitbhattacharyya/repos/data-science/notebooks
+[I 04:49:41.117 NotebookApp] 0 active kernels
+[I 04:49:41.117 NotebookApp] The Jupyter Notebook is running at:
+[I 04:49:41.117 NotebookApp] http://localhost:8889/?token=df182d40fcf71ee9a2172ecbbbc41ca602b6f8220ca3e9b1
+[I 04:49:41.117 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 04:49:41.117 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=df182d40fcf71ee9a2172ecbbbc41ca602b6f8220ca3e9b1
+[W 04:49:57.079 NotebookApp] Notebook mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb is not trusted
+[W 04:49:57.115 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 12.27ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb
+[I 04:49:57.536 NotebookApp] Kernel started: 0fcc53f4-2fe3-43e4-815c-45c8cd46481a
+[I 04:49:58.155 NotebookApp] Adapting to protocol v5.1 for kernel 0fcc53f4-2fe3-43e4-815c-45c8cd46481a
+[I 04:51:59.370 NotebookApp] Saving file at /mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb
+[W 04:51:59.370 NotebookApp] Notebook mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb is not trusted
+[I 04:55:57.545 NotebookApp] Saving file at /mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb
+[W 04:55:57.548 NotebookApp] Notebook mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb is not trusted
+[I 04:56:11.864 NotebookApp] Saving file at /mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb
+[W 04:56:11.865 NotebookApp] Notebook mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb is not trusted
+[I 04:56:11.922 NotebookApp] Copying mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb to /mlnfl/nfl/ipynb
+[W 04:56:11.949 NotebookApp] Notebook mlnfl/nfl/ipynb/mlnfl-nfl2016-demo.ipynb is not trusted
+[W 04:56:11.965 NotebookApp] Notebook mlnfl/nfl/ipynb/mlnfl-nfl2016-demo-Copy1.ipynb is not trusted
+[W 04:56:12.281 NotebookApp] Notebook mlnfl/nfl/ipynb/mlnfl-nfl2016-demo-Copy1.ipynb is not trusted
+[W 04:56:12.302 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 1.61ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/mlnfl-nfl2016-demo-Copy1.ipynb
+[I 04:56:12.679 NotebookApp] Kernel started: f62f828e-e1a7-49b6-9628-67940bd74f72
+[I 04:56:13.572 NotebookApp] Adapting to protocol v5.1 for kernel f62f828e-e1a7-49b6-9628-67940bd74f72
+[I 04:56:47.728 NotebookApp] Starting buffering for f62f828e-e1a7-49b6-9628-67940bd74f72:BEBE80393DA2453486719714B12D9832
+[I 04:56:47.941 NotebookApp] Kernel restarted: f62f828e-e1a7-49b6-9628-67940bd74f72
+[I 04:56:48.370 NotebookApp] Adapting to protocol v5.1 for kernel f62f828e-e1a7-49b6-9628-67940bd74f72
+[I 04:56:48.371 NotebookApp] Restoring connection for f62f828e-e1a7-49b6-9628-67940bd74f72:BEBE80393DA2453486719714B12D9832
+[I 04:56:48.371 NotebookApp] Replaying 6 buffered messages
+[I 04:58:13.413 NotebookApp] Saving file at /mlnfl/nfl/ipynb/mlnfl-nfl2018-demo.ipynb
+[I 05:00:15.255 NotebookApp] Saving file at /mlnfl/nfl/ipynb/mlnfl-nfl2018-demo.ipynb
+[I 05:03:40.430 NotebookApp] Starting buffering for f62f828e-e1a7-49b6-9628-67940bd74f72:BEBE80393DA2453486719714B12D9832
+[I 05:03:42.813 NotebookApp] Starting buffering for 0fcc53f4-2fe3-43e4-815c-45c8cd46481a:93206941D8E347B7AFB610E211019385
+[I 05:03:46.735 NotebookApp] Kernel shutdown: 0fcc53f4-2fe3-43e4-815c-45c8cd46481a
+[W 05:03:47.836 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 2.22ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/mlnfl-nfl2018-demo.ipynb
+[I 05:03:48.230 NotebookApp] Adapting to protocol v5.1 for kernel f62f828e-e1a7-49b6-9628-67940bd74f72
+[I 05:03:51.526 NotebookApp] Starting buffering for f62f828e-e1a7-49b6-9628-67940bd74f72:1C3837C30C0B47D7882A398AC53C0CA2
+[W 15:48:51.902 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 2.46ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/mlnfl-nfl2018-demo.ipynb
+[I 15:48:52.294 NotebookApp] Adapting to protocol v5.1 for kernel f62f828e-e1a7-49b6-9628-67940bd74f72
+[I 16:48:52.305 NotebookApp] Saving file at /mlnfl/nfl/ipynb/mlnfl-nfl2018-demo.ipynb
+[I 16:50:52.307 NotebookApp] Saving file at /mlnfl/nfl/ipynb/mlnfl-nfl2018-demo.ipynb
+[I 16:52:52.681 NotebookApp] Saving file at /mlnfl/nfl/ipynb/mlnfl-nfl2018-demo.ipynb
+[I 17:35:27.621 NotebookApp] Starting buffering for f62f828e-e1a7-49b6-9628-67940bd74f72:C2D87726EDC94C92AC2D9FAC925A911C
+[I 13:46:31.508 NotebookApp] Creating new notebook in /networks/sbnation
+[I 13:46:32.025 NotebookApp] Kernel started: 8abc117b-7bb3-4387-b6a1-e251514c1299
+[W 13:46:32.057 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 3.56ms referer=http://localhost:8889/notebooks/networks/sbnation/Untitled.ipynb?kernel_name=python2
+[I 13:46:32.705 NotebookApp] Adapting to protocol v5.1 for kernel 8abc117b-7bb3-4387-b6a1-e251514c1299
+[I 13:48:31.975 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:01:12.844 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:03:12.845 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:05:12.852 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:07:12.849 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:09:13.292 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:29:12.895 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:30:49.013 NotebookApp] Kernel interrupted: 8abc117b-7bb3-4387-b6a1-e251514c1299
+[I 14:30:49.180 NotebookApp] Kernel interrupted: 8abc117b-7bb3-4387-b6a1-e251514c1299
+[I 14:30:49.332 NotebookApp] Kernel interrupted: 8abc117b-7bb3-4387-b6a1-e251514c1299
+[I 14:30:49.495 NotebookApp] Kernel interrupted: 8abc117b-7bb3-4387-b6a1-e251514c1299
+[I 14:30:49.676 NotebookApp] Kernel interrupted: 8abc117b-7bb3-4387-b6a1-e251514c1299
+[I 14:31:13.325 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:33:12.901 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:35:12.904 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:37:12.902 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:39:12.910 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:41:13.354 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:43:12.902 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:45:13.080 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:47:12.910 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:49:13.367 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:51:12.920 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:53:13.366 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:55:12.937 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:57:12.928 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 14:59:12.926 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 15:01:12.942 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 15:03:12.936 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 15:05:12.933 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 15:07:13.373 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 15:11:12.948 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 15:13:12.957 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 15:17:12.959 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 15:19:12.951 NotebookApp] Saving file at /networks/sbnation/nfl-season-improvement.ipynb
+[I 01:20:25.004 NotebookApp] Starting buffering for 8abc117b-7bb3-4387-b6a1-e251514c1299:BE914F00E3A44B72835E9B4278F36D18
+[I 09:28:12.006 NotebookApp] 302 GET / (::1) 9.80ms
+[W 09:28:25.503 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 3.87ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/firstname_lastname_p2.ipynb
+[I 09:28:25.860 NotebookApp] Kernel started: 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92
+[I 09:28:26.982 NotebookApp] Adapting to protocol v5.1 for kernel 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92
+[I 09:30:06.530 NotebookApp] Kernel interrupted: 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92
+[I 09:30:06.557 NotebookApp] Kernel interrupted: 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92
+[I 09:30:06.841 NotebookApp] Kernel interrupted: 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92
+[I 09:30:07.218 NotebookApp] Kernel interrupted: 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92
+[I 09:30:07.366 NotebookApp] Kernel interrupted: 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92
+[I 09:30:25.860 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/firstname_lastname_p2.ipynb
+[I 09:32:25.916 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/firstname_lastname_p2.ipynb
+[I 10:30:16.417 NotebookApp] Copying w207/w207-spring-2018/Projects/firstname_lastname_p2.ipynb to /w207/w207-spring-2018/Projects
+[W 10:30:16.886 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 1.95ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/firstname_lastname_p2-Copy1.ipynb
+[I 10:30:17.283 NotebookApp] Kernel started: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 10:30:17.861 NotebookApp] Starting buffering for 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92:E20E5FE71491460A84DE4EE6ABCB8D7F
+[I 10:30:17.986 NotebookApp] Adapting to protocol v5.1 for kernel f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 10:32:17.288 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 10:34:17.286 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 10:36:17.960 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:38:17.980 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:40:17.299 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:42:17.969 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:44:17.969 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:48:17.974 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:50:17.307 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:52:17.305 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:54:17.305 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:56:17.300 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 13:58:17.303 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:00:17.981 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:02:17.974 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:04:17.984 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:06:17.982 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:08:17.308 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:10:17.307 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:12:17.300 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:14:17.309 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:16:17.313 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:18:17.982 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[W 14:19:08.812 NotebookApp] Notebook w207/w207-spring-2018/Projects/p2_master.ipynb is not trusted
+[W 14:19:08.856 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 9.20ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/p2_master.ipynb
+[I 14:19:09.321 NotebookApp] Kernel started: 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99
+[I 14:19:10.580 NotebookApp] Adapting to protocol v5.1 for kernel 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99
+[I 14:20:17.304 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:21:09.979 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p2_master.ipynb
+[W 14:21:09.980 NotebookApp] Notebook w207/w207-spring-2018/Projects/p2_master.ipynb is not trusted
+[I 14:22:17.971 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:24:17.300 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:26:17.305 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:28:17.309 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:30:17.976 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:46:17.309 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:48:17.980 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:52:17.313 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:56:17.308 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:58:17.981 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[W 15:03:27.188 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[W 15:03:43.858 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 15:04:17.307 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:06:17.983 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:11:17.216 NotebookApp] Starting buffering for 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99:DEE5A1C0B33A4D6786BBAB618B71101A
+[I 15:12:17.983 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:14:17.311 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:16:17.306 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:18:17.309 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:19:51.586 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:19:51.620 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:19:55.223 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:19:55.254 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:19:55.343 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:19:55.374 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:19:55.404 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:19:55.434 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:19:55.486 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:20:17.315 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:21:08.246 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:21:08.405 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:21:08.586 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:22:17.311 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:24:17.975 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 15:58:17.313 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 16:00:17.992 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 16:04:17.314 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 16:08:17.981 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 16:14:33.637 NotebookApp] Starting buffering for f2329696-7a12-4beb-af39-48d86d1c3f15:A6889FA99CB843C78DBC8FE5A6BC2E2E
+[I 20:38:18.309 NotebookApp] 302 GET / (::1) 6.83ms
+[W 20:38:24.227 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 6.99ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 20:38:25.117 NotebookApp] Adapting to protocol v5.1 for kernel f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 20:42:28.907 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[W 21:03:45.422 NotebookApp] Notebook w207/w207-spring-2018/Projects/p2_master.ipynb is not trusted
+[W 21:03:45.475 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 1.89ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/p2_master.ipynb
+[I 21:03:46.094 NotebookApp] Adapting to protocol v5.1 for kernel 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99
+[I 21:27:37.686 NotebookApp] Starting buffering for 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99:7A52A493762442F8A35BEBBB88373865
+[I 21:27:38.172 NotebookApp] Starting buffering for f2329696-7a12-4beb-af39-48d86d1c3f15:92D5885C77BB42258618C2F4CCF306DE
+[I 17:17:50.068 NotebookApp] 302 GET / (::1) 6.46ms
+[W 17:18:03.623 NotebookApp] Notebook w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb is not trusted
+[W 17:18:03.660 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 4.06ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 17:18:03.868 NotebookApp] Kernel started: aee7c093-a5b8-426e-8f8e-52967267aa50
+[I 17:18:05.008 NotebookApp] Adapting to protocol v5.1 for kernel aee7c093-a5b8-426e-8f8e-52967267aa50
+[I 17:20:05.927 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[W 17:20:05.928 NotebookApp] Notebook w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb is not trusted
+[I 17:22:04.326 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 17:36:03.877 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 17:38:03.870 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 17:40:03.873 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 17:44:03.866 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 17:46:03.880 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 17:47:02.707 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[W 17:47:09.042 NotebookApp] Notebook w207/w207-spring-2018/LiveSessions/week10/K_Means.ipynb is not trusted
+[W 17:47:09.055 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 1.51ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/LiveSessions/week10/K_Means.ipynb
+[I 17:47:09.204 NotebookApp] Kernel started: cefb0737-2f08-4b9d-8792-87803e7ee625
+[I 17:47:10.057 NotebookApp] Adapting to protocol v5.1 for kernel cefb0737-2f08-4b9d-8792-87803e7ee625
+[I 17:49:09.255 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/K_Means.ipynb
+[W 18:01:18.118 NotebookApp] Notebook w207/coursework/Week9/Notebooks/K_means_clustering.ipynb is not trusted
+[W 18:01:18.176 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 1.20ms referer=http://localhost:8889/notebooks/w207/coursework/Week9/Notebooks/K_means_clustering.ipynb
+[I 18:01:18.799 NotebookApp] Kernel started: 262e199e-a0cc-4f02-886e-b881cc2ceafc
+[I 18:01:19.815 NotebookApp] Adapting to protocol v5.1 for kernel 262e199e-a0cc-4f02-886e-b881cc2ceafc
+[I 18:03:19.363 NotebookApp] Saving file at /w207/coursework/Week9/Notebooks/K_means_clustering.ipynb
+[W 18:03:19.365 NotebookApp] Notebook w207/coursework/Week9/Notebooks/K_means_clustering.ipynb is not trusted
+[I 18:03:54.660 NotebookApp] Starting buffering for 262e199e-a0cc-4f02-886e-b881cc2ceafc:4FB0F9B354F643FBA72FCE6174E6FAE1
+[I 18:07:16.754 NotebookApp] Starting buffering for cefb0737-2f08-4b9d-8792-87803e7ee625:839EB8A69FD14164A06830B47DB66A8F
+[I 18:09:31.766 NotebookApp] Kernel shutdown: cefb0737-2f08-4b9d-8792-87803e7ee625
+[W 18:09:31.769 NotebookApp] delete /w207/w207-spring-2018/LiveSessions/week10/K_Means.ipynb
+[I 18:09:34.570 NotebookApp] Creating new notebook in /w207/w207-spring-2018/LiveSessions/week10
+[I 18:09:34.944 NotebookApp] Kernel started: 8f42173c-a111-4e18-a434-facac69259f7
+[W 18:09:34.955 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 2.68ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/LiveSessions/week10/Untitled.ipynb?kernel_name=python2
+[I 18:09:35.867 NotebookApp] Adapting to protocol v5.1 for kernel 8f42173c-a111-4e18-a434-facac69259f7
+[I 18:11:34.945 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:13:35.256 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:15:35.261 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:17:34.959 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:19:34.958 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:21:35.270 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:23:34.955 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:25:34.961 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:27:35.264 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:29:35.270 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:31:35.267 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 18:32:58.379 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:23:51.641 NotebookApp] Starting buffering for 8f42173c-a111-4e18-a434-facac69259f7:046776437578455EA5DF63D3310A5814
+[I 19:23:51.963 NotebookApp] Kernel restarted: 8f42173c-a111-4e18-a434-facac69259f7
+[I 19:23:52.912 NotebookApp] Adapting to protocol v5.1 for kernel 8f42173c-a111-4e18-a434-facac69259f7
+[I 19:23:52.913 NotebookApp] Restoring connection for 8f42173c-a111-4e18-a434-facac69259f7:046776437578455EA5DF63D3310A5814
+[I 19:23:52.913 NotebookApp] Replaying 3 buffered messages
+[I 19:25:34.952 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:27:34.951 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:29:34.956 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:31:34.970 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:33:34.960 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:35:34.967 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:37:34.959 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:39:34.960 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:41:34.959 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:45:34.991 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 19:55:35.277 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM-amit.ipynb
+[I 20:01:42.979 NotebookApp] Starting buffering for aee7c093-a5b8-426e-8f8e-52967267aa50:FEB21A4398FE478BBB001EA43043B7A3
+[I 20:01:43.404 NotebookApp] Kernel restarted: aee7c093-a5b8-426e-8f8e-52967267aa50
+[I 20:01:44.649 NotebookApp] Adapting to protocol v5.1 for kernel aee7c093-a5b8-426e-8f8e-52967267aa50
+[I 20:01:44.649 NotebookApp] Restoring connection for aee7c093-a5b8-426e-8f8e-52967267aa50:FEB21A4398FE478BBB001EA43043B7A3
+[I 20:01:44.649 NotebookApp] Replaying 6 buffered messages
+[I 20:02:03.886 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 20:04:03.872 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 20:06:03.871 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 20:08:03.873 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 20:14:04.263 NotebookApp] Saving file at /w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 20:31:06.201 NotebookApp] Starting buffering for aee7c093-a5b8-426e-8f8e-52967267aa50:FEB21A4398FE478BBB001EA43043B7A3
+[I 20:31:06.510 NotebookApp] Starting buffering for 8f42173c-a111-4e18-a434-facac69259f7:046776437578455EA5DF63D3310A5814
+[I 22:07:28.296 NotebookApp] 302 GET /notebooks/w207/w207-spring-2018/Projects/firstname_lastname_p3.ipynb (::1) 21.13ms
+[W 22:07:29.712 NotebookApp] 401 POST /login?next=%2Fnotebooks%2Fw207%2Fw207-spring-2018%2FProjects%2Ffirstname_lastname_p3.ipynb (::1) 4.80ms referer=http://localhost:8889/login?next=%2Fnotebooks%2Fw207%2Fw207-spring-2018%2FProjects%2Ffirstname_lastname_p3.ipynb
+[W 22:07:30.520 NotebookApp] 401 POST /login?next=%2Fnotebooks%2Fw207%2Fw207-spring-2018%2FProjects%2Ffirstname_lastname_p3.ipynb (::1) 4.29ms referer=http://localhost:8889/login?next=%2Fnotebooks%2Fw207%2Fw207-spring-2018%2FProjects%2Ffirstname_lastname_p3.ipynb
+[I 22:07:56.226 NotebookApp] 302 POST /login?next=%2Fnotebooks%2Fw207%2Fw207-spring-2018%2FProjects%2Ffirstname_lastname_p3.ipynb (::1) 8.03ms
+[W 22:07:56.619 NotebookApp] Notebook w207/w207-spring-2018/Projects/firstname_lastname_p3.ipynb is not trusted
+[W 22:07:56.639 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 3.19ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/firstname_lastname_p3.ipynb
+[I 22:07:57.111 NotebookApp] Kernel started: 56592fd4-9cdc-45a4-8c78-9eab082bc5db
+[I 22:07:58.143 NotebookApp] Adapting to protocol v5.1 for kernel 56592fd4-9cdc-45a4-8c78-9eab082bc5db
+[I 22:09:57.115 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/firstname_lastname_p3.ipynb
+[I 22:11:57.110 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/firstname_lastname_p3.ipynb
+[I 22:13:57.114 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/firstname_lastname_p3.ipynb
+[I 22:15:57.505 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/firstname_lastname_p3.ipynb
+[I 22:16:39.587 NotebookApp] Starting buffering for 56592fd4-9cdc-45a4-8c78-9eab082bc5db:F2B331AB2CC645119F653FB376296F83
+[W 22:16:39.950 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 2.37ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/firstname_lastname_p3.ipynb
+[I 22:16:40.236 NotebookApp] Adapting to protocol v5.1 for kernel 56592fd4-9cdc-45a4-8c78-9eab082bc5db
+[I 22:18:14.086 NotebookApp] Starting buffering for 56592fd4-9cdc-45a4-8c78-9eab082bc5db:56FA53B4EA214A8494409CA8AB93F1FF
+[W 14:59:20.936 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 7.73ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 14:59:21.394 NotebookApp] Adapting to protocol v5.1 for kernel f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:53.677 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:53.741 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:53.807 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:53.868 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:53.930 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:53.993 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:54.058 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:55.226 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:55.477 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:55.650 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:55.837 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:56.044 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:56.248 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:56.543 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:56.936 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 14:59:57.171 NotebookApp] Kernel interrupted: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 15:01:21.458 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/amit_bhattacharyya_p2.ipynb
+[I 21:44:29.086 NotebookApp] Starting buffering for f2329696-7a12-4beb-af39-48d86d1c3f15:1966DFC5BF144875878FE6BD85686777
+[I 11:16:37.849 NotebookApp] 302 GET / (::1) 16.56ms
+[W 11:16:53.594 NotebookApp] Notebook tpt_datascience/tpt-recommendations/label-propagation-example.ipynb is not trusted
+[W 11:16:53.638 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 22.67ms referer=http://localhost:8889/notebooks/tpt_datascience/tpt-recommendations/label-propagation-example.ipynb
+[I 11:16:53.922 NotebookApp] Kernel started: 61cf623a-5531-4cd2-8b81-dfb440fc9296
+[I 11:16:54.588 NotebookApp] Adapting to protocol v5.1 for kernel 61cf623a-5531-4cd2-8b81-dfb440fc9296
+[I 11:18:54.017 NotebookApp] Saving file at /tpt_datascience/tpt-recommendations/label-propagation-example.ipynb
+[W 11:29:38.919 NotebookApp] Notebook networks/sbnation/recommender_test.ipynb is not trusted
+[W 11:29:38.936 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 1.39ms referer=http://localhost:8889/notebooks/networks/sbnation/recommender_test.ipynb
+[I 11:29:39.186 NotebookApp] Kernel started: 1daf1e18-2402-4ab7-87f7-a694924b3ff4
+[I 11:29:39.892 NotebookApp] Adapting to protocol v5.1 for kernel 1daf1e18-2402-4ab7-87f7-a694924b3ff4
+[I 11:29:58.011 NotebookApp] Starting buffering for 1daf1e18-2402-4ab7-87f7-a694924b3ff4:ADD3D4E067F84E5B868E4555E0B5F407
+[I 11:38:52.760 NotebookApp] Starting buffering for 61cf623a-5531-4cd2-8b81-dfb440fc9296:CC8CD576E6284202B2B38CD9479BBE40
+[I 08:33:43.191 NotebookApp] 302 GET / (::1) 5.18ms
+[W 08:33:49.381 NotebookApp] Notebook w207/w207-spring-2018/Projects/p3_master.ipynb is not trusted
+[W 08:33:49.414 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 4.37ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 08:33:49.771 NotebookApp] Kernel started: 5a841bd9-bb3f-411f-8354-a255f1ebcad9
+[I 08:33:51.132 NotebookApp] Adapting to protocol v5.1 for kernel 5a841bd9-bb3f-411f-8354-a255f1ebcad9
+[I 08:35:49.794 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 08:41:50.593 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 09:15:50.596 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 09:45:37.345 NotebookApp] Starting buffering for 5a841bd9-bb3f-411f-8354-a255f1ebcad9:D262DA9C96FF46DEAC11CC80BFB68498
+[I 11:27:34.048 NotebookApp] 302 GET / (::1) 0.44ms
+[W 11:27:43.422 NotebookApp] Notebook w207/w207-spring-2018/Projects/p2_master.ipynb is not trusted
+[W 11:27:43.462 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 3.25ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/p2_master.ipynb
+[I 11:27:43.976 NotebookApp] Adapting to protocol v5.1 for kernel 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99
+[I 11:28:43.387 NotebookApp] Starting buffering for 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99:5E8F2A7E4BC5436FBED9110A99CCD905
+[I 17:42:57.022 NotebookApp] 302 GET / (::1) 6.05ms
+[I 17:43:06.401 NotebookApp] Kernel shutdown: f62f828e-e1a7-49b6-9628-67940bd74f72
+[I 17:43:08.431 NotebookApp] Kernel shutdown: 8abc117b-7bb3-4387-b6a1-e251514c1299
+[I 17:43:10.151 NotebookApp] Kernel shutdown: 22cfb44e-aedb-4a7a-9b4d-8f9bff43fd92
+[I 17:43:12.509 NotebookApp] Kernel shutdown: f2329696-7a12-4beb-af39-48d86d1c3f15
+[I 17:43:13.898 NotebookApp] Kernel shutdown: 262e199e-a0cc-4f02-886e-b881cc2ceafc
+[I 17:43:15.431 NotebookApp] Kernel shutdown: 8f42173c-a111-4e18-a434-facac69259f7
+[I 17:43:16.663 NotebookApp] Kernel shutdown: 56592fd4-9cdc-45a4-8c78-9eab082bc5db
+Unhandled exception in thread started by <bound method ParentPollerUnix.__bootstrap of <ParentPollerUnix(Thread-1, stopped daemon 123145378295808)>>
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience/lib/python2.7/site-packages/ipykernel/kernelapp.py", line 162, in excepthook
+    traceback.print_exception(etype, evalue, tb, file=sys.__stderr__)
+TypeError: 'NoneType' object is not callable
+
+Original exception was:
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 783, in __bootstrap
+    self.__bootstrap_inner()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 823, in __bootstrap_inner
+    (self.name, _format_exc()))
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/traceback.py", line 241, in format_exc
+    etype, value, tb = sys.exc_info()
+AttributeError: 'NoneType' object has no attribute 'exc_info'
+[I 17:43:20.995 NotebookApp] Kernel shutdown: 61cf623a-5531-4cd2-8b81-dfb440fc9296
+[W 17:43:21.019 NotebookApp] 404 DELETE /api/sessions/e399feac-1545-4a34-a42d-f156c4ac7350 (::1): Session not found: session_id=u'e399feac-1545-4a34-a42d-f156c4ac7350'
+[W 17:43:21.019 NotebookApp] Session not found: session_id=u'e399feac-1545-4a34-a42d-f156c4ac7350'
+[W 17:43:21.020 NotebookApp] 404 DELETE /api/sessions/e399feac-1545-4a34-a42d-f156c4ac7350 (::1) 15.77ms referer=http://localhost:8889/tree?
+[I 17:43:22.146 NotebookApp] Kernel shutdown: 1daf1e18-2402-4ab7-87f7-a694924b3ff4
+[I 17:43:23.537 NotebookApp] Kernel shutdown: 5a841bd9-bb3f-411f-8354-a255f1ebcad9
+[W 17:43:25.489 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 2.88ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/LiveSessions/week10/GMM.ipynb
+[I 17:43:25.805 NotebookApp] Adapting to protocol v5.1 for kernel aee7c093-a5b8-426e-8f8e-52967267aa50
+[I 17:43:27.015 NotebookApp] Starting buffering for aee7c093-a5b8-426e-8f8e-52967267aa50:0444ADF4BDEA4A479B9FE7CD2C73DFFE
+[W 17:43:28.667 NotebookApp] Notebook w207/w207-spring-2018/Projects/p2_master.ipynb is not trusted
+[W 17:43:28.727 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 7.92ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/p2_master.ipynb
+[I 17:43:29.215 NotebookApp] Adapting to protocol v5.1 for kernel 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99
+[I 17:43:34.613 NotebookApp] Starting buffering for 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99:07E97F2BFEC9450F8398FE61BFE7E0C8
+[W 17:43:42.635 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 1.80ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 17:43:43.013 NotebookApp] Kernel started: cffa6cf4-ec45-4de9-8b60-335bfe8923f8
+[I 17:43:44.293 NotebookApp] Adapting to protocol v5.1 for kernel cffa6cf4-ec45-4de9-8b60-335bfe8923f8
+[I 17:45:43.022 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 17:47:43.670 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 17:49:43.013 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 17:51:43.010 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 17:53:43.024 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 17:55:43.023 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 17:57:43.014 NotebookApp] Saving file at /w207/w207-spring-2018/Projects/p3_master.ipynb
+[I 17:59:35.212 NotebookApp] Starting buffering for cffa6cf4-ec45-4de9-8b60-335bfe8923f8:6CA4602C69CE477D85C4385E73260852
+[I 18:47:31.500 NotebookApp] 302 GET / (::1) 0.41ms
+[W 18:48:03.059 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180214044940 (::1) 2.02ms referer=http://localhost:8889/notebooks/w207/w207-spring-2018/LiveSessions/week13/label-propagation-example.ipynb
+[I 18:48:03.298 NotebookApp] Kernel started: 266a06fc-59aa-4670-b12b-20a73109b75a
+[I 18:48:04.833 NotebookApp] Adapting to protocol v5.1 for kernel 266a06fc-59aa-4670-b12b-20a73109b75a
+[I 19:30:09.799 NotebookApp] Starting buffering for 266a06fc-59aa-4670-b12b-20a73109b75a:37E71984F6BB48BC8FAF78FF7202A616
+Unhandled exception in thread started by <bound method ParentPollerUnix.__bootstrap of <ParentPollerUnix(Thread-1, stopped daemon 123145375731712)>>
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience/lib/python2.7/site-packages/ipykernel/kernelapp.py", line 162, in excepthook
+    traceback.print_exception(etype, evalue, tb, file=sys.__stderr__)
+TypeError: 'NoneType' object is not callable
+
+Original exception was:
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 783, in __bootstrap
+    self.__bootstrap_inner()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 823, in __bootstrap_inner
+    (self.name, _format_exc()))
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/traceback.py", line 241, in format_exc
+    etype, value, tb = sys.exc_info()
+AttributeError: 'NoneType' object has no attribute 'exc_info'
+Unhandled exception in thread started by <bound method Thread.__bootstrap of <Thread(canvas_server, stopped daemon 123145492381696)>>
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience/lib/python2.7/site-packages/ipykernel/kernelapp.py", line 162, in excepthook
+    traceback.print_exception(etype, evalue, tb, file=sys.__stderr__)
+TypeError: 'NoneType' object is not callable
+
+Original exception was:
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 783, in __bootstrap
+    self.__bootstrap_inner()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 823, in __bootstrap_inner
+    (self.name, _format_exc()))
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/traceback.py", line 241, in format_exc
+    etype, value, tb = sys.exc_info()
+AttributeError: 'NoneType' object has no attribute 'exc_info'
+[I 19:30:13.752 NotebookApp] Kernel restarted: 266a06fc-59aa-4670-b12b-20a73109b75a
+[I 19:30:14.813 NotebookApp] Adapting to protocol v5.1 for kernel 266a06fc-59aa-4670-b12b-20a73109b75a
+[I 19:30:14.814 NotebookApp] Restoring connection for 266a06fc-59aa-4670-b12b-20a73109b75a:37E71984F6BB48BC8FAF78FF7202A616
+[I 19:30:14.814 NotebookApp] Replaying 6 buffered messages
+[I 20:12:38.272 NotebookApp] Starting buffering for 266a06fc-59aa-4670-b12b-20a73109b75a:37E71984F6BB48BC8FAF78FF7202A616
+[C 20:00:36.238 NotebookApp] received signal 15, stopping
+[I 20:00:36.249 NotebookApp] Shutting down 4 kernels
+[I 20:00:37.499 NotebookApp] Kernel shutdown: aee7c093-a5b8-426e-8f8e-52967267aa50
+[I 20:00:37.502 NotebookApp] Kernel shutdown: cffa6cf4-ec45-4de9-8b60-335bfe8923f8
+[I 20:00:37.503 NotebookApp] Kernel shutdown: 0a1f72c4-c91e-4c5f-9b12-e3af9dc34a99
+[I 21:45:29.304 NotebookApp] Serving notebooks from local directory: /Users/amitbhattacharyya/repos/data-science/notebooks
+[I 21:45:29.306 NotebookApp] 0 active kernels
+[I 21:45:29.306 NotebookApp] The Jupyter Notebook is running at:
+[I 21:45:29.306 NotebookApp] http://localhost:8888/?token=875955fffd184e2a8bcd4563b75387d69c818f7db99e34c1
+[I 21:45:29.306 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 21:45:29.307 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=875955fffd184e2a8bcd4563b75387d69c818f7db99e34c1
+[W 21:45:47.487 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180902214529 (::1) 9.88ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 21:45:47.700 NotebookApp] Kernel started: de9a2afd-73f3-4475-bed1-dbe8ab657815
+[I 21:45:48.281 NotebookApp] Adapting to protocol v5.1 for kernel de9a2afd-73f3-4475-bed1-dbe8ab657815
+[I 21:47:47.696 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 21:49:49.093 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 22:01:47.674 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 22:07:48.627 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 22:09:47.661 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 22:11:47.674 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 22:13:47.667 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 22:15:47.663 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 22:21:47.715 NotebookApp] Saving file at /mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 13:18:59.269 NotebookApp] Starting buffering for de9a2afd-73f3-4475-bed1-dbe8ab657815:27D8FB474E1A4F39876EAA4A0BDD1F04
+[I 18:53:30.691 NotebookApp] 302 GET / (::1) 0.69ms
+[I 18:53:34.364 NotebookApp] Kernel shutdown: de9a2afd-73f3-4475-bed1-dbe8ab657815
+[C 18:53:53.318 NotebookApp] received signal 15, stopping
+[I 18:53:53.322 NotebookApp] Shutting down 0 kernels
+[I 18:54:13.195 NotebookApp] Serving notebooks from local directory: /Users/amitbhattacharyya/repos/data-science/notebooks
+[I 18:54:13.195 NotebookApp] 0 active kernels
+[I 18:54:13.195 NotebookApp] The Jupyter Notebook is running at:
+[I 18:54:13.196 NotebookApp] http://localhost:8888/?token=a4b2e0ae7cfc68358d2dca6a4b6cd34c1a79d9b4b567b2bb
+[I 18:54:13.196 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:54:13.196 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=a4b2e0ae7cfc68358d2dca6a4b6cd34c1a79d9b4b567b2bb
+[W 18:54:30.239 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 10.83ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week01/Tutorial.ipynb
+[I 18:54:30.638 NotebookApp] Kernel started: 1c7c3b06-19d5-425b-a11a-0e0eeec14ff0
+[I 18:54:31.456 NotebookApp] Adapting to protocol v5.1 for kernel 1c7c3b06-19d5-425b-a11a-0e0eeec14ff0
+[I 18:54:38.499 NotebookApp] Starting buffering for 1c7c3b06-19d5-425b-a11a-0e0eeec14ff0:43E5B7AA6A5A48B38BDCF552086B1538
+[W 18:54:40.393 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.97ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week01/Untitled.ipynb
+[I 18:54:40.597 NotebookApp] Kernel started: a9dfdebb-caff-4e1d-ab51-c5258b9873f3
+[I 18:54:41.293 NotebookApp] Adapting to protocol v5.1 for kernel a9dfdebb-caff-4e1d-ab51-c5258b9873f3
+[I 18:54:51.223 NotebookApp] Starting buffering for a9dfdebb-caff-4e1d-ab51-c5258b9873f3:C248F129DD08494DBC7DF445791117D7
+[W 18:54:53.735 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.81ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 18:54:54.213 NotebookApp] Kernel started: c0d5ce77-03f5-447c-ae26-b9973781ff9d
+[I 18:54:54.826 NotebookApp] Adapting to protocol v5.1 for kernel c0d5ce77-03f5-447c-ae26-b9973781ff9d
+[I 18:56:54.682 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 19:58:34.135 NotebookApp] Starting buffering for c0d5ce77-03f5-447c-ae26-b9973781ff9d:7C1658727F7A4DDAB03493611665214F
+[I 19:58:34.657 NotebookApp] Kernel restarted: c0d5ce77-03f5-447c-ae26-b9973781ff9d
+[I 19:58:35.824 NotebookApp] Adapting to protocol v5.1 for kernel c0d5ce77-03f5-447c-ae26-b9973781ff9d
+[I 19:58:35.825 NotebookApp] Restoring connection for c0d5ce77-03f5-447c-ae26-b9973781ff9d:7C1658727F7A4DDAB03493611665214F
+[I 19:58:35.825 NotebookApp] Replaying 6 buffered messages
+[I 19:58:49.621 NotebookApp] Starting buffering for c0d5ce77-03f5-447c-ae26-b9973781ff9d:7C1658727F7A4DDAB03493611665214F
+[I 19:58:50.255 NotebookApp] Kernel restarted: c0d5ce77-03f5-447c-ae26-b9973781ff9d
+[I 19:58:51.217 NotebookApp] Adapting to protocol v5.1 for kernel c0d5ce77-03f5-447c-ae26-b9973781ff9d
+[I 19:58:51.219 NotebookApp] Restoring connection for c0d5ce77-03f5-447c-ae26-b9973781ff9d:7C1658727F7A4DDAB03493611665214F
+[I 19:58:51.219 NotebookApp] Replaying 3 buffered messages
+[I 19:58:54.256 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:00:54.255 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:04:54.259 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:06:54.249 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:08:54.252 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:12:54.245 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:14:54.281 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:16:54.252 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:18:54.249 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week01/tour-de-classifier.ipynb
+[I 20:33:55.077 NotebookApp] Starting buffering for c0d5ce77-03f5-447c-ae26-b9973781ff9d:7C1658727F7A4DDAB03493611665214F
+[I 16:38:13.231 NotebookApp] 302 GET / (::1) 0.67ms
+[I 16:38:27.744 NotebookApp] Creating new notebook in /mlnfl/nfl/ipynb
+[I 16:38:28.356 NotebookApp] Kernel started: 21e5909a-40fa-4bdb-a136-928e87bcbfdb
+[W 16:38:28.373 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.56ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/Untitled.ipynb?kernel_name=python3
+[I 16:38:29.683 NotebookApp] Adapting to protocol v5.1 for kernel 21e5909a-40fa-4bdb-a136-928e87bcbfdb
+[I 16:38:42.013 NotebookApp] Starting buffering for 21e5909a-40fa-4bdb-a136-928e87bcbfdb:1573512AA0A0456786C10B78C4874580
+[I 16:39:04.806 NotebookApp] The port 8888 is already in use, trying another port.
+[I 16:39:04.833 NotebookApp] Serving notebooks from local directory: /Users/amitbhattacharyya/repos/data-science/notebooks
+[I 16:39:04.833 NotebookApp] 0 active kernels
+[I 16:39:04.833 NotebookApp] The Jupyter Notebook is running at:
+[I 16:39:04.833 NotebookApp] http://localhost:8889/?token=2bc84a230b0118474ed8dcf9df4877d470d74d6e14523ad2
+[I 16:39:04.833 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:39:04.834 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=2bc84a230b0118474ed8dcf9df4877d470d74d6e14523ad2
+[I 16:39:09.083 NotebookApp] 302 GET / (::1) 0.54ms
+[I 16:39:25.487 NotebookApp] Creating new notebook in /mlnfl/nfl/ipynb
+[W 16:39:26.017 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180905163904 (::1) 9.47ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/Untitled1.ipynb?kernel_name=python2
+[I 16:39:26.113 NotebookApp] Kernel started: ed69f448-76a4-4378-b75b-a33e50d2d969
+[I 16:39:26.719 NotebookApp] Adapting to protocol v5.1 for kernel ed69f448-76a4-4378-b75b-a33e50d2d969
+[I 16:41:26.075 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 16:43:26.078 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 16:44:56.319 NotebookApp] 302 GET / (::1) 0.84ms
+[I 16:51:27.154 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[W 16:56:52.190 NotebookApp] Notebook mlnfl/nfl/ipynb/mlnfl-nfl2.ipynb is not trusted
+[W 16:56:52.242 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180905163904 (::1) 1.62ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/mlnfl-nfl2.ipynb
+[I 16:56:52.880 NotebookApp] Kernel started: 1bedf1c3-4d04-4aca-b981-b01390091827
+[I 16:56:53.685 NotebookApp] Adapting to protocol v5.1 for kernel 1bedf1c3-4d04-4aca-b981-b01390091827
+[I 19:51:31.450 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 19:53:32.360 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 19:55:32.127 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 19:57:31.448 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 19:59:31.449 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:01:31.725 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:03:31.462 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:05:32.041 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:07:32.244 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:11:31.451 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:15:31.476 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:17:31.518 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:19:31.439 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:21:33.856 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 20:55:49.112 NotebookApp] Starting buffering for ed69f448-76a4-4378-b75b-a33e50d2d969:6C2BE4CB26B942428EDD9094FD947945
+[I 20:55:49.579 NotebookApp] Starting buffering for 1bedf1c3-4d04-4aca-b981-b01390091827:0D75B0FD1105455889665D1CF47EE987
+[I 10:12:15.838 NotebookApp] 302 GET / (::1) 3.81ms
+[I 10:12:17.276 NotebookApp] 302 GET / (::1) 0.66ms
+[W 10:12:22.745 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180905163904 (::1) 5.85ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:12:23.104 NotebookApp] Adapting to protocol v5.1 for kernel ed69f448-76a4-4378-b75b-a33e50d2d969
+[I 10:14:23.098 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:16:23.815 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:18:22.768 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:20:23.062 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:32:22.156 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:34:25.267 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:36:22.145 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:38:22.151 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:40:22.153 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:42:22.860 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:44:22.862 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:46:22.147 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:48:22.901 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:56:22.171 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 10:58:22.171 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:04:22.675 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:09:09.417 NotebookApp] Creating new notebook in /mlnfl/nfl/ipynb
+[I 11:09:09.910 NotebookApp] Kernel started: 1b701947-efdd-4aa2-b031-4feb26643989
+[W 11:09:09.915 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180905163904 (::1) 3.63ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/Untitled1.ipynb?kernel_name=python2
+[I 11:09:11.138 NotebookApp] Adapting to protocol v5.1 for kernel 1b701947-efdd-4aa2-b031-4feb26643989
+[I 11:11:09.920 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:13:09.925 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:15:09.925 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:17:10.717 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:23:09.934 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:25:09.938 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:27:09.937 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:29:09.944 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:31:09.942 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:33:09.968 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:35:10.696 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:41:10.720 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 11:42:22.197 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:44:22.710 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:46:22.716 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:48:22.714 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:50:22.736 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:52:22.710 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:54:22.722 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:56:22.723 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 11:58:22.731 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 12:04:22.742 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 13:40:38.367 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 13:41:25.604 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 13:43:26.401 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 13:47:25.615 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 13:49:23.917 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 13:51:23.910 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 13:55:24.706 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 13:57:23.919 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 13:59:24.672 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 14:57:48.814 NotebookApp] Starting buffering for 1b701947-efdd-4aa2-b031-4feb26643989:CFFB21A53CAE4AC69D3287782A63BF9E
+[I 14:57:49.271 NotebookApp] Starting buffering for ed69f448-76a4-4378-b75b-a33e50d2d969:15A39BBEF0F4411B815C0043CBA818D3
+[I 08:35:54.151 NotebookApp] 302 GET / (::1) 4.57ms
+[I 08:35:55.156 NotebookApp] 302 GET / (::1) 5.78ms
+[I 08:36:23.197 NotebookApp] Creating new notebook in /mlnfl/nfl/ipynb
+[I 08:36:23.845 NotebookApp] Kernel started: 6fd4d643-feca-4c79-adc1-56610165b65b
+[W 08:36:23.854 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180905163904 (::1) 4.50ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/Untitled1.ipynb?kernel_name=python2
+[I 08:36:25.328 NotebookApp] Adapting to protocol v5.1 for kernel 6fd4d643-feca-4c79-adc1-56610165b65b
+[W 08:36:52.322 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180905163904 (::1) 1.72ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 08:36:52.547 NotebookApp] Adapting to protocol v5.1 for kernel ed69f448-76a4-4378-b75b-a33e50d2d969
+[I 08:38:23.832 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 08:40:24.294 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 08:44:23.825 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 08:46:23.834 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 08:48:23.832 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 08:50:24.928 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 09:07:19.025 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 09:09:18.552 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 09:11:18.559 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 09:13:18.558 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 12:02:56.832 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 12:03:42.298 NotebookApp] 302 GET / (::1) 0.59ms
+[I 12:22:56.333 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 13:44:56.332 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 13:46:56.324 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 13:48:58.104 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 13:52:56.750 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[W 04:46:25.353 NotebookApp] WebSocket ping timeout after 4379982 ms.
+[I 04:46:25.761 NotebookApp] Starting buffering for 6fd4d643-feca-4c79-adc1-56610165b65b:11BCC4B03B4C4F328D359CF981BA0D77
+[W 11:52:52.563 NotebookApp] WebSocket ping timeout after 7199990 ms.
+[I 11:52:53.133 NotebookApp] Starting buffering for ed69f448-76a4-4378-b75b-a33e50d2d969:A47C13DF51CF46968F43753EBC06457F
+[I 12:17:22.215 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[W 12:17:43.921 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180905163904 (::1) 4.38ms referer=http://localhost:8889/notebooks/mlnfl/nfl/ipynb/spread%20to%20probability.ipynb
+[I 12:17:44.171 NotebookApp] Adapting to protocol v5.1 for kernel 6fd4d643-feca-4c79-adc1-56610165b65b
+[I 12:19:44.184 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 12:21:44.139 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 12:23:44.151 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 12:25:44.596 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 12:27:44.156 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 12:29:44.642 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 14:53:00.687 NotebookApp] Starting buffering for 6fd4d643-feca-4c79-adc1-56610165b65b:60021717E88C4862A46ADDB3B7BEF1E8
+[I 14:20:56.320 NotebookApp] 302 GET / (::1) 19.73ms
+[I 14:21:05.392 NotebookApp] Kernel shutdown: 1c7c3b06-19d5-425b-a11a-0e0eeec14ff0
+[I 14:21:06.641 NotebookApp] Kernel shutdown: a9dfdebb-caff-4e1d-ab51-c5258b9873f3
+[I 14:21:08.272 NotebookApp] Kernel shutdown: c0d5ce77-03f5-447c-ae26-b9973781ff9d
+[I 14:21:09.461 NotebookApp] Kernel shutdown: 21e5909a-40fa-4bdb-a136-928e87bcbfdb
+[I 14:21:23.450 NotebookApp] Kernel started: ecc1d9d0-a792-4527-a5ce-fc8d6a935b77
+[W 14:21:23.482 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 6.05ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week02/Nearest_Neighbors.ipynb
+[I 14:21:24.950 NotebookApp] Adapting to protocol v5.1 for kernel ecc1d9d0-a792-4527-a5ce-fc8d6a935b77
+[I 14:21:30.319 NotebookApp] Starting buffering for ecc1d9d0-a792-4527-a5ce-fc8d6a935b77:E32BB8B62C994CB0BBCDB4AB07E9426C
+[W 14:21:32.676 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.03ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 14:21:32.982 NotebookApp] Kernel started: c53b210e-c8bc-4bbf-ba8e-dfa83757191f
+[I 14:21:33.736 NotebookApp] Adapting to protocol v5.1 for kernel c53b210e-c8bc-4bbf-ba8e-dfa83757191f
+[I 14:23:34.310 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 19:43:53.513 NotebookApp] Starting buffering for c53b210e-c8bc-4bbf-ba8e-dfa83757191f:ECC8502481C54AD888BC001231DD8D1A
+[I 19:43:54.153 NotebookApp] Kernel restarted: c53b210e-c8bc-4bbf-ba8e-dfa83757191f
+[I 19:43:55.704 NotebookApp] Adapting to protocol v5.1 for kernel c53b210e-c8bc-4bbf-ba8e-dfa83757191f
+[I 19:43:55.705 NotebookApp] Restoring connection for c53b210e-c8bc-4bbf-ba8e-dfa83757191f:ECC8502481C54AD888BC001231DD8D1A
+[I 19:43:55.705 NotebookApp] Replaying 6 buffered messages
+[I 19:43:56.746 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 19:45:56.746 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 19:47:56.746 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 19:49:56.745 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 19:51:56.751 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 19:55:56.752 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 19:57:56.750 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 19:59:56.755 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 20:01:56.758 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 21:44:55.575 NotebookApp] Starting buffering for c53b210e-c8bc-4bbf-ba8e-dfa83757191f:ECC8502481C54AD888BC001231DD8D1A
+[I 12:38:01.542 NotebookApp] 302 GET / (::1) 5.35ms
+[W 12:38:27.377 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.71ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/merge%20elo%20.ipynb
+[I 12:38:27.732 NotebookApp] Kernel started: f5b2ffba-3d79-4f5f-b77f-8f82a3757e61
+[I 12:38:28.963 NotebookApp] Adapting to protocol v5.1 for kernel f5b2ffba-3d79-4f5f-b77f-8f82a3757e61
+[I 12:38:38.874 NotebookApp] Starting buffering for f5b2ffba-3d79-4f5f-b77f-8f82a3757e61:ED6F38EE038D419686D69280568B7229
+[W 12:38:42.326 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.74ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 12:38:42.507 NotebookApp] Kernel started: 1f6ac78a-455b-465b-903e-158cebf751d1
+[I 12:38:43.258 NotebookApp] Adapting to protocol v5.1 for kernel 1f6ac78a-455b-465b-903e-158cebf751d1
+[I 12:38:53.366 NotebookApp] 302 GET / (::1) 0.79ms
+[I 12:40:43.142 NotebookApp] Saving file at /mlnfl/nfl/ipynb/backtest_vs_elo_538.ipynb
+[I 12:43:56.667 NotebookApp] Starting buffering for 1f6ac78a-455b-465b-903e-158cebf751d1:1AEB46B2CAEC47A385B9EF03776F6BB5
+[W 12:44:06.339 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.30ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/merge%20elo%20.ipynb
+[I 12:44:06.752 NotebookApp] Adapting to protocol v5.1 for kernel f5b2ffba-3d79-4f5f-b77f-8f82a3757e61
+[I 12:45:07.202 NotebookApp] 302 GET / (::1) 0.50ms
+[I 12:45:08.140 NotebookApp] 302 GET / (::1) 11.11ms
+[W 12:45:25.031 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.89ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/spread%20to%20probability.ipynb
+[I 12:45:25.303 NotebookApp] Kernel started: 08969428-bbbf-4244-ab32-bf42306244b9
+[I 12:45:26.202 NotebookApp] Adapting to protocol v5.1 for kernel 08969428-bbbf-4244-ab32-bf42306244b9
+[I 12:46:06.945 NotebookApp] Saving file at /mlnfl/nfl/ipynb/merge elo .ipynb
+[I 12:47:25.945 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 14:42:18.998 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 15:27:20.288 NotebookApp] Starting buffering for f5b2ffba-3d79-4f5f-b77f-8f82a3757e61:1A05D1090D9A485689366BE6E7CB4B43
+[I 15:29:30.724 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 15:31:31.373 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 17:27:28.141 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 17:29:28.133 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 20:42:42.782 NotebookApp] Starting buffering for 08969428-bbbf-4244-ab32-bf42306244b9:58051C97006B41AA8DD4619CC009163A
+[I 10:35:12.428 NotebookApp] 302 GET / (::1) 4.75ms
+[I 10:36:53.669 NotebookApp] Creating new notebook in /revenue
+[I 10:36:54.243 NotebookApp] Kernel started: 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[W 10:36:54.260 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 4.02ms referer=http://localhost:8888/notebooks/revenue/Untitled.ipynb?kernel_name=python3
+[I 10:36:55.687 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[W 10:37:12.576 NotebookApp] Notebook recommendations/recommender-develop.ipynb is not trusted
+[W 10:37:12.615 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.53ms referer=http://localhost:8888/notebooks/recommendations/recommender-develop.ipynb
+[I 10:37:13.050 NotebookApp] Kernel started: a18fea5b-fb1d-47a6-97d0-04aa40c26e0f
+[I 10:37:14.921 NotebookApp] Adapting to protocol v5.1 for kernel a18fea5b-fb1d-47a6-97d0-04aa40c26e0f
+[I 10:38:54.252 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 10:39:13.545 NotebookApp] Saving file at /recommendations/recommender-develop.ipynb
+[W 10:39:13.546 NotebookApp] Notebook recommendations/recommender-develop.ipynb is not trusted
+[I 10:40:54.306 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 10:42:54.642 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:02:49.615 NotebookApp] 302 GET / (::1) 0.61ms
+[W 15:03:16.818 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[W 15:03:16.856 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.41ms referer=http://localhost:8888/notebooks/recommendations/recommendations-deploy.ipynb
+[I 15:03:17.052 NotebookApp] Kernel started: 55796667-2916-45c1-b836-5193b40c2e69
+[I 15:03:19.240 NotebookApp] Adapting to protocol v5.1 for kernel 55796667-2916-45c1-b836-5193b40c2e69
+[I 15:03:46.292 NotebookApp] Kernel interrupted: 55796667-2916-45c1-b836-5193b40c2e69
+[I 15:03:46.438 NotebookApp] Kernel interrupted: 55796667-2916-45c1-b836-5193b40c2e69
+[I 15:03:46.592 NotebookApp] Kernel interrupted: 55796667-2916-45c1-b836-5193b40c2e69
+[I 15:03:49.692 NotebookApp] Kernel interrupted: 55796667-2916-45c1-b836-5193b40c2e69
+[I 15:05:17.316 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 15:05:17.318 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 15:07:17.282 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 15:07:17.292 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 15:09:17.127 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 15:09:18.013 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 15:11:17.071 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 15:11:17.076 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 17:01:49.332 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 17:01:49.338 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 17:02:02.849 NotebookApp] Starting buffering for 55796667-2916-45c1-b836-5193b40c2e69:B4A5D264E9924FA091BDA0A191A1498C
+[I 17:02:08.040 NotebookApp] Kernel restarted: 55796667-2916-45c1-b836-5193b40c2e69
+[I 17:02:14.104 NotebookApp] Adapting to protocol v5.1 for kernel 55796667-2916-45c1-b836-5193b40c2e69
+[I 17:02:14.106 NotebookApp] Restoring connection for 55796667-2916-45c1-b836-5193b40c2e69:B4A5D264E9924FA091BDA0A191A1498C
+[I 17:02:14.106 NotebookApp] Replaying 20 buffered messages
+[I 17:02:16.736 NotebookApp] Kernel shutdown: ecc1d9d0-a792-4527-a5ce-fc8d6a935b77
+[I 17:02:19.339 NotebookApp] Kernel shutdown: c53b210e-c8bc-4bbf-ba8e-dfa83757191f
+[I 17:02:21.764 NotebookApp] Kernel shutdown: f5b2ffba-3d79-4f5f-b77f-8f82a3757e61
+[I 17:02:23.374 NotebookApp] Kernel shutdown: 1f6ac78a-455b-465b-903e-158cebf751d1
+[I 17:02:25.976 NotebookApp] Kernel shutdown: 08969428-bbbf-4244-ab32-bf42306244b9
+[I 17:02:28.197 NotebookApp] Kernel shutdown: a18fea5b-fb1d-47a6-97d0-04aa40c26e0f
+[I 17:02:29.083 NotebookApp] Kernel shutdown: 55796667-2916-45c1-b836-5193b40c2e69
+[I 17:02:33.469 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:B173943C15C04129AA3FF0B0D1A71225
+[W 17:02:42.115 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[W 17:02:43.110 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 8.57ms referer=http://localhost:8888/notebooks/recommendations/recommendations-deploy.ipynb
+[I 17:02:44.665 NotebookApp] Kernel started: 6f7b17e7-4836-4038-b0ed-b131581bd8a2
+[I 17:02:53.356 NotebookApp] Adapting to protocol v5.1 for kernel 6f7b17e7-4836-4038-b0ed-b131581bd8a2
+[I 17:03:09.528 NotebookApp] Kernel interrupted: 6f7b17e7-4836-4038-b0ed-b131581bd8a2
+[I 17:03:09.711 NotebookApp] Kernel interrupted: 6f7b17e7-4836-4038-b0ed-b131581bd8a2
+[I 17:03:09.850 NotebookApp] Kernel interrupted: 6f7b17e7-4836-4038-b0ed-b131581bd8a2
+[I 17:03:10.018 NotebookApp] Kernel interrupted: 6f7b17e7-4836-4038-b0ed-b131581bd8a2
+[I 17:03:10.206 NotebookApp] Kernel interrupted: 6f7b17e7-4836-4038-b0ed-b131581bd8a2
+[I 17:03:14.214 NotebookApp] Starting buffering for 6f7b17e7-4836-4038-b0ed-b131581bd8a2:8968921E8A7640B7801289EED048ED91
+[I 17:03:24.179 NotebookApp] Kernel shutdown: 6f7b17e7-4836-4038-b0ed-b131581bd8a2
+[W 17:03:24.183 NotebookApp] 404 DELETE /api/sessions/1758bc81-78e2-444b-944e-1093bd409f4b (::1): Session not found: session_id='1758bc81-78e2-444b-944e-1093bd409f4b'
+[W 17:03:24.183 NotebookApp] Session not found: session_id='1758bc81-78e2-444b-944e-1093bd409f4b'
+[W 17:03:24.185 NotebookApp] 404 DELETE /api/sessions/1758bc81-78e2-444b-944e-1093bd409f4b (::1) 2.96ms referer=http://localhost:8888/tree/recommendations
+[W 17:03:24.188 NotebookApp] 404 DELETE /api/sessions/1758bc81-78e2-444b-944e-1093bd409f4b (::1): Session not found: session_id='1758bc81-78e2-444b-944e-1093bd409f4b'
+[W 17:03:24.189 NotebookApp] Session not found: session_id='1758bc81-78e2-444b-944e-1093bd409f4b'
+[W 17:03:24.190 NotebookApp] 404 DELETE /api/sessions/1758bc81-78e2-444b-944e-1093bd409f4b (::1) 3.86ms referer=http://localhost:8888/tree/recommendations
+[W 17:03:32.001 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[W 17:03:32.414 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 6.83ms referer=http://localhost:8888/notebooks/recommendations/recommendations-deploy.ipynb
+[I 17:03:33.152 NotebookApp] Kernel started: b440c6eb-46a7-4819-b5c8-1af930f0bb58
+[I 17:03:35.808 NotebookApp] Adapting to protocol v5.1 for kernel b440c6eb-46a7-4819-b5c8-1af930f0bb58
+[I 17:05:33.135 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 17:05:33.138 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 17:07:33.471 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 17:07:33.473 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 17:09:33.136 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 17:09:33.136 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 17:11:33.131 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 17:12:24.275 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.84ms referer=http://localhost:8888/notebooks/recommendations/recommender_test.ipynb
+[I 17:12:24.623 NotebookApp] Kernel started: 3986b535-62ef-4728-a67a-e5178607fd7b
+[I 17:12:25.640 NotebookApp] Adapting to protocol v5.1 for kernel 3986b535-62ef-4728-a67a-e5178607fd7b
+[I 17:12:30.924 NotebookApp] Starting buffering for 3986b535-62ef-4728-a67a-e5178607fd7b:0F0C602148C4448183BE02735586FB82
+[W 17:12:35.555 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 3.63ms referer=http://localhost:8888/notebooks/recommendations/recommender-sbnation.ipynb
+[I 17:12:35.820 NotebookApp] Kernel started: f3987e31-fdfa-4a70-99f7-d240b0922fa5
+[I 17:12:36.560 NotebookApp] Adapting to protocol v5.1 for kernel f3987e31-fdfa-4a70-99f7-d240b0922fa5
+[I 17:12:39.585 NotebookApp] Starting buffering for f3987e31-fdfa-4a70-99f7-d240b0922fa5:4927C8DF28024140A83737B28964669A
+[W 17:12:44.103 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.70ms referer=http://localhost:8888/notebooks/recommendations/recommender%20data%20pipeline.ipynb
+[I 17:12:44.152 NotebookApp] Kernel started: 3ba7feed-1f66-40d7-ba0c-281c44995ebc
+[I 17:12:44.814 NotebookApp] Adapting to protocol v5.1 for kernel 3ba7feed-1f66-40d7-ba0c-281c44995ebc
+[I 17:12:51.102 NotebookApp] Starting buffering for 3ba7feed-1f66-40d7-ba0c-281c44995ebc:538EC92A5817442D89BE29BC5BD4C86D
+[W 17:12:59.787 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.96ms referer=http://localhost:8888/notebooks/recommendations/recommendations-deploy.ipynb
+[I 17:12:59.979 NotebookApp] Adapting to protocol v5.1 for kernel b440c6eb-46a7-4819-b5c8-1af930f0bb58
+[W 17:13:15.098 NotebookApp] Notebook recommendations/recommender-develop.ipynb is not trusted
+[W 17:13:15.143 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.79ms referer=http://localhost:8888/notebooks/recommendations/recommender-develop.ipynb
+[I 17:13:15.589 NotebookApp] Kernel started: 32e5edf9-e92a-49a1-bf9c-3cce55b4817a
+[I 17:13:16.338 NotebookApp] Adapting to protocol v5.1 for kernel 32e5edf9-e92a-49a1-bf9c-3cce55b4817a
+[I 17:15:01.743 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[I 17:17:03.314 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[I 17:19:01.749 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[I 17:21:01.749 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[I 17:23:01.751 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[I 17:24:08.446 NotebookApp] Starting buffering for 32e5edf9-e92a-49a1-bf9c-3cce55b4817a:7F33C29CBA1745CC8633A611832DBE1A
+[I 17:25:01.757 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[I 18:04:20.079 NotebookApp] Starting buffering for b440c6eb-46a7-4819-b5c8-1af930f0bb58:3C0ECCAD23B841888462219B6A9186B1
+[I 18:07:07.445 NotebookApp] Kernel shutdown: b440c6eb-46a7-4819-b5c8-1af930f0bb58
+[I 18:07:08.598 NotebookApp] Kernel shutdown: 3986b535-62ef-4728-a67a-e5178607fd7b
+[I 18:07:09.421 NotebookApp] Kernel shutdown: f3987e31-fdfa-4a70-99f7-d240b0922fa5
+[I 18:07:10.200 NotebookApp] Kernel shutdown: 3ba7feed-1f66-40d7-ba0c-281c44995ebc
+[I 18:07:10.993 NotebookApp] Kernel shutdown: 32e5edf9-e92a-49a1-bf9c-3cce55b4817a
+[W 18:09:50.791 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[W 18:09:50.834 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.25ms referer=http://localhost:8888/notebooks/recommendations/recommendations-deploy.ipynb
+[I 18:09:51.276 NotebookApp] Kernel started: 0f38c8cf-c09a-49f7-a51c-0881fe9d762c
+[I 18:09:52.928 NotebookApp] Adapting to protocol v5.1 for kernel 0f38c8cf-c09a-49f7-a51c-0881fe9d762c
+[I 18:11:51.788 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:11:51.790 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 18:13:51.899 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:13:51.903 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 18:17:51.279 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:17:51.281 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 18:21:51.901 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:21:51.905 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 18:35:51.879 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:35:51.883 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 18:43:51.300 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:43:51.303 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 18:45:51.315 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:45:51.318 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 18:47:51.309 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:47:51.311 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 18:49:51.317 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 18:49:51.320 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 20:12:35.868 NotebookApp] 302 GET / (::1) 4.05ms
+[W 20:12:52.504 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 3.23ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 20:12:53.445 NotebookApp] Kernel started: 208bf904-548b-45dd-9222-9b6b9a07daf5
+[I 20:12:54.953 NotebookApp] Adapting to protocol v5.1 for kernel 208bf904-548b-45dd-9222-9b6b9a07daf5
+[I 20:13:35.873 NotebookApp] Starting buffering for 208bf904-548b-45dd-9222-9b6b9a07daf5:0D1C578341CB4CE59B4E1AD2B458DCDB
+[I 20:13:55.038 NotebookApp] Adapting to protocol v5.1 for kernel 208bf904-548b-45dd-9222-9b6b9a07daf5
+[I 21:03:30.002 NotebookApp] Starting buffering for 208bf904-548b-45dd-9222-9b6b9a07daf5:9AB264B884DA40F387F0F837589EE380
+[I 21:03:33.445 NotebookApp] Starting buffering for 0f38c8cf-c09a-49f7-a51c-0881fe9d762c:9546C74CEBCA480DB264DD2FFD9EE072
+[I 08:36:49.749 NotebookApp] 302 GET / (::1) 5.53ms
+[W 08:36:56.238 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[W 08:36:56.283 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 4.34ms referer=http://localhost:8888/notebooks/recommendations/recommendations-deploy.ipynb
+[I 08:36:56.818 NotebookApp] Adapting to protocol v5.1 for kernel 0f38c8cf-c09a-49f7-a51c-0881fe9d762c
+[I 08:38:00.054 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 08:38:00.055 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 08:38:58.633 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 08:38:58.635 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 08:44:58.630 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 08:44:58.631 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 08:46:58.635 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 08:46:58.637 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 08:48:58.677 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 08:48:58.679 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[I 08:50:59.783 NotebookApp] Saving file at /recommendations/recommendations-deploy.ipynb
+[W 08:50:59.785 NotebookApp] Notebook recommendations/recommendations-deploy.ipynb is not trusted
+[W 09:03:55.920 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.85ms referer=http://localhost:8888/notebooks/revenue/Untitled.ipynb
+[I 09:03:55.928 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 09:21:57.926 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:ED16A6D5A06341FD815F3F86AA1EDA90
+[I 14:09:42.286 NotebookApp] Starting buffering for 0f38c8cf-c09a-49f7-a51c-0881fe9d762c:C1A6A04549C74BE785D2008A4E0B6004
+[I 09:59:48.862 NotebookApp] 302 GET / (::1) 7.54ms
+[I 09:59:54.249 NotebookApp] Kernel shutdown: 208bf904-548b-45dd-9222-9b6b9a07daf5
+[W 10:00:07.669 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 3.15ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 10:00:08.194 NotebookApp] Kernel started: e73db511-028c-4207-8e83-55431e038ae8
+[I 10:00:09.569 NotebookApp] Adapting to protocol v5.1 for kernel e73db511-028c-4207-8e83-55431e038ae8
+[W 10:00:22.117 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.29ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week03/naive%20bayes%20sports%20detail.ipynb
+[I 10:00:22.406 NotebookApp] Kernel started: 70406dcb-a564-4df9-b283-453a6930a67a
+[I 10:00:23.211 NotebookApp] Adapting to protocol v5.1 for kernel 70406dcb-a564-4df9-b283-453a6930a67a
+[W 10:08:41.245 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.01ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 10:08:42.051 NotebookApp] Kernel started: ee97da65-d137-44dc-a916-3561e6721666
+[I 10:08:42.823 NotebookApp] Adapting to protocol v5.1 for kernel ee97da65-d137-44dc-a916-3561e6721666
+[I 10:10:27.968 NotebookApp] Starting buffering for ee97da65-d137-44dc-a916-3561e6721666:2CE5154FDA12444784343423499CE9E8
+[I 10:40:21.879 NotebookApp] Starting buffering for e73db511-028c-4207-8e83-55431e038ae8:D206233F70CC4C528AEA74F8D08D7039
+[I 10:40:24.729 NotebookApp] Starting buffering for 70406dcb-a564-4df9-b283-453a6930a67a:A4D47F685A5B43D180052B880794F376
+[I 17:23:54.716 NotebookApp] 302 GET / (::1) 3.39ms
+[W 17:23:59.304 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 5.50ms referer=http://localhost:8888/notebooks/revenue/concert-audience-behavior.ipynb
+[I 17:23:59.549 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 17:29:59.524 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 17:31:59.517 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 18:58:37.602 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:E4EE44B49B05405795BA7BF668DF1BFD
+[W 18:58:48.017 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.68ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week03/naive%20bayes%20sports%20detail.ipynb
+[I 18:58:48.312 NotebookApp] Adapting to protocol v5.1 for kernel 70406dcb-a564-4df9-b283-453a6930a67a
+[W 19:02:20.534 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.25ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 19:02:21.601 NotebookApp] Adapting to protocol v5.1 for kernel ee97da65-d137-44dc-a916-3561e6721666
+[I 19:14:37.847 NotebookApp] Starting buffering for 70406dcb-a564-4df9-b283-453a6930a67a:9FF937224BAB4FF184BE442A9A488CEC
+[I 19:14:38.784 NotebookApp] Starting buffering for ee97da65-d137-44dc-a916-3561e6721666:3FB0C6ADBEAD49EFACF29F45529D1FD0
+[W 19:14:55.364 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.62ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week03/naive%20bayes%20sports%20detail.ipynb
+[I 19:14:55.934 NotebookApp] Adapting to protocol v5.1 for kernel 70406dcb-a564-4df9-b283-453a6930a67a
+[I 19:20:55.831 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 19:22:55.831 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 19:24:55.829 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 19:26:55.827 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 19:28:55.834 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 19:36:55.834 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 19:38:55.836 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[W 19:39:45.861 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.39ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 19:39:45.908 NotebookApp] Adapting to protocol v5.1 for kernel e73db511-028c-4207-8e83-55431e038ae8
+[I 19:42:05.696 NotebookApp] Starting buffering for e73db511-028c-4207-8e83-55431e038ae8:50E7A428BB1447598F3B99C2E79CAE1D
+[I 19:42:06.223 NotebookApp] Kernel restarted: e73db511-028c-4207-8e83-55431e038ae8
+[I 19:42:08.657 NotebookApp] Adapting to protocol v5.1 for kernel e73db511-028c-4207-8e83-55431e038ae8
+[I 19:42:08.658 NotebookApp] Restoring connection for e73db511-028c-4207-8e83-55431e038ae8:50E7A428BB1447598F3B99C2E79CAE1D
+[I 19:42:08.659 NotebookApp] Replaying 6 buffered messages
+[I 19:43:45.704 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 19:47:45.701 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 19:51:45.704 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 19:53:45.704 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 19:56:01.510 NotebookApp] Kernel started: 65be765a-9415-4806-a276-1cf26f7c6101
+[W 19:56:01.568 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 9.41ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/firstname_lastname_p1.ipynb
+[I 19:56:04.005 NotebookApp] Adapting to protocol v5.1 for kernel 65be765a-9415-4806-a276-1cf26f7c6101
+[I 19:58:02.430 NotebookApp] Saving file at /w207/amit-coursework/Projects/firstname_lastname_p1.ipynb
+[I 20:06:56.461 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[W 20:10:00.313 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 3.98ms referer=http://localhost:8888/notebooks/networks/eater/eater_restaurant_classification.ipynb
+[I 20:10:01.084 NotebookApp] Kernel started: 868abf65-f634-479f-8e97-d41903ec0e1b
+[I 20:10:03.316 NotebookApp] Adapting to protocol v5.1 for kernel 868abf65-f634-479f-8e97-d41903ec0e1b
+[W 20:10:17.348 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 5.38ms referer=http://localhost:8888/notebooks/networks/eater/eater_topic_extraction.ipynb
+[I 20:10:18.456 NotebookApp] Kernel started: 409a5d71-178b-46f6-b9f8-1aa9ab9af126
+[I 20:10:19.892 NotebookApp] Adapting to protocol v5.1 for kernel 409a5d71-178b-46f6-b9f8-1aa9ab9af126
+[W 20:22:35.958 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 6.22ms referer=http://localhost:8888/notebooks/w207/assignment-project2/firstname_lastname_p2.ipynb
+[I 20:22:37.985 NotebookApp] Kernel started: 86e7b7a4-78a7-48d9-a27f-dcc8b81cf306
+[I 20:22:45.926 NotebookApp] Adapting to protocol v5.1 for kernel 86e7b7a4-78a7-48d9-a27f-dcc8b81cf306
+[I 20:24:38.000 NotebookApp] Saving file at /w207/assignment-project2/firstname_lastname_p2.ipynb
+[I 20:25:06.546 NotebookApp] Starting buffering for 86e7b7a4-78a7-48d9-a27f-dcc8b81cf306:C7173C5613C54274864E4D8517BFC516
+[I 20:25:08.472 NotebookApp] Starting buffering for 409a5d71-178b-46f6-b9f8-1aa9ab9af126:0D6F26668DF04A52B91245287C472014
+[I 20:25:09.208 NotebookApp] Starting buffering for 868abf65-f634-479f-8e97-d41903ec0e1b:7CFD1A1F07174EBB8DCE644C47DD6247
+[I 20:25:09.885 NotebookApp] Starting buffering for 65be765a-9415-4806-a276-1cf26f7c6101:1FD7D034F0E34A4BA6208BAF3607DC7C
+[I 20:25:10.114 NotebookApp] Starting buffering for e73db511-028c-4207-8e83-55431e038ae8:50E7A428BB1447598F3B99C2E79CAE1D
+[I 20:25:10.411 NotebookApp] Starting buffering for 70406dcb-a564-4df9-b283-453a6930a67a:00F6F7ADF78F41AE89EA06A963D0BAC9
+[I 22:05:18.748 NotebookApp] 302 GET / (::1) 0.62ms
+[I 22:05:25.297 NotebookApp] Kernel shutdown: e73db511-028c-4207-8e83-55431e038ae8
+[I 22:05:26.092 NotebookApp] Kernel shutdown: 70406dcb-a564-4df9-b283-453a6930a67a
+[I 22:05:26.866 NotebookApp] Kernel shutdown: ee97da65-d137-44dc-a916-3561e6721666
+[I 22:05:27.503 NotebookApp] Kernel shutdown: 65be765a-9415-4806-a276-1cf26f7c6101
+[I 22:05:28.400 NotebookApp] Kernel shutdown: 868abf65-f634-479f-8e97-d41903ec0e1b
+[I 22:05:29.193 NotebookApp] Kernel shutdown: 409a5d71-178b-46f6-b9f8-1aa9ab9af126
+[I 22:05:29.867 NotebookApp] Kernel shutdown: 86e7b7a4-78a7-48d9-a27f-dcc8b81cf306
+[I 22:05:37.149 NotebookApp] Kernel shutdown: 0f38c8cf-c09a-49f7-a51c-0881fe9d762c
+[W 22:05:37.588 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.70ms referer=http://localhost:8888/notebooks/revenue/concert-audience-behavior.ipynb
+[I 22:05:37.741 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+Exception on teardown.
+[I 23:41:20.544 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:7A43D59E97F94E0B8E66C1E91A2CA51F
+[I 11:34:38.935 NotebookApp] 302 GET / (::1) 5.50ms
+[W 11:34:42.696 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.75ms referer=http://localhost:8888/notebooks/revenue/concert-audience-behavior.ipynb
+[I 11:34:42.872 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 11:36:42.867 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[W 12:40:38.626 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.14ms referer=http://localhost:8888/notebooks/vm-database/bigquery-pivottable.ipynb
+[I 12:40:39.035 NotebookApp] Kernel started: 09b2eae4-e85b-4826-8a2e-a2a8dd8a10d6
+[I 12:40:40.355 NotebookApp] Adapting to protocol v5.1 for kernel 09b2eae4-e85b-4826-8a2e-a2a8dd8a10d6
+[I 12:40:42.816 NotebookApp] Starting buffering for 09b2eae4-e85b-4826-8a2e-a2a8dd8a10d6:CD1B55413357483EAFEF11874048B1B3
+[W 12:41:28.312 NotebookApp] 404 GET /api/contents/vm-database?type=directory&_=1537375231916 (::1): No such file or directory: vm-database
+[W 12:41:28.312 NotebookApp] No such file or directory: vm-database
+[W 12:41:28.313 NotebookApp] 404 GET /api/contents/vm-database?type=directory&_=1537375231916 (::1) 3.80ms referer=http://localhost:8888/tree/vm-database
+[W 12:41:39.370 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.24ms referer=http://localhost:8888/notebooks/database/bigquery-save-to-table.ipynb
+[I 12:41:39.426 NotebookApp] Kernel started: e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 12:41:40.139 NotebookApp] Adapting to protocol v5.1 for kernel e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 12:47:39.442 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 15:30:04.139 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 15:32:05.863 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[W 15:33:22.092 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 3.72ms referer=http://localhost:8888/notebooks/database/bigquery-query-example.ipynb
+[I 15:33:22.246 NotebookApp] Kernel started: 4ea8e78b-e868-42d0-b88b-a6be2f9e47f4
+[I 15:33:24.646 NotebookApp] Adapting to protocol v5.1 for kernel 4ea8e78b-e868-42d0-b88b-a6be2f9e47f4
+[I 15:34:04.144 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 15:36:04.185 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 15:38:04.144 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 15:40:04.196 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 15:42:04.184 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 16:40:04.199 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 16:54:04.133 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 16:54:13.480 NotebookApp] Starting buffering for e793e8e9-69e3-43bb-9e54-727237e562bd:62E3D66446144A1D968905A3A73DF1B9
+[I 16:54:13.900 NotebookApp] Kernel restarted: e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 16:54:15.018 NotebookApp] Adapting to protocol v5.1 for kernel e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 16:54:15.019 NotebookApp] Restoring connection for e793e8e9-69e3-43bb-9e54-727237e562bd:62E3D66446144A1D968905A3A73DF1B9
+[I 16:54:15.020 NotebookApp] Replaying 3 buffered messages
+[I 16:56:04.137 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 16:56:23.835 NotebookApp] Starting buffering for e793e8e9-69e3-43bb-9e54-727237e562bd:62E3D66446144A1D968905A3A73DF1B9
+[I 16:56:24.252 NotebookApp] Kernel restarted: e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 16:56:25.228 NotebookApp] Adapting to protocol v5.1 for kernel e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 16:56:25.229 NotebookApp] Restoring connection for e793e8e9-69e3-43bb-9e54-727237e562bd:62E3D66446144A1D968905A3A73DF1B9
+[I 16:56:25.229 NotebookApp] Replaying 3 buffered messages
+[I 16:58:04.136 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:00:04.184 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:04:18.000 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:08:56.843 NotebookApp] Starting buffering for e793e8e9-69e3-43bb-9e54-727237e562bd:62E3D66446144A1D968905A3A73DF1B9
+[I 17:08:57.269 NotebookApp] Kernel restarted: e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 17:08:58.578 NotebookApp] Adapting to protocol v5.1 for kernel e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 17:08:58.579 NotebookApp] Restoring connection for e793e8e9-69e3-43bb-9e54-727237e562bd:62E3D66446144A1D968905A3A73DF1B9
+[I 17:08:58.579 NotebookApp] Replaying 3 buffered messages
+[I 17:10:04.132 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:39:28.272 NotebookApp] Starting buffering for 4ea8e78b-e868-42d0-b88b-a6be2f9e47f4:FC5FCAC85B78460695709FCBC9458A09
+[I 17:40:04.153 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:44:04.155 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:46:04.270 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:48:05.210 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:52:04.160 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:54:04.167 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 17:56:04.800 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 21:59:47.694 NotebookApp] Saving file at /database/bigquery-save-to-table.ipynb
+[I 22:00:51.112 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 22:02:51.438 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 22:03:43.045 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:C44A82644EE14E73B44B2ADFFAEAF9BE
+[I 22:03:43.677 NotebookApp] Kernel restarted: 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 22:03:45.859 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 22:03:45.860 NotebookApp] Restoring connection for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:C44A82644EE14E73B44B2ADFFAEAF9BE
+[I 22:03:45.861 NotebookApp] Replaying 6 buffered messages
+[I 22:04:51.112 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 22:06:51.720 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 22:10:51.113 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 22:12:51.122 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 22:13:18.285 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 22:13:35.244 NotebookApp] Starting buffering for e793e8e9-69e3-43bb-9e54-727237e562bd:62E3D66446144A1D968905A3A73DF1B9
+[I 22:30:51.740 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 22:35:15.075 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:C44A82644EE14E73B44B2ADFFAEAF9BE
+[I 09:24:05.884 NotebookApp] 302 GET / (::1) 0.79ms
+[W 09:24:09.853 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.68ms referer=http://localhost:8888/notebooks/revenue/concert-audience-behavior.ipynb
+[I 09:24:10.009 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 09:26:10.004 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 09:46:43.511 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:4156C4BFB26749BCB87584088264D128
+[I 10:22:15.512 NotebookApp] 302 GET / (::1) 0.79ms
+[W 13:42:37.033 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.05ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/spread%20to%20probability.ipynb
+[I 13:42:37.383 NotebookApp] Kernel started: f24ab1cf-4ccd-4b65-bcd0-e4e846e61fca
+[I 13:42:39.722 NotebookApp] Adapting to protocol v5.1 for kernel f24ab1cf-4ccd-4b65-bcd0-e4e846e61fca
+[I 13:44:37.390 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 13:46:39.296 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 13:48:37.786 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 13:52:37.383 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 14:15:57.149 NotebookApp] Starting buffering for f24ab1cf-4ccd-4b65-bcd0-e4e846e61fca:27EE72E6E4204D68B4DA2E98279CA487
+[I 14:16:22.831 NotebookApp] Kernel shutdown: 09b2eae4-e85b-4826-8a2e-a2a8dd8a10d6
+[I 14:16:24.074 NotebookApp] Kernel shutdown: e793e8e9-69e3-43bb-9e54-727237e562bd
+[I 14:16:25.983 NotebookApp] Kernel shutdown: 4ea8e78b-e868-42d0-b88b-a6be2f9e47f4
+[I 14:16:27.000 NotebookApp] Kernel shutdown: f24ab1cf-4ccd-4b65-bcd0-e4e846e61fca
+[W 14:16:28.765 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.55ms referer=http://localhost:8888/notebooks/revenue/concert-audience-behavior.ipynb
+[I 14:16:28.825 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 14:27:52.167 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:CCDD8312A9FF4994802B2ABAD31F06A5
+[W 14:27:52.710 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.52ms referer=http://localhost:8888/notebooks/revenue/concert-audience-behavior.ipynb
+[I 14:27:52.738 NotebookApp] Adapting to protocol v5.1 for kernel 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 15:00:23.543 NotebookApp] Creating new notebook in /revenue
+[I 15:00:24.022 NotebookApp] Kernel started: 8affda85-f149-4da6-ad39-3b19f6f78da0
+[W 15:00:24.031 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.21ms referer=http://localhost:8888/notebooks/revenue/Untitled.ipynb?kernel_name=python3
+[I 15:00:25.359 NotebookApp] Adapting to protocol v5.1 for kernel 8affda85-f149-4da6-ad39-3b19f6f78da0
+[I 15:02:24.689 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:08:24.021 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:10:24.020 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:12:24.022 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:14:24.019 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:17:54.152 NotebookApp] Saving file at /revenue/concert-audience-behavior.ipynb
+[I 15:20:26.624 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:22:24.022 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:24:24.690 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:28:24.017 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:30:24.020 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:38:24.025 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:46:24.020 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:48:24.019 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:52:24.011 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:54:24.021 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 15:56:24.018 NotebookApp] Saving file at /revenue/ad clicks vs pageviews.ipynb
+[I 15:58:24.021 NotebookApp] Saving file at /revenue/ad clicks vs pageviews.ipynb
+[W 11:18:05.917 NotebookApp] Forbidden
+[W 11:18:05.920 NotebookApp] 403 GET /api/sessions?_=1537470020057 (::1) 10.55ms referer=http://localhost:8888/tree/revenue
+[W 11:18:05.923 NotebookApp] Forbidden
+[W 11:18:05.924 NotebookApp] 403 GET /api/terminals?_=1537470020058 (::1) 2.04ms referer=http://localhost:8888/tree/revenue
+[I 11:18:10.515 NotebookApp] 302 GET /tree (::1) 6.27ms
+[W 11:18:12.928 NotebookApp] 401 POST /login?next=%2Ftree (::1) 5.04ms referer=http://localhost:8888/login?next=%2Ftree
+[W 11:18:37.184 NotebookApp] 401 POST /login?next=%2Ftree (::1) 2.40ms referer=http://localhost:8888/login?next=%2Ftree
+[W 11:18:47.525 NotebookApp] 401 POST /login?next=%2Ftree (::1) 2.76ms referer=http://localhost:8888/login?next=%2Ftree
+[I 11:19:10.285 NotebookApp] 302 GET / (::1) 0.63ms
+[I 11:19:10.289 NotebookApp] 302 GET /tree? (::1) 1.06ms
+[I 11:19:18.326 NotebookApp] 302 POST /login?next=%2Ftree%3F (::1) 2.88ms
+[W 11:19:31.474 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.00ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 11:19:32.214 NotebookApp] Kernel started: 63331229-e129-4613-9fa2-984e18ef3b89
+[I 11:19:33.401 NotebookApp] Adapting to protocol v5.1 for kernel 63331229-e129-4613-9fa2-984e18ef3b89
+[I 14:29:05.441 NotebookApp] Starting buffering for 63331229-e129-4613-9fa2-984e18ef3b89:DBDCD12030174B5C869ED363F6FE5AAF
+[I 14:29:05.932 NotebookApp] Starting buffering for 8affda85-f149-4da6-ad39-3b19f6f78da0:B735A813EDF44B9088104D92B5FAA66A
+[I 14:29:06.589 NotebookApp] Starting buffering for 461e76cd-4c78-40f0-bc58-84b9f627ed0d:49C07290108E4C5E8F1102C10B381D68
+[I 20:45:59.642 NotebookApp] 302 GET / (::1) 1.31ms
+[W 20:46:19.561 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.64ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/scrape-spreads.ipynb
+[I 20:46:19.849 NotebookApp] Kernel started: 436497da-08a9-486e-8cf9-af8ce8ec9215
+[I 20:46:21.771 NotebookApp] Adapting to protocol v5.1 for kernel 436497da-08a9-486e-8cf9-af8ce8ec9215
+[W 20:46:22.162 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.78ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/spread%20to%20probability.ipynb
+[I 20:46:22.461 NotebookApp] Kernel started: 28dbc85c-7bbd-43e3-a1c7-c359310abce1
+[I 20:46:23.357 NotebookApp] Adapting to protocol v5.1 for kernel 28dbc85c-7bbd-43e3-a1c7-c359310abce1
+[I 20:48:23.559 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 20:52:23.426 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 21:10:23.902 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 21:23:46.769 NotebookApp] 302 GET / (::1) 0.75ms
+[I 21:23:46.800 NotebookApp] Starting buffering for 28dbc85c-7bbd-43e3-a1c7-c359310abce1:1CC54685FC6D435A8F006368EE2E4497
+[W 21:23:52.363 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.49ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 21:23:53.180 NotebookApp] Adapting to protocol v5.1 for kernel 63331229-e129-4613-9fa2-984e18ef3b89
+[I 21:51:19.781 NotebookApp] Starting buffering for 63331229-e129-4613-9fa2-984e18ef3b89:1A0B32A50B6F446583B19A90E3546B60
+[W 11:47:58.814 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.90ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 11:47:59.579 NotebookApp] Adapting to protocol v5.1 for kernel 63331229-e129-4613-9fa2-984e18ef3b89
+[W 11:48:52.655 NotebookApp] Notebook w207/amit-coursework/Projects/p1_master.ipynb is not trusted
+[W 11:48:52.709 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.00ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/p1_master.ipynb
+[I 11:48:53.373 NotebookApp] Kernel started: 1f267697-0d8c-40b3-81ab-5e02e0317d77
+[I 11:48:54.803 NotebookApp] Adapting to protocol v5.1 for kernel 1f267697-0d8c-40b3-81ab-5e02e0317d77
+[I 11:51:25.536 NotebookApp] Starting buffering for 1f267697-0d8c-40b3-81ab-5e02e0317d77:2B56D524EA674FAD95AEC7769EB3C25D
+[I 11:51:25.954 NotebookApp] Starting buffering for 63331229-e129-4613-9fa2-984e18ef3b89:5968F19E4DA3487BA1D2B70BFC78105A
+[I 18:11:34.593 NotebookApp] 302 GET / (::1) 16.52ms
+[I 18:11:49.450 NotebookApp] Kernel shutdown: 461e76cd-4c78-40f0-bc58-84b9f627ed0d
+[I 18:11:54.481 NotebookApp] Kernel shutdown: 8affda85-f149-4da6-ad39-3b19f6f78da0
+[I 18:11:57.132 NotebookApp] Kernel shutdown: 436497da-08a9-486e-8cf9-af8ce8ec9215
+[W 18:11:57.139 NotebookApp] zmq message arrived on closed channel
+[W 18:11:57.142 NotebookApp] zmq message arrived on closed channel
+[W 18:11:57.145 NotebookApp] zmq message arrived on closed channel
+[I 18:11:58.396 NotebookApp] Kernel shutdown: 28dbc85c-7bbd-43e3-a1c7-c359310abce1
+[I 18:11:59.636 NotebookApp] Kernel shutdown: 1f267697-0d8c-40b3-81ab-5e02e0317d77
+[I 18:12:02.601 NotebookApp] Kernel shutdown: 63331229-e129-4613-9fa2-984e18ef3b89
+[W 18:12:14.029 NotebookApp] Notebook w207/amit-coursework/Projects/p1_master.ipynb is not trusted
+[W 18:12:14.095 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 6.20ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/p1_master.ipynb
+[I 18:12:14.796 NotebookApp] Kernel started: 6826290e-7836-42f8-8b04-d551a1d2d289
+[I 18:12:17.054 NotebookApp] Adapting to protocol v5.1 for kernel 6826290e-7836-42f8-8b04-d551a1d2d289
+[W 18:12:45.467 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.14ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 18:12:45.795 NotebookApp] Kernel started: 84f6624e-3309-4b10-9cae-cd540e21261e
+[I 18:12:46.519 NotebookApp] Adapting to protocol v5.1 for kernel 84f6624e-3309-4b10-9cae-cd540e21261e
+[W 18:12:59.533 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.41ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 18:13:00.158 NotebookApp] Kernel started: d6c193a3-2f24-48d6-aba5-458a00349e5c
+[I 18:13:00.818 NotebookApp] Adapting to protocol v5.1 for kernel d6c193a3-2f24-48d6-aba5-458a00349e5c
+[I 18:14:15.712 NotebookApp] Saving file at /w207/amit-coursework/Projects/p1_master.ipynb
+[W 18:14:15.713 NotebookApp] Notebook w207/amit-coursework/Projects/p1_master.ipynb is not trusted
+[W 18:22:05.052 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 5.41ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 18:22:05.808 NotebookApp] Kernel started: ac249cf5-12c4-4d42-880a-7999b6d040b7
+[I 18:22:06.618 NotebookApp] Adapting to protocol v5.1 for kernel ac249cf5-12c4-4d42-880a-7999b6d040b7
+[I 18:22:14.814 NotebookApp] Saving file at /w207/amit-coursework/Projects/p1_master.ipynb
+[W 18:22:14.815 NotebookApp] Notebook w207/amit-coursework/Projects/p1_master.ipynb is not trusted
+[I 18:22:15.196 NotebookApp] Starting buffering for 6826290e-7836-42f8-8b04-d551a1d2d289:64821AA9BAC249CA8F836E6B663B0301
+[I 18:22:59.846 NotebookApp] Starting buffering for ac249cf5-12c4-4d42-880a-7999b6d040b7:6AAD3658348C46938FF0D023835013B8
+[I 18:23:00.267 NotebookApp] Kernel restarted: ac249cf5-12c4-4d42-880a-7999b6d040b7
+[I 18:23:00.830 NotebookApp] Adapting to protocol v5.1 for kernel ac249cf5-12c4-4d42-880a-7999b6d040b7
+[I 18:23:00.831 NotebookApp] Restoring connection for ac249cf5-12c4-4d42-880a-7999b6d040b7:6AAD3658348C46938FF0D023835013B8
+[I 18:23:00.831 NotebookApp] Replaying 3 buffered messages
+[I 18:24:09.201 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 18:51:55.554 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[W 18:56:53.474 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.67ms referer=http://localhost:8888/notebooks/w207/amit-coursework/Projects/amit_bhattacharyya_p2.ipynb
+[I 18:56:57.842 NotebookApp] Kernel started: 9b01c960-ae86-49a0-be1a-2a9c08e69ec4
+[I 18:56:58.585 NotebookApp] Adapting to protocol v5.1 for kernel 9b01c960-ae86-49a0-be1a-2a9c08e69ec4
+[I 19:24:16.543 NotebookApp] Starting buffering for d6c193a3-2f24-48d6-aba5-458a00349e5c:4391DFCCE7644DBE839D6B3ED93B8A77
+[I 19:24:16.968 NotebookApp] Kernel restarted: d6c193a3-2f24-48d6-aba5-458a00349e5c
+[I 19:24:18.142 NotebookApp] Adapting to protocol v5.1 for kernel d6c193a3-2f24-48d6-aba5-458a00349e5c
+[I 19:24:18.142 NotebookApp] Restoring connection for d6c193a3-2f24-48d6-aba5-458a00349e5c:4391DFCCE7644DBE839D6B3ED93B8A77
+[I 19:24:18.143 NotebookApp] Replaying 6 buffered messages
+[I 19:24:44.597 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:26:44.604 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:28:44.594 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:30:44.598 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:32:44.596 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:38:44.603 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:40:44.598 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:46:44.600 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:48:44.603 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:52:44.596 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 19:56:18.995 NotebookApp] Starting buffering for ac249cf5-12c4-4d42-880a-7999b6d040b7:6AAD3658348C46938FF0D023835013B8
+[I 19:56:21.706 NotebookApp] Starting buffering for 9b01c960-ae86-49a0-be1a-2a9c08e69ec4:B5AB402D60274B1DA25B18395198D263
+[I 19:56:44.600 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 20:00:07.082 NotebookApp] Starting buffering for 84f6624e-3309-4b10-9cae-cd540e21261e:2E6136C8EC194B51829EA8DB3C40F3BA
+[I 20:00:07.607 NotebookApp] Kernel restarted: 84f6624e-3309-4b10-9cae-cd540e21261e
+[I 20:00:09.163 NotebookApp] Adapting to protocol v5.1 for kernel 84f6624e-3309-4b10-9cae-cd540e21261e
+[I 20:00:09.165 NotebookApp] Restoring connection for 84f6624e-3309-4b10-9cae-cd540e21261e:2E6136C8EC194B51829EA8DB3C40F3BA
+[I 20:00:09.165 NotebookApp] Replaying 6 buffered messages
+[I 20:00:30.235 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[W 20:02:09.383 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 3.20ms referer=http://localhost:8888/notebooks/w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 20:02:10.163 NotebookApp] Kernel started: 0ca4e62b-07ed-4121-90fa-79de889feabc
+[I 20:02:12.019 NotebookApp] Adapting to protocol v5.1 for kernel 0ca4e62b-07ed-4121-90fa-79de889feabc
+[I 20:02:30.314 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 20:04:30.240 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 20:06:30.237 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 20:22:27.458 NotebookApp] Starting buffering for 84f6624e-3309-4b10-9cae-cd540e21261e:2E6136C8EC194B51829EA8DB3C40F3BA
+[I 20:22:32.218 NotebookApp] Starting buffering for d6c193a3-2f24-48d6-aba5-458a00349e5c:4391DFCCE7644DBE839D6B3ED93B8A77
+[I 20:22:32.847 NotebookApp] Starting buffering for 0ca4e62b-07ed-4121-90fa-79de889feabc:E981F33950034DF78680EB3ED5C8BFC1
+[I 15:53:01.424 NotebookApp] 302 GET / (::1) 5.74ms
+[I 15:53:07.460 NotebookApp] Creating new notebook in /revenue
+[I 15:53:07.977 NotebookApp] Kernel started: bcb38477-4877-4677-9594-0dd39f01c1ef
+[W 15:53:07.997 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.89ms referer=http://localhost:8888/notebooks/revenue/Untitled.ipynb?kernel_name=python3
+[I 15:53:10.095 NotebookApp] Adapting to protocol v5.1 for kernel bcb38477-4877-4677-9594-0dd39f01c1ef
+[W 15:53:44.128 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 1.10ms referer=http://localhost:8888/notebooks/revenue/ad%20clicks%20vs%20pageviews.ipynb
+[I 15:53:44.256 NotebookApp] Kernel started: 46086817-b63a-4bc5-8f9d-87c8e861410f
+[I 15:53:44.954 NotebookApp] Adapting to protocol v5.1 for kernel 46086817-b63a-4bc5-8f9d-87c8e861410f
+[I 15:55:07.975 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:01:07.976 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:06:07.907 NotebookApp] Starting buffering for bcb38477-4877-4677-9594-0dd39f01c1ef:5A4BC9E1FE334B0F86FB0EE6C9AE7131
+[I 16:06:08.326 NotebookApp] Kernel restarted: bcb38477-4877-4677-9594-0dd39f01c1ef
+[I 16:06:10.135 NotebookApp] Adapting to protocol v5.1 for kernel bcb38477-4877-4677-9594-0dd39f01c1ef
+[I 16:06:10.136 NotebookApp] Restoring connection for bcb38477-4877-4677-9594-0dd39f01c1ef:5A4BC9E1FE334B0F86FB0EE6C9AE7131
+[I 16:06:10.136 NotebookApp] Replaying 6 buffered messages
+[I 16:07:07.982 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:13:07.989 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:15:07.987 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:17:07.993 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:19:07.986 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:21:07.994 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:23:07.997 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:31:08.006 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:33:08.245 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:35:08.013 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:37:08.014 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:39:08.010 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:41:08.013 NotebookApp] Saving file at /revenue/Untitled.ipynb
+[I 16:43:08.004 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 16:45:08.003 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 16:47:08.205 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 16:50:10.501 NotebookApp] Starting buffering for 46086817-b63a-4bc5-8f9d-87c8e861410f:1B134147884D4EAC823786B6FD2EA071
+[W 18:48:34.123 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180904185411 (::1) 2.76ms referer=http://localhost:8888/notebooks/mlnfl/nfl/ipynb/spread%20to%20probability.ipynb
+[I 18:48:34.390 NotebookApp] Kernel started: 19bf5282-0a73-438d-b67b-b334aa62a983
+[I 18:48:35.819 NotebookApp] Adapting to protocol v5.1 for kernel 19bf5282-0a73-438d-b67b-b334aa62a983
+[I 18:50:31.171 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 18:52:29.490 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 19:10:29.990 NotebookApp] Saving file at /mlnfl/nfl/ipynb/spread to probability.ipynb
+[I 20:36:43.652 NotebookApp] Starting buffering for 19bf5282-0a73-438d-b67b-b334aa62a983:8F0FE39DA0DD4B109C1B9D7937238F0D
+[I 22:47:28.027 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 22:49:28.023 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 22:53:28.024 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 22:55:28.023 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 22:57:28.024 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 22:59:28.022 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:01:28.025 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:05:28.035 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:11:28.028 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:13:28.034 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:17:28.024 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:19:28.024 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:21:28.025 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:23:28.020 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:25:28.293 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:29:28.025 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:33:28.017 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 23:35:28.012 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 08:21:43.781 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 08:23:43.780 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 08:25:43.979 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 08:51:38.777 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 08:59:38.779 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 09:01:38.782 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 09:05:39.016 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 09:07:38.966 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 09:09:38.786 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 09:11:38.786 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 10:58:33.348 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:00:28.272 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:02:28.268 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:04:28.461 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:14:28.268 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:16:28.270 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:20:28.270 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:22:28.283 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:24:29.523 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:28:28.285 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:30:28.280 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:34:28.294 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:44:28.300 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:46:28.303 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:48:28.490 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:50:28.298 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:52:28.500 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 11:58:28.521 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 13:11:47.316 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
