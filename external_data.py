@@ -65,7 +65,8 @@ def scrape_spreads():
     df_spreads = df_spreads[~filter_bad]
 
     # get the home favorite
-    df_spreads['home_favorite'] = (df_spreads.favorite.str.contains('^At ')) | (df_spreads.favorite.str.contains('\(At '))
+    df_spreads['home_favorite'] = (df_spreads.favorite.str.contains('^At ')) | (df_spreads.favorite.str.contains('At '))
+
     # fix any spreads that are tied (PK)
     df_spreads.loc[df_spreads.spread.astype(str).str.contains('Off'), 'spread'] = -.1 # need -1 for some reason
     df_spreads.loc[df_spreads.spread.astype(str).str.contains('PK'), 'spread'] = -.1 # need -1 for some reason
@@ -77,13 +78,16 @@ def scrape_spreads():
 
     # get the home team
     df_spreads['home_team'] = df_spreads.favorite
-    home_filter = df_spreads.underdog.str.contains('^At ') | df_spreads.underdog.str.contains('\(A|at ')
+    home_filter = df_spreads.underdog.str.contains('^At ') | df_spreads.underdog.str.contains('At|at ')
     df_spreads.loc[home_filter, 'home_team'] = df_spreads.loc[home_filter, 'underdog']
     df_spreads.home_team = df_spreads.home_team.str.replace('^At ', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(At .*\)', '')
+    df_spreads.home_team = df_spreads.home_team.str.replace('.At .*?$', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(.*\)', '')
     df_spreads['datetime'] = pandas.to_datetime('2018/'+df_spreads.date.str.split(" ", expand=True)[0],
                                                 format='%Y/%m/%d').dt.date
+
+    print(df_spreads)
 
     return df_spreads
 
