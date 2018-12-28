@@ -86,3 +86,4 @@ class ReferenceData(object):
         Returns the ID of the winner on a given season.
         """
         return int(self.seasons_df.loc[int(season), "winner"])
+

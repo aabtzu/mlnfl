@@ -18,6 +18,7 @@ from sklearn import ensemble
 
 from nfl.referencedata import ReferenceData
 from nfl import madden
+from nfl import probability
 
 pd.options.mode.chained_assignment = None
 pd.set_option('expand_frame_repr', False)
@@ -212,6 +213,12 @@ def main(season, week_number, picks_dir):
 
     sortCols = ['absLine','favoredHomeGame', 'divisionGame', 'favoredRecord', 'favorite']
     df_spread = df_all_picks[predictCols].sort_values(sortCols , ascending=False)
+
+    # add probability
+
+    df_lines_performance = probability.load_probability()
+    df_spread = df_spread.merge(df_lines_performance, left_on="Line", right_on='line', how='left')
+
 
     print("\nPicks for week {0:0>2} using Spread\n".format(week_number))
     print(df_spread)
