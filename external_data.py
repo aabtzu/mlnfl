@@ -53,8 +53,8 @@ def scrape_spreads():
     tt = soup.findAll("table", {"width": "580"})
 
     df_spreads = pandas.DataFrame()
-    for i in range(2):  # hard coded table number most of the time
-    #for i in range(1):  # hard coded table number for last week of season
+    #for i in range(2):  # hard coded table number most of the time
+    for i in range(1):  # hard coded table number for last week of season
         dfs = pandas.read_html(str(tt[i]), )
         df_spreads = df_spreads.append(dfs[0])
 
@@ -78,11 +78,13 @@ def scrape_spreads():
 
     # get the home team
     df_spreads['home_team'] = df_spreads.favorite
-    home_filter = df_spreads.underdog.str.contains('^At ') | df_spreads.underdog.str.contains('At|at ')
+    home_filter = df_spreads.underdog.str.contains('^At ') | df_spreads.underdog.str.contains('(At|at) ')
     df_spreads.loc[home_filter, 'home_team'] = df_spreads.loc[home_filter, 'underdog']
+    df_spreads.home_team = df_spreads.home_team.str.replace('BUffalo', 'Buffalo')
+    df_spreads.home_team = df_spreads.home_team.str.replace('Francsico', 'Francisco')
     df_spreads.home_team = df_spreads.home_team.str.replace('^At ', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(At .*\)', '')
-    df_spreads.home_team = df_spreads.home_team.str.replace('.At .*?$', '')
+    #df_spreads.home_team = df_spreads.home_team.str.replace('.At .*?$', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(.*\)', '')
     df_spreads['datetime'] = pandas.to_datetime('2018/'+df_spreads.date.str.split(" ", expand=True)[0],
                                                 format='%Y/%m/%d').dt.date
