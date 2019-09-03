@@ -1,0 +1,5 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+18,Chicago Bears,0.7249655503278549,16.0,Chicago Bears,16.0,6.0
+18,Dallas Cowboys,0.6361645365507032,15.0,Dallas Cowboys,14.0,2.0
+18,Baltimore Ravens,0.5923146121179333,14.0,Baltimore Ravens,15.0,2.5
+18,Houston Texans,0.5840425745049266,13.0,Houston Texans,13.0,1.5

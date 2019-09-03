@@ -1,17 +1,17 @@
 gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
-1,New Orleans Saints,0.7221646022689118,16.0,New Orleans Saints,16.0,9.5
-1,New England Patriots,0.7055005836419544,15.0,New England Patriots,13.0,6.5
-1,Minnesota Vikings,0.696309597029585,14.0,Minnesota Vikings,11.0,6.0
-1,Baltimore Ravens,0.6783922646920052,13.0,Baltimore Ravens,14.0,7.0
-1,Detroit Lions,0.6718827566131971,12.0,Detroit Lions,12.0,6.5
-1,Green Bay Packers,0.6556963388796133,11.0,Green Bay Packers,15.0,7.5
-1,Philadelphia Eagles,0.633318250353394,10.0,Philadelphia Eagles,5.0,2.5
-1,Carolina Panthers,0.615753176957126,9.0,Carolina Panthers,3.0,2.5
-1,Pittsburgh Steelers,0.6044606477961069,8.0,Pittsburgh Steelers,10.0,-5.5
-1,Los Angeles Chargers,0.5884442805264376,7.0,Los Angeles Chargers,8.0,3.0
-1,Los Angeles Rams,0.5812492298564019,6.0,Los Angeles Rams,9.0,-4.5
-1,Indianapolis Colts,0.5609285611562242,5.0,Indianapolis Colts,7.0,3.0
-1,Denver Broncos,0.5596460494148362,4.0,Denver Broncos,4.0,2.5
-1,Jacksonville Jaguars,0.5446251135188223,3.0,Jacksonville Jaguars,6.0,-3.0
-1,Arizona Cardinals,0.5430364242263284,2.0,Arizona Cardinals,1.0,0.1
-1,Tennessee Titans,0.5137486125024214,1.0,Tennessee Titans,2.0,-2.0
+1,Seattle Seahawks,0.7449186865261963,16.0,Seattle Seahawks,15.0,9.5
+1,Philadelphia Eagles,0.7425221632881839,15.0,Philadelphia Eagles,16.0,9.5
+1,Dallas Cowboys,0.6915286467586784,14.0,Dallas Cowboys,14.0,7.0
+1,New Orleans Saints,0.6746561496243785,13.0,New Orleans Saints,13.0,7.0
+1,Los Angeles Chargers,0.666550686043666,12.0,Los Angeles Chargers,12.0,6.5
+1,New England Patriots,0.6583455495658835,11.0,New England Patriots,10.0,6.0
+1,Cleveland Browns,0.6513988660378082,10.0,Cleveland Browns,9.0,5.5
+1,Minnesota Vikings,0.6179414348717763,9.0,Minnesota Vikings,8.0,4.0
+1,New York Jets,0.5988330881917837,8.0,New York Jets,6.0,3.0
+1,Baltimore Ravens,0.5970102366663746,7.0,Baltimore Ravens,11.0,-6.5
+1,Chicago Bears,0.5877346804805523,6.0,Chicago Bears,5.0,3.0
+1,Tampa Bay Buccaneers,0.552191666830908,5.0,Tampa Bay Buccaneers,2.0,1.0
+1,Kansas City Chiefs,0.5338058500799581,4.0,Kansas City Chiefs,7.0,-4.0
+1,Oakland Raiders,0.5222213040584441,3.0,Oakland Raiders,1.0,0.1
+1,Detroit Lions,0.5078251748390082,2.0,Detroit Lions,3.0,-2.5
+1,Carolina Panthers,0.499907767988581,1.0,Los Angeles Rams,4.0,-3.0

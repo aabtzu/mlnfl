@@ -1241,3 +1241,28 @@ Exception on teardown.
 [I 11:52:28.500 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
 [I 11:58:28.521 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
 [I 13:11:47.316 NotebookApp] Saving file at /revenue/dfp click thru rate segmentation.ipynb
+[I 15:05:23.486 NotebookApp] Serving notebooks from local directory: /Users/amitbhattacharyya/repos/data-science/notebooks
+[I 15:05:23.486 NotebookApp] The Jupyter Notebook is running at:
+[I 15:05:23.487 NotebookApp] http://localhost:8888/?token=59f0e95ac8a5d50c74cc2fbc85fcf92f387bed85c6b42607
+[I 15:05:23.487 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:05:23.491 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/amitbhattacharyya/Library/Jupyter/runtime/nbserver-8338-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=59f0e95ac8a5d50c74cc2fbc85fcf92f387bed85c6b42607
+[I 15:05:44.387 NotebookApp] 302 POST /login?next=%2F (::1) 2.78ms
+[I 15:05:44.390 NotebookApp] 302 GET / (::1) 0.47ms
+[I 15:06:02.800 NotebookApp] Kernel started: 983c2853-ad83-44c4-ad40-b602deecc228
+[I 15:06:03.572 NotebookApp] Adapting to protocol v5.1 for kernel 983c2853-ad83-44c4-ad40-b602deecc228
+[I 15:08:02.762 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:10:02.758 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:12:02.760 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:14:02.764 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:16:05.467 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:22:04.811 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:24:02.795 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:26:03.598 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:28:02.784 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 15:30:02.784 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
+[I 16:22:27.246 NotebookApp] Starting buffering for 983c2853-ad83-44c4-ad40-b602deecc228:1430ee0a75d34b90814cb8f41d767dbd

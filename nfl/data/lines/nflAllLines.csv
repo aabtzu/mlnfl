@@ -9693,19 +9693,275 @@ Date,Visitor,Visitor Score,Home Team,Home Score,Line,Total Line,season,week
 2018-12-23,Pittsburgh Steelers,28.0,New Orleans Saints,31.0,6.0,,2018,16.0
 2018-12-23,Kansas City Chiefs,31.0,Seattle Seahawks,38.0,-2.5,,2018,16.0
 2018-12-24,Denver Broncos,14.0,Oakland Raiders,27.0,-3.0,,2018,16.0
-2018-12-30,Miami Dolphins,,Buffalo Bills,,4.0,,2018,17.0
-2018-12-30,Detroit Lions,,Green Bay Packers,,8.0,,2018,17.0
-2018-12-30,Jacksonville Jaguars,,Houston Texans,,6.5,,2018,17.0
-2018-12-30,Oakland Raiders,,Kansas City Chiefs,,13.5,,2018,17.0
-2018-12-30,Chicago Bears,,Minnesota Vikings,,4.5,,2018,17.0
-2018-12-30,Carolina Panthers,,New Orleans Saints,,7.5,,2018,17.0
-2018-12-30,New York Jets,,New England Patriots,,13.5,,2018,17.0
-2018-12-30,Dallas Cowboys,,New York Giants,,6.0,,2018,17.0
-2018-12-30,Indianapolis Colts,,Tennessee Titans,,-3.0,,2018,17.0
-2018-12-30,Cincinnati Bengals,,Pittsburgh Steelers,,14.5,,2018,17.0
-2018-12-30,Cleveland Browns,,Baltimore Ravens,,5.5,,2018,17.0
-2018-12-30,Atlanta Falcons,,Tampa Bay Buccaneers,,-1.0,,2018,17.0
-2018-12-30,Philadelphia Eagles,,Washington Redskins,,-6.5,,2018,17.0
-2018-12-30,Los Angeles Chargers,,Denver Broncos,,-6.5,,2018,17.0
-2018-12-30,San Francisco 49ers,,Los Angeles Rams,,10.0,,2018,17.0
-2018-12-30,Arizona Cardinals,,Seattle Seahawks,,13.5,,2018,17.0
+2018-12-30,Miami Dolphins,17.0,Buffalo Bills,42.0,4.0,,2018,17.0
+2018-12-30,Detroit Lions,31.0,Green Bay Packers,0.0,8.0,,2018,17.0
+2018-12-30,Jacksonville Jaguars,3.0,Houston Texans,20.0,6.5,,2018,17.0
+2018-12-30,Oakland Raiders,3.0,Kansas City Chiefs,35.0,13.5,,2018,17.0
+2018-12-30,Chicago Bears,24.0,Minnesota Vikings,10.0,4.5,,2018,17.0
+2018-12-30,Carolina Panthers,33.0,New Orleans Saints,14.0,7.5,,2018,17.0
+2018-12-30,New York Jets,3.0,New England Patriots,38.0,13.5,,2018,17.0
+2018-12-30,Dallas Cowboys,36.0,New York Giants,35.0,6.0,,2018,17.0
+2018-12-30,Indianapolis Colts,33.0,Tennessee Titans,17.0,-3.0,,2018,17.0
+2018-12-30,Cincinnati Bengals,13.0,Pittsburgh Steelers,16.0,14.5,,2018,17.0
+2018-12-30,Cleveland Browns,24.0,Baltimore Ravens,26.0,5.5,,2018,17.0
+2018-12-30,Atlanta Falcons,34.0,Tampa Bay Buccaneers,32.0,-1.0,,2018,17.0
+2018-12-30,Philadelphia Eagles,24.0,Washington Redskins,0.0,-6.5,,2018,17.0
+2018-12-30,Los Angeles Chargers,23.0,Denver Broncos,9.0,-6.5,,2018,17.0
+2018-12-30,San Francisco 49ers,32.0,Los Angeles Rams,48.0,10.0,,2018,17.0
+2018-12-30,Arizona Cardinals,24.0,Seattle Seahawks,27.0,13.5,,2018,17.0
+2019-09-05,Green Bay Packers,,Chicago Bears,,3.0,,2019,1.0
+2019-09-08,Los Angeles Rams,,Carolina Panthers,,-3.0,,2019,1.0
+2019-09-08,Tennessee Titans,,Cleveland Browns,,5.5,,2019,1.0
+2019-09-08,Kansas City Chiefs,,Jacksonville Jaguars,,-4.0,,2019,1.0
+2019-09-08,Baltimore Ravens,,Miami Dolphins,,-6.5,,2019,1.0
+2019-09-08,Atlanta Falcons,,Minnesota Vikings,,4.0,,2019,1.0
+2019-09-08,Buffalo Bills,,New York Jets,,3.0,,2019,1.0
+2019-09-08,Washington Redskins,,Philadelphia Eagles,,9.5,,2019,1.0
+2019-09-08,Indianapolis Colts,,Los Angeles Chargers,,6.5,,2019,1.0
+2019-09-08,Cincinnati Bengals,,Seattle Seahawks,,9.5,,2019,1.0
+2019-09-08,Detroit Lions,,Arizona Cardinals,,-2.5,,2019,1.0
+2019-09-08,New York Giants,,Dallas Cowboys,,7.0,,2019,1.0
+2019-09-08,San Francisco 49ers,,Tampa Bay Buccaneers,,1.0,,2019,1.0
+2019-09-08,Pittsburgh Steelers,,New England Patriots,,6.0,,2019,1.0
+2019-09-09,Houston Texans,,New Orleans Saints,,7.0,,2019,1.0
+2019-09-09,Denver Broncos,,Oakland Raiders,,0.1,,2019,1.0
+2019-09-12,Tampa Bay Buccaneers,,Carolina Panthers,,,,2019,2.0
+2019-09-15,Arizona Cardinals,,Baltimore Ravens,,,,2019,2.0
+2019-09-15,San Francisco 49ers,,Cincinnati Bengals,,,,2019,2.0
+2019-09-15,Los Angeles Chargers,,Detroit Lions,,,,2019,2.0
+2019-09-15,Minnesota Vikings,,Green Bay Packers,,,,2019,2.0
+2019-09-15,Jacksonville Jaguars,,Houston Texans,,,,2019,2.0
+2019-09-15,New England Patriots,,Miami Dolphins,,,,2019,2.0
+2019-09-15,Buffalo Bills,,New York Giants,,,,2019,2.0
+2019-09-15,Seattle Seahawks,,Pittsburgh Steelers,,,,2019,2.0
+2019-09-15,Indianapolis Colts,,Tennessee Titans,,,,2019,2.0
+2019-09-15,Dallas Cowboys,,Washington Redskins,,,,2019,2.0
+2019-09-15,Kansas City Chiefs,,Oakland Raiders,,,,2019,2.0
+2019-09-15,Chicago Bears,,Denver Broncos,,,,2019,2.0
+2019-09-15,New Orleans Saints,,Los Angeles Rams,,,,2019,2.0
+2019-09-15,Philadelphia Eagles,,Atlanta Falcons,,,,2019,2.0
+2019-09-16,Cleveland Browns,,New York Jets,,,,2019,2.0
+2019-09-19,Tennessee Titans,,Jacksonville Jaguars,,,,2019,3.0
+2019-09-22,Cincinnati Bengals,,Buffalo Bills,,,,2019,3.0
+2019-09-22,Miami Dolphins,,Dallas Cowboys,,,,2019,3.0
+2019-09-22,Denver Broncos,,Green Bay Packers,,,,2019,3.0
+2019-09-22,Atlanta Falcons,,Indianapolis Colts,,,,2019,3.0
+2019-09-22,Baltimore Ravens,,Kansas City Chiefs,,,,2019,3.0
+2019-09-22,Oakland Raiders,,Minnesota Vikings,,,,2019,3.0
+2019-09-22,New York Jets,,New England Patriots,,,,2019,3.0
+2019-09-22,Detroit Lions,,Philadelphia Eagles,,,,2019,3.0
+2019-09-22,Carolina Panthers,,Arizona Cardinals,,,,2019,3.0
+2019-09-22,New York Giants,,Tampa Bay Buccaneers,,,,2019,3.0
+2019-09-22,Houston Texans,,Los Angeles Chargers,,,,2019,3.0
+2019-09-22,New Orleans Saints,,Seattle Seahawks,,,,2019,3.0
+2019-09-22,Pittsburgh Steelers,,San Francisco 49ers,,,,2019,3.0
+2019-09-22,Los Angeles Rams,,Cleveland Browns,,,,2019,3.0
+2019-09-23,Chicago Bears,,Washington Redskins,,,,2019,3.0
+2019-09-26,Philadelphia Eagles,,Green Bay Packers,,,,2019,4.0
+2019-09-29,Tennessee Titans,,Atlanta Falcons,,,,2019,4.0
+2019-09-29,Cleveland Browns,,Baltimore Ravens,,,,2019,4.0
+2019-09-29,New England Patriots,,Buffalo Bills,,,,2019,4.0
+2019-09-29,Kansas City Chiefs,,Detroit Lions,,,,2019,4.0
+2019-09-29,Carolina Panthers,,Houston Texans,,,,2019,4.0
+2019-09-29,Oakland Raiders,,Indianapolis Colts,,,,2019,4.0
+2019-09-29,Los Angeles Chargers,,Miami Dolphins,,,,2019,4.0
+2019-09-29,Washington Redskins,,New York Giants,,,,2019,4.0
+2019-09-29,Seattle Seahawks,,Arizona Cardinals,,,,2019,4.0
+2019-09-29,Tampa Bay Buccaneers,,Los Angeles Rams,,,,2019,4.0
+2019-09-29,Minnesota Vikings,,Chicago Bears,,,,2019,4.0
+2019-09-29,Jacksonville Jaguars,,Denver Broncos,,,,2019,4.0
+2019-09-29,Dallas Cowboys,,New Orleans Saints,,,,2019,4.0
+2019-09-30,Cincinnati Bengals,,Pittsburgh Steelers,,,,2019,4.0
+2019-10-03,Los Angeles Rams,,Seattle Seahawks,,,,2019,5.0
+2019-10-06,Jacksonville Jaguars,,Carolina Panthers,,,,2019,5.0
+2019-10-06,Arizona Cardinals,,Cincinnati Bengals,,,,2019,5.0
+2019-10-06,Atlanta Falcons,,Houston Texans,,,,2019,5.0
+2019-10-06,Tampa Bay Buccaneers,,New Orleans Saints,,,,2019,5.0
+2019-10-06,Minnesota Vikings,,New York Giants,,,,2019,5.0
+2019-10-06,Chicago Bears,,Oakland Raiders,,,,2019,5.0
+2019-10-06,New York Jets,,Philadelphia Eagles,,,,2019,5.0
+2019-10-06,Baltimore Ravens,,Pittsburgh Steelers,,,,2019,5.0
+2019-10-06,Buffalo Bills,,Tennessee Titans,,,,2019,5.0
+2019-10-06,New England Patriots,,Washington Redskins,,,,2019,5.0
+2019-10-06,Denver Broncos,,Los Angeles Chargers,,,,2019,5.0
+2019-10-06,Green Bay Packers,,Dallas Cowboys,,,,2019,5.0
+2019-10-06,Indianapolis Colts,,Kansas City Chiefs,,,,2019,5.0
+2019-10-07,Cleveland Browns,,San Francisco 49ers,,,,2019,5.0
+2019-10-10,New York Giants,,New England Patriots,,,,2019,6.0
+2019-10-13,Carolina Panthers,,Tampa Bay Buccaneers,,,,2019,6.0
+2019-10-13,Cincinnati Bengals,,Baltimore Ravens,,,,2019,6.0
+2019-10-13,Seattle Seahawks,,Cleveland Browns,,,,2019,6.0
+2019-10-13,New Orleans Saints,,Jacksonville Jaguars,,,,2019,6.0
+2019-10-13,Houston Texans,,Kansas City Chiefs,,,,2019,6.0
+2019-10-13,Washington Redskins,,Miami Dolphins,,,,2019,6.0
+2019-10-13,Philadelphia Eagles,,Minnesota Vikings,,,,2019,6.0
+2019-10-13,Atlanta Falcons,,Arizona Cardinals,,,,2019,6.0
+2019-10-13,San Francisco 49ers,,Los Angeles Rams,,,,2019,6.0
+2019-10-13,Tennessee Titans,,Denver Broncos,,,,2019,6.0
+2019-10-13,Dallas Cowboys,,New York Jets,,,,2019,6.0
+2019-10-13,Pittsburgh Steelers,,Los Angeles Chargers,,,,2019,6.0
+2019-10-14,Detroit Lions,,Green Bay Packers,,,,2019,6.0
+2019-10-17,Kansas City Chiefs,,Denver Broncos,,,,2019,7.0
+2019-10-20,Los Angeles Rams,,Atlanta Falcons,,,,2019,7.0
+2019-10-20,Miami Dolphins,,Buffalo Bills,,,,2019,7.0
+2019-10-20,Jacksonville Jaguars,,Cincinnati Bengals,,,,2019,7.0
+2019-10-20,Minnesota Vikings,,Detroit Lions,,,,2019,7.0
+2019-10-20,Oakland Raiders,,Green Bay Packers,,,,2019,7.0
+2019-10-20,Houston Texans,,Indianapolis Colts,,,,2019,7.0
+2019-10-20,Arizona Cardinals,,New York Giants,,,,2019,7.0
+2019-10-20,San Francisco 49ers,,Washington Redskins,,,,2019,7.0
+2019-10-20,Los Angeles Chargers,,Tennessee Titans,,,,2019,7.0
+2019-10-20,New Orleans Saints,,Chicago Bears,,,,2019,7.0
+2019-10-20,Baltimore Ravens,,Seattle Seahawks,,,,2019,7.0
+2019-10-20,Philadelphia Eagles,,Dallas Cowboys,,,,2019,7.0
+2019-10-21,New England Patriots,,New York Jets,,,,2019,7.0
+2019-10-24,Washington Redskins,,Minnesota Vikings,,,,2019,8.0
+2019-10-27,Seattle Seahawks,,Atlanta Falcons,,,,2019,8.0
+2019-10-27,Philadelphia Eagles,,Buffalo Bills,,,,2019,8.0
+2019-10-27,Los Angeles Chargers,,Chicago Bears,,,,2019,8.0
+2019-10-27,New York Giants,,Detroit Lions,,,,2019,8.0
+2019-10-27,Oakland Raiders,,Houston Texans,,,,2019,8.0
+2019-10-27,New York Jets,,Jacksonville Jaguars,,,,2019,8.0
+2019-10-27,Cincinnati Bengals,,Los Angeles Rams,,,,2019,8.0
+2019-10-27,Arizona Cardinals,,New Orleans Saints,,,,2019,8.0
+2019-10-27,Tampa Bay Buccaneers,,Tennessee Titans,,,,2019,8.0
+2019-10-27,Carolina Panthers,,San Francisco 49ers,,,,2019,8.0
+2019-10-27,Denver Broncos,,Indianapolis Colts,,,,2019,8.0
+2019-10-27,Cleveland Browns,,New England Patriots,,,,2019,8.0
+2019-10-27,Green Bay Packers,,Kansas City Chiefs,,,,2019,8.0
+2019-10-28,Miami Dolphins,,Pittsburgh Steelers,,,,2019,8.0
+2019-10-31,San Francisco 49ers,,Arizona Cardinals,,,,2019,9.0
+2019-11-03,Houston Texans,,Jacksonville Jaguars,,,,2019,9.0
+2019-11-03,Washington Redskins,,Buffalo Bills,,,,2019,9.0
+2019-11-03,Tennessee Titans,,Carolina Panthers,,,,2019,9.0
+2019-11-03,Minnesota Vikings,,Kansas City Chiefs,,,,2019,9.0
+2019-11-03,New York Jets,,Miami Dolphins,,,,2019,9.0
+2019-11-03,Chicago Bears,,Philadelphia Eagles,,,,2019,9.0
+2019-11-03,Indianapolis Colts,,Pittsburgh Steelers,,,,2019,9.0
+2019-11-03,Detroit Lions,,Oakland Raiders,,,,2019,9.0
+2019-11-03,Tampa Bay Buccaneers,,Seattle Seahawks,,,,2019,9.0
+2019-11-03,Cleveland Browns,,Denver Broncos,,,,2019,9.0
+2019-11-03,Green Bay Packers,,Los Angeles Chargers,,,,2019,9.0
+2019-11-03,New England Patriots,,Baltimore Ravens,,,,2019,9.0
+2019-11-04,Dallas Cowboys,,New York Giants,,,,2019,9.0
+2019-11-07,Los Angeles Chargers,,Oakland Raiders,,,,2019,10.0
+2019-11-10,Detroit Lions,,Chicago Bears,,,,2019,10.0
+2019-11-10,Baltimore Ravens,,Cincinnati Bengals,,,,2019,10.0
+2019-11-10,Buffalo Bills,,Cleveland Browns,,,,2019,10.0
+2019-11-10,Carolina Panthers,,Green Bay Packers,,,,2019,10.0
+2019-11-10,Atlanta Falcons,,New Orleans Saints,,,,2019,10.0
+2019-11-10,New York Giants,,New York Jets,,,,2019,10.0
+2019-11-10,Arizona Cardinals,,Tampa Bay Buccaneers,,,,2019,10.0
+2019-11-10,Kansas City Chiefs,,Tennessee Titans,,,,2019,10.0
+2019-11-10,Miami Dolphins,,Indianapolis Colts,,,,2019,10.0
+2019-11-10,Los Angeles Rams,,Pittsburgh Steelers,,,,2019,10.0
+2019-11-10,Minnesota Vikings,,Dallas Cowboys,,,,2019,10.0
+2019-11-11,Seattle Seahawks,,San Francisco 49ers,,,,2019,10.0
+2019-11-14,Pittsburgh Steelers,,Cleveland Browns,,,,2019,11.0
+2019-11-17,Houston Texans,,Baltimore Ravens,,,,2019,11.0
+2019-11-17,Atlanta Falcons,,Carolina Panthers,,,,2019,11.0
+2019-11-17,Dallas Cowboys,,Detroit Lions,,,,2019,11.0
+2019-11-17,Jacksonville Jaguars,,Indianapolis Colts,,,,2019,11.0
+2019-11-17,Buffalo Bills,,Miami Dolphins,,,,2019,11.0
+2019-11-17,Denver Broncos,,Minnesota Vikings,,,,2019,11.0
+2019-11-17,New Orleans Saints,,Tampa Bay Buccaneers,,,,2019,11.0
+2019-11-17,New York Jets,,Washington Redskins,,,,2019,11.0
+2019-11-17,Arizona Cardinals,,San Francisco 49ers,,,,2019,11.0
+2019-11-17,Cincinnati Bengals,,Oakland Raiders,,,,2019,11.0
+2019-11-17,New England Patriots,,Philadelphia Eagles,,,,2019,11.0
+2019-11-17,Chicago Bears,,Los Angeles Rams,,,,2019,11.0
+2019-11-18,Kansas City Chiefs,,Los Angeles Chargers,,,,2019,11.0
+2019-11-21,Indianapolis Colts,,Houston Texans,,,,2019,12.0
+2019-11-24,Tampa Bay Buccaneers,,Atlanta Falcons,,,,2019,12.0
+2019-11-24,Denver Broncos,,Buffalo Bills,,,,2019,12.0
+2019-11-24,New York Giants,,Chicago Bears,,,,2019,12.0
+2019-11-24,Pittsburgh Steelers,,Cincinnati Bengals,,,,2019,12.0
+2019-11-24,Miami Dolphins,,Cleveland Browns,,,,2019,12.0
+2019-11-24,Carolina Panthers,,New Orleans Saints,,,,2019,12.0
+2019-11-24,Oakland Raiders,,New York Jets,,,,2019,12.0
+2019-11-24,Detroit Lions,,Washington Redskins,,,,2019,12.0
+2019-11-24,Jacksonville Jaguars,,Tennessee Titans,,,,2019,12.0
+2019-11-24,Dallas Cowboys,,New England Patriots,,,,2019,12.0
+2019-11-24,Green Bay Packers,,San Francisco 49ers,,,,2019,12.0
+2019-11-24,Seattle Seahawks,,Philadelphia Eagles,,,,2019,12.0
+2019-11-25,Baltimore Ravens,,Los Angeles Rams,,,,2019,12.0
+2019-11-28,Chicago Bears,,Detroit Lions,,,,2019,13.0
+2019-11-28,Buffalo Bills,,Dallas Cowboys,,,,2019,13.0
+2019-11-28,New Orleans Saints,,Atlanta Falcons,,,,2019,13.0
+2019-12-01,San Francisco 49ers,,Baltimore Ravens,,,,2019,13.0
+2019-12-01,Washington Redskins,,Carolina Panthers,,,,2019,13.0
+2019-12-01,New York Jets,,Cincinnati Bengals,,,,2019,13.0
+2019-12-01,Tennessee Titans,,Indianapolis Colts,,,,2019,13.0
+2019-12-01,Tampa Bay Buccaneers,,Jacksonville Jaguars,,,,2019,13.0
+2019-12-01,Oakland Raiders,,Kansas City Chiefs,,,,2019,13.0
+2019-12-01,Philadelphia Eagles,,Miami Dolphins,,,,2019,13.0
+2019-12-01,Green Bay Packers,,New York Giants,,,,2019,13.0
+2019-12-01,Los Angeles Rams,,Arizona Cardinals,,,,2019,13.0
+2019-12-01,Los Angeles Chargers,,Denver Broncos,,,,2019,13.0
+2019-12-01,Cleveland Browns,,Pittsburgh Steelers,,,,2019,13.0
+2019-12-01,New England Patriots,,Houston Texans,,,,2019,13.0
+2019-12-02,Minnesota Vikings,,Seattle Seahawks,,,,2019,13.0
+2019-12-05,Dallas Cowboys,,Chicago Bears,,,,2019,14.0
+2019-12-08,Carolina Panthers,,Atlanta Falcons,,,,2019,14.0
+2019-12-08,Baltimore Ravens,,Buffalo Bills,,,,2019,14.0
+2019-12-08,Cincinnati Bengals,,Cleveland Browns,,,,2019,14.0
+2019-12-08,Washington Redskins,,Green Bay Packers,,,,2019,14.0
+2019-12-08,Denver Broncos,,Houston Texans,,,,2019,14.0
+2019-12-08,Detroit Lions,,Minnesota Vikings,,,,2019,14.0
+2019-12-08,San Francisco 49ers,,New Orleans Saints,,,,2019,14.0
+2019-12-08,Miami Dolphins,,New York Jets,,,,2019,14.0
+2019-12-08,Indianapolis Colts,,Tampa Bay Buccaneers,,,,2019,14.0
+2019-12-08,Los Angeles Chargers,,Jacksonville Jaguars,,,,2019,14.0
+2019-12-08,Pittsburgh Steelers,,Arizona Cardinals,,,,2019,14.0
+2019-12-08,Kansas City Chiefs,,New England Patriots,,,,2019,14.0
+2019-12-08,Tennessee Titans,,Oakland Raiders,,,,2019,14.0
+2019-12-08,Seattle Seahawks,,Los Angeles Rams,,,,2019,14.0
+2019-12-09,New York Giants,,Philadelphia Eagles,,,,2019,14.0
+2019-12-12,New York Jets,,Baltimore Ravens,,,,2019,15.0
+2019-12-15,Seattle Seahawks,,Carolina Panthers,,,,2019,15.0
+2019-12-15,New England Patriots,,Cincinnati Bengals,,,,2019,15.0
+2019-12-15,Tampa Bay Buccaneers,,Detroit Lions,,,,2019,15.0
+2019-12-15,Chicago Bears,,Green Bay Packers,,,,2019,15.0
+2019-12-15,Denver Broncos,,Kansas City Chiefs,,,,2019,15.0
+2019-12-15,Miami Dolphins,,New York Giants,,,,2019,15.0
+2019-12-15,Buffalo Bills,,Pittsburgh Steelers,,,,2019,15.0
+2019-12-15,Houston Texans,,Tennessee Titans,,,,2019,15.0
+2019-12-15,Philadelphia Eagles,,Washington Redskins,,,,2019,15.0
+2019-12-15,Cleveland Browns,,Arizona Cardinals,,,,2019,15.0
+2019-12-15,Jacksonville Jaguars,,Oakland Raiders,,,,2019,15.0
+2019-12-15,Los Angeles Rams,,Dallas Cowboys,,,,2019,15.0
+2019-12-15,Atlanta Falcons,,San Francisco 49ers,,,,2019,15.0
+2019-12-15,Minnesota Vikings,,Los Angeles Chargers,,,,2019,15.0
+2019-12-16,Indianapolis Colts,,New Orleans Saints,,,,2019,15.0
+2019-12-22,Detroit Lions,,Denver Broncos,,,,2019,16.0
+2019-12-22,Oakland Raiders,,Los Angeles Chargers,,,,2019,16.0
+2019-12-22,Buffalo Bills,,New England Patriots,,,,2019,16.0
+2019-12-22,Los Angeles Rams,,San Francisco 49ers,,,,2019,16.0
+2019-12-22,Houston Texans,,Tampa Bay Buccaneers,,,,2019,16.0
+2019-12-22,Jacksonville Jaguars,,Atlanta Falcons,,,,2019,16.0
+2019-12-22,Baltimore Ravens,,Cleveland Browns,,,,2019,16.0
+2019-12-22,Carolina Panthers,,Indianapolis Colts,,,,2019,16.0
+2019-12-22,Cincinnati Bengals,,Miami Dolphins,,,,2019,16.0
+2019-12-22,Pittsburgh Steelers,,New York Jets,,,,2019,16.0
+2019-12-22,New Orleans Saints,,Tennessee Titans,,,,2019,16.0
+2019-12-22,New York Giants,,Washington Redskins,,,,2019,16.0
+2019-12-22,Dallas Cowboys,,Philadelphia Eagles,,,,2019,16.0
+2019-12-22,Arizona Cardinals,,Seattle Seahawks,,,,2019,16.0
+2019-12-22,Kansas City Chiefs,,Chicago Bears,,,,2019,16.0
+2019-12-23,Green Bay Packers,,Minnesota Vikings,,,,2019,16.0
+2019-12-29,Pittsburgh Steelers,,Baltimore Ravens,,,,2019,17.0
+2019-12-29,New York Jets,,Buffalo Bills,,,,2019,17.0
+2019-12-29,New Orleans Saints,,Carolina Panthers,,,,2019,17.0
+2019-12-29,Cleveland Browns,,Cincinnati Bengals,,,,2019,17.0
+2019-12-29,Washington Redskins,,Dallas Cowboys,,,,2019,17.0
+2019-12-29,Green Bay Packers,,Detroit Lions,,,,2019,17.0
+2019-12-29,Tennessee Titans,,Houston Texans,,,,2019,17.0
+2019-12-29,Indianapolis Colts,,Jacksonville Jaguars,,,,2019,17.0
+2019-12-29,Los Angeles Chargers,,Kansas City Chiefs,,,,2019,17.0
+2019-12-29,Chicago Bears,,Minnesota Vikings,,,,2019,17.0
+2019-12-29,Miami Dolphins,,New England Patriots,,,,2019,17.0
+2019-12-29,Philadelphia Eagles,,New York Giants,,,,2019,17.0
+2019-12-29,Atlanta Falcons,,Tampa Bay Buccaneers,,,,2019,17.0
+2019-12-29,Oakland Raiders,,Denver Broncos,,,,2019,17.0
+2019-12-29,Arizona Cardinals,,Los Angeles Rams,,,,2019,17.0
+2019-12-29,San Francisco 49ers,,Seattle Seahawks,,,,2019,17.0

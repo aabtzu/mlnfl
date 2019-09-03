@@ -308,7 +308,7 @@ def processGames(all_games_df, dfAllTeams, reference_data):
     return all_games_df
 
 
-def getTrainData(all_games_df, featuresList, yClassifier='favoredWin', maxTrainWeek=17):
+def getTrainData(all_games_df, featuresList, yClassifier='favoredWin', maxTrainWeek=20):
     """
     :Synopsis: extract features and classifiers for sklearn routines
 
