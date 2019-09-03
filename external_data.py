@@ -8,7 +8,7 @@ import os
 import datetime
 import argparse
 
-CURRENT_SEASON = 2018
+CURRENT_SEASON = 2019
 SPREADS_URL = 'http://www.footballlocks.com/nfl_point_spreads.shtml'
 SCORES_URL = 'http://www.pro-football-reference.com/years/%d/games.htm' % CURRENT_SEASON
 
@@ -53,8 +53,8 @@ def scrape_spreads():
     tt = soup.findAll("table", {"width": "580"})
 
     df_spreads = pandas.DataFrame()
-    #for i in range(2):  # hard coded table number most of the time
-    for i in range(1):  # hard coded table number for last week of season
+    for i in range(2):  # hard coded table number most of the time
+    #for i in range(1):  # hard coded table number for last week of season
         dfs = pandas.read_html(str(tt[i]), )
         df_spreads = df_spreads.append(dfs[0])
 
@@ -86,12 +86,12 @@ def scrape_spreads():
     df_spreads.home_team = df_spreads.home_team.str.replace('\(At .*\)', '')
     #df_spreads.home_team = df_spreads.home_team.str.replace('.At .*?$', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(.*\)', '')
-    df_spreads['datetime'] = pandas.to_datetime('2018/'+df_spreads.date.str.split(" ", expand=True)[0],
+    df_spreads['datetime'] = pandas.to_datetime('2019/'+df_spreads.date.str.split(" ", expand=True)[0],
                                                 format='%Y/%m/%d').dt.date
 
-    print(df_spreads)
+    print(df_spreads.dropna())
 
-    return df_spreads
+    return df_spreads.dropna()
 
 
 def merge_spreads(df_spreads, df_lines):
@@ -230,7 +230,10 @@ if __name__ == "__main__":
     # read lines file and get current week
     df_lines = read_lines()
     season = CURRENT_SEASON
-    current_week = get_current_week(df_lines, season)
+    try:
+        current_week = get_current_week(df_lines, season)
+    except:
+        current_week = 0 # need to specify a week for playoffs
 
     # define input args
     parser = argparse.ArgumentParser()
