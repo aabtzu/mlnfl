@@ -1266,3 +1266,1150 @@ Exception on teardown.
 [I 15:28:02.784 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
 [I 15:30:02.784 NotebookApp] Saving file at /mlnfl/scrapes_games_2019.ipynb
 [I 16:22:27.246 NotebookApp] Starting buffering for 983c2853-ad83-44c4-ad40-b602deecc228:1430ee0a75d34b90814cb8f41d767dbd
+[I 14:23:41.203 NotebookApp] 302 GET / (::1) 3.15ms
+[I 14:23:51.263 NotebookApp] Kernel started: 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 14:23:52.459 NotebookApp] Adapting to protocol v5.1 for kernel 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 14:25:51.278 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 15:50:24.559 NotebookApp] Starting buffering for 7163bb04-0b34-423b-adb6-9f0a03f00549:b81aa53f812347c897f7cfaff3bc904d
+[I 15:50:26.302 NotebookApp] Adapting to protocol v5.1 for kernel 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 15:50:26.303 NotebookApp] Restoring connection for 7163bb04-0b34-423b-adb6-9f0a03f00549:b81aa53f812347c897f7cfaff3bc904d
+[I 16:11:10.280 NotebookApp] Starting buffering for 7163bb04-0b34-423b-adb6-9f0a03f00549:b81aa53f812347c897f7cfaff3bc904d
+[I 16:13:35.017 NotebookApp] 302 GET / (::1) 2.16ms
+[I 16:13:41.464 NotebookApp] Kernel shutdown: 983c2853-ad83-44c4-ad40-b602deecc228
+[I 16:13:44.093 NotebookApp] Adapting to protocol v5.1 for kernel 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 16:17:44.058 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 16:18:33.354 NotebookApp] Kernel interrupted: 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 16:18:33.523 NotebookApp] Kernel interrupted: 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 16:18:33.686 NotebookApp] Kernel interrupted: 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 16:18:33.873 NotebookApp] Kernel interrupted: 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 16:19:44.283 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 16:21:44.057 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 16:23:44.828 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 16:25:44.294 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 16:35:30.356 NotebookApp] Copying w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb to /w207/amit-coursework/LiveSessions/week02
+[I 16:35:33.455 NotebookApp] Kernel started: b9f1fccc-4306-4029-85ed-e98d237a42d2
+[I 16:35:34.522 NotebookApp] Adapting to protocol v5.1 for kernel b9f1fccc-4306-4029-85ed-e98d237a42d2
+[I 16:35:44.306 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 16:37:33.474 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit-Copy1.ipynb
+[I 16:37:44.307 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 16:38:37.093 NotebookApp] Kernel started: 44ecfd39-b465-4910-af6a-4c4e5163c5c7
+[I 16:38:37.890 NotebookApp] Adapting to protocol v5.1 for kernel 44ecfd39-b465-4910-af6a-4c4e5163c5c7
+[I 16:39:33.475 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit-Copy1.ipynb
+[I 16:41:34.720 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit-Copy1.ipynb
+[I 16:47:33.477 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit-Copy1.ipynb
+[I 16:49:27.500 NotebookApp] Starting buffering for b9f1fccc-4306-4029-85ed-e98d237a42d2:e28528cb868c4a0c94736e70c9ace078
+[I 16:49:27.502 NotebookApp] Starting buffering for 7163bb04-0b34-423b-adb6-9f0a03f00549:40da5731a79e40af8b6f03bbc71e30a3
+[I 16:49:27.505 NotebookApp] Starting buffering for 44ecfd39-b465-4910-af6a-4c4e5163c5c7:402d92b212d6479c8d7c89115eda14ac
+[I 16:49:29.699 NotebookApp] Adapting to protocol v5.1 for kernel b9f1fccc-4306-4029-85ed-e98d237a42d2
+[I 16:49:29.700 NotebookApp] Restoring connection for b9f1fccc-4306-4029-85ed-e98d237a42d2:e28528cb868c4a0c94736e70c9ace078
+[I 16:49:29.715 NotebookApp] Adapting to protocol v5.1 for kernel 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 16:49:29.722 NotebookApp] Restoring connection for 7163bb04-0b34-423b-adb6-9f0a03f00549:40da5731a79e40af8b6f03bbc71e30a3
+[I 16:49:29.734 NotebookApp] Adapting to protocol v5.1 for kernel 44ecfd39-b465-4910-af6a-4c4e5163c5c7
+[I 16:49:29.735 NotebookApp] Restoring connection for 44ecfd39-b465-4910-af6a-4c4e5163c5c7:402d92b212d6479c8d7c89115eda14ac
+[I 16:49:34.765 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit-Copy1.ipynb
+[I 16:56:56.121 NotebookApp] Starting buffering for b9f1fccc-4306-4029-85ed-e98d237a42d2:e28528cb868c4a0c94736e70c9ace078
+[I 16:56:56.122 NotebookApp] Starting buffering for 44ecfd39-b465-4910-af6a-4c4e5163c5c7:402d92b212d6479c8d7c89115eda14ac
+[I 16:56:56.123 NotebookApp] Starting buffering for 7163bb04-0b34-423b-adb6-9f0a03f00549:40da5731a79e40af8b6f03bbc71e30a3
+[I 16:56:58.225 NotebookApp] Adapting to protocol v5.1 for kernel b9f1fccc-4306-4029-85ed-e98d237a42d2
+[I 16:56:58.226 NotebookApp] Restoring connection for b9f1fccc-4306-4029-85ed-e98d237a42d2:e28528cb868c4a0c94736e70c9ace078
+[I 16:56:58.239 NotebookApp] Adapting to protocol v5.1 for kernel 44ecfd39-b465-4910-af6a-4c4e5163c5c7
+[I 16:56:58.240 NotebookApp] Restoring connection for 44ecfd39-b465-4910-af6a-4c4e5163c5c7:402d92b212d6479c8d7c89115eda14ac
+[I 16:56:58.253 NotebookApp] Adapting to protocol v5.1 for kernel 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 16:56:58.254 NotebookApp] Restoring connection for 7163bb04-0b34-423b-adb6-9f0a03f00549:40da5731a79e40af8b6f03bbc71e30a3
+[I 17:22:23.948 NotebookApp] Kernel started: 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 17:22:25.660 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 17:24:23.974 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 17:26:23.958 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 17:42:05.407 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:4d3de727ef18421b88f2e9a1c0ca7f99
+[I 17:42:06.429 NotebookApp] Starting buffering for 44ecfd39-b465-4910-af6a-4c4e5163c5c7:402d92b212d6479c8d7c89115eda14ac
+[I 17:43:00.848 NotebookApp] Starting buffering for 7163bb04-0b34-423b-adb6-9f0a03f00549:40da5731a79e40af8b6f03bbc71e30a3
+[I 17:43:01.602 NotebookApp] Kernel restarted: 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 17:43:03.190 NotebookApp] Adapting to protocol v5.1 for kernel 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 17:43:03.192 NotebookApp] Restoring connection for 7163bb04-0b34-423b-adb6-9f0a03f00549:40da5731a79e40af8b6f03bbc71e30a3
+[I 17:43:03.193 NotebookApp] Replaying 10 buffered messages
+[I 17:44:25.554 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 17:48:25.553 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 17:50:25.549 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 17:52:25.568 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 17:54:25.556 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 17:56:25.558 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 17:58:25.564 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 18:00:25.576 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 18:08:25.585 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week02/knn-amit.ipynb
+[I 18:34:19.182 NotebookApp] Starting buffering for 7163bb04-0b34-423b-adb6-9f0a03f00549:40da5731a79e40af8b6f03bbc71e30a3
+[I 18:34:19.446 NotebookApp] Starting buffering for b9f1fccc-4306-4029-85ed-e98d237a42d2:e28528cb868c4a0c94736e70c9ace078
+[I 20:44:00.415 NotebookApp] 302 GET / (::1) 0.97ms
+[I 20:44:08.944 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 20:44:24.027 NotebookApp] Kernel started: 2ae490de-4c6f-4460-90b1-08c8fb889e7c
+[I 20:44:25.297 NotebookApp] Adapting to protocol v5.1 for kernel 2ae490de-4c6f-4460-90b1-08c8fb889e7c
+[I 20:46:08.845 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 20:50:08.839 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 20:52:08.838 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 20:55:43.267 NotebookApp] Starting buffering for 2ae490de-4c6f-4460-90b1-08c8fb889e7c:fe80d971a1b54ba08773f51a55d5cf92
+[I 21:31:47.138 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:1fe2d9e494934b58a9dbbe8510bbf620
+[I 21:31:49.086 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 21:31:49.087 NotebookApp] Restoring connection for 12779474-3fdb-4aed-81a6-34d3c61f735f:1fe2d9e494934b58a9dbbe8510bbf620
+[I 21:37:36.724 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:1fe2d9e494934b58a9dbbe8510bbf620
+[I 21:37:37.954 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 21:37:37.955 NotebookApp] Restoring connection for 12779474-3fdb-4aed-81a6-34d3c61f735f:1fe2d9e494934b58a9dbbe8510bbf620
+[I 22:21:42.736 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 22:23:42.733 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 22:31:50.285 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:1fe2d9e494934b58a9dbbe8510bbf620
+[I 22:55:58.228 NotebookApp] 302 GET / (::1) 2.22ms
+[I 22:56:03.541 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 22:58:03.469 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 23:00:03.678 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 00:16:26.992 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:1fb9e9e3fe714e6794d324a91839e504
+[I 11:16:30.061 NotebookApp] 302 GET / (::1) 1.25ms
+[I 11:16:44.124 NotebookApp] Creating new notebook in /test
+[I 11:16:45.046 NotebookApp] Kernel started: c0914c4c-36ab-4c4c-a722-8b4c8758804a
+[I 11:16:47.026 NotebookApp] Adapting to protocol v5.1 for kernel c0914c4c-36ab-4c4c-a722-8b4c8758804a
+[I 11:18:45.577 NotebookApp] Saving file at /test/Untitled1.ipynb
+[I 11:20:45.022 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:22:45.548 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:24:45.807 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:26:45.035 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:28:45.035 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:30:45.033 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:32:45.835 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:36:45.052 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:38:45.047 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 11:40:46.621 NotebookApp] Saving file at /test/parse-fit-activity.ipynb
+[I 12:25:36.662 NotebookApp] Starting buffering for c0914c4c-36ab-4c4c-a722-8b4c8758804a:cda3c3581d6b4f75808a995ab4a4128f
+[I 12:25:38.689 NotebookApp] Adapting to protocol v5.1 for kernel c0914c4c-36ab-4c4c-a722-8b4c8758804a
+[I 12:25:38.691 NotebookApp] Restoring connection for c0914c4c-36ab-4c4c-a722-8b4c8758804a:cda3c3581d6b4f75808a995ab4a4128f
+[I 12:54:12.767 NotebookApp] Starting buffering for c0914c4c-36ab-4c4c-a722-8b4c8758804a:cda3c3581d6b4f75808a995ab4a4128f
+[I 14:05:39.323 NotebookApp] Creating new notebook in /revenue
+[I 14:05:40.112 NotebookApp] Kernel started: ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 14:05:41.243 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 14:07:40.083 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:09:40.089 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:11:40.092 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:13:40.148 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:17:40.102 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:19:40.169 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:21:40.170 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:23:40.181 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:25:40.178 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:27:40.247 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 14:40:27.164 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 14:40:28.545 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 14:40:28.546 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 14:55:57.862 NotebookApp] Kernel shutdown: 7163bb04-0b34-423b-adb6-9f0a03f00549
+[I 14:55:59.585 NotebookApp] Kernel shutdown: b9f1fccc-4306-4029-85ed-e98d237a42d2
+[I 14:56:00.431 NotebookApp] Kernel shutdown: 44ecfd39-b465-4910-af6a-4c4e5163c5c7
+[I 14:56:02.009 NotebookApp] Kernel shutdown: 2ae490de-4c6f-4460-90b1-08c8fb889e7c
+[I 14:56:06.688 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 15:01:49.458 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 15:03:49.447 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 15:03:50.481 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 15:05:49.455 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 15:20:26.794 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 15:20:26.795 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 15:20:28.865 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 15:20:28.866 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 15:20:28.884 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 15:20:28.885 NotebookApp] Restoring connection for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 17:17:48.169 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 17:17:48.174 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 17:17:50.143 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 17:17:50.144 NotebookApp] Restoring connection for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 17:17:50.159 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 17:17:50.163 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 17:47:09.540 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 17:53:09.606 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:11:09.581 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:13:19.666 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:15:09.589 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:17:09.644 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:19:09.594 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:21:09.597 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:21:36.198 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 18:21:36.199 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 18:21:37.930 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 18:21:37.936 NotebookApp] Restoring connection for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 18:21:37.955 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 18:21:37.966 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 18:48:18.218 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:50:18.221 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:52:18.227 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:54:18.228 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 18:56:18.237 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 19:44:16.550 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 19:44:16.553 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 19:44:18.690 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 19:44:18.691 NotebookApp] Restoring connection for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 19:44:18.705 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 19:44:18.705 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 20:31:27.162 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 20:33:27.166 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 20:35:27.171 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 20:37:27.163 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 20:39:27.232 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 21:01:46.170 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:d9fd122d19734e509cf2a064d5860b7c
+[I 21:12:59.537 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 21:24:43.536 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:a188472788f041fc98532b0a8ec9b09b
+[I 21:39:23.979 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 21:39:25.200 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 21:39:25.201 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 09:31:40.841 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 11:17:57.782 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:e9de341ea705487b9e00cadf1768200e
+[I 11:25:55.951 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 11:25:57.764 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 11:25:57.765 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 15:00:19.964 NotebookApp] Creating new notebook in /revenue
+[I 15:00:20.802 NotebookApp] Kernel started: 439e58ed-6241-4080-9d7c-875ed8189637
+[I 15:00:22.323 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 15:02:20.754 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 15:04:20.774 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 15:17:15.308 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:a6134b0b2bd34e6ca77fdae743ae4223
+[I 15:17:27.721 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 15:19:27.663 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 15:21:27.661 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 15:23:28.015 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 15:39:40.336 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 15:39:40.376 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 15:39:42.446 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 15:39:42.446 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 15:39:42.462 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 15:39:42.465 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 19:36:40.991 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 19:36:40.992 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 19:36:42.369 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 19:36:42.370 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 19:36:42.395 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 19:36:42.398 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 21:12:14.683 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 21:12:14.721 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 21:12:16.733 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 21:12:16.735 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 21:12:16.749 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 21:12:16.750 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 21:41:45.713 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 21:41:45.718 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 21:41:47.749 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 21:41:47.750 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 21:41:47.763 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 21:41:47.764 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 08:46:09.632 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 08:46:09.637 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 08:46:11.873 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 08:46:11.875 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 08:46:11.888 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 08:46:11.889 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 09:11:34.513 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 09:11:34.515 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 09:11:36.260 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 09:11:36.261 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 09:11:36.274 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 09:11:36.275 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 12:28:28.436 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 12:28:28.447 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 12:28:29.824 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 12:28:29.825 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 12:28:29.847 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 12:28:29.848 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 12:30:13.874 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 12:30:13.874 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 12:30:15.126 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 12:30:15.127 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 12:30:15.145 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 12:30:15.146 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 15:24:06.154 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 15:24:06.198 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 15:24:08.161 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 15:24:08.162 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 15:24:08.178 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 15:24:08.178 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 16:42:03.320 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 16:42:03.333 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 16:42:05.530 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 16:42:05.531 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 16:42:05.544 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 16:42:05.545 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 19:13:39.390 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 19:13:39.393 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 19:13:41.191 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 19:13:41.192 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 19:13:41.211 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 19:13:41.212 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 19:22:27.529 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 19:22:27.529 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 19:22:30.216 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 19:22:30.217 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 19:22:30.234 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 19:22:30.235 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 21:47:09.510 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:5752743e420946e0898782b8ced0cd79
+[I 21:47:10.054 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:d841dc520b684977853f83f64e98805c
+[I 17:04:33.381 NotebookApp] 302 GET / (::1) 11.62ms
+[I 17:04:38.449 NotebookApp] Adapting to protocol v5.1 for kernel 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 17:06:34.507 NotebookApp] Starting buffering for 12779474-3fdb-4aed-81a6-34d3c61f735f:1b69e5b6c8154a7d856e01165731af9d
+[I 20:04:40.100 NotebookApp] 302 GET / (::1) 1.54ms
+[I 20:04:51.600 NotebookApp] Creating new notebook in /test
+[I 20:04:52.456 NotebookApp] Kernel started: b4f6c97a-798b-474f-b694-a36ce7d787cd
+[I 20:04:53.999 NotebookApp] Adapting to protocol v5.1 for kernel b4f6c97a-798b-474f-b694-a36ce7d787cd
+[I 20:06:52.437 NotebookApp] Saving file at /test/parse-tcx-activity.ipynb
+[I 20:07:05.124 NotebookApp] Adapting to protocol v5.1 for kernel c0914c4c-36ab-4c4c-a722-8b4c8758804a
+[I 20:08:52.443 NotebookApp] Saving file at /test/parse-tcx-activity.ipynb
+[I 20:10:52.432 NotebookApp] Saving file at /test/parse-tcx-activity.ipynb
+[I 20:12:58.953 NotebookApp] Saving file at /test/parse-tcx-activity.ipynb
+[I 20:24:53.023 NotebookApp] Saving file at /test/parse-tcx-activity.ipynb
+[I 20:26:52.466 NotebookApp] Saving file at /test/parse-tcx-activity.ipynb
+[I 20:31:01.178 NotebookApp] Starting buffering for c0914c4c-36ab-4c4c-a722-8b4c8758804a:ca1675a490064c1f8f04985b1bf01087
+[I 20:31:01.178 NotebookApp] Starting buffering for b4f6c97a-798b-474f-b694-a36ce7d787cd:96bcd3f5f658405f9b8e2c042b18e6b3
+[I 20:31:03.334 NotebookApp] Adapting to protocol v5.1 for kernel c0914c4c-36ab-4c4c-a722-8b4c8758804a
+[I 20:31:03.335 NotebookApp] Restoring connection for c0914c4c-36ab-4c4c-a722-8b4c8758804a:ca1675a490064c1f8f04985b1bf01087
+[I 20:31:03.348 NotebookApp] Adapting to protocol v5.1 for kernel b4f6c97a-798b-474f-b694-a36ce7d787cd
+[I 20:31:03.349 NotebookApp] Restoring connection for b4f6c97a-798b-474f-b694-a36ce7d787cd:96bcd3f5f658405f9b8e2c042b18e6b3
+[I 20:37:53.466 NotebookApp] Starting buffering for b4f6c97a-798b-474f-b694-a36ce7d787cd:96bcd3f5f658405f9b8e2c042b18e6b3
+[I 20:37:53.467 NotebookApp] Starting buffering for c0914c4c-36ab-4c4c-a722-8b4c8758804a:ca1675a490064c1f8f04985b1bf01087
+[I 20:37:55.746 NotebookApp] Adapting to protocol v5.1 for kernel b4f6c97a-798b-474f-b694-a36ce7d787cd
+[I 20:37:55.747 NotebookApp] Restoring connection for b4f6c97a-798b-474f-b694-a36ce7d787cd:96bcd3f5f658405f9b8e2c042b18e6b3
+[I 20:37:55.765 NotebookApp] Adapting to protocol v5.1 for kernel c0914c4c-36ab-4c4c-a722-8b4c8758804a
+[I 20:37:55.766 NotebookApp] Restoring connection for c0914c4c-36ab-4c4c-a722-8b4c8758804a:ca1675a490064c1f8f04985b1bf01087
+[I 20:48:56.152 NotebookApp] Starting buffering for b4f6c97a-798b-474f-b694-a36ce7d787cd:96bcd3f5f658405f9b8e2c042b18e6b3
+[I 20:48:56.154 NotebookApp] Starting buffering for c0914c4c-36ab-4c4c-a722-8b4c8758804a:ca1675a490064c1f8f04985b1bf01087
+[I 20:48:58.191 NotebookApp] Adapting to protocol v5.1 for kernel b4f6c97a-798b-474f-b694-a36ce7d787cd
+[I 20:48:58.193 NotebookApp] Restoring connection for b4f6c97a-798b-474f-b694-a36ce7d787cd:96bcd3f5f658405f9b8e2c042b18e6b3
+[I 20:48:58.206 NotebookApp] Adapting to protocol v5.1 for kernel c0914c4c-36ab-4c4c-a722-8b4c8758804a
+[I 20:48:58.207 NotebookApp] Restoring connection for c0914c4c-36ab-4c4c-a722-8b4c8758804a:ca1675a490064c1f8f04985b1bf01087
+[I 21:11:30.468 NotebookApp] Saving file at /test/parse-tcx-activity.ipynb
+[I 21:16:13.434 NotebookApp] Starting buffering for c0914c4c-36ab-4c4c-a722-8b4c8758804a:ca1675a490064c1f8f04985b1bf01087
+[I 21:16:13.865 NotebookApp] Starting buffering for b4f6c97a-798b-474f-b694-a36ce7d787cd:96bcd3f5f658405f9b8e2c042b18e6b3
+[I 08:46:49.303 NotebookApp] 302 GET / (::1) 5.84ms
+[I 08:47:08.815 NotebookApp] Kernel started: d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 08:47:10.470 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 08:49:08.852 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 08:51:08.847 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 10:53:38.504 NotebookApp] 302 GET / (::1) 1.24ms
+[I 10:53:48.119 NotebookApp] Kernel started: f2889935-f076-4421-adef-fbcd1e9c412f
+[I 10:53:49.541 NotebookApp] Adapting to protocol v5.1 for kernel f2889935-f076-4421-adef-fbcd1e9c412f
+[I 10:53:59.530 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 10:53:59.634 NotebookApp] Starting buffering for f2889935-f076-4421-adef-fbcd1e9c412f:01b9319605f7406ebbdf41c3e471bae8
+[I 10:54:02.534 NotebookApp] Kernel started: e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 10:54:03.554 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 10:54:21.697 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 10:54:21.818 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:d0b098d4ed7f462f813c8be6e0a03e49
+[I 11:05:09.081 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:07:10.030 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:09:09.087 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:11:11.776 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:13:09.640 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:15:09.097 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:17:09.113 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:19:09.855 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:21:11.831 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 11:31:09.891 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 12:31:32.716 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 12:31:34.070 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 12:31:34.071 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 12:58:34.435 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 14:42:33.892 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 15:30:30.400 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 15:32:30.714 NotebookApp] Saving file at /revenue/crescendo_targeting_performance.ipynb
+[I 16:53:05.325 NotebookApp] Kernel shutdown: b4f6c97a-798b-474f-b694-a36ce7d787cd
+[I 16:53:07.934 NotebookApp] Kernel shutdown: c0914c4c-36ab-4c4c-a722-8b4c8758804a
+[I 16:53:36.545 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 16:53:41.080 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 16:53:41.502 NotebookApp] Kernel restarted: e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 16:53:42.960 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 16:53:42.961 NotebookApp] Restoring connection for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 16:53:42.961 NotebookApp] Replaying 10 buffered messages
+[I 16:55:37.587 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 16:57:20.631 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 16:57:20.638 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 16:57:20.641 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 16:57:22.261 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 16:57:22.261 NotebookApp] Restoring connection for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 16:57:22.276 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 16:57:22.276 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 16:57:22.289 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 16:57:22.289 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 17:16:58.757 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 17:16:59.398 NotebookApp] Kernel restarted: e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 17:17:00.523 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 17:17:00.524 NotebookApp] Restoring connection for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 17:17:00.525 NotebookApp] Replaying 10 buffered messages
+[I 17:18:16.867 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:22:16.294 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:24:16.334 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:26:16.308 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:30:16.320 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:32:16.306 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:34:16.313 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:36:16.316 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:38:29.073 NotebookApp] Adapting to protocol v5.1 for kernel f2889935-f076-4421-adef-fbcd1e9c412f
+[I 17:40:29.010 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:42:29.014 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:44:29.004 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:46:29.006 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:48:29.005 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:50:29.920 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 18:31:58.617 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 18:31:58.620 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 18:31:58.621 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 18:31:58.621 NotebookApp] Starting buffering for f2889935-f076-4421-adef-fbcd1e9c412f:60983d4ac5e14de79942683e4e352663
+[I 18:32:00.124 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 18:32:00.125 NotebookApp] Restoring connection for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 18:32:00.140 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 18:32:00.141 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 18:32:00.159 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 18:32:00.160 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 18:32:00.181 NotebookApp] Adapting to protocol v5.1 for kernel f2889935-f076-4421-adef-fbcd1e9c412f
+[I 18:32:00.183 NotebookApp] Restoring connection for f2889935-f076-4421-adef-fbcd1e9c412f:60983d4ac5e14de79942683e4e352663
+[I 19:27:54.288 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 19:27:54.289 NotebookApp] Starting buffering for f2889935-f076-4421-adef-fbcd1e9c412f:60983d4ac5e14de79942683e4e352663
+[I 19:27:54.289 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 19:27:54.289 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 19:27:55.858 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 19:27:55.859 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 19:27:55.872 NotebookApp] Adapting to protocol v5.1 for kernel f2889935-f076-4421-adef-fbcd1e9c412f
+[I 19:27:55.873 NotebookApp] Restoring connection for f2889935-f076-4421-adef-fbcd1e9c412f:60983d4ac5e14de79942683e4e352663
+[I 19:27:55.892 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 19:27:55.893 NotebookApp] Restoring connection for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 19:27:55.906 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 19:27:55.907 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 19:32:19.351 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 19:32:19.416 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 19:32:19.417 NotebookApp] Starting buffering for f2889935-f076-4421-adef-fbcd1e9c412f:60983d4ac5e14de79942683e4e352663
+[I 19:32:19.417 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 19:32:20.370 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 19:32:20.372 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 19:32:21.221 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 19:32:21.222 NotebookApp] Restoring connection for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 19:32:21.236 NotebookApp] Adapting to protocol v5.1 for kernel f2889935-f076-4421-adef-fbcd1e9c412f
+[I 19:32:21.236 NotebookApp] Restoring connection for f2889935-f076-4421-adef-fbcd1e9c412f:60983d4ac5e14de79942683e4e352663
+[I 19:32:21.249 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 19:32:21.250 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 20:14:49.825 NotebookApp] Starting buffering for f2889935-f076-4421-adef-fbcd1e9c412f:60983d4ac5e14de79942683e4e352663
+[I 20:14:51.612 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:5dadf932c15745e58fc65212cd6c7765
+[I 20:15:38.369 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 20:15:38.371 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 20:15:40.157 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 20:15:40.158 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 20:15:40.172 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 20:15:40.173 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 20:23:51.830 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 20:23:51.835 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 20:23:53.139 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 20:23:53.142 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 20:23:53.157 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 20:23:53.158 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 20:33:38.344 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 20:33:38.348 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 20:33:39.673 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 20:33:39.674 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 20:33:40.068 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 20:33:40.069 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 20:52:53.462 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 20:52:53.466 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 20:52:55.359 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 20:52:55.360 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 20:52:55.373 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 20:52:55.374 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 21:27:58.232 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 21:27:58.275 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 21:28:00.233 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 21:28:00.234 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 21:28:00.248 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 21:28:00.249 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 09:08:50.041 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 09:08:50.081 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 09:08:51.640 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 09:08:51.641 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 09:08:51.655 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 09:08:51.656 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 09:31:03.156 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 09:35:03.040 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 09:37:03.241 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 09:39:03.041 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 09:57:03.073 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 09:59:06.805 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 12:13:03.326 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 12:15:03.320 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 12:16:11.502 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:fb8a8972a01b4180844435424d6bce1b
+[I 12:16:11.522 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 12:16:11.523 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 12:16:12.545 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 12:16:12.546 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:fb8a8972a01b4180844435424d6bce1b
+[I 12:16:13.525 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 12:16:13.526 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 12:16:13.539 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 12:16:13.540 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 12:35:49.514 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 14:45:47.984 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 14:45:47.990 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 14:45:47.990 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:fb8a8972a01b4180844435424d6bce1b
+[I 14:45:50.124 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 14:45:50.125 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 14:45:50.144 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 14:45:50.145 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 14:45:50.162 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 14:45:50.165 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:fb8a8972a01b4180844435424d6bce1b
+[I 16:50:33.735 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:50:51.297 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:fb8a8972a01b4180844435424d6bce1b
+[I 16:50:51.297 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 16:50:51.298 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 16:50:52.313 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 16:50:52.314 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:fb8a8972a01b4180844435424d6bce1b
+[I 16:50:52.928 NotebookApp] Adapting to protocol v5.1 for kernel ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 16:50:52.929 NotebookApp] Restoring connection for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 16:50:52.943 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 16:50:52.944 NotebookApp] Restoring connection for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 16:54:22.114 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:56:21.912 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:58:22.117 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:59:52.094 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:fb8a8972a01b4180844435424d6bce1b
+[I 16:59:53.159 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:6703d9bf662649718baeddb25b956854
+[I 16:59:53.877 NotebookApp] Starting buffering for ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb:dd2179238b14458d98822983de592786
+[I 16:59:59.087 NotebookApp] Adapting to protocol v5.1 for kernel f2889935-f076-4421-adef-fbcd1e9c412f
+[I 17:00:00.999 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 17:29:26.912 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:4e0d8a5ccd9045848928cd91c5be3d55
+[I 17:29:27.546 NotebookApp] Kernel restarted: e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 17:29:29.320 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 17:29:29.320 NotebookApp] Restoring connection for e9878d16-4562-4370-a61f-8cf71b32c8e8:4e0d8a5ccd9045848928cd91c5be3d55
+[I 17:29:29.321 NotebookApp] Replaying 10 buffered messages
+[I 17:30:01.441 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:36:01.012 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:38:01.010 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:40:01.017 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:42:01.018 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:44:01.020 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:46:01.025 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:48:01.029 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:50:01.031 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/naive bayes sports detail.ipynb
+[I 17:51:59.106 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:53:59.104 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:55:59.099 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:57:59.101 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 17:59:59.104 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week03/Naive_Bayes.ipynb
+[I 18:14:47.432 NotebookApp] Starting buffering for f2889935-f076-4421-adef-fbcd1e9c412f:2813836d2dd74a588cbc23962eba8fcd
+[I 18:30:31.708 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:4e0d8a5ccd9045848928cd91c5be3d55
+[I 18:30:33.381 NotebookApp] Adapting to protocol v5.1 for kernel e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 18:30:33.382 NotebookApp] Restoring connection for e9878d16-4562-4370-a61f-8cf71b32c8e8:4e0d8a5ccd9045848928cd91c5be3d55
+[I 19:18:46.557 NotebookApp] Starting buffering for e9878d16-4562-4370-a61f-8cf71b32c8e8:4e0d8a5ccd9045848928cd91c5be3d55
+[I 21:48:25.951 NotebookApp] 302 GET / (::1) 1.19ms
+[I 21:48:31.635 NotebookApp] Kernel shutdown: 12779474-3fdb-4aed-81a6-34d3c61f735f
+[I 21:48:33.833 NotebookApp] Kernel shutdown: f2889935-f076-4421-adef-fbcd1e9c412f
+[I 21:48:35.125 NotebookApp] Kernel shutdown: e9878d16-4562-4370-a61f-8cf71b32c8e8
+[I 21:48:38.815 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 22:03:56.871 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 22:03:58.156 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 22:03:58.158 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 23:09:26.363 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 23:15:28.278 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 23:15:29.623 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 23:15:29.624 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 23:24:30.853 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 23:24:32.656 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 23:24:32.656 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 23:27:41.186 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 23:27:43.621 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 23:27:43.622 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 08:43:00.272 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 08:43:01.404 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 08:43:01.405 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 14:17:48.455 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 14:17:49.870 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 14:17:49.873 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 17:50:19.690 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 17:50:22.170 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 17:50:22.171 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 18:20:45.099 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 18:20:46.988 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 18:20:46.989 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 20:59:47.919 NotebookApp] Kernel started: 17d30907-6f2a-4ba7-961a-2b897a09fe1a
+[I 20:59:49.176 NotebookApp] Adapting to protocol v5.1 for kernel 17d30907-6f2a-4ba7-961a-2b897a09fe1a
+[I 21:00:05.977 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/ensemble.ipynb
+[I 21:00:06.095 NotebookApp] Starting buffering for 17d30907-6f2a-4ba7-961a-2b897a09fe1a:ca6a2f5040fb474a89c091a7ff808073
+[I 21:00:09.792 NotebookApp] Kernel started: bf6e3026-144a-4e93-b542-3f9164d3569c
+[I 21:00:10.489 NotebookApp] Adapting to protocol v5.1 for kernel bf6e3026-144a-4e93-b542-3f9164d3569c
+[I 21:02:09.937 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 21:07:27.811 NotebookApp] Kernel started: aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 21:07:29.434 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 21:09:16.178 NotebookApp] Starting buffering for bf6e3026-144a-4e93-b542-3f9164d3569c:e9e56662a9d3468281205ccee1686b2b
+[I 21:09:39.381 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 21:09:39.389 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 21:09:40.418 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 21:09:40.420 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 21:09:40.707 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 21:09:40.707 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 21:13:52.732 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 21:13:52.739 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 21:13:54.635 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 21:13:54.636 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 21:13:54.657 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 21:13:54.659 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 07:32:52.666 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 07:32:52.746 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 07:32:55.173 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 07:32:55.176 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 07:32:55.190 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 07:32:55.191 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 07:32:57.498 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 07:32:57.512 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 07:33:01.074 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 07:33:01.075 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 07:33:01.091 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 07:33:01.091 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 11:35:36.452 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:cbd705a6355c41e58c7be4a2da57382b
+[I 14:19:02.824 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 14:19:04.221 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 14:19:04.223 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 14:31:07.445 NotebookApp] Creating new notebook in /revenue
+[I 14:31:08.300 NotebookApp] Kernel started: 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 14:31:09.326 NotebookApp] Adapting to protocol v5.1 for kernel 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 14:33:08.279 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 14:35:08.269 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 14:37:11.314 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 14:53:10.880 NotebookApp] Starting buffering for 84a68f1a-1faf-4e32-b973-ffd2074493e7:0a978e12a8814053af49bbc5db1ced2d
+[I 14:53:10.881 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 14:53:12.828 NotebookApp] Adapting to protocol v5.1 for kernel 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 14:53:12.829 NotebookApp] Restoring connection for 84a68f1a-1faf-4e32-b973-ffd2074493e7:0a978e12a8814053af49bbc5db1ced2d
+[I 14:53:12.842 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 14:53:12.843 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/jedi/cache.py", line 141, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 272, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/tornado/gen.py", line 735, in run
+    value = future.result()
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/tornado/gen.py", line 209, in wrapper
+    yielded = next(result)
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 348, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 373, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/IPython/core/completer.py", line 485, in rectify_completions
+    completions = list(completions)
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/IPython/core/completer.py", line 1816, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/IPython/core/completer.py", line 1873, in _completions
+    signature = _make_signature(jm)
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/IPython/core/completer.py", line 990, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/jedi/cache.py", line 143, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/jedi/api/classes.py", line 339, in params
+    for signature in context.get_signatures():
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/jedi/evaluate/context/instance.py", line 227, in get_signatures
+    return [sig.bind(self) for sig in init_funcs.get_signatures()]
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/jedi/evaluate/context/instance.py", line 227, in <listcomp>
+    return [sig.bind(self) for sig in init_funcs.get_signatures()]
+  File "/Users/amitbhattacharyya/.virtualenvs/datascience3/lib/python3.6/site-packages/jedi/evaluate/signature.py", line 91, in bind
+    assert not self.is_bound
+AssertionError
+[I 14:58:24.585 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:00:24.579 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:02:24.583 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:02:26.675 NotebookApp] Kernel interrupted: 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 15:02:26.828 NotebookApp] Kernel interrupted: 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 15:02:26.975 NotebookApp] Kernel interrupted: 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 15:02:27.176 NotebookApp] Kernel interrupted: 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 15:04:24.580 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:06:24.588 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:08:24.637 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:10:24.597 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:12:24.595 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:14:24.595 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:16:24.595 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:28:07.517 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:f8b5b88c108e489c996e87dd8e950c8d
+[I 15:32:24.586 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:34:24.581 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:36:24.598 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:40:36.706 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:50:24.582 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 15:52:25.120 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 16:08:25.739 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 16:10:24.579 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 16:12:25.120 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 16:14:24.579 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 16:16:24.583 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 16:18:24.597 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 16:20:28.772 NotebookApp] Saving file at /revenue/impression_slot_delivery.ipynb
+[I 16:22:38.504 NotebookApp] Starting buffering for 84a68f1a-1faf-4e32-b973-ffd2074493e7:0a978e12a8814053af49bbc5db1ced2d
+[I 16:22:40.111 NotebookApp] Adapting to protocol v5.1 for kernel 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 16:22:40.112 NotebookApp] Restoring connection for 84a68f1a-1faf-4e32-b973-ffd2074493e7:0a978e12a8814053af49bbc5db1ced2d
+[I 09:23:24.757 NotebookApp] Starting buffering for 84a68f1a-1faf-4e32-b973-ffd2074493e7:0a978e12a8814053af49bbc5db1ced2d
+[I 09:23:26.514 NotebookApp] Adapting to protocol v5.1 for kernel 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 09:23:26.516 NotebookApp] Restoring connection for 84a68f1a-1faf-4e32-b973-ffd2074493e7:0a978e12a8814053af49bbc5db1ced2d
+[I 11:06:56.487 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 11:40:36.559 NotebookApp] Starting buffering for 84a68f1a-1faf-4e32-b973-ffd2074493e7:0a978e12a8814053af49bbc5db1ced2d
+[I 11:40:37.163 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:7823327618654e91b12cb11c80d897bb
+[I 23:19:43.197 NotebookApp] 302 GET / (::1) 13.20ms
+[I 23:20:00.788 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 23:36:43.727 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:858c7d79cfe647778740e62abcc38659
+[I 20:01:42.752 NotebookApp] 302 GET / (::1) 12.69ms
+[I 20:02:30.845 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 21:07:12.376 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:02f05284ef4641758310f08bba546f12
+[I 21:54:19.585 NotebookApp] 302 GET / (::1) 0.75ms
+[I 22:02:15.298 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 22:05:22.946 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:8dca758aa8fa486abe93bba98ad7e851
+[I 22:05:25.077 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 22:05:25.078 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:8dca758aa8fa486abe93bba98ad7e851
+[I 22:09:46.223 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:8dca758aa8fa486abe93bba98ad7e851
+[I 22:09:47.526 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 22:09:47.527 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:8dca758aa8fa486abe93bba98ad7e851
+[I 22:32:03.166 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:8dca758aa8fa486abe93bba98ad7e851
+[I 11:01:52.861 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 11:02:34.507 NotebookApp] Kernel interrupted: 439e58ed-6241-4080-9d7c-875ed8189637
+[I 11:02:34.649 NotebookApp] Kernel interrupted: 439e58ed-6241-4080-9d7c-875ed8189637
+[I 11:02:34.822 NotebookApp] Kernel interrupted: 439e58ed-6241-4080-9d7c-875ed8189637
+[I 11:02:35.005 NotebookApp] Kernel interrupted: 439e58ed-6241-4080-9d7c-875ed8189637
+[I 11:03:53.103 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 11:07:53.378 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 11:09:55.429 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 11:11:52.808 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 11:13:54.360 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 11:17:53.101 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 11:19:53.093 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 12:15:26.661 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:d40d22b0dc0e439686c33de91a50663c
+[I 12:15:28.679 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 12:15:28.680 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:d40d22b0dc0e439686c33de91a50663c
+[I 13:36:27.981 NotebookApp] 302 GET / (::1) 0.78ms
+[I 13:55:16.010 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:d40d22b0dc0e439686c33de91a50663c
+[I 13:55:17.532 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 13:55:17.533 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:d40d22b0dc0e439686c33de91a50663c
+[I 16:41:49.803 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:41:50.388 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:41:53.060 NotebookApp] 302 GET / (::1) 0.61ms
+[I 16:41:53.199 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:d40d22b0dc0e439686c33de91a50663c
+[I 16:42:05.710 NotebookApp] Kernel started: 09a587f2-dbf0-4d92-8e9d-e8d601af59cc
+[I 16:42:06.856 NotebookApp] Adapting to protocol v5.1 for kernel 09a587f2-dbf0-4d92-8e9d-e8d601af59cc
+[I 16:42:23.998 NotebookApp] Kernel started: 7a6cbebc-9210-4342-86c7-1d0dc2001a45
+[I 16:42:24.722 NotebookApp] Adapting to protocol v5.1 for kernel 7a6cbebc-9210-4342-86c7-1d0dc2001a45
+[I 16:44:08.430 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 16:44:27.564 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:27:47.837 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 17:33:13.586 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:108d728682c3490097ee9ebc0b1ad40a
+[I 17:35:34.299 NotebookApp] Starting buffering for 7a6cbebc-9210-4342-86c7-1d0dc2001a45:0f940ef68d8840d8894e164d5329b674
+[I 17:35:34.728 NotebookApp] Kernel restarted: 7a6cbebc-9210-4342-86c7-1d0dc2001a45
+[I 17:35:36.103 NotebookApp] Adapting to protocol v5.1 for kernel 7a6cbebc-9210-4342-86c7-1d0dc2001a45
+[I 17:35:36.104 NotebookApp] Restoring connection for 7a6cbebc-9210-4342-86c7-1d0dc2001a45:0f940ef68d8840d8894e164d5329b674
+[I 17:35:36.104 NotebookApp] Replaying 10 buffered messages
+[I 17:36:24.016 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:38:24.006 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:40:24.006 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:42:24.007 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:44:24.012 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:48:24.009 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:50:24.008 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:52:24.016 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:58:36.653 NotebookApp] Starting buffering for 09a587f2-dbf0-4d92-8e9d-e8d601af59cc:eb66263ca13d48e9ae9e066d7cfafc1a
+[I 17:58:37.084 NotebookApp] Kernel restarted: 09a587f2-dbf0-4d92-8e9d-e8d601af59cc
+[I 17:58:38.126 NotebookApp] Adapting to protocol v5.1 for kernel 09a587f2-dbf0-4d92-8e9d-e8d601af59cc
+[I 17:58:38.128 NotebookApp] Restoring connection for 09a587f2-dbf0-4d92-8e9d-e8d601af59cc:eb66263ca13d48e9ae9e066d7cfafc1a
+[I 17:58:38.128 NotebookApp] Replaying 10 buffered messages
+[I 18:00:05.712 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 18:02:05.706 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 18:04:05.704 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 18:06:05.705 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 18:32:15.398 NotebookApp] Starting buffering for 09a587f2-dbf0-4d92-8e9d-e8d601af59cc:eb66263ca13d48e9ae9e066d7cfafc1a
+[I 18:32:16.618 NotebookApp] Starting buffering for 7a6cbebc-9210-4342-86c7-1d0dc2001a45:0f940ef68d8840d8894e164d5329b674
+[I 14:29:10.284 NotebookApp] 302 GET / (::1) 79.80ms
+[I 14:29:21.632 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 14:29:50.781 NotebookApp] Kernel shutdown: 17d30907-6f2a-4ba7-961a-2b897a09fe1a
+[I 14:29:51.910 NotebookApp] Kernel shutdown: bf6e3026-144a-4e93-b542-3f9164d3569c
+[I 14:29:56.620 NotebookApp] Kernel shutdown: 7a6cbebc-9210-4342-86c7-1d0dc2001a45
+[I 14:29:57.920 NotebookApp] Kernel shutdown: 09a587f2-dbf0-4d92-8e9d-e8d601af59cc
+[I 14:33:21.547 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 14:35:21.531 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 14:39:21.527 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 14:41:21.526 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 14:43:21.534 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 14:43:53.484 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 14:43:53.688 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:f8ae32a95c574d71a5412755a5e5f281
+[I 17:10:37.480 NotebookApp] 302 GET / (::1) 1.13ms
+[I 17:10:50.836 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 17:26:50.616 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:48bc33337f4d4b9b870c3ad0b6dbd2f2
+[I 17:27:58.880 NotebookApp] Kernel started: fae2aafb-107c-44b4-98dc-213ed4ae2e4c
+[I 17:28:01.321 NotebookApp] Adapting to protocol v5.1 for kernel fae2aafb-107c-44b4-98dc-213ed4ae2e4c
+[I 17:28:32.162 NotebookApp] Starting buffering for fae2aafb-107c-44b4-98dc-213ed4ae2e4c:64824d7a6d2645ef9be4cd144642a6bd
+[I 17:28:32.599 NotebookApp] Kernel restarted: fae2aafb-107c-44b4-98dc-213ed4ae2e4c
+[I 17:28:33.599 NotebookApp] Adapting to protocol v5.1 for kernel fae2aafb-107c-44b4-98dc-213ed4ae2e4c
+[I 17:28:33.600 NotebookApp] Restoring connection for fae2aafb-107c-44b4-98dc-213ed4ae2e4c:64824d7a6d2645ef9be4cd144642a6bd
+[I 17:28:33.600 NotebookApp] Replaying 7 buffered messages
+[I 17:29:58.959 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:31:58.891 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:33:58.890 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:35:58.885 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:37:58.884 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:41:58.885 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:43:58.885 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:47:58.896 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 17:49:58.890 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/entropy.ipynb
+[I 18:00:36.517 NotebookApp] Kernel started: 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0
+[I 18:00:38.215 NotebookApp] Adapting to protocol v5.1 for kernel 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0
+[I 18:00:40.667 NotebookApp] Starting buffering for 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0:581ac5f0e9a144deaba77fa2c25e3294
+[I 18:00:41.009 NotebookApp] Kernel restarted: 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0
+[I 18:00:41.792 NotebookApp] Adapting to protocol v5.1 for kernel 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0
+[I 18:00:41.793 NotebookApp] Restoring connection for 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0:581ac5f0e9a144deaba77fa2c25e3294
+[I 18:00:41.793 NotebookApp] Replaying 10 buffered messages
+[I 18:02:36.550 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 18:04:36.539 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 18:06:36.546 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week04/Decision_Tree.ipynb
+[I 18:29:10.793 NotebookApp] Starting buffering for 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0:581ac5f0e9a144deaba77fa2c25e3294
+[I 18:29:10.793 NotebookApp] Starting buffering for fae2aafb-107c-44b4-98dc-213ed4ae2e4c:64824d7a6d2645ef9be4cd144642a6bd
+[I 18:29:12.445 NotebookApp] Adapting to protocol v5.1 for kernel 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0
+[I 18:29:12.445 NotebookApp] Restoring connection for 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0:581ac5f0e9a144deaba77fa2c25e3294
+[I 18:29:12.459 NotebookApp] Adapting to protocol v5.1 for kernel fae2aafb-107c-44b4-98dc-213ed4ae2e4c
+[I 18:29:12.459 NotebookApp] Restoring connection for fae2aafb-107c-44b4-98dc-213ed4ae2e4c:64824d7a6d2645ef9be4cd144642a6bd
+[I 18:55:28.045 NotebookApp] Starting buffering for fae2aafb-107c-44b4-98dc-213ed4ae2e4c:64824d7a6d2645ef9be4cd144642a6bd
+[I 18:55:29.503 NotebookApp] Starting buffering for 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0:581ac5f0e9a144deaba77fa2c25e3294
+[I 19:48:03.520 NotebookApp] 302 GET / (::1) 5.35ms
+[I 19:48:07.725 NotebookApp] Kernel shutdown: 6ae37fdb-07c1-4c7c-af05-e750ee20e8a0
+[I 19:48:08.721 NotebookApp] Kernel shutdown: fae2aafb-107c-44b4-98dc-213ed4ae2e4c
+[I 19:48:15.754 NotebookApp] Kernel shutdown: 84a68f1a-1faf-4e32-b973-ffd2074493e7
+[I 19:48:22.994 NotebookApp] Kernel shutdown: ac1b7ffa-34d2-4405-be8e-ddf78b5d9ceb
+[I 20:18:21.046 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 20:45:56.938 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:14ee2f800d454dbe87dd848ccd1ed9dd
+[I 09:23:43.366 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 10:10:33.877 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 11:29:56.578 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:bcfa0d97abe74eb780663a29a9089a22
+[I 11:29:56.587 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:99f5039ec3534c4882c81c60125b5013
+[I 11:29:58.631 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 11:29:58.632 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:bcfa0d97abe74eb780663a29a9089a22
+[I 11:29:58.646 NotebookApp] Adapting to protocol v5.1 for kernel 439e58ed-6241-4080-9d7c-875ed8189637
+[I 11:29:58.647 NotebookApp] Restoring connection for 439e58ed-6241-4080-9d7c-875ed8189637:99f5039ec3534c4882c81c60125b5013
+[I 12:13:34.912 NotebookApp] Starting buffering for 439e58ed-6241-4080-9d7c-875ed8189637:99f5039ec3534c4882c81c60125b5013
+[I 12:13:35.672 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:bcfa0d97abe74eb780663a29a9089a22
+[I 20:03:54.130 NotebookApp] 302 GET / (::1) 7.64ms
+[I 20:04:01.121 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 20:08:00.989 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 20:24:01.866 NotebookApp] Saving file at /w207/amit-coursework/Projects/amit_bhattacharyya_p1.ipynb
+[I 21:02:57.433 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:11cdf01d8d824b6c8267cdc05575f150
+[I 21:02:59.356 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 21:02:59.357 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:11cdf01d8d824b6c8267cdc05575f150
+[I 22:06:51.286 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:11cdf01d8d824b6c8267cdc05575f150
+[I 22:06:53.362 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 22:06:53.362 NotebookApp] Restoring connection for aa395252-1175-427d-a84e-bf6abfb21e3c:11cdf01d8d824b6c8267cdc05575f150
+[I 08:08:36.832 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:11cdf01d8d824b6c8267cdc05575f150
+[I 08:35:57.293 NotebookApp] 302 GET / (::1) 1.00ms
+[I 08:36:02.394 NotebookApp] Adapting to protocol v5.1 for kernel aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 10:06:56.060 NotebookApp] Starting buffering for aa395252-1175-427d-a84e-bf6abfb21e3c:bf70406fd3854d9a8b3c3c1391e161b0
+[I 15:15:50.958 NotebookApp] 302 GET / (::1) 5.57ms
+[I 15:23:17.265 NotebookApp] Kernel started: f95c5df4-c390-49cc-a0bd-fedaeed81cca
+[I 15:23:18.574 NotebookApp] Adapting to protocol v5.1 for kernel f95c5df4-c390-49cc-a0bd-fedaeed81cca
+[I 15:23:38.325 NotebookApp] Kernel started: 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 15:23:39.045 NotebookApp] Adapting to protocol v5.1 for kernel 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 16:45:17.288 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/ensemble.ipynb
+[I 17:25:35.936 NotebookApp] Starting buffering for 3a0d540c-459d-417d-b2a2-4c567462a585:4c5461c0995c44e78f6a99ccb4bfb17b
+[I 17:25:36.384 NotebookApp] Kernel restarted: 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 17:25:38.359 NotebookApp] Adapting to protocol v5.1 for kernel 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 17:25:38.361 NotebookApp] Restoring connection for 3a0d540c-459d-417d-b2a2-4c567462a585:4c5461c0995c44e78f6a99ccb4bfb17b
+[I 17:25:38.361 NotebookApp] Replaying 10 buffered messages
+[I 17:27:38.364 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:29:38.409 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:31:38.398 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:33:38.392 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:35:39.770 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:36:49.397 NotebookApp] Starting buffering for f95c5df4-c390-49cc-a0bd-fedaeed81cca:73756cb1b69a4c1782ddedc28da50908
+[I 17:37:42.880 NotebookApp] Adapting to protocol v5.1 for kernel d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 17:39:36.467 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 17:39:36.853 NotebookApp] Starting buffering for d40ad473-7f43-4abe-a1f2-7deb5aad45e9:d980e20362af482681e8850d904fce4c
+[I 17:51:01.803 NotebookApp] Adapting to protocol v5.1 for kernel f95c5df4-c390-49cc-a0bd-fedaeed81cca
+[I 17:55:01.762 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/ensemble.ipynb
+[I 17:57:01.744 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/ensemble.ipynb
+[I 18:27:00.711 NotebookApp] Starting buffering for f95c5df4-c390-49cc-a0bd-fedaeed81cca:553521889c1e41ba869e621782b5e152
+[I 18:27:00.745 NotebookApp] Starting buffering for 3a0d540c-459d-417d-b2a2-4c567462a585:4c5461c0995c44e78f6a99ccb4bfb17b
+[I 18:27:02.961 NotebookApp] Adapting to protocol v5.1 for kernel f95c5df4-c390-49cc-a0bd-fedaeed81cca
+[I 18:27:02.962 NotebookApp] Restoring connection for f95c5df4-c390-49cc-a0bd-fedaeed81cca:553521889c1e41ba869e621782b5e152
+[I 18:27:02.980 NotebookApp] Adapting to protocol v5.1 for kernel 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 18:27:02.981 NotebookApp] Restoring connection for 3a0d540c-459d-417d-b2a2-4c567462a585:4c5461c0995c44e78f6a99ccb4bfb17b
+[I 18:27:09.637 NotebookApp] Starting buffering for f95c5df4-c390-49cc-a0bd-fedaeed81cca:553521889c1e41ba869e621782b5e152
+[I 18:27:09.637 NotebookApp] Starting buffering for 3a0d540c-459d-417d-b2a2-4c567462a585:4c5461c0995c44e78f6a99ccb4bfb17b
+[I 18:27:11.428 NotebookApp] Adapting to protocol v5.1 for kernel f95c5df4-c390-49cc-a0bd-fedaeed81cca
+[I 18:27:11.429 NotebookApp] Restoring connection for f95c5df4-c390-49cc-a0bd-fedaeed81cca:553521889c1e41ba869e621782b5e152
+[I 18:27:11.459 NotebookApp] Adapting to protocol v5.1 for kernel 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 18:27:11.461 NotebookApp] Restoring connection for 3a0d540c-459d-417d-b2a2-4c567462a585:4c5461c0995c44e78f6a99ccb4bfb17b
+[I 20:43:15.017 NotebookApp] Starting buffering for f95c5df4-c390-49cc-a0bd-fedaeed81cca:553521889c1e41ba869e621782b5e152
+[I 20:43:15.646 NotebookApp] Starting buffering for 3a0d540c-459d-417d-b2a2-4c567462a585:4c5461c0995c44e78f6a99ccb4bfb17b
+[I 17:01:43.639 NotebookApp] 302 GET / (::1) 11.88ms
+[I 17:32:53.534 NotebookApp] Adapting to protocol v5.1 for kernel 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 17:33:01.016 NotebookApp] Starting buffering for 3a0d540c-459d-417d-b2a2-4c567462a585:6ea6b641a41f415b91dc46dd25b6f7c7
+[I 17:33:02.279 NotebookApp] Kernel restarted: 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 17:33:04.178 NotebookApp] Adapting to protocol v5.1 for kernel 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 17:33:04.179 NotebookApp] Restoring connection for 3a0d540c-459d-417d-b2a2-4c567462a585:6ea6b641a41f415b91dc46dd25b6f7c7
+[I 17:33:04.180 NotebookApp] Replaying 10 buffered messages
+[I 17:34:53.478 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:38:53.474 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:40:53.491 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:42:53.493 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:44:53.502 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:46:53.503 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 17:48:53.511 NotebookApp] Saving file at /w207/amit-coursework/LiveSessions/week05/regression.ipynb
+[I 18:00:52.480 NotebookApp] Adapting to protocol v5.1 for kernel f95c5df4-c390-49cc-a0bd-fedaeed81cca
+[I 19:47:28.323 NotebookApp] Starting buffering for f95c5df4-c390-49cc-a0bd-fedaeed81cca:62ba6dc8804646f29d91a286296deef0
+[I 19:47:28.700 NotebookApp] Starting buffering for 3a0d540c-459d-417d-b2a2-4c567462a585:6ea6b641a41f415b91dc46dd25b6f7c7
+[I 21:32:55.195 NotebookApp] 302 GET / (::1) 16.17ms
+[I 21:33:13.669 NotebookApp] Creating new directory in /google-news-initiative
+[I 21:33:33.539 NotebookApp] Creating new notebook in /google-news-initiative/test
+[I 21:33:34.789 NotebookApp] Kernel started: 2a17f6cb-02f6-4edd-9687-38b5276390c4
+[I 21:33:35.921 NotebookApp] Adapting to protocol v5.1 for kernel 2a17f6cb-02f6-4edd-9687-38b5276390c4
+[I 21:35:34.864 NotebookApp] Saving file at /google-news-initiative/test/Untitled.ipynb
+[I 21:37:34.751 NotebookApp] Saving file at /google-news-initiative/test/Untitled.ipynb
+[I 21:39:34.856 NotebookApp] Saving file at /google-news-initiative/test/Untitled.ipynb
+[I 21:41:34.743 NotebookApp] Saving file at /google-news-initiative/test/word2vec.ipynb
+[I 21:43:34.751 NotebookApp] Saving file at /google-news-initiative/test/word2vec.ipynb
+[I 21:45:34.752 NotebookApp] Saving file at /google-news-initiative/test/word2vec.ipynb
+[I 21:47:34.865 NotebookApp] Saving file at /google-news-initiative/test/word2vec.ipynb
+[I 21:49:34.753 NotebookApp] Saving file at /google-news-initiative/test/word2vec.ipynb
+[I 21:59:34.755 NotebookApp] Saving file at /google-news-initiative/test/word2vec.ipynb
+[I 22:01:34.755 NotebookApp] Saving file at /google-news-initiative/test/word2vec.ipynb
+[I 22:30:54.118 NotebookApp] Starting buffering for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 22:30:55.903 NotebookApp] Adapting to protocol v5.1 for kernel 2a17f6cb-02f6-4edd-9687-38b5276390c4
+[I 22:30:55.906 NotebookApp] Restoring connection for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 22:31:30.758 NotebookApp] Starting buffering for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 22:31:32.581 NotebookApp] Adapting to protocol v5.1 for kernel 2a17f6cb-02f6-4edd-9687-38b5276390c4
+[I 22:31:32.582 NotebookApp] Restoring connection for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 15:27:52.289 NotebookApp] Starting buffering for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 15:27:54.047 NotebookApp] Adapting to protocol v5.1 for kernel 2a17f6cb-02f6-4edd-9687-38b5276390c4
+[I 15:27:54.049 NotebookApp] Restoring connection for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[W 18:26:10.723 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/rocassius/rowan_cassius_p1.ipynb is not trusted
+[I 18:26:11.641 NotebookApp] Kernel started: 4ad81d65-5187-467a-a61d-98ed1004da1a
+[I 18:26:12.834 NotebookApp] Adapting to protocol v5.1 for kernel 4ad81d65-5187-467a-a61d-98ed1004da1a
+[I 18:28:11.644 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/rocassius/rowan_cassius_p1.ipynb
+[W 18:28:11.645 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/rocassius/rowan_cassius_p1.ipynb is not trusted
+[I 18:41:38.608 NotebookApp] Starting buffering for 4ad81d65-5187-467a-a61d-98ed1004da1a:b16f8182b48c46e49b642b93fc7ece73
+[I 18:41:38.939 NotebookApp] Kernel restarted: 4ad81d65-5187-467a-a61d-98ed1004da1a
+[I 18:41:40.698 NotebookApp] Adapting to protocol v5.1 for kernel 4ad81d65-5187-467a-a61d-98ed1004da1a
+[I 18:41:40.700 NotebookApp] Restoring connection for 4ad81d65-5187-467a-a61d-98ed1004da1a:b16f8182b48c46e49b642b93fc7ece73
+[I 18:41:40.701 NotebookApp] Replaying 10 buffered messages
+[I 18:42:12.156 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/rocassius/rowan_cassius_p1.ipynb
+[I 18:44:11.763 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/rocassius/rowan_cassius_p1.ipynb
+[I 18:45:41.285 NotebookApp] Starting buffering for 4ad81d65-5187-467a-a61d-98ed1004da1a:b16f8182b48c46e49b642b93fc7ece73
+[I 18:45:41.287 NotebookApp] Starting buffering for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 18:45:42.921 NotebookApp] Adapting to protocol v5.1 for kernel 4ad81d65-5187-467a-a61d-98ed1004da1a
+[I 18:45:42.922 NotebookApp] Restoring connection for 4ad81d65-5187-467a-a61d-98ed1004da1a:b16f8182b48c46e49b642b93fc7ece73
+[I 18:45:42.935 NotebookApp] Adapting to protocol v5.1 for kernel 2a17f6cb-02f6-4edd-9687-38b5276390c4
+[I 18:45:42.941 NotebookApp] Restoring connection for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 18:46:15.746 NotebookApp] Starting buffering for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 18:46:15.757 NotebookApp] Starting buffering for 4ad81d65-5187-467a-a61d-98ed1004da1a:b16f8182b48c46e49b642b93fc7ece73
+[I 18:46:17.918 NotebookApp] Adapting to protocol v5.1 for kernel 2a17f6cb-02f6-4edd-9687-38b5276390c4
+[I 18:46:17.919 NotebookApp] Restoring connection for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 18:46:17.932 NotebookApp] Adapting to protocol v5.1 for kernel 4ad81d65-5187-467a-a61d-98ed1004da1a
+[I 18:46:17.932 NotebookApp] Restoring connection for 4ad81d65-5187-467a-a61d-98ed1004da1a:b16f8182b48c46e49b642b93fc7ece73
+[I 19:28:45.940 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/rocassius/rowan_cassius_p1.ipynb
+[I 21:22:15.674 NotebookApp] Starting buffering for 2a17f6cb-02f6-4edd-9687-38b5276390c4:c3ea1cec90d64f98be7f9e8269b06027
+[I 21:22:16.987 NotebookApp] Starting buffering for 4ad81d65-5187-467a-a61d-98ed1004da1a:b16f8182b48c46e49b642b93fc7ece73
+[I 10:37:36.818 NotebookApp] 302 GET / (::1) 21.07ms
+[W 10:39:32.088 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/JBPelzner/Julian_Pelzner_p1.ipynb is not trusted
+[I 10:39:33.094 NotebookApp] Kernel started: a3782ed1-a260-4112-85df-3cec4911128d
+[I 10:39:34.780 NotebookApp] Adapting to protocol v5.1 for kernel a3782ed1-a260-4112-85df-3cec4911128d
+[W 10:39:53.143 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/alexskim0912/Alex_Kim_Project1.ipynb is not trusted
+[I 10:39:54.049 NotebookApp] Kernel started: 7865c6b4-c7d5-4092-81bb-2a78079ad21d
+[I 10:39:54.937 NotebookApp] Adapting to protocol v5.1 for kernel 7865c6b4-c7d5-4092-81bb-2a78079ad21d
+[I 10:39:58.081 NotebookApp] Starting buffering for 7865c6b4-c7d5-4092-81bb-2a78079ad21d:1ab9b66d450949e59e183af080c347b2
+[I 10:39:58.398 NotebookApp] Kernel restarted: 7865c6b4-c7d5-4092-81bb-2a78079ad21d
+[I 10:39:59.021 NotebookApp] Adapting to protocol v5.1 for kernel 7865c6b4-c7d5-4092-81bb-2a78079ad21d
+[I 10:39:59.023 NotebookApp] Restoring connection for 7865c6b4-c7d5-4092-81bb-2a78079ad21d:1ab9b66d450949e59e183af080c347b2
+[I 10:39:59.023 NotebookApp] Replaying 10 buffered messages
+[I 10:40:10.673 NotebookApp] Starting buffering for a3782ed1-a260-4112-85df-3cec4911128d:f433ecb7507d496d878f86b27f724f73
+[I 10:40:10.989 NotebookApp] Kernel restarted: a3782ed1-a260-4112-85df-3cec4911128d
+[I 10:40:11.648 NotebookApp] Adapting to protocol v5.1 for kernel a3782ed1-a260-4112-85df-3cec4911128d
+[I 10:40:11.649 NotebookApp] Restoring connection for a3782ed1-a260-4112-85df-3cec4911128d:f433ecb7507d496d878f86b27f724f73
+[I 10:40:11.649 NotebookApp] Replaying 10 buffered messages
+[I 10:41:33.092 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/JBPelzner/Julian_Pelzner_p1.ipynb
+[I 10:41:54.998 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/alexskim0912/Alex_Kim_Project1.ipynb
+[I 10:43:55.023 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/alexskim0912/Alex_Kim_Project1.ipynb
+[I 10:44:52.342 NotebookApp] Starting buffering for a3782ed1-a260-4112-85df-3cec4911128d:f433ecb7507d496d878f86b27f724f73
+[I 10:44:52.872 NotebookApp] Kernel restarted: a3782ed1-a260-4112-85df-3cec4911128d
+[I 10:44:53.732 NotebookApp] Adapting to protocol v5.1 for kernel a3782ed1-a260-4112-85df-3cec4911128d
+[I 10:44:53.733 NotebookApp] Restoring connection for a3782ed1-a260-4112-85df-3cec4911128d:f433ecb7507d496d878f86b27f724f73
+[I 10:44:53.734 NotebookApp] Replaying 10 buffered messages
+[I 10:44:56.463 NotebookApp] Starting buffering for 7865c6b4-c7d5-4092-81bb-2a78079ad21d:1ab9b66d450949e59e183af080c347b2
+[I 10:44:56.980 NotebookApp] Kernel restarted: 7865c6b4-c7d5-4092-81bb-2a78079ad21d
+[I 10:44:58.059 NotebookApp] Adapting to protocol v5.1 for kernel 7865c6b4-c7d5-4092-81bb-2a78079ad21d
+[I 10:44:58.061 NotebookApp] Restoring connection for 7865c6b4-c7d5-4092-81bb-2a78079ad21d:1ab9b66d450949e59e183af080c347b2
+[I 10:44:58.061 NotebookApp] Replaying 10 buffered messages
+[I 10:45:33.488 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/JBPelzner/Julian_Pelzner_p1.ipynb
+[I 10:45:54.445 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/alexskim0912/Alex_Kim_Project1.ipynb
+[I 10:47:34.769 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/JBPelzner/Julian_Pelzner_p1.ipynb
+[I 10:47:54.618 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/alexskim0912/Alex_Kim_Project1.ipynb
+[I 10:49:58.098 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/alexskim0912/Alex_Kim_Project1.ipynb
+[I 10:50:21.541 NotebookApp] Starting buffering for 7865c6b4-c7d5-4092-81bb-2a78079ad21d:1ab9b66d450949e59e183af080c347b2
+[W 10:53:53.851 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annabellelee2/annabelle_lee_p1.ipynb is not trusted
+[I 10:53:54.960 NotebookApp] Kernel started: 8911fad5-cbd4-4a44-9567-fcda3960d6c0
+[I 10:53:56.950 NotebookApp] Adapting to protocol v5.1 for kernel 8911fad5-cbd4-4a44-9567-fcda3960d6c0
+[I 10:54:12.636 NotebookApp] Starting buffering for 8911fad5-cbd4-4a44-9567-fcda3960d6c0:baf22a8789fa468d8cfd51ce00b2ad2d
+[I 10:54:12.954 NotebookApp] Kernel restarted: 8911fad5-cbd4-4a44-9567-fcda3960d6c0
+[I 10:54:13.694 NotebookApp] Adapting to protocol v5.1 for kernel 8911fad5-cbd4-4a44-9567-fcda3960d6c0
+[I 10:54:13.697 NotebookApp] Restoring connection for 8911fad5-cbd4-4a44-9567-fcda3960d6c0:baf22a8789fa468d8cfd51ce00b2ad2d
+[I 10:54:13.697 NotebookApp] Replaying 9 buffered messages
+[W 10:54:19.861 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annyoo96/Ann_Yoo Abbott_p1.ipynb is not trusted
+[I 10:54:20.865 NotebookApp] Kernel started: 36c5cfbc-89b5-4146-9d47-3c46b1972015
+[I 10:54:22.072 NotebookApp] Adapting to protocol v5.1 for kernel 36c5cfbc-89b5-4146-9d47-3c46b1972015
+[I 10:54:28.739 NotebookApp] Starting buffering for 36c5cfbc-89b5-4146-9d47-3c46b1972015:aff17ce0dd1a4868b39beec7ec6cf84e
+[I 10:54:28.957 NotebookApp] Kernel restarted: 36c5cfbc-89b5-4146-9d47-3c46b1972015
+[I 10:54:29.817 NotebookApp] Adapting to protocol v5.1 for kernel 36c5cfbc-89b5-4146-9d47-3c46b1972015
+[I 10:54:29.818 NotebookApp] Restoring connection for 36c5cfbc-89b5-4146-9d47-3c46b1972015:aff17ce0dd1a4868b39beec7ec6cf84e
+[I 10:54:29.818 NotebookApp] Replaying 10 buffered messages
+[W 10:54:33.321 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/cchio/firstname_lastname_p1.ipynb is not trusted
+[I 10:54:34.079 NotebookApp] Kernel started: 91e10177-774e-47a1-957b-1abd952bbc13
+[I 10:54:35.488 NotebookApp] Adapting to protocol v5.1 for kernel 91e10177-774e-47a1-957b-1abd952bbc13
+[I 10:54:39.515 NotebookApp] Starting buffering for 91e10177-774e-47a1-957b-1abd952bbc13:8e827eb1bb0740edb7905c76c78c92e9
+[W 10:54:47.257 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/chelseashu/chelsea_shu_p1.ipynb is not trusted
+[I 10:54:48.469 NotebookApp] Kernel started: 08bf8b37-38c1-4d8b-80df-657a434fb20e
+[I 10:54:50.310 NotebookApp] Adapting to protocol v5.1 for kernel 08bf8b37-38c1-4d8b-80df-657a434fb20e
+[I 10:54:51.841 NotebookApp] Starting buffering for 08bf8b37-38c1-4d8b-80df-657a434fb20e:23730167b97342068505cd006815e432
+[I 10:54:52.162 NotebookApp] Kernel restarted: 08bf8b37-38c1-4d8b-80df-657a434fb20e
+[I 10:54:53.041 NotebookApp] Adapting to protocol v5.1 for kernel 08bf8b37-38c1-4d8b-80df-657a434fb20e
+[I 10:54:53.043 NotebookApp] Restoring connection for 08bf8b37-38c1-4d8b-80df-657a434fb20e:23730167b97342068505cd006815e432
+[I 10:54:53.043 NotebookApp] Replaying 8 buffered messages
+[I 10:55:55.379 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annabellelee2/annabelle_lee_p1.ipynb
+[I 10:56:21.380 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annyoo96/Ann_Yoo Abbott_p1.ipynb
+[I 10:56:48.510 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/chelseashu/chelsea_shu_p1.ipynb
+[I 10:57:55.371 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annabellelee2/annabelle_lee_p1.ipynb
+[I 10:58:21.375 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annyoo96/Ann_Yoo Abbott_p1.ipynb
+[I 10:58:48.476 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/chelseashu/chelsea_shu_p1.ipynb
+[I 10:59:55.376 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annabellelee2/annabelle_lee_p1.ipynb
+[I 11:00:21.399 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annyoo96/Ann_Yoo Abbott_p1.ipynb
+[I 11:04:21.393 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annyoo96/Ann_Yoo Abbott_p1.ipynb
+[I 11:07:04.060 NotebookApp] Starting buffering for a3782ed1-a260-4112-85df-3cec4911128d:f433ecb7507d496d878f86b27f724f73
+[I 11:10:33.647 NotebookApp] Starting buffering for 8911fad5-cbd4-4a44-9567-fcda3960d6c0:baf22a8789fa468d8cfd51ce00b2ad2d
+[I 11:12:20.889 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/annyoo96/Ann_Yoo Abbott_p1.ipynb
+[I 11:13:24.047 NotebookApp] Starting buffering for 36c5cfbc-89b5-4146-9d47-3c46b1972015:aff17ce0dd1a4868b39beec7ec6cf84e
+[I 11:13:27.728 NotebookApp] Starting buffering for 08bf8b37-38c1-4d8b-80df-657a434fb20e:23730167b97342068505cd006815e432
+[I 11:13:35.980 NotebookApp] Adapting to protocol v5.1 for kernel 08bf8b37-38c1-4d8b-80df-657a434fb20e
+[I 11:15:01.331 NotebookApp] Starting buffering for 08bf8b37-38c1-4d8b-80df-657a434fb20e:8f867e3450864d1b80f5b1a009b53391
+[I 11:15:02.384 NotebookApp] Adapting to protocol v5.1 for kernel 08bf8b37-38c1-4d8b-80df-657a434fb20e
+[I 11:15:02.385 NotebookApp] Restoring connection for 08bf8b37-38c1-4d8b-80df-657a434fb20e:8f867e3450864d1b80f5b1a009b53391
+[I 11:20:00.508 NotebookApp] Starting buffering for 08bf8b37-38c1-4d8b-80df-657a434fb20e:8f867e3450864d1b80f5b1a009b53391
+[W 11:20:06.867 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/emrusson/emma_russon_p1.ipynb is not trusted
+[I 11:20:08.265 NotebookApp] Kernel started: 83552fe4-c13f-4fcb-a2c2-4571bf163278
+[I 11:20:10.117 NotebookApp] Adapting to protocol v5.1 for kernel 83552fe4-c13f-4fcb-a2c2-4571bf163278
+[I 11:20:13.075 NotebookApp] Starting buffering for 83552fe4-c13f-4fcb-a2c2-4571bf163278:afffe544d6db4d349addb9e81a83e58f
+[I 11:20:13.396 NotebookApp] Kernel restarted: 83552fe4-c13f-4fcb-a2c2-4571bf163278
+[I 11:20:14.174 NotebookApp] Adapting to protocol v5.1 for kernel 83552fe4-c13f-4fcb-a2c2-4571bf163278
+[I 11:20:14.175 NotebookApp] Restoring connection for 83552fe4-c13f-4fcb-a2c2-4571bf163278:afffe544d6db4d349addb9e81a83e58f
+[I 11:20:14.175 NotebookApp] Replaying 10 buffered messages
+[W 11:20:19.607 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/georgetao/George_Tao_p1.ipynb is not trusted
+[I 11:20:20.481 NotebookApp] Kernel started: 5d1644ea-0684-4c62-8d5f-d6e48b3b1322
+[I 11:20:21.673 NotebookApp] Adapting to protocol v5.1 for kernel 5d1644ea-0684-4c62-8d5f-d6e48b3b1322
+[I 11:20:23.982 NotebookApp] Starting buffering for 5d1644ea-0684-4c62-8d5f-d6e48b3b1322:b348e435b2db41558864fb49347a62eb
+[I 11:20:24.302 NotebookApp] Kernel restarted: 5d1644ea-0684-4c62-8d5f-d6e48b3b1322
+[I 11:20:25.261 NotebookApp] Adapting to protocol v5.1 for kernel 5d1644ea-0684-4c62-8d5f-d6e48b3b1322
+[I 11:20:25.263 NotebookApp] Restoring connection for 5d1644ea-0684-4c62-8d5f-d6e48b3b1322:b348e435b2db41558864fb49347a62eb
+[I 11:20:25.263 NotebookApp] Replaying 10 buffered messages
+[W 11:20:29.902 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/h-yuc/Joy_Chiang_p1.ipynb is not trusted
+[I 11:20:30.873 NotebookApp] Kernel started: 12b99c25-2d0e-4434-9ffc-ff699c202e57
+[I 11:20:32.168 NotebookApp] Adapting to protocol v5.1 for kernel 12b99c25-2d0e-4434-9ffc-ff699c202e57
+[I 11:20:40.704 NotebookApp] Starting buffering for 12b99c25-2d0e-4434-9ffc-ff699c202e57:2d899763b6ab4520b57e130f539b4ced
+[I 11:20:41.042 NotebookApp] Kernel restarted: 12b99c25-2d0e-4434-9ffc-ff699c202e57
+[I 11:20:42.297 NotebookApp] Adapting to protocol v5.1 for kernel 12b99c25-2d0e-4434-9ffc-ff699c202e57
+[I 11:20:42.299 NotebookApp] Restoring connection for 12b99c25-2d0e-4434-9ffc-ff699c202e57:2d899763b6ab4520b57e130f539b4ced
+[I 11:20:42.299 NotebookApp] Replaying 7 buffered messages
+[I 11:20:50.410 NotebookApp] Kernel shutdown: 439e58ed-6241-4080-9d7c-875ed8189637
+[I 11:20:52.747 NotebookApp] Kernel shutdown: d40ad473-7f43-4abe-a1f2-7deb5aad45e9
+[I 11:20:54.903 NotebookApp] Kernel shutdown: f95c5df4-c390-49cc-a0bd-fedaeed81cca
+[I 11:20:57.221 NotebookApp] Kernel shutdown: 3a0d540c-459d-417d-b2a2-4c567462a585
+[I 11:20:58.938 NotebookApp] Kernel shutdown: 2a17f6cb-02f6-4edd-9687-38b5276390c4
+[I 11:21:00.738 NotebookApp] Kernel shutdown: a3782ed1-a260-4112-85df-3cec4911128d
+[I 11:21:02.689 NotebookApp] Kernel shutdown: 7865c6b4-c7d5-4092-81bb-2a78079ad21d
+[I 11:21:04.255 NotebookApp] Kernel shutdown: 8911fad5-cbd4-4a44-9567-fcda3960d6c0
+[I 11:21:05.769 NotebookApp] Kernel shutdown: 36c5cfbc-89b5-4146-9d47-3c46b1972015
+[I 11:21:06.588 NotebookApp] Kernel shutdown: 91e10177-774e-47a1-957b-1abd952bbc13
+[I 11:21:08.493 NotebookApp] Kernel shutdown: 08bf8b37-38c1-4d8b-80df-657a434fb20e
+[W 11:21:22.300 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/ikchau/isaac_chau_p1.ipynb is not trusted
+[I 11:21:23.745 NotebookApp] Kernel started: 7930a41d-726b-4cd0-a3ba-1e7b1bd18b65
+[I 11:21:25.226 NotebookApp] Adapting to protocol v5.1 for kernel 7930a41d-726b-4cd0-a3ba-1e7b1bd18b65
+[I 11:21:29.567 NotebookApp] Starting buffering for 7930a41d-726b-4cd0-a3ba-1e7b1bd18b65:27c311d4298b4e11a1d318b70f5ce954
+[I 11:21:29.880 NotebookApp] Kernel restarted: 7930a41d-726b-4cd0-a3ba-1e7b1bd18b65
+[I 11:21:30.860 NotebookApp] Adapting to protocol v5.1 for kernel 7930a41d-726b-4cd0-a3ba-1e7b1bd18b65
+[I 11:21:30.862 NotebookApp] Restoring connection for 7930a41d-726b-4cd0-a3ba-1e7b1bd18b65:27c311d4298b4e11a1d318b70f5ce954
+[I 11:21:30.862 NotebookApp] Replaying 10 buffered messages
+[I 11:22:09.058 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/emrusson/emma_russon_p1.ipynb
+[I 11:22:21.169 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/georgetao/George_Tao_p1.ipynb
+[I 11:22:31.501 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/h-yuc/Joy_Chiang_p1.ipynb
+[I 11:23:24.948 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/ikchau/isaac_chau_p1.ipynb
+[I 11:24:09.901 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/emrusson/emma_russon_p1.ipynb
+[I 11:24:21.158 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/georgetao/George_Tao_p1.ipynb
+[I 11:24:31.141 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/h-yuc/Joy_Chiang_p1.ipynb
+[I 11:25:24.097 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/ikchau/isaac_chau_p1.ipynb
+[I 11:26:21.288 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/georgetao/George_Tao_p1.ipynb
+[I 11:26:32.078 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/h-yuc/Joy_Chiang_p1.ipynb
+[I 11:29:23.765 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/ikchau/isaac_chau_p1.ipynb
+[I 11:32:44.199 NotebookApp] Starting buffering for 12b99c25-2d0e-4434-9ffc-ff699c202e57:2d899763b6ab4520b57e130f539b4ced
+[I 11:46:02.138 NotebookApp] Starting buffering for 7930a41d-726b-4cd0-a3ba-1e7b1bd18b65:27c311d4298b4e11a1d318b70f5ce954
+[I 11:47:08.077 NotebookApp] Starting buffering for 5d1644ea-0684-4c62-8d5f-d6e48b3b1322:b348e435b2db41558864fb49347a62eb
+[I 11:48:23.190 NotebookApp] Kernel shutdown: 83552fe4-c13f-4fcb-a2c2-4571bf163278
+[I 11:48:24.872 NotebookApp] Kernel shutdown: 5d1644ea-0684-4c62-8d5f-d6e48b3b1322
+[I 11:48:26.969 NotebookApp] Kernel shutdown: 12b99c25-2d0e-4434-9ffc-ff699c202e57
+[I 11:48:27.932 NotebookApp] Kernel shutdown: 7930a41d-726b-4cd0-a3ba-1e7b1bd18b65
+[W 11:49:11.932 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jenpatterson97/jennifer_patterson_p1.ipynb is not trusted
+[I 11:49:12.914 NotebookApp] Kernel started: fb72037b-9592-4757-8eed-43ba59827cd2
+[I 11:49:14.626 NotebookApp] Adapting to protocol v5.1 for kernel fb72037b-9592-4757-8eed-43ba59827cd2
+[W 11:49:20.941 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jjsahabu/Jeremiah_Sahabu_p1.ipynb is not trusted
+[I 11:49:21.922 NotebookApp] Kernel started: 903323b9-45d7-4ccd-a363-94ae429d79c2
+[I 11:49:22.772 NotebookApp] Adapting to protocol v5.1 for kernel 903323b9-45d7-4ccd-a363-94ae429d79c2
+[W 11:49:29.624 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/kai-nham/kai_nham_p1.ipynb is not trusted
+[I 11:49:30.366 NotebookApp] Kernel started: 8905f0fa-1280-48a8-bec9-9ab464358030
+[I 11:49:31.367 NotebookApp] Adapting to protocol v5.1 for kernel 8905f0fa-1280-48a8-bec9-9ab464358030
+[W 11:49:37.332 NotebookApp] Notebook w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/kylievo/firstname_lastname_p1.ipynb is not trusted
+[I 11:49:38.175 NotebookApp] Kernel started: 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1
+[I 11:49:39.239 NotebookApp] Adapting to protocol v5.1 for kernel 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1
+[I 11:49:45.137 NotebookApp] Starting buffering for 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1:cb72341cfb6642198e68293e9c8ff2b6
+[I 11:49:45.458 NotebookApp] Kernel restarted: 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1
+[I 11:49:46.151 NotebookApp] Adapting to protocol v5.1 for kernel 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1
+[I 11:49:46.153 NotebookApp] Restoring connection for 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1:cb72341cfb6642198e68293e9c8ff2b6
+[I 11:49:46.153 NotebookApp] Replaying 9 buffered messages
+[I 11:49:48.643 NotebookApp] Starting buffering for 8905f0fa-1280-48a8-bec9-9ab464358030:dddf1cb6e9734d4b94ba418b6cc26526
+[I 11:49:48.977 NotebookApp] Kernel restarted: 8905f0fa-1280-48a8-bec9-9ab464358030
+[I 11:49:49.581 NotebookApp] Adapting to protocol v5.1 for kernel 8905f0fa-1280-48a8-bec9-9ab464358030
+[I 11:49:49.582 NotebookApp] Restoring connection for 8905f0fa-1280-48a8-bec9-9ab464358030:dddf1cb6e9734d4b94ba418b6cc26526
+[I 11:49:49.582 NotebookApp] Replaying 7 buffered messages
+[I 11:49:56.017 NotebookApp] Starting buffering for 903323b9-45d7-4ccd-a363-94ae429d79c2:57360077c27a4a6e9efadcff2aa29a72
+[I 11:49:56.334 NotebookApp] Kernel restarted: 903323b9-45d7-4ccd-a363-94ae429d79c2
+[I 11:49:56.975 NotebookApp] Adapting to protocol v5.1 for kernel 903323b9-45d7-4ccd-a363-94ae429d79c2
+[I 11:49:56.976 NotebookApp] Restoring connection for 903323b9-45d7-4ccd-a363-94ae429d79c2:57360077c27a4a6e9efadcff2aa29a72
+[I 11:49:56.977 NotebookApp] Replaying 10 buffered messages
+[I 11:50:00.468 NotebookApp] Starting buffering for fb72037b-9592-4757-8eed-43ba59827cd2:4a164ead77ae480d8bc392ae1ed68347
+[I 11:50:00.787 NotebookApp] Kernel restarted: fb72037b-9592-4757-8eed-43ba59827cd2
+[I 11:50:01.477 NotebookApp] Adapting to protocol v5.1 for kernel fb72037b-9592-4757-8eed-43ba59827cd2
+[I 11:50:01.478 NotebookApp] Restoring connection for fb72037b-9592-4757-8eed-43ba59827cd2:4a164ead77ae480d8bc392ae1ed68347
+[I 11:50:01.478 NotebookApp] Replaying 10 buffered messages
+[I 11:51:13.270 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jenpatterson97/jennifer_patterson_p1.ipynb
+[I 11:51:22.177 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jjsahabu/Jeremiah_Sahabu_p1.ipynb
+[I 11:51:30.500 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/kai-nham/kai_nham_p1.ipynb
+[I 11:51:38.434 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/kylievo/firstname_lastname_p1.ipynb
+[I 11:53:13.440 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jenpatterson97/jennifer_patterson_p1.ipynb
+[I 11:53:22.067 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jjsahabu/Jeremiah_Sahabu_p1.ipynb
+[I 11:53:32.239 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/kai-nham/kai_nham_p1.ipynb
+[I 11:53:38.304 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/kylievo/firstname_lastname_p1.ipynb
+[I 11:55:12.925 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jenpatterson97/jennifer_patterson_p1.ipynb
+[I 11:55:22.069 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jjsahabu/Jeremiah_Sahabu_p1.ipynb
+[I 11:55:31.052 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/kai-nham/kai_nham_p1.ipynb
+[I 11:55:39.057 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/kylievo/firstname_lastname_p1.ipynb
+[I 11:57:12.922 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jenpatterson97/jennifer_patterson_p1.ipynb
+[I 11:59:12.930 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jenpatterson97/jennifer_patterson_p1.ipynb
+[I 12:01:12.929 NotebookApp] Saving file at /w207/students/2019-fall/W207 fall 2019 project 1-09-25-2019-06-25-06/jenpatterson97/jennifer_patterson_p1.ipynb
+[I 12:04:41.986 NotebookApp] Starting buffering for fb72037b-9592-4757-8eed-43ba59827cd2:4a164ead77ae480d8bc392ae1ed68347
+[I 12:04:41.987 NotebookApp] Starting buffering for 903323b9-45d7-4ccd-a363-94ae429d79c2:57360077c27a4a6e9efadcff2aa29a72
+[I 12:04:41.987 NotebookApp] Starting buffering for 8905f0fa-1280-48a8-bec9-9ab464358030:dddf1cb6e9734d4b94ba418b6cc26526
+[I 12:04:41.988 NotebookApp] Starting buffering for 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1:cb72341cfb6642198e68293e9c8ff2b6
+[I 12:04:43.170 NotebookApp] Adapting to protocol v5.1 for kernel fb72037b-9592-4757-8eed-43ba59827cd2
+[I 12:04:43.171 NotebookApp] Restoring connection for fb72037b-9592-4757-8eed-43ba59827cd2:4a164ead77ae480d8bc392ae1ed68347
+[I 12:04:43.189 NotebookApp] Adapting to protocol v5.1 for kernel 903323b9-45d7-4ccd-a363-94ae429d79c2
+[I 12:04:43.190 NotebookApp] Restoring connection for 903323b9-45d7-4ccd-a363-94ae429d79c2:57360077c27a4a6e9efadcff2aa29a72
+[I 12:04:43.205 NotebookApp] Adapting to protocol v5.1 for kernel 8905f0fa-1280-48a8-bec9-9ab464358030
+[I 12:04:43.206 NotebookApp] Restoring connection for 8905f0fa-1280-48a8-bec9-9ab464358030:dddf1cb6e9734d4b94ba418b6cc26526
+[I 12:04:43.222 NotebookApp] Adapting to protocol v5.1 for kernel 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1
+[I 12:04:43.223 NotebookApp] Restoring connection for 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1:cb72341cfb6642198e68293e9c8ff2b6
+[I 12:43:34.525 NotebookApp] Starting buffering for fb72037b-9592-4757-8eed-43ba59827cd2:4a164ead77ae480d8bc392ae1ed68347
+[I 12:46:28.730 NotebookApp] Starting buffering for 903323b9-45d7-4ccd-a363-94ae429d79c2:57360077c27a4a6e9efadcff2aa29a72
+[I 12:48:24.664 NotebookApp] Starting buffering for 8905f0fa-1280-48a8-bec9-9ab464358030:dddf1cb6e9734d4b94ba418b6cc26526
+[I 12:48:38.149 NotebookApp] Kernel shutdown: 8905f0fa-1280-48a8-bec9-9ab464358030
+[I 12:48:39.470 NotebookApp] Kernel shutdown: 903323b9-45d7-4ccd-a363-94ae429d79c2
+[I 12:50:50.661 NotebookApp] Starting buffering for 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1:cb72341cfb6642198e68293e9c8ff2b6
+[I 11:12:56.117 NotebookApp] Kernel shutdown: 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1
+[I 11:12:56.959 NotebookApp] Kernel shutdown: fb72037b-9592-4757-8eed-43ba59827cd2
+[I 11:12:58.193 NotebookApp] Kernel shutdown: 4ad81d65-5187-467a-a61d-98ed1004da1a
