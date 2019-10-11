@@ -2413,3 +2413,73 @@ AssertionError
 [I 11:12:56.117 NotebookApp] Kernel shutdown: 79d3cc1a-e2ed-441d-81e1-fa31c62f5cb1
 [I 11:12:56.959 NotebookApp] Kernel shutdown: fb72037b-9592-4757-8eed-43ba59827cd2
 [I 11:12:58.193 NotebookApp] Kernel shutdown: 4ad81d65-5187-467a-a61d-98ed1004da1a
+[I 15:31:31.412 NotebookApp] 302 GET / (::1) 6.08ms
+[I 15:31:31.423 NotebookApp] 302 GET /tree? (::1) 4.53ms
+[W 15:31:48.984 NotebookApp] Not allowing login redirect to '/tree?'
+[I 15:31:48.984 NotebookApp] 302 POST /login?next=%2Ftree%3F (::1) 8.31ms
+[I 15:31:48.988 NotebookApp] 302 GET / (::1) 0.95ms
+[I 15:32:05.306 NotebookApp] Kernel started: c359171e-f969-4fd3-bd36-fea2959a1509
+[I 15:32:06.367 NotebookApp] Adapting to protocol v5.1 for kernel c359171e-f969-4fd3-bd36-fea2959a1509
+[I 15:34:05.784 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 15:36:05.313 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 15:38:05.776 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 15:40:05.776 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 15:42:06.363 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 15:44:05.792 NotebookApp] Saving file at /revenue/iab_category_ctr_investigator.ipynb
+[I 15:48:37.075 NotebookApp] Starting buffering for c359171e-f969-4fd3-bd36-fea2959a1509:964fac6f27c74f6a8f76c97ddba083d5
+[I 16:21:41.594 NotebookApp] Kernel started: 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 16:21:42.801 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 16:27:41.575 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:29:41.559 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:31:41.775 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:35:41.568 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:37:41.570 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:39:41.566 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 16:49:12.452 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 16:49:13.479 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 16:49:13.480 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 18:40:34.924 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 18:42:34.914 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 18:44:34.913 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 18:46:35.120 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 18:50:34.914 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 18:52:35.121 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 18:58:50.342 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 18:58:52.178 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 18:58:52.184 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 19:37:39.475 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 19:37:41.321 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 19:37:41.322 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 19:49:23.519 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 19:51:23.517 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 19:53:23.518 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 19:55:23.521 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 19:57:23.523 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 19:59:23.522 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 20:03:20.076 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 20:03:21.891 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 20:03:21.892 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 22:21:50.536 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 22:21:51.558 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 22:21:51.559 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 22:40:35.691 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 22:40:37.024 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 22:40:37.025 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 23:15:17.099 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 23:15:18.700 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 23:15:18.701 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 23:20:01.667 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 23:20:03.284 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 23:20:03.285 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 09:52:52.252 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 10:26:51.283 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 10:28:51.279 NotebookApp] Saving file at /revenue/programmatic-experiment-results.ipynb
+[I 10:42:31.193 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 10:42:32.209 NotebookApp] Adapting to protocol v5.1 for kernel 5f4b6a24-d1a7-40ad-b706-d95655960c1f
+[I 10:42:32.214 NotebookApp] Restoring connection for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[I 12:00:42.008 NotebookApp] Starting buffering for 5f4b6a24-d1a7-40ad-b706-d95655960c1f:eb384387477d424f83d669b3ca39dd48
+[C 12:01:33.644 NotebookApp] received signal 15, stopping
+[I 12:01:33.651 NotebookApp] Shutting down 3 kernels
+[I 12:01:34.585 NotebookApp] Kernel shutdown: aa395252-1175-427d-a84e-bf6abfb21e3c
+[I 12:01:34.792 NotebookApp] Kernel shutdown: c359171e-f969-4fd3-bd36-fea2959a1509
+[I 12:01:35.316 NotebookApp] Kernel shutdown: 5f4b6a24-d1a7-40ad-b706-d95655960c1f
