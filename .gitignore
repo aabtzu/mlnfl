@@ -24,3 +24,5 @@ target/
 
 .idea/
 .idea
+.DS_Store
+nohup.out
