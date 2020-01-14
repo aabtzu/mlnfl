@@ -1,0 +1,15 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+11,San Francisco 49ers,0.8955939942697061,16.0,San Francisco 49ers,16.0,11.5
+11,Oakland Raiders,0.8810288987986284,15.0,Oakland Raiders,14.0,10.5
+11,Minnesota Vikings,0.8529182178175077,14.0,Minnesota Vikings,15.0,10.5
+11,Carolina Panthers,0.7802198034060911,13.0,Carolina Panthers,12.0,6.0
+11,Buffalo Bills,0.7435731136463609,12.0,Buffalo Bills,10.0,-5.5
+11,New Orleans Saints,0.7300197705251772,11.0,New Orleans Saints,11.0,-5.5
+11,Los Angeles Rams,0.6950792351073108,10.0,Los Angeles Rams,13.0,6.5
+11,Indianapolis Colts,0.6626182409087445,9.0,Indianapolis Colts,5.0,3.0
+11,Dallas Cowboys,0.651177241600113,8.0,Dallas Cowboys,9.0,-4.5
+11,Baltimore Ravens,0.6241759137575447,7.0,Baltimore Ravens,8.0,4.0
+11,New England Patriots,0.6108793235207477,6.0,New England Patriots,6.0,-3.5
+11,Kansas City Chiefs,0.6038082771413961,5.0,Kansas City Chiefs,7.0,-3.5
+11,Washington Redskins,0.5757281683117688,4.0,Washington Redskins,3.0,1.0
+11,Cleveland Browns,0.5659544805298762,3.0,Cleveland Browns,4.0,2.5

@@ -103,7 +103,8 @@ def merge_spreads(df_spreads, df_lines):
     :return:
     """
     # find the right week/game and update the spread
-    week_filter = (df_lines.Date <= df_spreads.datetime.max()) & (df_lines.Date >= df_spreads.datetime.min())
+    max_date = (df_spreads.datetime.max() + pandas.DateOffset(days=1)).date()
+    week_filter = (df_lines.Date <= max_date) & (df_lines.Date >= df_spreads.datetime.min())
 
     for ii, rr in df_spreads.iterrows():
         print (ii, rr['home_team'], rr['spreads2'])

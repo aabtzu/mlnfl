@@ -1,0 +1,17 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+13,Carolina Panthers,0.8433746698989348,16.0,Carolina Panthers,16.0,10.0
+13,Kansas City Chiefs,0.812561733890156,15.0,Kansas City Chiefs,15.0,9.5
+13,New Orleans Saints,0.7984423702271373,14.0,New Orleans Saints,12.0,-7.0
+13,Green Bay Packers,0.7867939106242823,13.0,Green Bay Packers,11.0,-6.5
+13,Philadelphia Eagles,0.7867878274805767,12.0,Philadelphia Eagles,14.0,-9.0
+13,New York Jets,0.6993926754896598,11.0,New York Jets,9.0,-3.5
+13,Dallas Cowboys,0.6800211452756946,10.0,Dallas Cowboys,13.0,7.0
+13,Los Angeles Rams,0.6736097172581064,9.0,Los Angeles Rams,7.0,-3.0
+13,Baltimore Ravens,0.6665602761933792,8.0,Baltimore Ravens,10.0,6.0
+13,Chicago Bears,0.6327991266388292,7.0,Chicago Bears,4.0,-2.5
+13,Seattle Seahawks,0.6252456005967327,6.0,Seattle Seahawks,8.0,3.0
+13,Indianapolis Colts,0.6250832256670258,5.0,Indianapolis Colts,5.0,2.5
+13,Los Angeles Chargers,0.6133499546441029,4.0,Los Angeles Chargers,3.0,-2.5
+13,New England Patriots,0.599658118504744,3.0,New England Patriots,6.0,-3.0
+13,Jacksonville Jaguars,0.592757834870091,2.0,Jacksonville Jaguars,1.0,1.0
+13,Cleveland Browns,0.5315851266773203,1.0,Cleveland Browns,2.0,-2.0
