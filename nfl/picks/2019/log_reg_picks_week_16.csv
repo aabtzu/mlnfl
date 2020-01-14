@@ -1,0 +1,17 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+16,Seattle Seahawks,0.8820839284879882,16.0,Seattle Seahawks,16.0,9.5
+16,Denver Broncos,0.7948089401901771,15.0,Denver Broncos,10.0,6.5
+16,Baltimore Ravens,0.7740145132147432,14.0,Baltimore Ravens,15.0,-7.0
+16,San Francisco 49ers,0.7727278122430491,13.0,San Francisco 49ers,14.0,6.5
+16,Indianapolis Colts,0.7680765876105919,12.0,Indianapolis Colts,11.0,6.5
+16,Atlanta Falcons,0.762391854150959,11.0,Atlanta Falcons,9.0,6.5
+16,New England Patriots,0.7443492366011801,10.0,New England Patriots,13.0,6.5
+16,Los Angeles Chargers,0.7397009915259183,9.0,Los Angeles Chargers,12.0,6.5
+16,Miami Dolphins,0.7355923197360293,8.0,Miami Dolphins,5.0,3.0
+16,Washington Redskins,0.6971109013249721,7.0,Washington Redskins,6.0,3.0
+16,Minnesota Vikings,0.6687647179156293,6.0,Minnesota Vikings,8.0,4.5
+16,Pittsburgh Steelers,0.6590207637495781,5.0,Pittsburgh Steelers,4.0,-3.0
+16,Kansas City Chiefs,0.6474657753655385,4.0,Kansas City Chiefs,7.0,-4.0
+16,New Orleans Saints,0.5715484707511446,3.0,New Orleans Saints,1.0,-1.0
+16,Tampa Bay Buccaneers,0.568009858287662,2.0,Tampa Bay Buccaneers,3.0,1.0
+16,Dallas Cowboys,0.5273292562188691,1.0,Dallas Cowboys,2.0,-1.0
