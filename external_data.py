@@ -8,7 +8,7 @@ import os
 import datetime
 import argparse
 
-CURRENT_SEASON = 2019
+CURRENT_SEASON = 2020
 SPREADS_URL = 'http://www.footballlocks.com/nfl_point_spreads.shtml'
 SCORES_URL = 'http://www.pro-football-reference.com/years/%d/games.htm' % CURRENT_SEASON
 
