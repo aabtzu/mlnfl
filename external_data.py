@@ -38,7 +38,7 @@ def save_lines(df_lines):
     df_lines.to_csv(lines_file, index=False)
 
 
-def scrape_spreads():
+def scrape_spreads(season=CURRENT_SEASON):
     """
     Scrape spreads from site
 
@@ -86,7 +86,7 @@ def scrape_spreads():
     df_spreads.home_team = df_spreads.home_team.str.replace('\(At .*\)', '')
     #df_spreads.home_team = df_spreads.home_team.str.replace('.At .*?$', '')
     df_spreads.home_team = df_spreads.home_team.str.replace('\(.*\)', '')
-    df_spreads['datetime'] = pandas.to_datetime('2019/'+df_spreads.date.str.split(" ", expand=True)[0],
+    df_spreads['datetime'] = pandas.to_datetime(str(season)+'/'+df_spreads.date.str.split(" ", expand=True)[0],
                                                 format='%Y/%m/%d').dt.date
 
     print(df_spreads.dropna())

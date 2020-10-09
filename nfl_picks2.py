@@ -108,14 +108,16 @@ def main(season, week_number, picks_dir):
     # add current season games to training set for 2nd logreg model
     df_all_historical_games2 = df_all_historical_games.append(df_games_test[df_games_test.gameWeek < week_number])
 
-    # pick only this weeks games for predict
+    # pick only this week's games for predict
     dfTest = df_games_test[df_games_test.gameWeek == week_number]
 
     print(len(df_all_historical_games), len(df_all_historical_games2), len(dfTest))
 
     # run the classifier
     random_state = 11
-    #svm_classifier = svm.SVC(kernel='poly', probability=True, random_state=random_state)
+
+    svm_classifier = svm.SVC(kernel='poly', probability=True, random_state=random_state)
+
     lr_classifier = linear_model.LogisticRegression(C=1e5)
     lr2_classifier = linear_model.LogisticRegression(C=1e5)
 
@@ -162,6 +164,7 @@ def main(season, week_number, picks_dir):
 
     ###################################################################################################################
     # apply results of logistic regression to the test set
+    print(dfTest)
     df_lr_predict = madden.predictGames(dfTest, lr_trained_classifier, madden.FEATURE_COLUMNS)
     # apply ranking logic and determine scoring outcomes for league
     df_all_picks = madden.rankGames(df_lr_predict, reference_data, season_test[0])
@@ -181,29 +184,29 @@ def main(season, week_number, picks_dir):
 
 
 
+    if 0:
+        ###################################################################################################################
+        # legreg version 2
+        # apply results of logistic regression to the test set
+        df_lr2_predict = madden.predictGames(dfTest, lr2_trained_classifier, madden.FEATURE_COLUMNS)
+        # apply ranking logic and determine scoring outcomes for league
+        df_all_picks = madden.rankGames(df_lr2_predict, reference_data, season_test[0])
 
-    ###################################################################################################################
-    # legreg version 2
-    # apply results of logistic regression to the test set
-    df_lr2_predict = madden.predictGames(dfTest, lr2_trained_classifier, madden.FEATURE_COLUMNS)
-    # apply ranking logic and determine scoring outcomes for league
-    df_all_picks = madden.rankGames(df_lr2_predict, reference_data, season_test[0])
+        # Use Method 2
+        df_all_picks['predictTeam'] = np.where((df_all_picks['predict_proba'] - .5) > 0 , df_all_picks['favorite'], df_all_picks['underdog'])
 
-    # Use Method 2
-    df_all_picks['predictTeam'] = np.where((df_all_picks['predict_proba'] - .5) > 0 , df_all_picks['favorite'], df_all_picks['underdog'])
+        print("\nPicks for week {0:0>2} using LogReg2\n".format(week_number))
+        log_reg_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
+        print(log_reg_picks_df)
 
-    print("\nPicks for week {0:0>2} using LogReg2\n".format(week_number))
-    log_reg_picks_df = df_all_picks[predictCols].sort_values(guessCol, ascending=False).copy()
-    print(log_reg_picks_df)
+        log_reg_out_file = "".join([picks_dir, os.path.sep, "log_reg_2_picks_week_{0:0>2}.csv".format(week_number)])
+        logging.info("Writing logistic regression output to {}...".format(log_reg_out_file))
+        log_reg_picks_df.to_csv(log_reg_out_file, index=False)
 
-    log_reg_out_file = "".join([picks_dir, os.path.sep, "log_reg_2_picks_week_{0:0>2}.csv".format(week_number)])
-    logging.info("Writing logistic regression output to {}...".format(log_reg_out_file))
-    log_reg_picks_df.to_csv(log_reg_out_file, index=False)
-
-    #week_filter = df_all_picks.gameWeek == week_number
-    #print("\nPicks using LogReg\n")
-    #print(df_all_picks[week_filter][predictCols].sort(guessCol, ascending=False))
-    ###################################################################################################################
+        #week_filter = df_all_picks.gameWeek == week_number
+        #print("\nPicks using LogReg\n")
+        #print(df_all_picks[week_filter][predictCols].sort(guessCol, ascending=False))
+        ###################################################################################################################
 
     # display weekly ranking output for spread method
 
