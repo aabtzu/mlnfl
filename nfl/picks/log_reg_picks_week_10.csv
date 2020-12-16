@@ -1,0 +1,15 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+10,Green Bay Packers,0.8913423436133933,16.0,Green Bay Packers,16.0,13.5
+10,Pittsburgh Steelers,0.8574246389916012,15.0,Pittsburgh Steelers,14.0,7.0
+10,New Orleans Saints,0.7575360522915469,14.0,New Orleans Saints,15.0,9.5
+10,Tampa Bay Buccaneers,0.7289655693690379,13.0,Tampa Bay Buccaneers,12.0,-5.5
+10,Las Vegas Raiders,0.7255522528213566,12.0,Las Vegas Raiders,11.0,5.0
+10,Baltimore Ravens,0.6945515310928101,11.0,Baltimore Ravens,13.0,-7.0
+10,Cleveland Browns,0.6617631220408992,10.0,Cleveland Browns,9.0,3.0
+10,Detroit Lions,0.6582843864485097,9.0,Detroit Lions,10.0,4.5
+10,Miami Dolphins,0.6270288279094561,8.0,Miami Dolphins,7.0,2.5
+10,Philadelphia Eagles,0.610154275348682,7.0,Philadelphia Eagles,8.0,-3.0
+10,Tennessee Titans,0.5609947063605581,6.0,Tennessee Titans,3.0,0.1
+10,Seattle Seahawks,0.4845183537317127,5.0,Los Angeles Rams,4.0,1.5
+10,Chicago Bears,0.47279807957365266,4.0,Minnesota Vikings,6.0,-2.5
+10,Buffalo Bills,0.45252505079387334,3.0,Arizona Cardinals,5.0,2.0
