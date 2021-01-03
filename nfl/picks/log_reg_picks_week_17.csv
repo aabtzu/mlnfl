@@ -1,0 +1,17 @@
+gameWeek,predictTeam,predict_proba,probaGuess,favorite,lineGuess,Line
+17,Indianapolis Colts,0.9209528621890197,16.0,Indianapolis Colts,16.0,14.0
+17,Baltimore Ravens,0.8537840895620764,15.0,Baltimore Ravens,15.0,-12.0
+17,Tampa Bay Buccaneers,0.8043056005465168,14.0,Tampa Bay Buccaneers,12.0,7.0
+17,Tennessee Titans,0.7739134636430153,13.0,Tennessee Titans,13.0,-7.5
+17,New Orleans Saints,0.7550404654380498,12.0,New Orleans Saints,10.0,-6.5
+17,Seattle Seahawks,0.7272694038512486,11.0,Seattle Seahawks,11.0,-6.5
+17,Cleveland Browns,0.7212992472073009,10.0,Cleveland Browns,14.0,9.0
+17,Green Bay Packers,0.6914509546255531,9.0,Green Bay Packers,8.0,-5.5
+17,New England Patriots,0.6884543308015245,8.0,New England Patriots,5.0,3.0
+17,Minnesota Vikings,0.6868930054619012,7.0,Minnesota Vikings,9.0,-6.5
+17,Buffalo Bills,0.646891247953564,6.0,Buffalo Bills,6.0,3.0
+17,Las Vegas Raiders,0.5999631344654308,5.0,Las Vegas Raiders,3.0,-2.5
+17,Washington Football Team,0.5920035752459925,4.0,Washington Football Team,2.0,-2.0
+17,Arizona Cardinals,0.5692321764083997,3.0,Arizona Cardinals,4.0,-3.0
+17,Dallas Cowboys,0.5592135791564087,2.0,Dallas Cowboys,1.0,-1.5
+17,Kansas City Chiefs,0.42966362178203893,1.0,Los Angeles Chargers,7.0,-3.5

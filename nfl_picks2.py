@@ -100,11 +100,6 @@ def main(season, week_number, picks_dir):
     # get games for testing and predicting -- should be only one year
     season_test = np.array(test_year)
 
-    df_games_test = madden.readGamesAll(path_to_lines, season_test)
-    df_teams_test = madden.seasonRecord(df_games_test,reference_data)
-    df_games_test = madden.processGames(df_games_test, df_teams_test, reference_data)
-    df_games_test = df_games_test[df_games_test.season.isin(season_test)]
-
     # add current season games to training set for 2nd logreg model
     df_all_historical_games2 = df_all_historical_games.append(df_games_test[df_games_test.gameWeek < week_number])
 
