@@ -94,7 +94,7 @@ def scrape_spreads(season=CURRENT_SEASON):
     return df_spreads.dropna()
 
 
-def merge_spreads(df_spreads, df_lines):
+def merge_spreads(df_spreads, df_lines, current_week = None):
     """
     Merge Spreads into lines dataframe
 
@@ -105,6 +105,9 @@ def merge_spreads(df_spreads, df_lines):
     # find the right week/game and update the spread
     max_date = (df_spreads.datetime.max() + pandas.DateOffset(days=1)).date()
     week_filter = (df_lines.Date <= max_date) & (df_lines.Date >= df_spreads.datetime.min())
+
+    if current_week is not None:
+        week_filter = (df_lines.season == CURRENT_SEASON) & (df_lines.week == current_week)
 
     for ii, rr in df_spreads.iterrows():
         print (ii, rr['home_team'], rr['spreads2'])
@@ -258,7 +261,7 @@ if __name__ == "__main__":
         # get and save spreads
         print ("getting most recent spreads ...")
         df_spreads = scrape_spreads()
-        df_lines = merge_spreads(df_spreads, df_lines)
+        df_lines = merge_spreads(df_spreads, df_lines, current_week)
         if verify_data(df_spreads, 'spreads'):
             save_lines(df_lines)
 
